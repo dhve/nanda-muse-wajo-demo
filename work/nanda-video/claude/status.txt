@@ -1,0 +1,62 @@
+STATUS: ASSETS AND PIPELINE READY (2026-10-14). The full-length test cut builds and plays.
+Captures are placeholders until real footage lands in ../captures. Two subagents are still polishing
+(closing message legibility, roles, step cards); they overwrite the same paths, so nothing below moves.
+
+Folder: /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude  (run all commands from here)
+
+READY NOW
+- motion/out/intro.mp4     11.13 s  title, then Muse <-> NANDA Index <-> Wajo
+- motion/out/closing.mp4   16.80 s  discovery vs delivery, Greeting Wajo to Muse and Reply back through Agent Box
+- motion/out/endcard.mp4    9.10 s  Try it yourself, my.nandaindex.org/demo, three prompts
+- motion/render.py          renders any scene at an exact length (the assembler calls it for roles and step1 to step5)
+                            python3 motion/render.py --list
+                            python3 motion/render.py closing --duration 16.808 --out build/review/closing_check.mp4
+- edit/edl.json             edit decision list: 19 segments with absolute times, capture slots, redaction, callouts
+- edit/assemble.py          builds the video from the EDL (segment cache, test and final modes)
+- edit/qa.py                checks duration, streams, decode, captions, banned word, audio untouched, evidence, privacy
+- out/test/muse-wajo-test.mp4  166.23 s test cut (1920x1080 30 fps H.264, AAC 48 kHz, soft subtitles)
+- out/test/contact_sheet.png, out/test/qa_report.json, out/test/muse-wajo-test.srt and .vtt
+- CONTRACT.md (full spec), lib/brand.py (palette, the guide's Inter with kerning), assets/fonts/
+
+VOICE
+- Already integrated: ../audio/narration-final.wav is muxed untouched (AAC 256 kb/s only, md5 recorded in the EDL),
+  captions from ../audio/captions.srt. Segment times follow ../audio/timeline.json. Nothing to do unless the
+  narration changes; then update narration.file and narration.md5 and the segment start/end times in edit/edl.json.
+
+INTEGRATE THE CAPTURED FOOTAGE
+1. Drop clips into ../captures with these names (any resolution, .mp4 or .mov, VFR is fine), or point the
+   segment's "file" in edit/edl.json at another name. Slot lengths (footage needed after src_in):
+     cap01_guide_copy.mp4         4.6 s   guide open, Copy on the setup prompt
+     cap02_muse_setup.mp4         6.1 s   real walkthrough of the existing Muse setup chat
+     cap03_wajo_setup.mp4         9.7 s   real walkthrough of the existing Wajo setup chat, SKILL.md steps
+     cap04_code_entry.mp4         7.5 s   existing chat where the code was accepted (redact the code)
+     cap05_muse_connect.mp4      11.3 s   Muse Connect step and confirmation (credential never readable)
+     cap06_indexed_address.mp4   17.8 s   agents report indexed, Muse agent's Agent Box address copied
+     cap07_index_search.mp4      10.1 s   index website search showing both demo agents
+     cap08_wajo_hello.mp4        11.1 s   Wajo asked to find the Muse agent and say hello, lookup and send
+     cap09_muse_check_reply.mp4   9.0 s   Muse checks Agent Box, Wajo greeting visible, reply sent
+     cap10_wajo_reply.mp4        14.8 s   Wajo checks replies, Muse reply visible
+   A short clip holds its last frame. A long clip is trimmed. Playback speed never changes.
+2. In edit/edl.json, per capture segment set:
+     "src_in"   seconds into the clip where the slot starts (use it to skip waiting time)
+     "crop"     [x, y, w, h] in source pixels for a large readable UI crop (16:9 fills the frame; other shapes
+                are framed on the pale blue background)
+     "redact"   [{"x","y","w","h","t0","t1"}] blur boxes in source pixels and source seconds (codes, emails,
+                any credential)
+     "callout"  already set: "Wajo → Muse" on cap09 at 117.777 s, "Muse → Wajo" on cap10 at 128.044 s
+                (absolute times; move "at" if the message appears later in the footage)
+     "privacy_check"  set to "done" on cap02 to cap05 after checking nothing private is readable
+3. python3 edit/assemble.py --dry-run          timeline table, shows which slots are still placeholders
+   python3 edit/assemble.py --mode test        writes out/test/muse-wajo-test.mp4 (only changed segments rebuild)
+   python3 edit/qa.py out/test/muse-wajo-test.mp4   then look at out/test/contact_sheet.png
+   python3 edit/assemble.py --mode final       writes out/final/muse-wajo-demo.mp4; refuses placeholders or
+                                               pending privacy checks
+   python3 edit/qa.py out/final/muse-wajo-demo.mp4 --mode final
+   python3 edit/assemble.py --only cap09       re-render one segment after a tweak
+
+CURRENT QA (test cut): 15 pass. 3 expected warnings (placeholders, evidence footage missing, privacy pending).
+1 fail being fixed by the editorial subagent: the narration match check is too strict for AAC. Its own numbers
+show the audio is unaltered (correlation 0.99997, gain -0.009 dB). The whisper pass heard no nanda-like word.
+
+RULES KEPT: no git, no GUI or browser, no generated voice, no mock UI or cursor, guide untouched,
+narration and captions never say Nanda (onscreen NANDA branding only), no em or en dashes.

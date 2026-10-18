@@ -1,0 +1,14 @@
+{
+  "source_kind": "capture",
+  "source": "../retake/clips/cap08_wajo_hello.mp4",
+  "notes": [
+    "source ends 0.23 s before the slot needs it, last frame held",
+    "1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s"
+  ],
+  "fit": "fill",
+  "key": "f9186e7727369faba89fb642",
+  "frames": 346,
+  "path": "build/edit/segments/13_cap08.mp4",
+  "seconds": 1.0,
+  "cached": false
+}

@@ -1,0 +1,29 @@
+Prepare the demo website update in parallel with the operator's video work. The user explicitly requested Claude Code on the Mac app, Opus 5.5 Max, to have the website ready for the new video and a scrolling guide that is essentially a reading version of the video. Proceed with the bounded implementation. The requested design is already clear and approved; no new design questionnaire is needed.
+
+Use this repository only for website edits:
+/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill
+Its origin is https://github.com/dhve/nanda-messagebox-skill.git. The working tree was clean when this brief was written. The published page is https://my.nandaindex.org/demo/ and its source is demo/index.html. Inspect applicable instructions and Git state. Preserve other work and use a suitable codex/ branch or worktree as needed.
+
+The new demo is Alice using Muse and Bob using Wajo. Short new Gmail accounts and fresh real screen recordings are still in progress. The operator owns accounts, browser control, screen recording, video editing, narration, and all files under work/nanda-video/alice-bob except the website handoff files named below. Do not operate browsers/apps or interrupt the operator's account setup. Do not modify the video renderer, audio, or footage.
+
+Read the revised narration at:
+/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/narration.txt
+The final video will be no longer than three minutes. Existing v2 at outputs/nanda-demo-video/muse-wajo-demo-v2.mp4 is a reference only and must not be presented as the new Alice/Bob recording. The final new file is planned as outputs/nanda-demo-video/muse-wajo-demo-v3.mp4, with v3.vtt captions, but does not exist yet. Treat filenames as an asset contract to coordinate, not evidence of completion.
+
+Build a concise, coherent page in the existing nandaindex.org theme. Retain the three top links: SKILL.MD to https://my.nandaindex.org/, NANDA Index to https://nandaindex.org/, and Agent Box to https://agentboxnanda.org/. No extra top menu/brand navigation. Put the video near the top, with native playback controls, a useful poster, captions, responsive 16:9 sizing, and no autoplay. Follow with a simple scrolling reading guide in the same order as the video. Make each step one short explanation, the exact copyable prompt, and a large legible genuine screenshot. Avoid wordiness, decorative clutter, and jargon. A short introduction says Alice uses Muse and Bob uses Wajo. Explain the neutral index's role in discovery across ecosystems and Agent Box's role in message delivery, with the same clean distinction used in the narration. Mention manual search on nandaindex.org in step 3.
+
+Use the published prompt wording exactly, replacing only bracket placeholders when real values are supplied:
+Set me up at my.nandaindex.org using [my email].
+My code is [six-digit code].
+Find [Muse’s agent address] on NANDA and say hello.
+Check my Agent Box.
+Reply: Hello back!
+Check for replies in my Agent Box.
+
+Five steps: Set up both agents; verify each email and connect Muse if needed; Bob finds Alice's agent and says hello; Alice checks Muse and replies; Bob checks Wajo for the reply. Each agent uses its own email. Agent addresses, names, and screenshots must match the new recording before publication. Do not invent successful setup, Gmail accounts, addresses, messages, or app screenshots.
+
+Prepare the page and define a small asset contract for video, poster, captions, and step screenshots, leaving explicit draft placeholders only in the unpublished preview where real assets are pending. The existing guide screenshots may inform layout but must be replaced where they contain old identities/addresses. The operator will supply final assets. Do not push, publish, deploy, or modify the live page yet; the user asked to have it ready while the new video is being finished.
+
+Run the appropriate lightweight page validation and review responsive layout. Write a concise status and handoff with actual modified paths, local preview path, asset filenames needed, validation performed, and any blocker to:
+/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/website-status.json
+You may also write website-handoff.txt in that same directory. Keep working until the website scaffold and reading guide are ready for the final assets. Report any connection failure honestly.

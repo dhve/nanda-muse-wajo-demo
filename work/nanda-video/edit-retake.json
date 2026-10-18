@@ -1,0 +1,407 @@
+{
+  "version": 1,
+  "title": "Muse and Wajo demo",
+  "paths_relative_to": "production/",
+  "outputs": {
+    "test": "out/test/muse-wajo-test.mp4",
+    "final": "out/final/muse-wajo-demo.mp4"
+  },
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "pix_fmt": "yuv420p",
+    "color": "bt709 tv",
+    "frame_rounding": "frame = floor(seconds * 30 + 0.5)",
+    "max_duration": 180.0,
+    "intermediate": {
+      "codec": "libx264",
+      "preset": "medium",
+      "crf": 14
+    },
+    "test": {
+      "codec": "libx264",
+      "preset": "medium",
+      "crf": 18
+    },
+    "final": {
+      "codec": "libx264",
+      "preset": "slow",
+      "crf": 18
+    },
+    "audio": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bitrate": "256k",
+      "note": "mono narration copied to both channels at unity gain, no other processing"
+    }
+  },
+  "transitions": {
+    "default": {
+      "type": "crossfade",
+      "duration": 0.5,
+      "align": "center"
+    },
+    "boundaries": [
+      {
+        "after": "intro",
+        "type": "cut",
+        "why": "roles continues the intro, no dissolve"
+      }
+    ]
+  },
+  "narration": {
+    "file": "../retake/narration.wav",
+    "mode": "track",
+    "md5": "fc1f857ca45556fe7c3f000904d22909",
+    "duration": 174.225354
+  },
+  "captions": {
+    "srt": "../retake/captions.srt",
+    "embed": "mov_text",
+    "language": "eng",
+    "sidecars": [
+      "srt",
+      "vtt"
+    ]
+  },
+  "evidence_required": [
+    "setup",
+    "discovery_listing",
+    "greeting_sent",
+    "greeting_received",
+    "reply_sent",
+    "reply_received"
+  ],
+  "segments": [
+    {
+      "id": "intro",
+      "kind": "motion",
+      "scene": "intro",
+      "params": {},
+      "beats": {
+        "muse": 2.758,
+        "wajo": 4.526
+      },
+      "notes": "Section 1: speech 1.200 to 8.123, then the 3 s pause. Title, then the Muse, NANDA Index and Wajo diagram. Beats (seconds from segment start) land the Muse and Wajo cards on the spoken names.",
+      "say": "Let's connect an agent in Muse with an agent in Wajo, and send a message in both directions.",
+      "start": 0.0,
+      "end": 11.123
+    },
+    {
+      "id": "roles",
+      "kind": "motion",
+      "scene": "roles",
+      "params": {},
+      "beats": {
+        "agent_box": 5.128,
+        "address": 6.198,
+        "hop": 7.267,
+        "own_app": 9.244
+      },
+      "notes": "Section 2 speech. Straight cut from intro (continuation). Beats are seconds from segment start: Agent Box and own app on caption starts, address and hop on the words address and delivers.",
+      "say": "The index helps agents find each other across different apps. Agent Box gives them an address and delivers their messages. You can keep using the app you already know.",
+      "start": 11.123,
+      "end": 23.38
+    },
+    {
+      "id": "step1",
+      "kind": "motion",
+      "scene": "step",
+      "params": {
+        "number": 1,
+        "total": 5,
+        "title": "Set up both agents",
+        "subtitle": "In Muse and Wajo"
+      },
+      "notes": "Step card 1 of 5 in the 3 s pause before the next section.",
+      "say": "(pause)",
+      "start": 23.38,
+      "end": 26.38
+    },
+    {
+      "id": "cap01",
+      "kind": "capture",
+      "slot": "cap01_guide_copy",
+      "file": "../captures/cap01_guide_copy.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "frame",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "setup"
+      ],
+      "notes": "Native macOS screen recording with the actual system cursor. Cropped for readability; no cursor is composited or replaced. Setup shots revisit the real demo evidence in the published guide. Index search and message confirmations use the live websites. Credentials, verification codes, browser chrome and unrelated windows are excluded.",
+      "say": "First, open the demo guide and copy the setup prompt.",
+      "start": 26.38,
+      "end": 30.962,
+      "privacy_check": "done"
+    },
+    {
+      "id": "cap02",
+      "kind": "capture",
+      "slot": "cap02_muse_setup",
+      "file": "../retake/clips/cap02_muse_setup.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "setup"
+      ],
+      "notes": "Actual live app interactions from the fresh VideoOct14 demo. Published prompt wording is unchanged except bracketed values. Native macOS recording and system cursor; waits are edited out. Reading holds preserve real recorded frames. Secrets are excluded or masked. Two seconds of narration pause added for reading.",
+      "privacy_check": "done",
+      "say": "Paste it into Muse and Wajo, replacing the email placeholder with your email address.",
+      "start": 30.962,
+      "end": 39.055
+    },
+    {
+      "id": "cap03",
+      "kind": "capture",
+      "slot": "cap03_wajo_setup",
+      "file": "../retake/clips/cap03_wajo_setup.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "setup"
+      ],
+      "notes": "Actual live app interactions from the fresh VideoOct14 demo. Published prompt wording is unchanged except bracketed values. Native macOS recording and system cursor; waits are edited out. Reading holds preserve real recorded frames. Secrets are excluded or masked.",
+      "privacy_check": "done",
+      "say": "Use a different email address, or a different email alias, for each agent. The skill dot M D gives each agent the steps to follow.",
+      "start": 39.055,
+      "end": 48.753
+    },
+    {
+      "id": "step2",
+      "kind": "motion",
+      "scene": "step",
+      "params": {
+        "number": 2,
+        "total": 5,
+        "title": "Verify each email",
+        "subtitle": "Send each code back in its app"
+      },
+      "notes": "Step card 2 of 5 in the 3 s pause before the next section.",
+      "say": "(pause)",
+      "start": 48.753,
+      "end": 51.753
+    },
+    {
+      "id": "cap04",
+      "kind": "capture",
+      "slot": "cap04_code_entry",
+      "file": "../retake/clips/cap04_code_entry.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "setup",
+        "verification"
+      ],
+      "notes": "Actual live app interactions from the fresh VideoOct14 demo. Published prompt wording is unchanged except bracketed values. Native macOS recording and system cursor; waits are edited out. Reading holds preserve real recorded frames. Secrets are excluded or masked.",
+      "privacy_check": "done",
+      "say": "Next, check your email for a six digit code. Paste each code into the chat that requested it.",
+      "start": 51.753,
+      "end": 59.299
+    },
+    {
+      "id": "cap05",
+      "kind": "capture",
+      "slot": "cap05_muse_connect",
+      "file": "../retake/clips/cap05_muse_connect.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "setup",
+        "connection"
+      ],
+      "notes": "Actual live app interactions from the fresh VideoOct14 demo. Published prompt wording is unchanged except bracketed values. Native macOS recording and system cursor; waits are edited out. Reading holds preserve real recorded frames. Secrets are excluded or masked.",
+      "privacy_check": "done",
+      "say": "In Muse, you may also see a Connect button. Follow the connection steps, and put the credential in the secure API key field. Keep that credential private.",
+      "start": 59.299,
+      "end": 70.55
+    },
+    {
+      "id": "step3",
+      "kind": "motion",
+      "scene": "step",
+      "params": {
+        "number": 3,
+        "total": 5,
+        "title": "Find Muse and say hello",
+        "subtitle": "Discover through NANDA Index"
+      },
+      "notes": "Step card 3 of 5 in the 3 s pause before the next section.",
+      "say": "(pause)",
+      "start": 70.55,
+      "end": 73.55
+    },
+    {
+      "id": "cap06",
+      "kind": "capture",
+      "slot": "cap06_indexed_address",
+      "file": "../retake/clips/cap06_indexed_address.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "indexed",
+        "agent_box_address"
+      ],
+      "notes": "Actual live app interactions from the fresh VideoOct14 demo. Published prompt wording is unchanged except bracketed values. Native macOS recording and system cursor; waits are edited out. Reading holds preserve real recorded frames. Secrets are excluded or masked.",
+      "say": "Wait until both agents say they are indexed. Each agent now has its own public Agent Box address. Copy the Muse agent's address. Use the agent's address here, rather than your personal email.",
+      "start": 73.55,
+      "end": 91.38,
+      "privacy_check": "done"
+    },
+    {
+      "id": "cap07",
+      "kind": "capture",
+      "slot": "cap07_index_search",
+      "file": "../retake/clips/cap07_index_search.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "discovery_listing"
+      ],
+      "notes": "Actual live app interactions from the fresh VideoOct14 demo. Published prompt wording is unchanged except bracketed values. Native macOS recording and system cursor; waits are edited out. Reading holds preserve real recorded frames. Secrets are excluded or masked.",
+      "say": "You can also search for your indexed agents on the index website. Here are the two agents from this demo.",
+      "start": 91.38,
+      "end": 101.478,
+      "privacy_check": "done"
+    },
+    {
+      "id": "cap08",
+      "kind": "capture",
+      "slot": "cap08_wajo_hello",
+      "file": "../retake/clips/cap08_wajo_hello.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "discovery_lookup",
+        "greeting_sent"
+      ],
+      "notes": "Actual live app interactions from the fresh VideoOct14 demo. Published prompt wording is unchanged except bracketed values. Native macOS recording and system cursor; waits are edited out. Reading holds preserve real recorded frames. Secrets are excluded or masked. The composer insertion close-up is a retake of the exact same prompt without re-sending. The matching real submission and results are from the completed demo conversation.",
+      "say": "Now, in Wajo, ask it to find the Muse agent and say hello. Wajo looks up the agent through the index, then sends the message through Agent Box.",
+      "start": 101.478,
+      "end": 112.544,
+      "privacy_check": "done"
+    },
+    {
+      "id": "step4",
+      "kind": "motion",
+      "scene": "step",
+      "params": {
+        "number": 4,
+        "total": 5,
+        "title": "Read and reply in Muse",
+        "subtitle": "Wajo \u2192 Muse"
+      },
+      "notes": "Step card 4 of 5 in the 3 s pause before the next section.",
+      "say": "(pause)",
+      "start": 112.544,
+      "end": 115.544
+    },
+    {
+      "id": "cap09",
+      "kind": "capture",
+      "slot": "cap09_muse_check_reply",
+      "file": "../retake/clips/cap09_muse_check_reply.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "greeting_received",
+        "reply_sent"
+      ],
+      "notes": "Actual live app interactions from the fresh VideoOct14 demo. Published prompt wording is unchanged except bracketed values. Native macOS recording and system cursor; waits are edited out. Reading holds preserve real recorded frames. Secrets are excluded or masked. The composer insertion close-up is a retake of the exact same prompt without re-sending. The matching real submission and results are from the completed demo conversation.",
+      "say": "Switch to Muse and ask it to check its Agent Box. Here's the greeting from Wajo. Ask Muse to reply, hello back.",
+      "start": 115.544,
+      "end": 130.521,
+      "privacy_check": "done"
+    },
+    {
+      "id": "step5",
+      "kind": "motion",
+      "scene": "step",
+      "params": {
+        "number": 5,
+        "total": 5,
+        "title": "See the reply in Wajo",
+        "subtitle": "Muse \u2192 Wajo"
+      },
+      "notes": "Step card 5 of 5 in the 3 s pause before the next section.",
+      "say": "(pause)",
+      "start": 130.521,
+      "end": 133.521
+    },
+    {
+      "id": "cap10",
+      "kind": "capture",
+      "slot": "cap10_wajo_reply",
+      "file": "../retake/clips/cap10_wajo_reply.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "reply_received"
+      ],
+      "notes": "Actual live app interactions from the fresh VideoOct14 demo. Published prompt wording is unchanged except bracketed values. Native macOS recording and system cursor; waits are edited out. Reading holds preserve real recorded frames. Secrets are excluded or masked.",
+      "say": "Return to Wajo and check for replies. The reply from Muse has arrived. We've now shown a message going from Wajo to Muse, and a reply coming back.",
+      "start": 133.521,
+      "end": 148.308,
+      "privacy_check": "done"
+    },
+    {
+      "id": "closing",
+      "kind": "motion",
+      "scene": "closing",
+      "params": {},
+      "beats": {
+        "agent_box": 5.918
+      },
+      "notes": "Section 10 plus pause. Discovery lane (NANDA Index) versus delivery lane (Agent Box). The agent_box beat sits on the caption start of Agent Box handles delivery; the other beats keep the scene defaults.",
+      "say": "The index is the neutral bridge for discovery across agent ecosystems. Agent Box handles delivery in this demo. Together, they let agents in different apps find each other and communicate.",
+      "start": 148.308,
+      "end": 165.116
+    },
+    {
+      "id": "endcard",
+      "kind": "motion",
+      "scene": "endcard",
+      "params": {},
+      "beats": {
+        "prompt1": 3.674,
+        "prompt2": 4.395,
+        "prompt3": 5.814
+      },
+      "notes": "Section 11 plus the 2 s end. Try it yourself, my.nandaindex.org/demo, three prompts, each landing on its spoken words.",
+      "say": "Try it yourself with the short prompts in the guide. Set up, find an agent, and send a message.",
+      "start": 165.116,
+      "end": 174.225
+    }
+  ]
+}

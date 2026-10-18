@@ -1,0 +1,11 @@
+{
+  "qa": {
+    "PASS": 18,
+    "WARN": 1,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "visual_review": "All exact prompt values verified against the live published guide and actual app conversation. Six-digit codes are masked; the credential only appears as secure-field bullets. The Unicode arrow font issue was corrected. Final video frames reviewed.",
+  "pacing_review": "The 7.43-second silent interval intentionally holds the actual reply confirmation and the next step card. It preserves a calm reading pace.",
+  "recording_note": "Wajo discovery and Muse inbox composer closeups were retaken with the exact same text, without re-sending duplicate requests. Setup, indexing, greeting, and bidirectional results are from real completed actions."
+}

@@ -1,0 +1,8 @@
+segment step1 key 8a5ad1798b3e5a771e94c185
+
+$ /opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/motion/render.py step --duration 3.000000 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_03_step1.mp4 --param number=1 --param total=5 --param 'title=Set up both agents' --param 'subtitle=In Muse and Wajo'
+step: 90 frames (27 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_03_step1.mp4 in 0.7s
+[exit 0]
+
+$ /opt/homebrew/bin/ffmpeg -y -v error -i /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_03_step1.mp4 -map 0:v:0 -vf fps=30,trim=end_frame=90,setpts=PTS-STARTPTS,tpad=start=7:start_mode=clone:stop=-1:stop_mode=clone,setsar=1 -frames:v 104 -fps_mode cfr -r 30 -an -sn -dn -c:v libx264 -preset medium -crf 14 -pix_fmt yuv420p -profile:v high -colorspace bt709 -color_primaries bt709 -color_trc bt709 -color_range tv /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/segments/03_step1.mp4
+[exit 0]

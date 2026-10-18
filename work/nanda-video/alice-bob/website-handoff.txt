@@ -1,0 +1,43 @@
+WEBSITE HANDOFF: Alice and Bob demo page (2026-10-15, updated)
+Status: READY TO PUBLISH (all assets in, publish check passes). Not pushed, not published, live page unchanged.
+
+WHERE
+Repository  /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill
+Branch      codex/alice-bob-demo-guide (local only), latest commit 90488b7
+Commits     0f08416 page and video player, 83b7c3f #prompts and #why anchors, a6c4f34 provider-neutral email
+            wording, f2a3656 check-Spam note in step 2, 90488b7 real assets and review fixes.
+            Base 97ed2f3 = origin/codex/initial-build (unchanged).
+Changed     demo/index.html, demo/README.txt, demo/tools/check_page.py (new), README.md
+
+PREVIEW
+cd /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill
+python3 -m http.server 8765
+open http://localhost:8765/demo/   (captions need http; file:// may skip them)
+Missing assets show as labeled draft placeholders with a draft banner at the top.
+
+THE PAGE
+Three top links only (SKILL.MD, NANDA Index, Agent Box). Intro: Alice uses Muse, Bob uses Wajo.
+Video near the top: native controls, poster, captions on by default, 16:9, no autoplay.
+Discovery and delivery: NANDA Index is the neutral bridge for discovery; Agent Box delivers messages.
+Five steps, each with one short explanation, the exact prompt with Copy, and one large screenshot.
+Step 2 says to check Spam for the code. Step 3 says to use the agent address, not her personal email address,
+and mentions manual search on nandaindex.org. Earlier public links still work: #prompts, #why, #help.
+The six prompts keep their brackets on the page. No email provider is named.
+
+ASSETS (all present, from the same native recordings as the video)
+demo/video/muse-wajo-demo-v3.mp4 (178.5 s, 10.3 MB), .vtt (42 cues), -poster.jpg (intro frame at 9.0 s)
+step-1-setup.jpg           ab_continuous.mov 37.0 s     Alice's setup reply in Muse
+step-2-verify.jpg          ab_continuous.mov 188.0 s    Muse API key field, credential masked
+step-3-hello.jpg           ab_sent_confirmation.mov 48.0 s   Wajo Found and Done confirmations
+step-4-reply.jpg           ab_final_exchange.mov 56.0 s Alice sends Hello back! in Muse
+step-5-reply-received.jpg  ab_final_exchange.mov 8.0 s  Alice's reply arrives in Wajo
+Provenance, including the two repeated insertion close-ups: alice-bob/editing-handoff.txt and clip-selections.json.
+
+REVIEW FIXES INCLUDED
+Step 2 names the source of the credential. Filled buttons use brand600, hover brand700. Small labels use medium ink.
+
+CHECK
+python3 demo/tools/check_page.py --publish   PASS 21, exit 0
+
+TO PUBLISH (operator, when approved)
+git push origin codex/alice-bob-demo-guide:codex/initial-build   (fast-forward of the GitHub Pages branch)

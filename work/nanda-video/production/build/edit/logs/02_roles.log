@@ -1,0 +1,8 @@
+segment roles key d040d9e1177029ed01c20d99
+
+$ /opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/motion/render.py roles --duration 12.233333 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_02_roles.mp4 --beats '{"agent_box": 5.128, "address": 6.198, "hop": 7.267, "own_app": 9.244}'
+roles: 367 frames (313 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_02_roles.mp4 in 4.2s
+[exit 0]
+
+$ /opt/homebrew/bin/ffmpeg -y -v error -i /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_02_roles.mp4 -map 0:v:0 -vf fps=30,trim=end_frame=367,setpts=PTS-STARTPTS,tpad=start=0:start_mode=clone:stop=-1:stop_mode=clone,setsar=1 -frames:v 374 -fps_mode cfr -r 30 -an -sn -dn -c:v libx264 -preset medium -crf 14 -pix_fmt yuv420p -profile:v high -colorspace bt709 -color_primaries bt709 -color_trc bt709 -color_range tv /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/segments/02_roles.mp4
+[exit 0]

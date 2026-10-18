@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/motion/render.py endcard --duration 9.500000 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/build/edit/work/motion_19_endcard.mp4 --beats '{\"prompt1\": 4.035, \"prompt2\": 4.826, \"prompt3\": 6.221}'",
+  "key": "95d82e09961df378ae612244",
+  "frames": 292,
+  "path": "build/edit/segments/19_endcard.mp4",
+  "seconds": 2.2,
+  "cached": false
+}

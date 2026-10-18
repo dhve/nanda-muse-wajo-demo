@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/render.py step --duration 3.000000 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/build/edit/work/motion_03_step1.mp4 --param number=1 --param total=5 --param 'title=Set up both agents' --param 'subtitle=In Muse and Wajo'",
+  "key": "fa99c405cfc868995ad2a8d0",
+  "frames": 104,
+  "path": "build/edit/segments/03_step1.mp4",
+  "seconds": 22.8,
+  "cached": false
+}

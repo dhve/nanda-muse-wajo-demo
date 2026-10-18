@@ -1,0 +1,24 @@
+{
+  "service": "ElevenLabs",
+  "chrome_profile": "kanos.biz",
+  "voice": "Vedh",
+  "source_download": "ElevenLabs_2026-10-15T20_58_03_Vedh_ivc_sp100_s80_sb90_v4.mp3",
+  "source_duration": 119.066063,
+  "prepared_duration": 171.50981250000004,
+  "tempo": 0.86,
+  "spoken_name_check": "No Nanda recognized in transcription",
+  "provider_neutral_audio_edit": {
+    "edit": "Replace her Gmail address with her email address using the same phrase from paragraph 3 of the same Vedh generation",
+    "source_base_seconds": [
+      35.32295833333333,
+      36.183416666666666
+    ],
+    "destination_base_seconds": [
+      89.29672916666667,
+      90.1571875
+    ],
+    "crossfade_ms": 8,
+    "duration_unchanged": true
+  },
+  "demo_accounts": "Alice Yahoo and Bob Gmail confirmed in UI"
+}

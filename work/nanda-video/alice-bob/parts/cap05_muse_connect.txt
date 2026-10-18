@@ -1,0 +1,4 @@
+file '/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/parts/connect_click.mp4'
+file '/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/parts/connect_continue.mp4'
+file '/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/parts/api_empty.mp4'
+file '/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/parts/api_filled.mp4'

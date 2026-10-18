@@ -1,0 +1,184 @@
+{
+  "status": "ready_to_publish",
+  "updated": "2026-10-15T15:51:09-07:00",
+  "summary": "The Alice and Bob demo page is complete on a local branch with the real v3 video, captions, poster and five step screenshots taken from the same native recordings. The publish check passes. Nothing was pushed, published or deployed.",
+  "published": false,
+  "pushed": false,
+  "live_page_modified": false,
+  "repository": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill",
+  "branch": "codex/alice-bob-demo-guide",
+  "base_commit": "97ed2f3, identical to origin/codex/initial-build (the GitHub Pages source)",
+  "commit": "90488b7 (local only)",
+  "modified_paths": [
+    "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill/README.md",
+    "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill/demo/README.txt",
+    "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill/demo/index.html",
+    "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill/demo/screenshots/alice-bob/ (five files)",
+    "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill/demo/tools/check_page.py (new)",
+    "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill/demo/video/muse-wajo-demo-v3-poster.jpg",
+    "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill/demo/video/muse-wajo-demo-v3.mp4",
+    "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill/demo/video/muse-wajo-demo-v3.vtt"
+  ],
+  "handoff_files": [
+    "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/website-status.json",
+    "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/website-handoff.txt"
+  ],
+  "local_preview": {
+    "page": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill/demo/index.html",
+    "server": "cd /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill && python3 -m http.server 8765, then open http://localhost:8765/demo/",
+    "note": "Captions load over http(s). A file:// preview may play the video without captions."
+  },
+  "page_structure": [
+    "Top links only: SKILL.MD https://my.nandaindex.org/, NANDA Index https://nandaindex.org/, Agent Box https://agentboxnanda.org/",
+    "Intro: Alice uses Muse, Bob uses Wajo",
+    "Video: native controls, poster, English captions track (on by default), 16:9, preload metadata, no autoplay",
+    "Discovery and delivery: NANDA Index as the neutral bridge for discovery across ecosystems, Agent Box for message delivery",
+    "Five steps, each with a short explanation, the exact prompt with Copy, and one large screenshot",
+    "Step 3 mentions manual search on nandaindex.org",
+    "Try it yourself, short help, sources, footer"
+  ],
+  "asset_contract": [
+    {
+      "path": "demo/video/muse-wajo-demo-v3.mp4",
+      "source": "outputs/nanda-demo-video/muse-wajo-demo-v3.mp4",
+      "spec": "H.264 and AAC, 1920x1080, 180 s or less, faststart, under 50 MB",
+      "status": "present"
+    },
+    {
+      "path": "demo/video/muse-wajo-demo-v3.vtt",
+      "source": "outputs/nanda-demo-video/muse-wajo-demo-v3.vtt",
+      "spec": "WebVTT, matches the final narration",
+      "status": "present"
+    },
+    {
+      "path": "demo/video/muse-wajo-demo-v3-poster.jpg",
+      "source": "a frame of the v3 video",
+      "spec": "1920x1080 JPEG, the settled title and diagram frame works well",
+      "status": "present"
+    },
+    {
+      "path": "demo/screenshots/alice-bob/step-1-setup.jpg",
+      "shows": "the setup prompt and the agent starting setup",
+      "spec": "genuine capture from the new recording, at least 1200 px wide (1600 to 2000 ideal), JPEG quality about 85",
+      "status": "present"
+    },
+    {
+      "path": "demo/screenshots/alice-bob/step-2-verify.jpg",
+      "shows": "verification, or Muse's secure API key field, with the code and credential hidden",
+      "spec": "same",
+      "status": "present"
+    },
+    {
+      "path": "demo/screenshots/alice-bob/step-3-hello.jpg",
+      "shows": "Wajo finding Alice's agent and sending the greeting",
+      "spec": "same",
+      "status": "present"
+    },
+    {
+      "path": "demo/screenshots/alice-bob/step-4-reply.jpg",
+      "shows": "Muse showing the greeting from Bob's agent and the reply",
+      "spec": "same",
+      "status": "present"
+    },
+    {
+      "path": "demo/screenshots/alice-bob/step-5-reply-received.jpg",
+      "shows": "Wajo showing Alice's reply",
+      "spec": "same",
+      "status": "present"
+    }
+  ],
+  "prompts_exact": [
+    "Set me up at my.nandaindex.org using [my email].",
+    "My code is [six-digit code].",
+    "Find [Muse’s agent address] on NANDA and say hello.",
+    "Check my Agent Box.",
+    "Reply: Hello back!",
+    "Check for replies in my Agent Box."
+  ],
+  "validation": {
+    "check_command": "cd /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-messagebox-skill && python3 demo/tools/check_page.py",
+    "result": "PASS 21 with all assets present",
+    "publish_gate": "python3 demo/tools/check_page.py --publish exits 0",
+    "checks": [
+      "markup nesting balanced, 25 unique ids, all in-page links resolve",
+      "earlier public anchors #prompts, #why and #help kept",
+      "exactly the three top links and one nav element",
+      "all six prompts exact and in order",
+      "video has controls, poster, captions track, no autoplay; 16:9 aspect-ratio rule",
+      "alt text on all five screenshots",
+      "no provider-specific email wording (the page says personal email address)",
+      "no em or en dashes in page text; no old Muse Demo or Wajo Demo identities, old screenshots or old date",
+      "page script passes node --check"
+    ],
+    "asset_path_test": "The checker's asset path was exercised on a throwaway scratch copy (v2 video as a stand-in plus synthetic images). It probed video codec, duration, size and faststart, parsed captions, checked the poster size and warned on a narrow image. The copy was deleted and never entered the repo.",
+    "not_performed": "No browser rendering or screenshots, per the instruction not to use browser or native UI controls."
+  },
+  "responsive_review": "Reviewed in CSS, not rendered. Desktop: a 1040 px column for the header, video, steps and footer, with text at 720 px. At 760 px and below: 40 px gutters, single-column roles, smaller headings. At 580 px and below: 32 px gutters, the three top links as an equal three-column grid, 29 px title. The player keeps 16:9 at every width. Prompts and file paths wrap. Screenshots fill the column and open larger on click. Operator review of the draft: no horizontal overflow at 1440 px desktop or 390 px phone, and step 3 reads clearly.",
+  "before_publish": [
+    "Optional final look at phone and desktop widths",
+    "Update codex/initial-build (the GitHub Pages branch) from codex/alice-bob-demo-guide when approved"
+  ],
+  "blockers": [],
+  "not_touched": [
+    "The live site and the codex/initial-build branch",
+    "The video renderer, audio, footage, accounts and other files in this alice-bob folder",
+    "outputs/nanda-demo-video, including the v2 reference"
+  ],
+  "connection_failures": "None during the website work. Earlier, the two Claude video subagents (motion and editorial) ended with 'API Error: Can't reach the API server (ENOTFOUND)' before sending final reports.",
+  "notes": [
+    "The older screenshots demo/screenshots/01 to 07 show the earlier identities and are not used by the new page.",
+    "demo/tools/check_page.py will be served with the site if published; delete it before publishing if that is unwanted.",
+    "A design hook once showed a scratch HTML file in the Claude app's preview pane automatically; it was not used or controlled.",
+    "The earlier per-step anchors #walkthrough, #verify, #discover, #reply and #results are not kept; only #prompts, #why and #help were requested and are kept."
+  ],
+  "commits": [
+    "0f08416 Prepare the Alice and Bob demo guide with a video player",
+    "83b7c3f Keep the earlier #prompts and #why links working",
+    "a6c4f34 Use provider-neutral email wording in the demo guide",
+    "f2a3656 Mention checking Spam for the verification code",
+    "90488b7 Add the Alice and Bob video, captions, poster and step screenshots"
+  ],
+  "latest_changes": [
+    "Added demo/video/muse-wajo-demo-v3.mp4, .vtt and -poster.jpg, and demo/screenshots/alice-bob/step-1 to step-5",
+    "Step 2 says to paste the credential from the same email into the secure API key field",
+    "Filled buttons use brand600 with brand700 on hover; small gray labels use the medium ink color",
+    "Figure captions and alt text match the real screenshots; step 4 is \"Alice sends Hello back! in Muse.\""
+  ],
+  "email_providers": "Alice uses Yahoo and Bob uses Gmail. The page names no provider and says personal email address.",
+  "identities_supplied_by_operator": {
+    "alice": {
+      "app": "Muse",
+      "email": "alice7qx@yahoo.com",
+      "agent_address": "alice7qxyahoocom@agentboxnanda.org"
+    },
+    "bob": {
+      "app": "Wajo",
+      "email": "bob7qx@gmail.com",
+      "agent_address": "bob7qxgmailcom@agentboxnanda.org"
+    },
+    "note": "Both accounts and index listings are real per the operator. The page keeps the bracketed prompts, so these values appear only in the video and screenshots."
+  },
+  "prompt_match_rule": {
+    "rule": "Every prompt visible in the final video and in the website screenshots must equal one of the six website prompts exactly, with only the bracketed field replaced.",
+    "expected_visible_forms": [
+      "Set me up at my.nandaindex.org using alice7qx@yahoo.com.  (Alice in Muse)",
+      "Set me up at my.nandaindex.org using bob7qx@gmail.com.  (Bob in Wajo)",
+      "My code is [six-digit code].  (the real code typed, then hidden in the visuals)",
+      "Find alice7qxyahoocom@agentboxnanda.org on NANDA and say hello.  (Bob in Wajo)",
+      "Check my Agent Box.  (Alice in Muse)",
+      "Reply: Hello back!  (Alice in Muse)",
+      "Check for replies in my Agent Box.  (Bob in Wajo)"
+    ]
+  },
+  "screenshot_source": "All five step screenshots will be extracted directly from the native recording, with no separate screenshot pass. Crop each frame to the readable chat. At least 1200 px wide is preferred; the checker warns below that but does not block.",
+  "asset_sources": {
+    "video": "outputs/nanda-demo-video/muse-wajo-demo-v3.mp4 (178.500 s, QA PASS 19 of 19)",
+    "step-1-setup.jpg": "ab_continuous.mov at 37.0 s, from the cap04 alice_code_ask shot",
+    "step-2-verify.jpg": "ab_continuous.mov at 188.0 s, from the cap05 api_filled shot (credential masked by Muse)",
+    "step-3-hello.jpg": "ab_sent_confirmation.mov at 48.0 s, from the cap08 hello_sent shot",
+    "step-4-reply.jpg": "ab_final_exchange.mov at 56.0 s, from the cap09 reply_sent shot",
+    "step-5-reply-received.jpg": "ab_final_exchange.mov at 8.0 s, from the cap10 reply_received shot",
+    "poster": "v3 at 9.0 s, the settled intro title and diagram",
+    "provenance": "alice-bob/clip-selections.json and alice-bob/editing-handoff.txt"
+  }
+}

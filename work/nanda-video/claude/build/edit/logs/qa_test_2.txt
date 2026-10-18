@@ -1,0 +1,24 @@
+QA for out/test/muse-wajo-test.mp4 (mode test)
+  PASS  edl_timeline       19 contiguous segments, 4987 frames, 17 crossfades, 1 cut
+  PASS  manifest           manifest matches the current EDL
+  PASS  duration           file 166.233 s (max 180), video 4987 frames = 166.233 s, narration 166.225 s, difference +8.0 ms, expected 4987 frames
+  PASS  video_stream       h264 High 1920x1080 yuv420p 30 fps CFR, BT.709 tv
+  PASS  audio_stream       aac 48 kHz stereo, 205 kb/s
+  PASS  subtitle_stream    mov_text (eng)
+  PASS  decode             no decoder errors (2.7 s)
+  PASS  captions           43 cues, no 'nanda', no em or en dashes; sidecar srt identical, vtt and embedded mov_text match
+  PASS  narration_text     ../narration.txt clean
+  PASS  onscreen_text      no em or en dashes in 181 EDL strings or 20 motion scene strings
+  WARN  placeholders       10 capture placeholders, 0 motion stubs (cap01, cap02, cap03, cap04, cap05, cap06, cap07, cap08, cap09, cap10)
+  WARN  evidence           required tags without footage: setup, discovery_listing, greeting_sent, greeting_received, reply_sent, reply_received; 15 tag(s) point at missing files
+  WARN  privacy            privacy_check pending on cap02, cap03, cap04, cap05
+  PASS  narration_source   md5 989dd284102be7ec793e9cc288716fe3
+  PASS  narration_match    lag 0 samples, correlation 0.99997, gain -0.009 dB, residual -41.9 dB, left minus right -78.6 dB, length +4.0 ms
+  PASS  loudness           output -13.9 LUFS (source as dual mono -13.9 LUFS, difference +0.00 LU), true peak -1.4 dBTP (source -1.5), LRA 5.9 LU
+  PASS  silence            longest silent gap 3.64 s at 23.03 s (35 gaps of 0.3 s or more below -50 dBFS)
+  PASS  spoken_words       no nanda-like word heard; 269 words, 88% word match to narration.txt (8 s)
+  PASS  contact_sheet      out/test/contact_sheet.png
+Overall: WARN (0 FAIL, 3 WARN, 16 PASS, 0 SKIP) in 25 s
+Report: out/test/qa_report.json
+Contact sheet: out/test/contact_sheet.png
+exit 0

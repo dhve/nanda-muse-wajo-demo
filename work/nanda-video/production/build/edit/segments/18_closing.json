@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/motion/render.py closing --duration 16.800000 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_18_closing.mp4 --beats '{\"agent_box\": 5.918}'",
+  "key": "c498a4516567c1d1e96a346e",
+  "frames": 518,
+  "path": "build/edit/segments/18_closing.mp4",
+  "seconds": 4.6,
+  "cached": false
+}

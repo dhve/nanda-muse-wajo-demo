@@ -1,0 +1,4 @@
+segment cap07 key a459d914bf72e592c9b940b3
+
+$ /opt/homebrew/bin/ffmpeg -y -v error -loop 1 -framerate 30 -i /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/build/edit/work/placeholder_cap07_28d598f76c.png -filter_complex '[0:v]format=rgb24,scale=out_color_matrix=bt709:out_range=tv,format=yuv444p[base];[base]format=yuv420p[out]' -map '[out]' -frames:v 317 -fps_mode cfr -r 30 -an -sn -dn -c:v libx264 -preset medium -crf 14 -pix_fmt yuv420p -profile:v high -colorspace bt709 -color_primaries bt709 -color_trc bt709 -color_range tv /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/build/edit/segments/12_cap07.mp4
+[exit 0]

@@ -1,0 +1,11 @@
+intro: 334 frames (205 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/intro.mp4 in 8.4s
+roles: 368 frames (305 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/roles.mp4 in 10.1s
+step: 90 frames (27 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/step1.mp4 in 1.7s
+step: 90 frames (27 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/step2.mp4 in 1.7s
+step: 90 frames (27 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/step3.mp4 in 1.5s
+step: 90 frames (27 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/step4.mp4 in 1.5s
+step: 90 frames (27 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/step5.mp4 in 1.5s
+closing: 504 frames (408 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/closing.mp4 in 13.3s
+endcard: 273 frames (193 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/endcard.mp4 in 4.5s
+all done in 44.3s
+/opt/homebrew/bin/python3 motion/render.py --all  186.33s user 42.97s system 513% cpu 44.682 total

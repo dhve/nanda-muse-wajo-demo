@@ -1,0 +1,31 @@
+{
+  "narration_has_no_nanda": true,
+  "narration_provider_neutral": true,
+  "captions_have_no_nanda": true,
+  "captions_nonoverlapping": true,
+  "caption_count": 42,
+  "last_caption_seconds": 176.142,
+  "narration_wav_md5": "fd0c27813d4ba1aa4a63f5e7d7451868",
+  "website_copy_buttons_exact": 6,
+  "website_copy_observation": "All six local browser Copy actions matched canonical strings. Setup verified after async clipboard update.",
+  "visual_review_pending_fixes": [],
+  "final_video_qa": {
+    "passed": 19,
+    "failed": 0,
+    "duration": 178.5,
+    "dimensions": "1920x1080",
+    "identical_output_website_reviewed_hash": true
+  },
+  "final_page_qa": {
+    "passed": 21,
+    "failed": 0,
+    "desktop_width": 1440,
+    "mobile_width": 390,
+    "no_horizontal_overflow": true,
+    "all_5_images_loaded": true,
+    "dialog_open_close_passed": true,
+    "video_playback_passed": true,
+    "default_captions_showing": true,
+    "video_placeholder_bug": "Reproduced while video readyState=4; removed eager networkState failure and restore player on loadedmetadata. Browser reload passed with zero placeholders."
+  }
+}

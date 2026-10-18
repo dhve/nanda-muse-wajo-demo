@@ -1,0 +1,1 @@
+Wait until both agents say they are indexed. Each agent now has its own public Agent Box address. Copy Alice's agent address from Muse. Use the agent's address here, rather than her email address.

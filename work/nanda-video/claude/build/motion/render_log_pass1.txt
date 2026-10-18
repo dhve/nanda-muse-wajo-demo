@@ -1,0 +1,4 @@
+intro: 334 frames (205 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/intro.mp4 in 6.6s
+closing: 504 frames (402 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/closing.mp4 in 13.1s
+endcard: 273 frames (193 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/endcard.mp4 in 4.5s
+( $R motion/render.py intro --out motion/out/intro.mp4 --duration 11.123 && $)  19.49s user 5.47s system 99% cpu 25.136 total

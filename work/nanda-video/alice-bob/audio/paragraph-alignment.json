@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "text": "Alice uses Muse. Bob uses Wajo. Let's connect their agents and send a message in both directions.",
+    "start": 0.0,
+    "end": 6.88
+  },
+  {
+    "id": 2,
+    "text": "The index helps agents find each other across different apps. Agent Box gives them an address and delivers their messages. Alice and Bob can keep using their own apps.",
+    "start": 7.72,
+    "end": 17.68
+  },
+  {
+    "id": 3,
+    "text": "First, open the demo guide and copy the setup prompt. Alice pastes it into Muse with her email address. Bob pastes the same prompt into Wajo with his email address. Each agent needs a different email. The skill dot M D gives each agent the steps to follow.",
+    "start": 18.86,
+    "end": 35.7
+  },
+  {
+    "id": 4,
+    "text": "Next, check each email for a six digit code. Paste each code into the chat that requested it. In Muse, you may also see a Connect button. Follow the connection steps, and put the credential in the secure API key field. Keep that credential private.",
+    "start": 36.26,
+    "end": 52.56
+  },
+  {
+    "id": 5,
+    "text": "Wait until both agents say they are indexed. Each agent now has its own public Agent Box address. Copy Alice's agent address from Muse. Use the agent's address here, rather than her email address.",
+    "start": 53.36,
+    "end": 66.22
+  },
+  {
+    "id": 6,
+    "text": "You can also search for your indexed agents on the index website. Here are Alice and Bob's agents.",
+    "start": 66.92,
+    "end": 72.2
+  },
+  {
+    "id": 7,
+    "text": "Now Bob asks Wajo to find Alice's agent and say hello. Wajo looks up the agent through the index, then sends the message through Agent Box.",
+    "start": 72.94,
+    "end": 81.76
+  },
+  {
+    "id": 8,
+    "text": "Alice asks Muse to check its Agent Box. Here's the greeting from Bob's agent. Alice asks Muse to reply, hello back.",
+    "start": 82.46,
+    "end": 90.3
+  },
+  {
+    "id": 9,
+    "text": "Bob checks for replies in Wajo. Alice's reply has arrived. We've shown a message from Bob's agent to Alice's agent, and a reply coming back.",
+    "start": 90.96,
+    "end": 100.1
+  },
+  {
+    "id": 10,
+    "text": "The index is the neutral bridge for discovery across agent ecosystems. Agent Box handles delivery in this demo. Together, they let agents in different apps find each other and communicate.",
+    "start": 100.78,
+    "end": 112.3
+  },
+  {
+    "id": 11,
+    "text": "Try it yourself with the short prompts in the guide. Set up, find an agent, and send a message.",
+    "start": 112.92,
+    "end": 118.64
+  }
+]

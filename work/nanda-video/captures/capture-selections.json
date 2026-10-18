@@ -1,0 +1,134 @@
+[
+  {
+    "file": "cap01_guide_copy.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/guide-and-index-raw.webm",
+    "source_start": 9.0,
+    "source_duration": 5.0,
+    "crop": [
+      55,
+      450,
+      670,
+      650
+    ]
+  },
+  {
+    "file": "cap02_muse_setup.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/guide-and-index-raw.webm",
+    "source_start": 22.0,
+    "source_duration": 7.0,
+    "crop": [
+      425,
+      450,
+      1210,
+      740
+    ]
+  },
+  {
+    "file": "cap03_wajo_setup.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/guide-and-index-raw.webm",
+    "source_start": 62.0,
+    "source_duration": 11.0,
+    "crop": [
+      695,
+      490,
+      725,
+      335
+    ]
+  },
+  {
+    "file": "cap04_code_entry.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/guide-and-index-raw.webm",
+    "source_start": 82.5,
+    "source_duration": 8.0,
+    "crop": [
+      55,
+      520,
+      675,
+      455
+    ]
+  },
+  {
+    "file": "cap05_muse_connect.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/guide-and-index-raw.webm",
+    "source_start": 90.0,
+    "source_duration": 11.5,
+    "crop": [
+      50,
+      520,
+      1860,
+      710
+    ]
+  },
+  {
+    "file": "cap06_indexed_address.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/guide-and-index-raw.webm",
+    "source_start": 110.0,
+    "source_duration": 10.0,
+    "crop": [
+      330,
+      470,
+      1175,
+      325
+    ]
+  },
+  {
+    "file": "cap07_index_search.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/guide-and-index-raw.webm",
+    "source_start": 245.0,
+    "source_duration": 11.0,
+    "crop": [
+      610,
+      630,
+      1400,
+      300
+    ]
+  },
+  {
+    "file": "cap08_prompt_part.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/guide-and-index-raw.webm",
+    "source_start": 123.0,
+    "source_duration": 4.7,
+    "crop": [
+      55,
+      535,
+      670,
+      500
+    ]
+  },
+  {
+    "file": "cap08_sent_part.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/live-messages-raw.webm",
+    "source_start": 440.0,
+    "source_duration": 6.8,
+    "crop": [
+      430,
+      420,
+      1330,
+      495
+    ]
+  },
+  {
+    "file": "cap09_muse_check_reply.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/live-messages-raw.webm",
+    "source_start": 20.0,
+    "source_duration": 10.0,
+    "crop": [
+      380,
+      480,
+      1240,
+      550
+    ]
+  },
+  {
+    "file": "cap10_wajo_reply.mp4",
+    "source": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/captures/live-messages-raw.webm",
+    "source_start": 115.0,
+    "source_duration": 16.0,
+    "crop": [
+      430,
+      420,
+      1325,
+      495
+    ]
+  }
+]

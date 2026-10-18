@@ -1,0 +1,422 @@
+{
+  "version": 1,
+  "title": "Alice and Bob: Muse and Wajo demo (v3)",
+  "paths_relative_to": "alice-bob/production/",
+  "outputs": {
+    "test": "../out/test/muse-wajo-demo-v3-test.mp4",
+    "final": "../out/muse-wajo-demo-v3.mp4"
+  },
+  "format": {
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "pix_fmt": "yuv420p",
+    "color": "bt709 tv",
+    "frame_rounding": "frame = floor(seconds * 30 + 0.5)",
+    "max_duration": 180.0,
+    "intermediate": {
+      "codec": "libx264",
+      "preset": "medium",
+      "crf": 14
+    },
+    "test": {
+      "codec": "libx264",
+      "preset": "medium",
+      "crf": 18
+    },
+    "final": {
+      "codec": "libx264",
+      "preset": "slow",
+      "crf": 18
+    },
+    "audio": {
+      "codec": "aac",
+      "sample_rate": 48000,
+      "channels": 2,
+      "bitrate": "256k",
+      "note": "mono narration copied to both channels at unity gain, no other processing"
+    }
+  },
+  "transitions": {
+    "default": {
+      "type": "crossfade",
+      "duration": 0.5,
+      "align": "center"
+    },
+    "boundaries": [
+      {
+        "after": "intro",
+        "type": "cut",
+        "why": "roles continues the intro, no dissolve"
+      }
+    ]
+  },
+  "narration": {
+    "file": "../narration.wav",
+    "mode": "track",
+    "md5": "fd0c27813d4ba1aa4a63f5e7d7451868",
+    "duration": 178.50981250000004
+  },
+  "captions": {
+    "srt": "../captions.srt",
+    "embed": "mov_text",
+    "language": "eng",
+    "sidecars": [
+      "srt",
+      "vtt"
+    ]
+  },
+  "evidence_required": [
+    "setup",
+    "discovery_listing",
+    "greeting_sent",
+    "greeting_received",
+    "reply_sent",
+    "reply_received"
+  ],
+  "segments": [
+    {
+      "id": "intro",
+      "kind": "motion",
+      "scene": "intro",
+      "params": {},
+      "beats": {
+        "muse": 1.85,
+        "wajo": 3.2
+      },
+      "notes": "Revised Alice and Bob narration. Intro and roles share the same settled diagram; straight cut between them.",
+      "say": "Alice uses Muse. Bob uses Wajo. Let's connect their agents and send a message in both directions.",
+      "start": 0,
+      "end": 12.676208
+    },
+    {
+      "id": "roles",
+      "kind": "motion",
+      "scene": "roles",
+      "params": {},
+      "beats": {
+        "agent_box": 5.326,
+        "address": 6.419,
+        "hop": 7.326,
+        "own_app": 9.419
+      },
+      "notes": "Section 2 speech. Straight cut from intro (continuation). Beats are seconds from segment start: Agent Box and own app on caption starts, address and hop on the words address and delivers.",
+      "say": "The index helps agents find each other across different apps. Agent Box gives them an address and delivers their messages. Alice and Bob can keep using their own apps.",
+      "start": 12.676208,
+      "end": 25.427604
+    },
+    {
+      "id": "step1",
+      "kind": "motion",
+      "scene": "step",
+      "params": {
+        "number": 1,
+        "total": 5,
+        "title": "Set up both agents",
+        "subtitle": "Alice in Muse. Bob in Wajo."
+      },
+      "notes": "Step card 1 of 5 in the 3 s pause before the next section.",
+      "say": "(pause)",
+      "start": 25.427604,
+      "end": 28.427604
+    },
+    {
+      "id": "cap01",
+      "kind": "capture",
+      "slot": "cap01_guide_copy",
+      "file": "../clips/cap01_guide_copy.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "setup"
+      ],
+      "notes": "Demo guide: the setup prompt card and its Copy control only, with the real pointer.",
+      "say": "First, open the demo guide and copy the setup prompt.",
+      "start": 28.427604,
+      "end": 32.660162,
+      "privacy_check": "done"
+    },
+    {
+      "id": "cap02",
+      "kind": "capture",
+      "slot": "cap02_muse_setup",
+      "file": "../clips/cap02_muse_setup.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "setup"
+      ],
+      "notes": "Pending fresh Alice/Bob capture. Do not substitute the previous long-address footage.",
+      "privacy_check": "done",
+      "say": "Alice pastes it into Muse with her email address.",
+      "start": 32.660162,
+      "end": 38.555511
+    },
+    {
+      "id": "cap03",
+      "kind": "capture",
+      "slot": "cap03_wajo_setup",
+      "file": "../clips/cap03_wajo_setup.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "setup"
+      ],
+      "notes": "Pending fresh Alice/Bob capture. Do not substitute the previous long-address footage.",
+      "privacy_check": "done",
+      "say": "Bob pastes the same prompt into Wajo with his email address. Each agent needs a different email. The skill dot M D gives each agent the steps to follow.",
+      "start": 38.555511,
+      "end": 51.010708
+    },
+    {
+      "id": "step2",
+      "kind": "motion",
+      "scene": "step",
+      "params": {
+        "number": 2,
+        "total": 5,
+        "title": "Verify each email",
+        "subtitle": "Send each code back in its app"
+      },
+      "notes": "Step card 2 of 5 in the 3 s pause before the next section.",
+      "say": "(pause)",
+      "start": 51.010708,
+      "end": 54.010708
+    },
+    {
+      "id": "cap04",
+      "kind": "capture",
+      "slot": "cap04_code_entry",
+      "file": "../clips/cap04_code_entry.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "setup",
+        "verification"
+      ],
+      "notes": "Pending fresh Alice/Bob capture. Do not substitute the previous long-address footage.",
+      "privacy_check": "done",
+      "say": "Next, check each email for a six digit code. Paste each code into the chat that requested it.",
+      "start": 54.010708,
+      "end": 61.789778
+    },
+    {
+      "id": "cap05",
+      "kind": "capture",
+      "slot": "cap05_muse_connect",
+      "file": "../clips/cap05_muse_connect.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "setup",
+        "connection"
+      ],
+      "notes": "Pending fresh Alice/Bob capture. Do not substitute the previous long-address footage.",
+      "privacy_check": "done",
+      "say": "In Muse, you may also see a Connect button. Follow the connection steps, and put the credential in the secure API key field. Keep that credential private.",
+      "start": 61.789778,
+      "end": 73.738583
+    },
+    {
+      "id": "step3",
+      "kind": "motion",
+      "scene": "step",
+      "params": {
+        "number": 3,
+        "total": 5,
+        "title": "Find Alice's agent",
+        "subtitle": "Bob sends from Wajo"
+      },
+      "notes": "Step card 3 of 5 in the 3 s pause before the next section.",
+      "say": "(pause)",
+      "start": 73.738583,
+      "end": 76.738583
+    },
+    {
+      "id": "cap06",
+      "kind": "capture",
+      "slot": "cap06_indexed_address",
+      "file": "../clips/cap06_indexed_address.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "indexed",
+        "agent_box_address"
+      ],
+      "notes": "Pending fresh Alice/Bob capture. Do not substitute the previous long-address footage.",
+      "say": "Wait until both agents say they are indexed. Each agent now has its own public Agent Box address. Copy Alice's agent address from Muse. Use the agent's address here, rather than her email address.",
+      "start": 76.738583,
+      "end": 95.543875,
+      "privacy_check": "done"
+    },
+    {
+      "id": "cap07",
+      "kind": "capture",
+      "slot": "cap07_index_search",
+      "file": "../clips/cap07_index_search.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "discovery_listing"
+      ],
+      "notes": "Pending fresh Alice/Bob capture. Do not substitute the previous long-address footage.",
+      "say": "You can also search for your indexed agents on the index website. Here are Alice and Bob's agents.",
+      "start": 95.543875,
+      "end": 105.497708,
+      "privacy_check": "done"
+    },
+    {
+      "id": "cap08",
+      "kind": "capture",
+      "slot": "cap08_wajo_hello",
+      "file": "../clips/cap08_wajo_hello.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "discovery_lookup",
+        "greeting_sent"
+      ],
+      "notes": "Pending fresh Alice/Bob capture. Do not substitute the previous long-address footage.",
+      "say": "Now Bob asks Wajo to find Alice's agent and say hello. Wajo looks up the agent through the index, then sends the message through Agent Box.",
+      "start": 105.497708,
+      "end": 116.581042,
+      "privacy_check": "done"
+    },
+    {
+      "id": "step4",
+      "kind": "motion",
+      "scene": "step",
+      "params": {
+        "number": 4,
+        "total": 5,
+        "title": "Alice reads and replies",
+        "subtitle": "In Muse"
+      },
+      "notes": "Step card 4 of 5 in the 3 s pause before the next section.",
+      "say": "(pause)",
+      "start": 116.581042,
+      "end": 119.581042
+    },
+    {
+      "id": "cap09",
+      "kind": "capture",
+      "slot": "cap09_muse_check_reply",
+      "file": "../clips/cap09_muse_check_reply.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "greeting_received",
+        "reply_sent"
+      ],
+      "notes": "Pending fresh Alice/Bob capture. Do not substitute the previous long-address footage.",
+      "say": "Alice asks Muse to check its Agent Box. Here's the greeting from Bob's agent. Alice asks Muse to reply, hello back.",
+      "start": 119.581042,
+      "end": 134.47275,
+      "privacy_check": "done"
+    },
+    {
+      "id": "step5",
+      "kind": "motion",
+      "scene": "step",
+      "params": {
+        "number": 5,
+        "total": 5,
+        "title": "Bob sees the reply",
+        "subtitle": "In Wajo"
+      },
+      "notes": "Step card 5 of 5 in the 3 s pause before the next section.",
+      "say": "(pause)",
+      "start": 134.47275,
+      "end": 137.47275
+    },
+    {
+      "id": "cap10",
+      "kind": "capture",
+      "slot": "cap10_wajo_reply",
+      "file": "../clips/cap10_wajo_reply.mp4",
+      "src_in": 0,
+      "crop": null,
+      "fit": "fill",
+      "redact": [],
+      "callout": null,
+      "evidence": [
+        "reply_received"
+      ],
+      "notes": "Pending fresh Alice/Bob capture. Do not substitute the previous long-address footage.",
+      "say": "Bob checks for replies in Wajo. Alice's reply has arrived. We've shown a message from Bob's agent to Alice's agent, and a reply coming back.",
+      "start": 137.47275,
+      "end": 151.874167,
+      "privacy_check": "done"
+    },
+    {
+      "id": "closing",
+      "kind": "motion",
+      "scene": "closing",
+      "params": {},
+      "beats": {
+        "agent_box": 6.0
+      },
+      "notes": "Section 10 plus pause. Discovery lane (NANDA Index) versus delivery lane (Agent Box). The agent_box beat sits on the caption start of Agent Box handles delivery; the other beats keep the scene defaults.",
+      "say": "The index is the neutral bridge for discovery across agent ecosystems. Agent Box handles delivery in this demo. Together, they let agents in different apps find each other and communicate.",
+      "start": 151.874167,
+      "end": 169.010229
+    },
+    {
+      "id": "endcard",
+      "kind": "motion",
+      "scene": "endcard",
+      "params": {},
+      "beats": {
+        "prompt1": 4.035,
+        "prompt2": 4.826,
+        "prompt3": 6.221
+      },
+      "notes": "Section 11 plus the 2 s end. Try it yourself, my.nandaindex.org/demo, three prompts, each landing on its spoken words.",
+      "say": "Try it yourself with the short prompts in the guide. Set up, find an agent, and send a message.",
+      "start": 169.010229,
+      "end": 178.509813
+    }
+  ],
+  "revision_status": "v3: real Alice and Bob recordings composed by compose_ab.py; see clip-selections.json for sources, times, crops and the two repeated insertion close-ups",
+  "reading_holds": [
+    {
+      "at_before_retime": 36.555511143410854,
+      "seconds": 2
+    },
+    {
+      "at_before_retime": 121.12755329457366,
+      "seconds": 3
+    },
+    {
+      "at_before_retime": 127.37275000000002,
+      "seconds": 2
+    }
+  ]
+}

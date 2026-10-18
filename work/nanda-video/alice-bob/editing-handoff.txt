@@ -1,0 +1,52 @@
+EDITING HANDOFF: Alice and Bob v3 (Claude, 2026-10-15 15:50)
+Status: DONE. v3 assembled and QA passed. Website assets committed locally. No publish, no push, no UI control.
+
+OUTPUTS
+outputs/nanda-demo-video/muse-wajo-demo-v3.mp4   178.500 s, 1920x1080 30 fps H.264, AAC, soft English subtitles, 10.3 MB
+outputs/nanda-demo-video/muse-wajo-demo-v3.srt / .vtt   42 cues (from alice-bob/captions.srt, unchanged)
+alice-bob/out/   same files plus manifest, qa_report.json and contact_sheet.png
+alice-bob/clips/cap01_guide_copy.mp4 ... cap10_wajo_reply.mp4   the ten composed clips
+alice-bob/website-assets/   five step screenshots and the poster
+
+HOW IT WAS BUILT
+alice-bob/compose_ab.py   clips and stills (same framing as retake/compose.py, labels Alice in Muse / Bob in Wajo)
+alice-bob/edit-v3.json    the draft EDL with cap01 pointed at the new clip, fit fill, privacy checks done
+alice-bob/clip-selections.json   every shot: source, start, duration, crop, masks; stills and their source frames
+Assembly: cd alice-bob/production && python3 edit/assemble.py --edl ../edit-v3.json --mode final
+QA:       python3 edit/qa.py ../out/muse-wajo-demo-v3.mp4 --mode final --edl ../edit-v3.json
+
+AUDIO AND CAPTIONS (unchanged)
+narration.wav 178.5098125 s, md5 fd0c27813d4ba1aa4a63f5e7d7451868; captions.srt. QA confirms the narration is untouched
+(correlation 0.99997, gain -0.009 dB) and the whisper pass heard no nanda-like word.
+
+QA (final mode): PASS 19, WARN 0, FAIL 0. Duration 178.500 s against 178.510 s narration. Every evidence tag has
+footage. Privacy checks done. No placeholders or stubs. Longest silence 3.61 s.
+
+PROVENANCE
+First-submit footage: ab_continuous.mov (cap01, cap03 to cap09 first parts) and ab_cap02_muse_setup_clean.mov (cap02).
+Recorded after the real exchange, in the same conversations, with no new messages sent:
+- ab_final_exchange.mov: the real sent reply and delivery confirmation in Muse (cap09 reply_sent, step 4 still), the real
+  reply receipt in Wajo (cap10 reply_received, step 5 still), and a repeated, unsent insertion of the reply-check prompt
+  (cap10 reply_check_paste).
+- ab_reply_prompt_closeup.mov: a repeated, unsent insertion of "Reply: Hello back!" (cap09 reply_paste).
+- ab_sent_confirmation.mov: a native scroll of the existing Wajo chat to the real Found and Done confirmations
+  (cap08 hello_sent, step 3 still).
+The two insertion close-ups are not first-submit footage. recording-marks-2.jsonl was not used.
+
+PRIVACY AND PROMPTS
+Only recorded pixels are cropped and scaled; no UI or pointer is drawn. The six-digit codes are covered with solid boxes;
+the credential is masked by Muse itself. Every crop excludes the identity preparation messages, the Wajo header with
+the account email and phone number, sidebars with old demo names, and unrelated messages. Every completed prompt shown
+matches the website wording with only the bracketed value filled in.
+
+WEBSITE
+Repository work/nanda-messagebox-skill, branch codex/alice-bob-demo-guide, commit 90488b7 (local only).
+python3 demo/tools/check_page.py --publish: PASS 21, exit 0.
+
+OPERATOR FINAL REVIEW
+Video contact sheet and prompt, code, credential, sent, and received frames visually reviewed. All six Copy buttons matched exact prompts. Video playback and default captions verified. All five images and image viewer verified; desktop 1440 and phone 390 have no horizontal overflow. Fixed eager missing-video placeholder after reproducing it with a fully loaded video, and verified recovery; local commit 8d30841. Final guide package: outputs/nanda-demo-v3/index.html and outputs/nanda-demo-v3.zip. Live site unchanged.
+
+DEPLOYMENT
+Published at https://my.nandaindex.org/demo/ through dhve/nanda-messagebox-skill, codex/initial-build, commit 8d3084181a0ca7d79644eda78a503c08ebdb42cf.
+GitHub Pages run 38820987296 succeeded. All ten live files returned HTTP 200 and matched the reviewed SHA256 hashes.
+Verification: deployment-verification.json, 2026-10-15T23:03:39.106224+00:00.

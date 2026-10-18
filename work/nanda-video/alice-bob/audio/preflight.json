@@ -1,0 +1,21 @@
+{
+  "duration_seconds": 178.5098125,
+  "below_three_minutes": true,
+  "caption_cues": 42,
+  "captions_inside_audio": true,
+  "captions_ordered": true,
+  "caption_overlaps": [],
+  "script_contains_banned_word": false,
+  "transcript_contains_banned_word": false,
+  "fresh_captures_pending": [
+    "cap02",
+    "cap03",
+    "cap04",
+    "cap05",
+    "cap06",
+    "cap07",
+    "cap08",
+    "cap09",
+    "cap10"
+  ]
+}

@@ -1,0 +1,37 @@
+EDL edit/edl.json: 19 segments, 4987 frames = 166.233 s (narration 166.225 s = 4986.76 frames), mode final
+ #  id       kind     source                   start      end     dur frames  in/out transition in  detail
+01  intro    motion   render.py                0.000   11.123  11.123    334   0/0   start          intro  beats muse@2.758, wajo@4.526
+02  roles    motion   render.py               11.123   23.380  12.257    367   0/7   cut            roles  beats agent_box@5.128, address@6.198, hop@7.267, own_app@9.244
+03  step1    motion   render.py               23.380   26.380   3.000     90   7/7   xfade 0.5s     step 1: Set up both agents
+04  cap01    capture  PLACEHOLDER             26.380   30.962   4.582    138   7/7   xfade 0.5s     missing ../captures/cap01_guide_copy.mp4
+05  cap02    capture  PLACEHOLDER             30.962   37.055   6.093    183   7/7   xfade 0.5s     missing ../captures/cap02_muse_setup.mp4
+06  cap03    capture  PLACEHOLDER             37.055   46.753   9.698    291   7/7   xfade 0.5s     missing ../captures/cap03_wajo_setup.mp4
+07  step2    motion   render.py               46.753   49.753   3.000     90   7/7   xfade 0.5s     step 2: Verify each email
+08  cap04    capture  PLACEHOLDER             49.753   57.299   7.546    226   7/7   xfade 0.5s     missing ../captures/cap04_code_entry.mp4
+09  cap05    capture  PLACEHOLDER             57.299   68.550  11.251    338   7/7   xfade 0.5s     missing ../captures/cap05_muse_connect.mp4
+10  step3    motion   render.py               68.550   71.550   3.000     90   7/7   xfade 0.5s     step 3: Find Muse and say hello
+11  cap06    capture  PLACEHOLDER             71.550   89.380  17.830    534   7/7   xfade 0.5s     missing ../captures/cap06_indexed_address.mp4
+12  cap07    capture  PLACEHOLDER             89.380   99.478  10.098    303   7/7   xfade 0.5s     missing ../captures/cap07_index_search.mp4
+13  cap08    capture  PLACEHOLDER             99.478  110.544  11.066    332   7/7   xfade 0.5s     missing ../captures/cap08_wajo_hello.mp4
+14  step4    motion   render.py              110.544  113.544   3.000     90   7/7   xfade 0.5s     step 4: Read and reply in Muse
+15  cap09    capture  PLACEHOLDER            113.544  122.521   8.977    270   7/7   xfade 0.5s     missing ../captures/cap09_muse_check_reply.mp4  callout 'Wajo → Muse' at 117.777
+16  step5    motion   render.py              122.521  125.521   3.000     90   7/7   xfade 0.5s     step 5: See the reply in Wajo
+17  cap10    capture  PLACEHOLDER            125.521  140.308  14.787    443   7/7   xfade 0.5s     missing ../captures/cap10_wajo_reply.mp4  callout 'Muse → Wajo' at 128.044
+18  closing  motion   render.py              140.308  157.116  16.808    504   7/7   xfade 0.5s     closing  beats agent_box@5.918
+19  endcard  motion   render.py              157.116  166.225   9.109    274   7/0   xfade 0.5s     endcard  beats prompt1@3.674, prompt2@4.395, prompt3@5.814
+Placeholders: 10 captures, 0 motion stubs (before render).
+  BLOCKER: cap01: missing ../captures/cap01_guide_copy.mp4
+  BLOCKER: cap02: missing ../captures/cap02_muse_setup.mp4
+  BLOCKER: cap03: missing ../captures/cap03_wajo_setup.mp4
+  BLOCKER: cap04: missing ../captures/cap04_code_entry.mp4
+  BLOCKER: cap05: missing ../captures/cap05_muse_connect.mp4
+  BLOCKER: cap06: missing ../captures/cap06_indexed_address.mp4
+  BLOCKER: cap07: missing ../captures/cap07_index_search.mp4
+  BLOCKER: cap08: missing ../captures/cap08_wajo_hello.mp4
+  BLOCKER: cap09: missing ../captures/cap09_muse_check_reply.mp4
+  BLOCKER: cap10: missing ../captures/cap10_wajo_reply.mp4
+  BLOCKER: cap02: privacy_check is 'pending' (review the footage, add redact boxes, then set it to done)
+  BLOCKER: cap03: privacy_check is 'pending' (review the footage, add redact boxes, then set it to done)
+  BLOCKER: cap04: privacy_check is 'pending' (review the footage, add redact boxes, then set it to done)
+  BLOCKER: cap05: privacy_check is 'pending' (review the footage, add redact boxes, then set it to done)
+Refusing to render.

@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/render.py step --duration 3.000000 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/build/edit/work/motion_16_step5.mp4 --param number=5 --param total=5 --param 'title=See the reply in Wajo' --param 'subtitle=Muse → Wajo'",
+  "key": "c3005084f8b54e11782e9330",
+  "frames": 104,
+  "path": "build/edit/segments/16_step5.mp4",
+  "seconds": 7.8,
+  "cached": false
+}

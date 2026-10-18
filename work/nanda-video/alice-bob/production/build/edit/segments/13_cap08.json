@@ -1,0 +1,13 @@
+{
+  "source_kind": "capture",
+  "source": "../clips/cap08_wajo_hello.mp4",
+  "notes": [
+    "1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s"
+  ],
+  "fit": "fill",
+  "key": "6d15f08e38b432d70c893811",
+  "frames": 346,
+  "path": "build/edit/segments/13_cap08.mp4",
+  "seconds": 4.3,
+  "cached": false
+}

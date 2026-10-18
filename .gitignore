@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+models/
+.env
+.env.*
+work/nanda-video/captures/*.mov
+work/nanda-video/captures/*.webm
+work/nanda-video/native-pointer
+work/nanda-video/alice-bob/native-recording-pointer
+work/nanda-video/retake/ocr
+work/nanda-video/alice-bob/review/ocr

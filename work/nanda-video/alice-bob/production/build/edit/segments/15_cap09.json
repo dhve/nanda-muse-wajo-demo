@@ -1,0 +1,13 @@
+{
+  "source_kind": "capture",
+  "source": "../clips/cap09_muse_check_reply.mp4",
+  "notes": [
+    "1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s"
+  ],
+  "fit": "fill",
+  "key": "f23fe9aeb9926a948c0a281e",
+  "frames": 461,
+  "path": "build/edit/segments/15_cap09.mp4",
+  "seconds": 4.4,
+  "cached": false
+}

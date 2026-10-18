@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/motion/render.py roles --duration 12.233333 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_02_roles.mp4 --beats '{\"agent_box\": 5.128, \"address\": 6.198, \"hop\": 7.267, \"own_app\": 9.244}'",
+  "key": "d040d9e1177029ed01c20d99",
+  "frames": 374,
+  "path": "build/edit/segments/02_roles.mp4",
+  "seconds": 8.0,
+  "cached": false
+}

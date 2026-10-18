@@ -1,0 +1,1730 @@
+{
+  "files": [
+    {
+      "path": "outputs/nanda-demo-video/alice-yahoo-signup.png",
+      "bytes": 1111178,
+      "reason": "Private signup or voice-service account screenshot"
+    },
+    {
+      "path": "outputs/nanda-demo-video/gmail-alice-password-retry.png",
+      "bytes": 1041284,
+      "reason": "Private signup or voice-service account screenshot"
+    },
+    {
+      "path": "outputs/nanda-demo-video/gmail-alice-terms.png",
+      "bytes": 1487765,
+      "reason": "Private signup or voice-service account screenshot"
+    },
+    {
+      "path": "outputs/nanda-demo-video/gmail-final-review.png",
+      "bytes": 1487810,
+      "reason": "Private signup or voice-service account screenshot"
+    },
+    {
+      "path": "outputs/nanda-demo-video/gmail-password-step.png",
+      "bytes": 1038118,
+      "reason": "Private signup or voice-service account screenshot"
+    },
+    {
+      "path": "outputs/nanda-demo-video/voice-generation.jpg",
+      "bytes": 182491,
+      "reason": "Private signup or voice-service account screenshot"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/desktop-check-small.png",
+      "bytes": 498078,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/desktop-check.png",
+      "bytes": 2424085,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/final-evidence-review.png",
+      "bytes": 479347,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/final-exchange-contact.png",
+      "bytes": 307833,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/foreground-check.png",
+      "bytes": 170871,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/muse-prepared.png",
+      "bytes": 202568,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/muse-setup-pasted.png",
+      "bytes": 216600,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/native-recording-pointer",
+      "bytes": 59304,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/recording-frame-check.png",
+      "bytes": 570257,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/reply-closeup-contact.png",
+      "bytes": 327796,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/reply-closeup-qa.png",
+      "bytes": 341987,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap01_click.png",
+      "bytes": 98217,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap01_full.png",
+      "bytes": 438913,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap01_half.png",
+      "bytes": 182461,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap02_overview.png",
+      "bytes": 240485,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap02_paste.png",
+      "bytes": 36242,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap02_send.png",
+      "bytes": 219919,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap03_overview.png",
+      "bytes": 263142,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap03_paste.png",
+      "bytes": 53361,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap03_result.png",
+      "bytes": 154964,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap08_after.png",
+      "bytes": 479120,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap08_composer.png",
+      "bytes": 43026,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap08_composer2.png",
+      "bytes": 82626,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/cap08_composer2s.png",
+      "bytes": 64257,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/clips_qa_sheet.png",
+      "bytes": 784582,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/codes.png",
+      "bytes": 10729,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/codes_bob.png",
+      "bytes": 13723,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/codes_both.png",
+      "bytes": 24403,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/fixes_qa.png",
+      "bytes": 251801,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/fx_composer.png",
+      "bytes": 58149,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/fx_overview.png",
+      "bytes": 285695,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/keys_a.png",
+      "bytes": 556459,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/keys_b.png",
+      "bytes": 489307,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/keys_c.png",
+      "bytes": 547193,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/mask_check.png",
+      "bytes": 13756,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/ocr",
+      "bytes": 68256,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/overview_a.png",
+      "bytes": 484801,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/overview_b.png",
+      "bytes": 387908,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/poster_check.png",
+      "bytes": 99405,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/rp_composer.png",
+      "bytes": 46633,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/rp_overview.png",
+      "bytes": 294843,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/sentconf_crop.png",
+      "bytes": 71122,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/sentconf_overview.png",
+      "bytes": 238036,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/step4_check.png",
+      "bytes": 60917,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/review/stills_qa.png",
+      "bytes": 570510,
+      "reason": "Source inspection frame; final screenshots and review frames included separately"
+    },
+    {
+      "path": "work/nanda-video/alice-bob/sent-confirmation-qa.png",
+      "bytes": 128682,
+      "reason": "Uncropped desktop or source inspection image"
+    },
+    {
+      "path": "work/nanda-video/captures/Screen Recording 2026-10-14 at 4.12.38\u202fPM.mov",
+      "bytes": 5563837932,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/Screen Recording 2026-10-17 at 7.25.30\u202fAM.mov",
+      "bytes": 7562413082,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/Screenshot 2026-10-17 at 7.25.20\u202fAM.png",
+      "bytes": 3065334,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/ab_cap02_muse_setup.mov",
+      "bytes": 2398749,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/ab_cap02_muse_setup_clean.mov",
+      "bytes": 5423802,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/ab_continuous.mov",
+      "bytes": 180392909,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/ab_final_exchange.mov",
+      "bytes": 17866850,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/ab_reply_prompt_closeup.mov",
+      "bytes": 7301369,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/ab_sent_confirmation.mov",
+      "bytes": 26853193,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/cursor-test-frame.png",
+      "bytes": 719821,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/cursor-test.webm",
+      "bytes": 1298758,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/discovery-prompt-frame.png",
+      "bytes": 617362,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/edit-contact.jpg",
+      "bytes": 403031,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-10.jpg",
+      "bytes": 200281,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-104.jpg",
+      "bytes": 215047,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-118.jpg",
+      "bytes": 184841,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-128.jpg",
+      "bytes": 203566,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-157.jpg",
+      "bytes": 184559,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-228.jpg",
+      "bytes": 189109,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-5.jpg",
+      "bytes": 118791,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-52.jpg",
+      "bytes": 203636,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-587.jpg",
+      "bytes": 182067,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-77.jpg",
+      "bytes": 175728,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/frame-83.jpg",
+      "bytes": 164186,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/guid-112.jpg",
+      "bytes": 223749,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/guid-245.jpg",
+      "bytes": 216612,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/guid-65.jpg",
+      "bytes": 212056,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/guid-84.jpg",
+      "bytes": 194844,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/guid-92.jpg",
+      "bytes": 195573,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/guide-and-index-raw.webm",
+      "bytes": 11991704,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/guide-contact.jpg",
+      "bytes": 331595,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/live-110.jpg",
+      "bytes": 239999,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/live-25.jpg",
+      "bytes": 222624,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/live-440.jpg",
+      "bytes": 266013,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/live-messages-raw.webm",
+      "bytes": 11747644,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native-contact.jpg",
+      "bytes": 484822,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native-cursor-check.png",
+      "bytes": 605848,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native-cursor-test.mov",
+      "bytes": 803482,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native-desktop-check.png",
+      "bytes": 16106566,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native01-check.png",
+      "bytes": 499610,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native01.mov",
+      "bytes": 1395485,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native02-check.png",
+      "bytes": 725173,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native02.mov",
+      "bytes": 2977384,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native03.mov",
+      "bytes": 734213,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native04-check.png",
+      "bytes": 88816,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native04.mov",
+      "bytes": 854560,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native05.mov",
+      "bytes": 599061,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native06-check.png",
+      "bytes": 569207,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native06.mov",
+      "bytes": 2433724,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native07-check.png",
+      "bytes": 98876,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native07.mov",
+      "bytes": 827144,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native08prompt.mov",
+      "bytes": 1044422,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native08sent.mov",
+      "bytes": 1209681,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native09-check.png",
+      "bytes": 151401,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native09.mov",
+      "bytes": 2901525,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/native10.mov",
+      "bytes": 1938016,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_index_results.mov",
+      "bytes": 1173530,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_muse_check.mov",
+      "bytes": 981126,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_muse_check_paste.mov",
+      "bytes": 3497428,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_muse_code.mov",
+      "bytes": 2991049,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_muse_code_send.mov",
+      "bytes": 2972936,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_muse_confirm.mov",
+      "bytes": 1432122,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_muse_connect.mov",
+      "bytes": 7695795,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_muse_indexed.mov",
+      "bytes": 3246498,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_muse_reply.mov",
+      "bytes": 6627749,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_muse_reply_prompt.mov",
+      "bytes": 4919306,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_muse_setup.mov",
+      "bytes": 2132729,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_wajo_code.mov",
+      "bytes": 2346576,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_wajo_find.mov",
+      "bytes": 3789729,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_wajo_find_closeup.mov",
+      "bytes": 5747051,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_wajo_find_paste.mov",
+      "bytes": 4104099,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_wajo_indexed.mov",
+      "bytes": 1754829,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_wajo_received.mov",
+      "bytes": 3484561,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_wajo_reply_check.mov",
+      "bytes": 6886546,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_wajo_sent.mov",
+      "bytes": 1846403,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r2_wajo_setup.mov",
+      "bytes": 2659927,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r3_muse_check_paste.mov",
+      "bytes": 3022807,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/r3_wajo_find_paste.mov",
+      "bytes": 4909295,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/recording-cleanup.png",
+      "bytes": 2860758,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/recording-cleanup2.png",
+      "bytes": 2822023,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/captures/recording-desktop.png",
+      "bytes": 3229277,
+      "reason": "Uncropped recording or desktop frame; prepared capture clips included"
+    },
+    {
+      "path": "work/nanda-video/claude/build/edit/grid/cap10_22.00s.png",
+      "bytes": 761221,
+      "reason": "Source-coordinate review frame may show uncropped private context"
+    },
+    {
+      "path": "work/nanda-video/native-pointer",
+      "bytes": 59296,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/actual-now.png",
+      "bytes": 266611,
+      "reason": "Uncropped retake desktop inspection image"
+    },
+    {
+      "path": "work/nanda-video/retake/desktop-check.png",
+      "bytes": 2372137,
+      "reason": "Uncropped retake desktop inspection image"
+    },
+    {
+      "path": "work/nanda-video/retake/muse-connect-contact.png",
+      "bytes": 324081,
+      "reason": "Uncropped retake desktop inspection image"
+    },
+    {
+      "path": "work/nanda-video/retake/muse-setup-check.png",
+      "bytes": 94556,
+      "reason": "Uncropped retake desktop inspection image"
+    },
+    {
+      "path": "work/nanda-video/retake/muse-setup-contact.png",
+      "bytes": 130447,
+      "reason": "Uncropped retake desktop inspection image"
+    },
+    {
+      "path": "work/nanda-video/retake/ocr",
+      "bytes": 97520,
+      "reason": "Raw recording, compiled helper, or transient binary; source and prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/ocr-review.json",
+      "bytes": 2697,
+      "reason": "OCR inspection output from uncropped source frames"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/001.png",
+      "bytes": 37392,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/002.png",
+      "bytes": 38526,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/003.png",
+      "bytes": 38571,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/004.png",
+      "bytes": 38544,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/005.png",
+      "bytes": 38552,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/006.png",
+      "bytes": 38554,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/007.png",
+      "bytes": 38542,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/008.png",
+      "bytes": 38552,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/009.png",
+      "bytes": 38552,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/010.png",
+      "bytes": 38542,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check/011.png",
+      "bytes": 38560,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check-contact.jpg",
+      "bytes": 161757,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check_paste/001.png",
+      "bytes": 36924,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check_paste/002.png",
+      "bytes": 36873,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check_paste/003.png",
+      "bytes": 37175,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check_paste/004.png",
+      "bytes": 37180,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check_paste/005.png",
+      "bytes": 37147,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check_paste/006.png",
+      "bytes": 38513,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check_paste/007.png",
+      "bytes": 38504,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check_paste/008.png",
+      "bytes": 38510,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check_paste/009.png",
+      "bytes": 38501,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_check_paste-contact.jpg",
+      "bytes": 152174,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_code_send/001.png",
+      "bytes": 44290,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_code_send/002.png",
+      "bytes": 43899,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_code_send/003.png",
+      "bytes": 43729,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_code_send/004.png",
+      "bytes": 43747,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_code_send/005.png",
+      "bytes": 38724,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_code_send/006.png",
+      "bytes": 38781,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_code_send/007.png",
+      "bytes": 38795,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_code_send/008.png",
+      "bytes": 38780,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_code_send-contact.jpg",
+      "bytes": 119421,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/001.png",
+      "bytes": 38241,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/002.png",
+      "bytes": 37891,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/003.png",
+      "bytes": 38070,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/004.png",
+      "bytes": 38064,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/005.png",
+      "bytes": 38065,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/006.png",
+      "bytes": 37834,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/007.png",
+      "bytes": 38210,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/008.png",
+      "bytes": 50257,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/009.png",
+      "bytes": 39522,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/010.png",
+      "bytes": 38383,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/011.png",
+      "bytes": 38796,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/012.png",
+      "bytes": 38712,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/013.png",
+      "bytes": 38884,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/014.png",
+      "bytes": 35977,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/015.png",
+      "bytes": 35419,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/016.png",
+      "bytes": 35449,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/017.png",
+      "bytes": 35635,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/018.png",
+      "bytes": 35622,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/019.png",
+      "bytes": 35628,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect/020.png",
+      "bytes": 36229,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_connect-contact.jpg",
+      "bytes": 278579,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/001.png",
+      "bytes": 38652,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/002.png",
+      "bytes": 39299,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/003.png",
+      "bytes": 39411,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/004.png",
+      "bytes": 40612,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/005.png",
+      "bytes": 40589,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/006.png",
+      "bytes": 40523,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/007.png",
+      "bytes": 40572,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/008.png",
+      "bytes": 36861,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/009.png",
+      "bytes": 37107,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/010.png",
+      "bytes": 37129,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/011.png",
+      "bytes": 37093,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt/012.png",
+      "bytes": 37104,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt-contact.jpg",
+      "bytes": 194620,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/001.png",
+      "bytes": 12592,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/002.png",
+      "bytes": 12885,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/003.png",
+      "bytes": 12765,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/004.png",
+      "bytes": 12745,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/005.png",
+      "bytes": 12757,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/006.png",
+      "bytes": 12763,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/007.png",
+      "bytes": 16913,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/008.png",
+      "bytes": 16959,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/009.png",
+      "bytes": 21172,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/010.png",
+      "bytes": 21062,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/011.png",
+      "bytes": 21085,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/012.png",
+      "bytes": 21664,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/013.png",
+      "bytes": 21399,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/014.png",
+      "bytes": 21642,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/015.png",
+      "bytes": 21615,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/016.png",
+      "bytes": 21396,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/017.png",
+      "bytes": 21434,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup/018.png",
+      "bytes": 21432,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_muse_setup-contact.jpg",
+      "bytes": 173042,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/001.png",
+      "bytes": 26729,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/002.png",
+      "bytes": 26308,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/003.png",
+      "bytes": 26368,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/004.png",
+      "bytes": 26350,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/005.png",
+      "bytes": 27392,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/006.png",
+      "bytes": 27334,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/007.png",
+      "bytes": 19172,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/008.png",
+      "bytes": 19115,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/009.png",
+      "bytes": 19124,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/010.png",
+      "bytes": 19142,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/011.png",
+      "bytes": 19822,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code/012.png",
+      "bytes": 21369,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_code-contact.jpg",
+      "bytes": 120528,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/001.png",
+      "bytes": 38750,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/002.png",
+      "bytes": 38785,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/003.png",
+      "bytes": 38695,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/004.png",
+      "bytes": 38704,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/005.png",
+      "bytes": 38704,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/006.png",
+      "bytes": 38695,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/007.png",
+      "bytes": 38698,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/008.png",
+      "bytes": 38721,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/009.png",
+      "bytes": 38698,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/010.png",
+      "bytes": 38653,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/011.png",
+      "bytes": 38698,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/012.png",
+      "bytes": 38698,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find/013.png",
+      "bytes": 38704,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find-contact.jpg",
+      "bytes": 209567,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find_paste/001.png",
+      "bytes": 52549,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find_paste/002.png",
+      "bytes": 46176,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find_paste/003.png",
+      "bytes": 46284,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find_paste/004.png",
+      "bytes": 46268,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find_paste/005.png",
+      "bytes": 46284,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find_paste/006.png",
+      "bytes": 41218,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find_paste/007.png",
+      "bytes": 41062,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find_paste/008.png",
+      "bytes": 41060,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find_paste/009.png",
+      "bytes": 41079,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_find_paste-contact.jpg",
+      "bytes": 165286,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/001.png",
+      "bytes": 38319,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/002.png",
+      "bytes": 38058,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/003.png",
+      "bytes": 38058,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/004.png",
+      "bytes": 38041,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/005.png",
+      "bytes": 38194,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/006.png",
+      "bytes": 39328,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/007.png",
+      "bytes": 39346,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/008.png",
+      "bytes": 39346,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/009.png",
+      "bytes": 20820,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/010.png",
+      "bytes": 20800,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/011.png",
+      "bytes": 20848,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/012.png",
+      "bytes": 21852,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/013.png",
+      "bytes": 21798,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/014.png",
+      "bytes": 23571,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/015.png",
+      "bytes": 22672,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/016.png",
+      "bytes": 22629,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/017.png",
+      "bytes": 46572,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/018.png",
+      "bytes": 46565,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/019.png",
+      "bytes": 46565,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check/020.png",
+      "bytes": 46565,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_reply_check-contact.jpg",
+      "bytes": 297856,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/001.png",
+      "bytes": 21906,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/002.png",
+      "bytes": 20849,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/003.png",
+      "bytes": 20846,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/004.png",
+      "bytes": 20863,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/005.png",
+      "bytes": 23171,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/006.png",
+      "bytes": 23159,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/007.png",
+      "bytes": 18654,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/008.png",
+      "bytes": 18279,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/009.png",
+      "bytes": 19611,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/010.png",
+      "bytes": 19631,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/011.png",
+      "bytes": 19602,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/012.png",
+      "bytes": 19668,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/013.png",
+      "bytes": 19643,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/014.png",
+      "bytes": 19619,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup/015.png",
+      "bytes": 25520,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r2_wajo_setup-contact.jpg",
+      "bytes": 161537,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste/001.png",
+      "bytes": 35892,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste/002.png",
+      "bytes": 35989,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste/003.png",
+      "bytes": 36365,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste/004.png",
+      "bytes": 36370,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste/005.png",
+      "bytes": 37955,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste/006.png",
+      "bytes": 37829,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste/007.png",
+      "bytes": 37847,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste/008.png",
+      "bytes": 37840,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste/009.png",
+      "bytes": 37839,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste/010.png",
+      "bytes": 37845,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_muse_check_paste-contact.jpg",
+      "bytes": 161782,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/001.png",
+      "bytes": 41584,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/002.png",
+      "bytes": 41295,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/003.png",
+      "bytes": 41308,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/004.png",
+      "bytes": 41282,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/005.png",
+      "bytes": 45702,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/006.png",
+      "bytes": 45765,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/007.png",
+      "bytes": 45766,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/008.png",
+      "bytes": 45766,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/009.png",
+      "bytes": 45793,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/010.png",
+      "bytes": 45793,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/011.png",
+      "bytes": 45697,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste/012.png",
+      "bytes": 45697,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/r3_wajo_find_paste-contact.jpg",
+      "bytes": 219817,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/api.png",
+      "bytes": 283178,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/connect.png",
+      "bytes": 294067,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/continue.png",
+      "bytes": 304431,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/find.png",
+      "bytes": 340754,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/greeting.png",
+      "bytes": 306326,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/index.png",
+      "bytes": 250754,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/indexed_muse.png",
+      "bytes": 321754,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/indexed_wajo.png",
+      "bytes": 317964,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/muse_check.png",
+      "bytes": 269316,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/muse_code.png",
+      "bytes": 293630,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/muse_setup.png",
+      "bytes": 123736,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/muse_setup_sent.png",
+      "bytes": 143750,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/reply_check.png",
+      "bytes": 290003,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/reply_input.png",
+      "bytes": 308214,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/reply_received.png",
+      "bytes": 344539,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/reply_sent.png",
+      "bytes": 269568,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/sent.png",
+      "bytes": 281300,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/wajo_code.png",
+      "bytes": 211987,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/wajo_setup.png",
+      "bytes": 166757,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/samples/wajo_setup_sent.png",
+      "bytes": 141939,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
+      "path": "work/nanda-video/retake/wajo-setup-contact.png",
+      "bytes": 126843,
+      "reason": "Uncropped retake desktop inspection image"
+    }
+  ],
+  "dependency_cache_file_count": 4554
+}

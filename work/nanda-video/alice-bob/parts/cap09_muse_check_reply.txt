@@ -1,0 +1,5 @@
+file '/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/parts/check_paste.mp4'
+file '/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/parts/check_sent.mp4'
+file '/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/parts/greeting.mp4'
+file '/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/parts/reply_paste.mp4'
+file '/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/parts/reply_sent.mp4'

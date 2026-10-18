@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/render.py intro --duration 11.133333 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/build/edit/work/motion_01_intro.mp4 --beats '{\"muse\": 2.758, \"wajo\": 4.526}'",
+  "key": "6d91672a395727fbcc4693c9",
+  "frames": 334,
+  "path": "build/edit/segments/01_intro.mp4",
+  "seconds": 10.5,
+  "cached": false
+}

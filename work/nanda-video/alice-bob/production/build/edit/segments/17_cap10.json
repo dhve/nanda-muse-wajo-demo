@@ -1,0 +1,13 @@
+{
+  "source_kind": "capture",
+  "source": "../clips/cap10_wajo_reply.mp4",
+  "notes": [
+    "1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s"
+  ],
+  "fit": "fill",
+  "key": "c5bd103aaf4edaf38afe4244",
+  "frames": 446,
+  "path": "build/edit/segments/17_cap10.mp4",
+  "seconds": 3.7,
+  "cached": false
+}

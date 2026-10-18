@@ -1,0 +1,14 @@
+{
+  "source_kind": "capture",
+  "source": "../retake/clips/cap10_wajo_reply.mp4",
+  "notes": [
+    "source ends 0.20 s before the slot needs it, last frame held",
+    "1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s"
+  ],
+  "fit": "fill",
+  "key": "dcfffd7cc292efaff7b4a650",
+  "frames": 457,
+  "path": "build/edit/segments/17_cap10.mp4",
+  "seconds": 1.0,
+  "cached": false
+}

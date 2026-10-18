@@ -1,0 +1,8 @@
+segment endcard key 95d82e09961df378ae612244
+
+$ /opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/motion/render.py endcard --duration 9.500000 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/build/edit/work/motion_19_endcard.mp4 --beats '{"prompt1": 4.035, "prompt2": 4.826, "prompt3": 6.221}'
+endcard: 285 frames (206 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/build/edit/work/motion_19_endcard.mp4 in 1.5s
+[exit 0]
+
+$ /opt/homebrew/bin/ffmpeg -y -v error -i /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/build/edit/work/motion_19_endcard.mp4 -map 0:v:0 -vf fps=30,trim=end_frame=285,setpts=PTS-STARTPTS,tpad=start=7:start_mode=clone:stop=-1:stop_mode=clone,setsar=1 -frames:v 292 -fps_mode cfr -r 30 -an -sn -dn -c:v libx264 -preset medium -crf 14 -pix_fmt yuv420p -profile:v high -colorspace bt709 -color_primaries bt709 -color_trc bt709 -color_range tv /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/build/edit/segments/19_endcard.mp4
+[exit 0]

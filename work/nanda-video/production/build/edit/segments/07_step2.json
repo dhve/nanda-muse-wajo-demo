@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/motion/render.py step --duration 3.000000 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_07_step2.mp4 --param number=2 --param total=5 --param 'title=Verify each email' --param 'subtitle=Send each code back in its app'",
+  "key": "1fdeaafe2b34849ec6fe6849",
+  "frames": 104,
+  "path": "build/edit/segments/07_step2.mp4",
+  "seconds": 1.8,
+  "cached": false
+}

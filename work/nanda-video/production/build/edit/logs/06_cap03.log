@@ -1,0 +1,4 @@
+segment cap03 key 70dc8faf8eff0fe7df00eb7c
+
+$ /opt/homebrew/bin/ffmpeg -y -v error -i /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/retake/clips/cap03_wajo_setup.mp4 -filter_complex '[0:v:0]setpts=PTS+0.000000/TB,fps=30:start_time=0.000000,scale=in_color_matrix=auto:in_range=auto:out_color_matrix=bt709:out_range=tv,format=yuv444p[s0];[s0]setpts=PTS-STARTPTS,scale=1920:1080:flags=lanczos,setsar=1,tpad=start=7:start_mode=clone:stop=-1:stop_mode=clone[g];[g]format=yuv420p[out]' -map '[out]' -frames:v 305 -fps_mode cfr -r 30 -an -sn -dn -c:v libx264 -preset medium -crf 14 -pix_fmt yuv420p -profile:v high -colorspace bt709 -color_primaries bt709 -color_trc bt709 -color_range tv /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/segments/06_cap03.mp4
+[exit 0]

@@ -1,0 +1,15 @@
+{
+  "source": "https://my.nandaindex.org/demo/",
+  "rule": "Preserve the published wording; replace bracketed placeholders only.",
+  "muse_thread": "https://muse.ai/thread/7713257d-c29d-410e-a3fb-cd1a434fe99a",
+  "wajo_thread": "https://wajo.ai/fo/c/55bba6fe-123e-47af-b6fd-b09d90a6d4e8",
+  "setup_template": "Set me up at my.nandaindex.org using [my email].",
+  "muse_setup": "Set me up at my.nandaindex.org using vedhkrishnan+musevideooct14@gmail.com.",
+  "wajo_setup": "Set me up at my.nandaindex.org using vedhkrishnan+wajovideooct14@gmail.com.",
+  "verification_template": "My code is [six-digit code].",
+  "discovery_template": "Find [Muse’s agent address] on NANDA and say hello.",
+  "discovery": "Find vedhkrishnanmusevideooct14gmailcom@agentboxnanda.org on NANDA and say hello.",
+  "muse_check": "Check my Agent Box.",
+  "muse_reply": "Reply: Hello back!",
+  "wajo_check": "Check for replies in my Agent Box."
+}

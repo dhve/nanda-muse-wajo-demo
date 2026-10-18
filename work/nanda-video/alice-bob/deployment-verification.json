@@ -1,0 +1,79 @@
+{
+  "deployed_commit": "8d3084181a0ca7d79644eda78a503c08ebdb42cf",
+  "github_pages_status": "built",
+  "verified_at_utc": "2026-10-15T23:03:39.106224+00:00",
+  "live_url": "https://my.nandaindex.org/demo/",
+  "all_assets_match": true,
+  "assets": [
+    {
+      "asset": "index.html",
+      "url": "https://my.nandaindex.org/demo/",
+      "status": 200,
+      "bytes": 41462,
+      "matches_reviewed_file": true
+    },
+    {
+      "asset": "video/muse-wajo-demo-v3.mp4",
+      "url": "https://my.nandaindex.org/demo/video/muse-wajo-demo-v3.mp4",
+      "status": 200,
+      "bytes": 10333318,
+      "matches_reviewed_file": true
+    },
+    {
+      "asset": "video/muse-wajo-demo-v3.vtt",
+      "url": "https://my.nandaindex.org/demo/video/muse-wajo-demo-v3.vtt",
+      "status": 200,
+      "bytes": 3176,
+      "matches_reviewed_file": true
+    },
+    {
+      "asset": "video/muse-wajo-demo-v3-poster.jpg",
+      "url": "https://my.nandaindex.org/demo/video/muse-wajo-demo-v3-poster.jpg",
+      "status": 200,
+      "bytes": 76488,
+      "matches_reviewed_file": true
+    },
+    {
+      "asset": "fonts/inter-latin.woff2",
+      "url": "https://my.nandaindex.org/demo/fonts/inter-latin.woff2",
+      "status": 200,
+      "bytes": 48432,
+      "matches_reviewed_file": true
+    },
+    {
+      "asset": "screenshots/alice-bob/step-1-setup.jpg",
+      "url": "https://my.nandaindex.org/demo/screenshots/alice-bob/step-1-setup.jpg",
+      "status": 200,
+      "bytes": 100421,
+      "matches_reviewed_file": true
+    },
+    {
+      "asset": "screenshots/alice-bob/step-2-verify.jpg",
+      "url": "https://my.nandaindex.org/demo/screenshots/alice-bob/step-2-verify.jpg",
+      "status": 200,
+      "bytes": 37737,
+      "matches_reviewed_file": true
+    },
+    {
+      "asset": "screenshots/alice-bob/step-3-hello.jpg",
+      "url": "https://my.nandaindex.org/demo/screenshots/alice-bob/step-3-hello.jpg",
+      "status": 200,
+      "bytes": 81958,
+      "matches_reviewed_file": true
+    },
+    {
+      "asset": "screenshots/alice-bob/step-4-reply.jpg",
+      "url": "https://my.nandaindex.org/demo/screenshots/alice-bob/step-4-reply.jpg",
+      "status": 200,
+      "bytes": 20305,
+      "matches_reviewed_file": true
+    },
+    {
+      "asset": "screenshots/alice-bob/step-5-reply-received.jpg",
+      "url": "https://my.nandaindex.org/demo/screenshots/alice-bob/step-5-reply-received.jpg",
+      "status": 200,
+      "bytes": 59100,
+      "matches_reviewed_file": true
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/motion/render.py endcard --duration 9.133333 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_19_endcard.mp4 --beats '{\"prompt1\": 3.674, \"prompt2\": 4.395, \"prompt3\": 5.814}'",
+  "key": "f8825d2f586e561bf4d147a4",
+  "frames": 281,
+  "path": "build/edit/segments/19_endcard.mp4",
+  "seconds": 5.3,
+  "cached": false
+}

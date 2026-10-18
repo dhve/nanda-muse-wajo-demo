@@ -1,0 +1,74 @@
+[
+  {
+    "name": "intro",
+    "out": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/intro.mp4",
+    "frames": 334,
+    "unique_frames": 205,
+    "duration": 11.133333333333333,
+    "render_seconds": 8.4
+  },
+  {
+    "name": "roles",
+    "out": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/roles.mp4",
+    "frames": 368,
+    "unique_frames": 305,
+    "duration": 12.266666666666667,
+    "render_seconds": 10.1
+  },
+  {
+    "name": "step1",
+    "out": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/step1.mp4",
+    "frames": 90,
+    "unique_frames": 27,
+    "duration": 3.0,
+    "render_seconds": 1.7
+  },
+  {
+    "name": "step2",
+    "out": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/step2.mp4",
+    "frames": 90,
+    "unique_frames": 27,
+    "duration": 3.0,
+    "render_seconds": 1.7
+  },
+  {
+    "name": "step3",
+    "out": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/step3.mp4",
+    "frames": 90,
+    "unique_frames": 27,
+    "duration": 3.0,
+    "render_seconds": 1.5
+  },
+  {
+    "name": "step4",
+    "out": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/step4.mp4",
+    "frames": 90,
+    "unique_frames": 27,
+    "duration": 3.0,
+    "render_seconds": 1.5
+  },
+  {
+    "name": "step5",
+    "out": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/step5.mp4",
+    "frames": 90,
+    "unique_frames": 27,
+    "duration": 3.0,
+    "render_seconds": 1.5
+  },
+  {
+    "name": "closing",
+    "out": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/closing.mp4",
+    "frames": 504,
+    "unique_frames": 408,
+    "duration": 16.8,
+    "render_seconds": 13.3
+  },
+  {
+    "name": "endcard",
+    "out": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/out/endcard.mp4",
+    "frames": 273,
+    "unique_frames": 193,
+    "duration": 9.1,
+    "render_seconds": 4.5
+  }
+]

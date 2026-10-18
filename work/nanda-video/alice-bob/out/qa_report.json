@@ -1,0 +1,278 @@
+{
+  "output": "../out/muse-wajo-demo-v3.mp4",
+  "mode": "final",
+  "created": "2026-10-15 15:49:46",
+  "overall": "PASS",
+  "counts": {
+    "PASS": 19,
+    "WARN": 0,
+    "FAIL": 0,
+    "SKIP": 0
+  },
+  "seconds": 11.4,
+  "checks": [
+    {
+      "name": "edl_timeline",
+      "status": "PASS",
+      "detail": "19 contiguous segments, 5355 frames, 17 crossfades, 1 cut",
+      "data": {
+        "frames": 5355,
+        "narration_frames": 5355.294
+      }
+    },
+    {
+      "name": "manifest",
+      "status": "PASS",
+      "detail": "manifest matches the current EDL",
+      "data": {
+        "manifest": "../out/muse-wajo-demo-v3.manifest.json"
+      }
+    },
+    {
+      "name": "duration",
+      "status": "PASS",
+      "detail": "file 178.500 s (max 180), video 5355 frames = 178.500 s, narration 178.510 s, difference -9.8 ms, expected 5355 frames",
+      "data": {
+        "file_s": 178.5,
+        "video_frames": 5355,
+        "narration_s": 178.509813
+      }
+    },
+    {
+      "name": "video_stream",
+      "status": "PASS",
+      "detail": "h264 High 1920x1080 yuv420p 30 fps CFR, BT.709 tv",
+      "data": {
+        "stream": {
+          "index": 0,
+          "codec_name": "h264",
+          "profile": "High",
+          "codec_type": "video",
+          "width": 1920,
+          "height": 1080,
+          "pix_fmt": "yuv420p",
+          "color_range": "tv",
+          "color_space": "bt709",
+          "color_transfer": "bt709",
+          "color_primaries": "bt709",
+          "r_frame_rate": "30/1",
+          "avg_frame_rate": "30/1",
+          "duration": "178.500000",
+          "bit_rate": "257105",
+          "tags": {
+            "language": "und"
+          }
+        }
+      }
+    },
+    {
+      "name": "audio_stream",
+      "status": "PASS",
+      "detail": "aac 48 kHz stereo, 197 kb/s",
+      "data": {
+        "stream": {
+          "index": 1,
+          "codec_name": "aac",
+          "profile": "LC",
+          "codec_type": "audio",
+          "sample_rate": "48000",
+          "channels": 2,
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "178.496000",
+          "bit_rate": "196994",
+          "tags": {
+            "language": "eng"
+          }
+        }
+      }
+    },
+    {
+      "name": "subtitle_stream",
+      "status": "PASS",
+      "detail": "mov_text (eng)",
+      "data": {
+        "stream": {
+          "index": 2,
+          "codec_name": "mov_text",
+          "codec_type": "subtitle",
+          "r_frame_rate": "0/0",
+          "avg_frame_rate": "0/0",
+          "duration": "176.142000",
+          "bit_rate": "85",
+          "tags": {
+            "language": "eng"
+          }
+        }
+      }
+    },
+    {
+      "name": "decode",
+      "status": "PASS",
+      "detail": "no decoder errors (0.9 s)",
+      "data": {}
+    },
+    {
+      "name": "captions",
+      "status": "PASS",
+      "detail": "42 cues, no 'nanda', no em or en dashes; sidecar srt identical, vtt and embedded mov_text match",
+      "data": {
+        "cues": 42,
+        "issues": []
+      }
+    },
+    {
+      "name": "narration_text",
+      "status": "PASS",
+      "detail": "../narration.txt clean",
+      "data": {}
+    },
+    {
+      "name": "onscreen_text",
+      "status": "PASS",
+      "detail": "no em or en dashes in 186 EDL strings or 20 motion scene strings",
+      "data": {
+        "issues": []
+      }
+    },
+    {
+      "name": "placeholders",
+      "status": "PASS",
+      "detail": "0 capture placeholders, 0 motion stubs",
+      "data": {
+        "placeholders": [],
+        "stubs": [],
+        "prerendered": []
+      }
+    },
+    {
+      "name": "evidence",
+      "status": "PASS",
+      "detail": "every required tag has footage",
+      "data": {
+        "files": {
+          "setup": [
+            "cap01:../clips/cap01_guide_copy.mp4",
+            "cap02:../clips/cap02_muse_setup.mp4",
+            "cap03:../clips/cap03_wajo_setup.mp4",
+            "cap04:../clips/cap04_code_entry.mp4",
+            "cap05:../clips/cap05_muse_connect.mp4"
+          ],
+          "verification": [
+            "cap04:../clips/cap04_code_entry.mp4"
+          ],
+          "connection": [
+            "cap05:../clips/cap05_muse_connect.mp4"
+          ],
+          "indexed": [
+            "cap06:../clips/cap06_indexed_address.mp4"
+          ],
+          "agent_box_address": [
+            "cap06:../clips/cap06_indexed_address.mp4"
+          ],
+          "discovery_listing": [
+            "cap07:../clips/cap07_index_search.mp4"
+          ],
+          "discovery_lookup": [
+            "cap08:../clips/cap08_wajo_hello.mp4"
+          ],
+          "greeting_sent": [
+            "cap08:../clips/cap08_wajo_hello.mp4"
+          ],
+          "greeting_received": [
+            "cap09:../clips/cap09_muse_check_reply.mp4"
+          ],
+          "reply_sent": [
+            "cap09:../clips/cap09_muse_check_reply.mp4"
+          ],
+          "reply_received": [
+            "cap10:../clips/cap10_wajo_reply.mp4"
+          ]
+        },
+        "missing": [],
+        "uncovered": []
+      }
+    },
+    {
+      "name": "privacy",
+      "status": "PASS",
+      "detail": "all privacy checks done",
+      "data": {
+        "redact_boxes": {
+          "cap01": 0,
+          "cap02": 0,
+          "cap03": 0,
+          "cap04": 0,
+          "cap05": 0,
+          "cap06": 0,
+          "cap07": 0,
+          "cap08": 0,
+          "cap09": 0,
+          "cap10": 0
+        }
+      }
+    },
+    {
+      "name": "narration_source",
+      "status": "PASS",
+      "detail": "md5 fd0c27813d4ba1aa4a63f5e7d7451868",
+      "data": {}
+    },
+    {
+      "name": "narration_match",
+      "status": "PASS",
+      "detail": "lag 0 samples, correlation 0.99997, gain -0.009 dB, residual -42.3 dB, left minus right -71.5 dB, length -13.8 ms",
+      "data": {
+        "lag_samples": 0,
+        "correlation": 0.9999708673446955,
+        "gain_db": -0.00857787799002685,
+        "residual_db": -42.27813725190896,
+        "left_minus_right_db": -71.5217963550946,
+        "length_diff_ms": -13.8125
+      }
+    },
+    {
+      "name": "loudness",
+      "status": "PASS",
+      "detail": "output -14.1 LUFS (source as dual mono -14.1 LUFS, difference +0.00 LU), true peak -1.4 dBTP (source -1.5), LRA 6.2 LU",
+      "data": {
+        "output": {
+          "integrated_lufs": -14.1,
+          "lra_lu": 6.2,
+          "true_peak_dbtp": -1.4
+        },
+        "source_dualmono": {
+          "integrated_lufs": -14.1,
+          "lra_lu": 6.2,
+          "true_peak_dbtp": -1.5
+        }
+      }
+    },
+    {
+      "name": "silence",
+      "status": "PASS",
+      "detail": "longest silent gap 3.61 s at 102.50 s (40 gaps of 0.3 s or more below -50 dBFS)",
+      "data": {
+        "longest_s": 3.6087289999999967,
+        "at_s": 102.497708,
+        "gaps": 40
+      }
+    },
+    {
+      "name": "spoken_words",
+      "status": "PASS",
+      "detail": "no nanda-like word heard; 301 words, 91% word match to narration.txt (4 s)",
+      "data": {
+        "hits": [],
+        "similarity": 0.9135399673735726,
+        "transcript": "/Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/build/edit/qa/whisper_muse-wajo-demo-v3.txt"
+      }
+    },
+    {
+      "name": "contact_sheet",
+      "status": "PASS",
+      "detail": "../out/contact_sheet.png",
+      "data": {}
+    }
+  ]
+}

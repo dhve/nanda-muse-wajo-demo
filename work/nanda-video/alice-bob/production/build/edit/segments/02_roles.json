@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/motion/render.py roles --duration 12.766667 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/build/edit/work/motion_02_roles.mp4 --beats '{\"agent_box\": 5.326, \"address\": 6.419, \"hop\": 7.326, \"own_app\": 9.419}'",
+  "key": "26ec6f48bfe5af3e58355386",
+  "frames": 390,
+  "path": "build/edit/segments/02_roles.mp4",
+  "seconds": 3.3,
+  "cached": false
+}

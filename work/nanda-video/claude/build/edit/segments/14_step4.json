@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/motion/render.py step --duration 3.000000 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/claude/build/edit/work/motion_14_step4.mp4 --param number=4 --param total=5 --param 'title=Read and reply in Muse' --param 'subtitle=Wajo → Muse'",
+  "key": "2f6fffc26de8632e671fd735",
+  "frames": 104,
+  "path": "build/edit/segments/14_step4.mp4",
+  "seconds": 7.9,
+  "cached": false
+}

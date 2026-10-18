@@ -1,0 +1,14 @@
+{
+  "source_kind": "capture",
+  "source": "../retake/clips/cap05_muse_connect.mp4",
+  "notes": [
+    "source ends 0.23 s before the slot needs it, last frame held",
+    "1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s"
+  ],
+  "fit": "fill",
+  "key": "2964c9b39b296d975e4a8cb2",
+  "frames": 352,
+  "path": "build/edit/segments/09_cap05.mp4",
+  "seconds": 0.8,
+  "cached": false
+}

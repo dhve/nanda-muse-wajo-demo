@@ -1,0 +1,8 @@
+segment closing key c498a4516567c1d1e96a346e
+
+$ /opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/motion/render.py closing --duration 16.800000 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_18_closing.mp4 --beats '{"agent_box": 5.918}'
+closing: 504 frames (408 unique) -> /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_18_closing.mp4 in 2.9s
+[exit 0]
+
+$ /opt/homebrew/bin/ffmpeg -y -v error -i /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/work/motion_18_closing.mp4 -map 0:v:0 -vf fps=30,trim=end_frame=504,setpts=PTS-STARTPTS,tpad=start=7:start_mode=clone:stop=-1:stop_mode=clone,setsar=1 -frames:v 518 -fps_mode cfr -r 30 -an -sn -dn -c:v libx264 -preset medium -crf 14 -pix_fmt yuv420p -profile:v high -colorspace bt709 -color_primaries bt709 -color_trc bt709 -color_range tv /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/production/build/edit/segments/18_closing.mp4
+[exit 0]

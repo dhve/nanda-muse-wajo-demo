@@ -1,0 +1,244 @@
+[
+  {
+    "file": "cap01_guide_copy.mp4",
+    "source": "native01.mov",
+    "duration": 7,
+    "crop": [
+      50,
+      330,
+      670,
+      600
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  },
+  {
+    "file": "cap02_muse_setup.mp4",
+    "source": "native02.mov",
+    "duration": 7,
+    "crop": [
+      352,
+      178,
+      1352,
+      832
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  },
+  {
+    "file": "cap03_wajo_setup.mp4",
+    "source": "native03.mov",
+    "duration": 11,
+    "crop": [
+      665,
+      230,
+      850,
+      370
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  },
+  {
+    "file": "cap04_code_entry.mp4",
+    "source": "native04.mov",
+    "duration": 9,
+    "crop": [
+      50,
+      208,
+      670,
+      360
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  },
+  {
+    "file": "cap05_muse_connect.mp4",
+    "source": "native05.mov",
+    "duration": 13,
+    "crop": [
+      542,
+      414,
+      976,
+      364
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  },
+  {
+    "file": "cap06_indexed_address.mp4",
+    "source": "native06.mov",
+    "duration": 19,
+    "crop": [
+      300,
+      216,
+      1230,
+      350
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  },
+  {
+    "file": "cap07_index_search.mp4",
+    "source": "native07.mov",
+    "duration": 12,
+    "crop": [
+      610,
+      464,
+      1400,
+      278
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  },
+  {
+    "file": "cap08_prompt_part.mp4",
+    "source": "native08prompt.mov",
+    "duration": 4.7,
+    "crop": [
+      50,
+      420,
+      670,
+      500
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  },
+  {
+    "file": "cap08_sent_part.mp4",
+    "source": "native08sent.mov",
+    "duration": 7.0,
+    "crop": [
+      430,
+      140,
+      1330,
+      495
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  },
+  {
+    "file": "cap09_muse_check_reply.mp4",
+    "source": "native09.mov",
+    "duration": 11,
+    "crop": [
+      380,
+      310,
+      1230,
+      550
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  },
+  {
+    "file": "cap10_wajo_reply.mp4",
+    "source": "native10.mov",
+    "duration": 16,
+    "crop": [
+      430,
+      248,
+      1326,
+      470
+    ],
+    "recording": "macOS screencapture, actual system cursor included",
+    "region_points": [
+      0,
+      126,
+      1029,
+      534
+    ],
+    "source_pixels": [
+      2058,
+      1068
+    ]
+  }
+]

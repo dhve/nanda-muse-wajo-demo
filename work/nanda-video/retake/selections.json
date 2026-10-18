@@ -1,0 +1,407 @@
+{
+  "recording": "Native macOS screencapture with actual system cursor",
+  "region_points": [
+    0,
+    126,
+    1029,
+    534
+  ],
+  "source_pixels": [
+    2058,
+    1068
+  ],
+  "retake_note": "Two composer close-ups repeat the exact prompt insertion without re-sending. Matching real submissions and results were recorded in the same completed conversations. No app UI or cursor is synthesized.",
+  "clips": {
+    "cap02_muse_setup": [
+      {
+        "name": "muse_setup_paste",
+        "source": "r2_muse_setup.mov",
+        "start": 10.3,
+        "duration": 4.8,
+        "crop": [
+          645,
+          872,
+          1390,
+          178
+        ],
+        "app": "Muse",
+        "title": "Paste the setup prompt",
+        "note": "Replace [my email] with your email address.",
+        "step": 1
+      },
+      {
+        "name": "muse_setup_sent",
+        "source": "r2_muse_setup.mov",
+        "start": 16.2,
+        "duration": 3.293,
+        "crop": [
+          950,
+          590,
+          1070,
+          160
+        ],
+        "app": "Muse",
+        "title": "Send it to Muse",
+        "note": "The agent follows SKILL.MD.",
+        "step": 1
+      }
+    ],
+    "cap03_wajo_setup": [
+      {
+        "name": "wajo_setup_paste",
+        "source": "r2_wajo_setup.mov",
+        "start": 6.4,
+        "duration": 5.0,
+        "crop": [
+          428,
+          377,
+          1300,
+          280
+        ],
+        "app": "Wajo",
+        "title": "Paste the same setup prompt",
+        "note": "Use a different email address or alias.",
+        "step": 1
+      },
+      {
+        "name": "wajo_setup_sent",
+        "source": "r2_wajo_setup.mov",
+        "start": 15.4,
+        "duration": 4.698,
+        "crop": [
+          680,
+          115,
+          1050,
+          160
+        ],
+        "app": "Wajo",
+        "title": "Send it to Wajo",
+        "note": "Each agent gets its own Agent Box.",
+        "step": 1
+      }
+    ],
+    "cap04_code_entry": [
+      {
+        "name": "muse_code",
+        "source": "r2_muse_code_send.mov",
+        "start": 9,
+        "duration": 3.773,
+        "crop": [
+          1648,
+          628,
+          380,
+          126
+        ],
+        "app": "Muse",
+        "title": "Return the code to the same chat",
+        "note": "Verification code hidden.",
+        "step": 2,
+        "redactions": [
+          [
+            1854,
+            672,
+            124,
+            40
+          ]
+        ]
+      },
+      {
+        "name": "wajo_code",
+        "source": "r2_wajo_code.mov",
+        "start": 7.3,
+        "duration": 3.773,
+        "crop": [
+          430,
+          844,
+          1300,
+          124
+        ],
+        "app": "Wajo",
+        "title": "Return its own code to Wajo",
+        "note": "Verification code hidden.",
+        "step": 2,
+        "redactions": [
+          [
+            718,
+            880,
+            118,
+            54
+          ]
+        ]
+      }
+    ],
+    "cap05_muse_connect": [
+      {
+        "name": "connect",
+        "source": "r2_muse_connect.mov",
+        "start": 10.5,
+        "duration": 2.6,
+        "crop": [
+          665,
+          350,
+          535,
+          230
+        ],
+        "app": "Muse",
+        "title": "Connect Agent Box",
+        "note": "Follow the connection steps in Muse.",
+        "step": 2
+      },
+      {
+        "name": "continue",
+        "source": "r2_muse_connect.mov",
+        "start": 22,
+        "duration": 1.8,
+        "crop": [
+          550,
+          880,
+          956,
+          80
+        ],
+        "app": "Muse",
+        "title": "Continue to the secure field",
+        "note": "Connect, Continue, API key, Add",
+        "step": 2
+      },
+      {
+        "name": "api_empty",
+        "source": "r2_muse_connect.mov",
+        "start": 35.1,
+        "duration": 3.2,
+        "crop": [
+          520,
+          334,
+          1022,
+          402
+        ],
+        "app": "Muse",
+        "title": "Paste the credential securely",
+        "note": "Use the API key field.",
+        "step": 2
+      },
+      {
+        "name": "api_filled",
+        "source": "r2_muse_connect.mov",
+        "start": 37.6,
+        "duration": 3.651,
+        "crop": [
+          520,
+          334,
+          1022,
+          402
+        ],
+        "app": "Muse",
+        "title": "Add the connection",
+        "note": "Keep the credential private.",
+        "step": 2,
+        "hold": true
+      }
+    ],
+    "cap06_indexed_address": [
+      {
+        "name": "wajo_indexed",
+        "source": "r2_wajo_indexed.mov",
+        "start": 1,
+        "duration": 4.5,
+        "crop": [
+          430,
+          558,
+          1300,
+          208
+        ],
+        "app": "Wajo",
+        "title": "Wait until both agents are indexed",
+        "note": "Wajo is listed.",
+        "step": 3
+      },
+      {
+        "name": "muse_indexed",
+        "source": "r2_muse_indexed.mov",
+        "start": 0.5,
+        "duration": 13.33,
+        "crop": [
+          666,
+          544,
+          1150,
+          270
+        ],
+        "app": "Muse",
+        "title": "Copy the Muse agent\u2019s address",
+        "note": "Use the public Agent Box address.",
+        "step": 3
+      }
+    ],
+    "cap07_index_search": [
+      {
+        "name": "index_results",
+        "source": "r2_index_results.mov",
+        "start": 0,
+        "duration": 10.098,
+        "crop": [
+          55,
+          280,
+          1948,
+          260
+        ],
+        "app": "NANDA Index",
+        "title": "You can also search manually",
+        "note": "nandaindex.org \u00b7 Search for your indexed agents.",
+        "step": 3,
+        "light": true
+      }
+    ],
+    "cap08_wajo_hello": [
+      {
+        "name": "find_blank",
+        "source": "r3_wajo_find_paste.mov",
+        "start": 6.0,
+        "duration": 0.8,
+        "crop": [
+          430,
+          844,
+          1300,
+          128
+        ],
+        "app": "Wajo",
+        "title": "Find the Muse agent and say hello",
+        "note": "Replace [Muse\u2019s agent address] with the address you copied.",
+        "step": 3,
+        "retake": true
+      },
+      {
+        "name": "find_paste",
+        "source": "r3_wajo_find_paste.mov",
+        "start": 7.9,
+        "duration": 4.6,
+        "crop": [
+          430,
+          702,
+          1300,
+          270
+        ],
+        "app": "Wajo",
+        "title": "Find the Muse agent and say hello",
+        "note": "Replace [Muse\u2019s agent address] with the address you copied.",
+        "step": 3,
+        "retake": true
+      },
+      {
+        "name": "greeting_sent",
+        "source": "r2_wajo_sent.mov",
+        "start": 0.7,
+        "duration": 5.666,
+        "crop": [
+          430,
+          130,
+          1300,
+          505
+        ],
+        "app": "Wajo",
+        "title": "Greeting sent",
+        "note": "Discovered through NANDA Index. Sent through Agent Box.",
+        "step": 3
+      }
+    ],
+    "cap09_muse_check_reply": [
+      {
+        "name": "check_paste",
+        "source": "r3_muse_check_paste.mov",
+        "start": 6.3,
+        "duration": 5.2,
+        "crop": [
+          650,
+          915,
+          1380,
+          130
+        ],
+        "app": "Muse",
+        "title": "Check for the greeting",
+        "note": "Paste the prompt from the guide.",
+        "step": 4,
+        "retake": true
+      },
+      {
+        "name": "greeting_received",
+        "source": "r2_muse_reply.mov",
+        "start": 1.4,
+        "duration": 3.233,
+        "crop": [
+          668,
+          440,
+          1145,
+          230
+        ],
+        "app": "Muse",
+        "title": "The greeting arrives",
+        "note": "Wajo to Muse",
+        "step": 4
+      },
+      {
+        "name": "reply_paste",
+        "source": "r2_muse_reply_prompt.mov",
+        "start": 5.4,
+        "duration": 3.0,
+        "crop": [
+          650,
+          915,
+          1380,
+          130
+        ],
+        "app": "Muse",
+        "title": "Reply with \u201cHello back!\u201d",
+        "note": "Use the same reply prompt from the guide.",
+        "step": 4
+      },
+      {
+        "name": "reply_sent",
+        "source": "r2_muse_confirm.mov",
+        "start": 1,
+        "duration": 3.544,
+        "crop": [
+          650,
+          630,
+          1380,
+          238
+        ],
+        "app": "Muse",
+        "title": "Reply sent",
+        "note": "Muse to Wajo",
+        "step": 4
+      }
+    ],
+    "cap10_wajo_reply": [
+      {
+        "name": "reply_check",
+        "source": "r2_wajo_reply_check.mov",
+        "start": 9.3,
+        "duration": 3.0,
+        "crop": [
+          430,
+          844,
+          1300,
+          128
+        ],
+        "app": "Wajo",
+        "title": "Check for replies",
+        "note": "Paste the final prompt from the guide.",
+        "step": 5
+      },
+      {
+        "name": "reply_received",
+        "source": "r2_wajo_received.mov",
+        "start": 0.8,
+        "duration": 11.787,
+        "crop": [
+          430,
+          272,
+          1300,
+          500
+        ],
+        "app": "Wajo",
+        "title": "\u201cHello back!\u201d has arrived",
+        "note": "Messages now go in both directions.",
+        "step": 5
+      }
+    ]
+  }
+}

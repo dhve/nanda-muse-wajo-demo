@@ -1,0 +1,14 @@
+{
+  "source_kind": "capture",
+  "source": "../retake/clips/cap07_index_search.mp4",
+  "notes": [
+    "source ends 0.23 s before the slot needs it, last frame held",
+    "1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s"
+  ],
+  "fit": "fill",
+  "key": "5999f3ccfd449bf32d543f34",
+  "frames": 317,
+  "path": "build/edit/segments/12_cap07.mp4",
+  "seconds": 1.0,
+  "cached": false
+}

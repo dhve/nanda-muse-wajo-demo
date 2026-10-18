@@ -1,0 +1,13 @@
+{
+  "source_kind": "capture",
+  "source": "../captures/cap01_guide_copy.mp4",
+  "notes": [
+    "670x600 source, crop 670x600 at 0,0, fit frame, src_in 0.000 s"
+  ],
+  "fit": "frame",
+  "key": "89978f238ec15bea70b28277",
+  "frames": 152,
+  "path": "build/edit/segments/04_cap01.mp4",
+  "seconds": 1.2,
+  "cached": false
+}

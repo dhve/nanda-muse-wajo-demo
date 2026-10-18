@@ -1,0 +1,67 @@
+EDL ../edit-v3.json: 19 segments, 5355 frames = 178.500 s (narration 178.510 s = 5355.29 frames), mode final
+ #  id       kind     source                   start      end     dur frames  in/out transition in  detail
+01  intro    motion   render.py                0.000   12.676  12.676    380   0/0   start          intro  beats muse@1.85, wajo@3.2
+02  roles    motion   render.py               12.676   25.428  12.751    383   0/7   cut            roles  beats agent_box@5.326, address@6.419, hop@7.326, own_app@9.419
+03  step1    motion   render.py               25.428   28.428   3.000     90   7/7   xfade 0.5s     step 1: Set up both agents
+04  cap01    capture  capture file            28.428   32.660   4.233    127   7/7   xfade 0.5s     ../clips/cap01_guide_copy.mp4
+05  cap02    capture  capture file            32.660   38.556   5.895    177   7/7   xfade 0.5s     ../clips/cap02_muse_setup.mp4
+06  cap03    capture  capture file            38.556   51.011  12.455    373   7/7   xfade 0.5s     ../clips/cap03_wajo_setup.mp4
+07  step2    motion   render.py               51.011   54.011   3.000     90   7/7   xfade 0.5s     step 2: Verify each email
+08  cap04    capture  capture file            54.011   61.790   7.779    234   7/7   xfade 0.5s     ../clips/cap04_code_entry.mp4
+09  cap05    capture  capture file            61.790   73.739  11.949    358   7/7   xfade 0.5s     ../clips/cap05_muse_connect.mp4
+10  step3    motion   render.py               73.739   76.739   3.000     90   7/7   xfade 0.5s     step 3: Find Alice's agent
+11  cap06    capture  capture file            76.739   95.544  18.805    564   7/7   xfade 0.5s     ../clips/cap06_indexed_address.mp4
+12  cap07    capture  capture file            95.544  105.498   9.954    299   7/7   xfade 0.5s     ../clips/cap07_index_search.mp4
+13  cap08    capture  capture file           105.498  116.581  11.083    332   7/7   xfade 0.5s     ../clips/cap08_wajo_hello.mp4
+14  step4    motion   render.py              116.581  119.581   3.000     90   7/7   xfade 0.5s     step 4: Alice reads and replies
+15  cap09    capture  capture file           119.581  134.473  14.892    447   7/7   xfade 0.5s     ../clips/cap09_muse_check_reply.mp4
+16  step5    motion   render.py              134.473  137.473   3.000     90   7/7   xfade 0.5s     step 5: Bob sees the reply
+17  cap10    capture  capture file           137.473  151.874  14.401    432   7/7   xfade 0.5s     ../clips/cap10_wajo_reply.mp4
+18  closing  motion   render.py              151.874  169.010  17.136    514   7/7   xfade 0.5s     closing  beats agent_box@6
+19  endcard  motion   render.py              169.010  178.510   9.500    285   7/0   xfade 0.5s     endcard  beats prompt1@4.035, prompt2@4.826, prompt3@6.221
+Placeholders: 0 captures, 0 motion stubs (before render).
+Rendering 19 segment(s) into build/edit/segments ...
+  01 intro    motion_render          380 frames  cached
+  03 step1    motion_render          104 frames  cached
+  02 roles    motion_render          390 frames  cached
+  04 cap01    capture                141 frames  2.0 s
+       note: 1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s
+  07 step2    motion_render          104 frames  cached
+  05 cap02    capture                191 frames  2.3 s
+       note: 1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s
+  06 cap03    capture                387 frames  3.9 s
+       note: 1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s
+  10 step3    motion_render          104 frames  cached
+  08 cap04    capture                248 frames  2.8 s
+       note: 1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s
+  09 cap05    capture                372 frames  3.9 s
+       note: 1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s
+  12 cap07    capture                313 frames  4.1 s
+       note: 1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s
+  14 step4    motion_render          104 frames  cached
+  11 cap06    capture                578 frames  6.0 s
+       note: 1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s
+  16 step5    motion_render          104 frames  cached
+  13 cap08    capture                346 frames  4.3 s
+       note: 1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s
+  18 closing  motion_render          528 frames  cached
+  19 endcard  motion_render          292 frames  cached
+  15 cap09    capture                461 frames  4.4 s
+       note: 1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s
+  17 cap10    capture                446 frames  3.7 s
+       note: 1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s
+Joining 5355 frames into ../out/muse-wajo-demo-v3.mp4 ...
+  join 1/5355 frames ( 0.0%),     0 s
+  join 601/5355 frames (11.2%),     3 s
+  join 1201/5355 frames (22.4%),     6 s
+  join 1801/5355 frames (33.6%),     9 s
+  join 2401/5355 frames (44.8%),    12 s
+  join 3001/5355 frames (56.0%),    15 s
+  join 3601/5355 frames (67.2%),    18 s
+  join 4201/5355 frames (78.5%),    21 s
+  join 4801/5355 frames (89.7%),    24 s
+  join 5355/5355 frames (100.0%),    26 s
+Done in 27 s: ../out/muse-wajo-demo-v3.mp4 (5355 frames, 178.500 s), 0 placeholders, 0 stubs.
+Sidecars: ../out/muse-wajo-demo-v3.srt, ../out/muse-wajo-demo-v3.vtt, ../out/muse-wajo-demo-v3.manifest.json
+Next: python3 edit/qa.py ../out/muse-wajo-demo-v3.mp4 --mode final
+assemble exit 0

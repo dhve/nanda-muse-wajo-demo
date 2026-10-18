@@ -1,0 +1,11 @@
+{
+  "source_kind": "motion_render",
+  "source": "motion/render.py",
+  "notes": [],
+  "command": "/opt/homebrew/bin/python3 /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/motion/render.py step --duration 3.000000 --out /Users/admin/Documents/Codex/2026-10-14/giv/work/nanda-video/alice-bob/production/build/edit/work/motion_10_step3.mp4 --param number=3 --param total=5 --param 'title=Find Alice'\\''s agent' --param 'subtitle=Bob sends from Wajo'",
+  "key": "7d58072f54762794595d87e3",
+  "frames": 104,
+  "path": "build/edit/segments/10_step3.mp4",
+  "seconds": 0.9,
+  "cached": false
+}

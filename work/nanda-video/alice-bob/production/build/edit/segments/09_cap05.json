@@ -1,0 +1,13 @@
+{
+  "source_kind": "capture",
+  "source": "../clips/cap05_muse_connect.mp4",
+  "notes": [
+    "1920x1080 source, crop 1920x1080 at 0,0, fit fill, src_in 0.000 s"
+  ],
+  "fit": "fill",
+  "key": "2ebdb6512256642a39c6e2f4",
+  "frames": 372,
+  "path": "build/edit/segments/09_cap05.mp4",
+  "seconds": 3.9,
+  "cached": false
+}

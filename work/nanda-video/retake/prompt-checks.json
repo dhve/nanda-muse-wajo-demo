@@ -1,0 +1,58 @@
+[
+  {
+    "prompt": "muse_setup",
+    "ocr_exact_match": true,
+    "visually_verified_exact": true
+  },
+  {
+    "prompt": "wajo_setup",
+    "ocr_exact_match": true,
+    "visually_verified_exact": true
+  },
+  {
+    "prompt": "discovery",
+    "ocr_exact_match": false,
+    "visually_verified_exact": true,
+    "note": "Compared the rendered frame with the published template and the actual app text. OCR omitted the long address or confused the insertion caret with punctuation."
+  },
+  {
+    "prompt": "muse_check",
+    "ocr_exact_match": false,
+    "visually_verified_exact": true,
+    "note": "Compared the rendered frame with the published template and the actual app text. OCR omitted the long address or confused the insertion caret with punctuation."
+  },
+  {
+    "prompt": "muse_reply",
+    "ocr_exact_match": true,
+    "visually_verified_exact": true
+  },
+  {
+    "prompt": "wajo_check",
+    "ocr_exact_match": true,
+    "visually_verified_exact": true
+  },
+  {
+    "frame": "muse_code-start",
+    "six_digit_code_visible": false
+  },
+  {
+    "frame": "muse_code-mid",
+    "six_digit_code_visible": false
+  },
+  {
+    "frame": "muse_code-end",
+    "six_digit_code_visible": false
+  },
+  {
+    "frame": "wajo_code-start",
+    "six_digit_code_visible": false
+  },
+  {
+    "frame": "wajo_code-mid",
+    "six_digit_code_visible": false
+  },
+  {
+    "frame": "wajo_code-end",
+    "six_digit_code_visible": false
+  }
+]

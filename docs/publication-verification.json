@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-17",
+  "source_files_verified": 957,
+  "source_bytes": 415307965,
+  "copied_file_hashes_match_originals": true,
+  "guide_checks_passed": 21,
+  "canonical_prompts_match": 6,
+  "final_render_dry_run": {
+    "segments": 19,
+    "placeholders": 0,
+    "motion_stubs": 0,
+    "duration_seconds": 178.5
+  },
+  "final_video_full_decode": {
+    "v1": true,
+    "v2": true,
+    "v3": true
+  },
+  "text_credential_scan_matches": 0,
+  "media_review": {
+    "unique_images_ocr_checked": 327,
+    "video_midpoint_frames_ocr_checked": 154,
+    "flagged_images_reviewed": 2,
+    "confirmed_credentials_exposed": 0,
+    "limitations": "OCR and sampled-frame review supplement earlier final-edit review; this is not an exhaustive playback of every draft and source clip."
+  },
+  "additional_narration_tests": {
+    "alt.m4a_correlation": 0.999980256111335,
+    "t.m4a_correlation": 0.999885004762968
+  },
+  "review": "Independent archive review completed. Added the two narration tests and documented the original Homebrew Python dependency."
+}

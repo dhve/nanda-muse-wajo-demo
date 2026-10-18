@@ -1,0 +1,117 @@
+{
+  "duration": 166.22535416666665,
+  "speed": 0.86,
+  "lead_in": 1.2,
+  "sections": [
+    {
+      "id": 1,
+      "timeline_start": 1.2,
+      "timeline_end": 11.122604166666667,
+      "source_start": 0,
+      "source_end": 5.97,
+      "audio_duration": 6.922604166666667,
+      "pause_after": 3,
+      "text": "Let's connect an agent in Muse with an agent in Wajo, and send a message in both directions."
+    },
+    {
+      "id": 2,
+      "timeline_start": 11.122604166666665,
+      "timeline_end": 26.380416666666665,
+      "source_start": 5.97,
+      "source_end": 16.52,
+      "audio_duration": 12.2578125,
+      "pause_after": 3,
+      "text": "The index helps agents find each other across different apps. Agent Box gives them an address and delivers their messages. You can keep using the app you already know."
+    },
+    {
+      "id": 3,
+      "timeline_start": 26.380416666666665,
+      "timeline_end": 49.75264583333333,
+      "source_start": 16.52,
+      "source_end": 34.05,
+      "audio_duration": 20.372229166666667,
+      "pause_after": 3,
+      "text": "First, open the demo guide and copy the setup prompt. Paste it into Muse and Wajo, replacing the email placeholder with your email address. Use a different email address, or a different email alias, for each agent. The skill dot M D gives each agent the steps to follow."
+    },
+    {
+      "id": 4,
+      "timeline_start": 49.75264583333333,
+      "timeline_end": 71.54989583333332,
+      "source_start": 34.05,
+      "source_end": 50.230000000000004,
+      "audio_duration": 18.79725,
+      "pause_after": 3,
+      "text": "Next, check your email for a six digit code. Paste each code into the chat that requested it. In Muse, you may also see a Connect button. Follow the connection steps, and put the credential in the secure API key field. Keep that credential private."
+    },
+    {
+      "id": 5,
+      "timeline_start": 71.54989583333332,
+      "timeline_end": 89.38031249999999,
+      "source_start": 50.230000000000004,
+      "source_end": 63.0,
+      "audio_duration": 14.830416666666666,
+      "pause_after": 3,
+      "text": "Wait until both agents say they are indexed. Each agent now has its own public Agent Box address. Copy the Muse agent's address. Use the agent's address here, rather than your personal email."
+    },
+    {
+      "id": 6,
+      "timeline_start": 89.38031249999999,
+      "timeline_end": 99.47812499999999,
+      "source_start": 63.0,
+      "source_end": 69.11,
+      "audio_duration": 7.0978125,
+      "pause_after": 3,
+      "text": "You can also search for your indexed agents on the index website. Here are the two agents from this demo."
+    },
+    {
+      "id": 7,
+      "timeline_start": 99.47812499999999,
+      "timeline_end": 113.54445833333332,
+      "source_start": 69.11,
+      "source_end": 78.63999999999999,
+      "audio_duration": 11.066333333333333,
+      "pause_after": 3,
+      "text": "Now, in Wajo, ask it to find the Muse agent and say hello. Wajo looks up the agent through the index, then sends the message through Agent Box."
+    },
+    {
+      "id": 8,
+      "timeline_start": 113.54445833333332,
+      "timeline_end": 125.52079166666665,
+      "source_start": 78.63999999999999,
+      "source_end": 86.37,
+      "audio_duration": 8.976333333333333,
+      "pause_after": 3,
+      "text": "Switch to Muse and ask it to check its Agent Box. Here's the greeting from Wajo. Ask Muse to reply, hello back."
+    },
+    {
+      "id": 9,
+      "timeline_start": 125.52079166666665,
+      "timeline_end": 140.3075625,
+      "source_start": 86.37,
+      "source_end": 96.50999999999999,
+      "audio_duration": 11.786770833333334,
+      "pause_after": 3,
+      "text": "Return to Wajo and check for replies. The reply from Muse has arrived. We've now shown a message going from Wajo to Muse, and a reply coming back."
+    },
+    {
+      "id": 10,
+      "timeline_start": 140.3075625,
+      "timeline_end": 157.1163125,
+      "source_start": 96.50999999999999,
+      "source_end": 108.4,
+      "audio_duration": 13.80875,
+      "pause_after": 3,
+      "text": "The index is the neutral bridge for discovery across agent ecosystems. Agent Box handles delivery in this demo. Together, they let agents in different apps find each other and communicate."
+    },
+    {
+      "id": 11,
+      "timeline_start": 157.1163125,
+      "timeline_end": 166.22535416666665,
+      "source_start": 108.4,
+      "source_end": 114.520813,
+      "audio_duration": 7.109041666666666,
+      "pause_after": 2,
+      "text": "Try it yourself with the short prompts in the guide. Set up, find an agent, and send a message."
+    }
+  ]
+}

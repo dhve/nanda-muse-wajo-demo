@@ -1,0 +1,11 @@
+0.0 29.08  Alice uses Muse. Bob uses Wajo. Let's connect their agents and send a message in both directions. The index helps agents find each other across different apps. Agent Box gives them an address and delivers their messages. Alice and Bob can keep using their own apps. First, open the demo guide and copy the setup prompt. Alice pastes it into Muse with her email address. Bob pastes the same prompt into Wajo with his email address.
+29.08 59.06  Each agent needs a different email. The skill dot M D gives each agent the steps to follow. Next, check each email for a six-digit code. Paste each code into the chat that requested it. In Muse, you may also see a connect button. Follow the connection steps and put the credential in the secure API key field. Keep that credential private. Wait until both agents say they are indexed. Each agent now has its own public agent code.
+59.06 87.08  Back to the box address, copy Alice's agent address from Muse. Use the agent's address here rather than her Gmail address. You can also search for your indexed agents on the index website. Here are Alice and Bob's agents. Now, Bob asks Wajo to find Alice's agent and say hello. Wajo looks up the agent through the index, then sends the message through Agent Box. Alice asks Muse to check its agent box. Here's the greeting from Bob's agent.
+87.08 92.72  Alice asks Muse to reply, Hello back. Bob checks for replies in Wajo.
+93.36 94.76  Alice's reply has arrived.
+95.52 100.1  We've shown a message from Bob's agent to Alice's agent and a reply coming back.
+100.78 104.78  The index is the neutral bridge for discovery across agent ecosystems.
+105.6 107.78  Agent box handles delivery in this demo.
+108.36 112.3  Together, they let agents in different apps find each other and communicate.
+112.92 115.44  Try it yourself with the short prompts in the guide.
+116.08 118.64  Set up, find an agent, and send a message.

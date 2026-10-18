@@ -1,0 +1,1975 @@
+[
+  {
+    "start": 0.0,
+    "end": 29.08,
+    "text": " Alice uses Muse. Bob uses Wajo. Let's connect their agents and send a message in both directions. The index helps agents find each other across different apps. Agent Box gives them an address and delivers their messages. Alice and Bob can keep using their own apps. First, open the demo guide and copy the setup prompt. Alice pastes it into Muse with her email address. Bob pastes the same prompt into Wajo with his email address.",
+    "words": [
+      {
+        "start": 0.0,
+        "end": 0.26,
+        "word": " Alice",
+        "probability": 0.9518169164657593
+      },
+      {
+        "start": 0.26,
+        "end": 0.7,
+        "word": " uses",
+        "probability": 0.9871422052383423
+      },
+      {
+        "start": 0.7,
+        "end": 1.06,
+        "word": " Muse.",
+        "probability": 0.6024667620658875
+      },
+      {
+        "start": 1.9,
+        "end": 2.02,
+        "word": " Bob",
+        "probability": 0.9565705060958862
+      },
+      {
+        "start": 2.02,
+        "end": 2.58,
+        "word": " uses",
+        "probability": 0.9925329685211182
+      },
+      {
+        "start": 2.58,
+        "end": 2.96,
+        "word": " Wajo.",
+        "probability": 0.4185173064470291
+      },
+      {
+        "start": 3.66,
+        "end": 3.9,
+        "word": " Let's",
+        "probability": 0.9912167191505432
+      },
+      {
+        "start": 3.9,
+        "end": 4.14,
+        "word": " connect",
+        "probability": 0.9991544485092163
+      },
+      {
+        "start": 4.14,
+        "end": 4.4,
+        "word": " their",
+        "probability": 0.9940006136894226
+      },
+      {
+        "start": 4.4,
+        "end": 4.72,
+        "word": " agents",
+        "probability": 0.9299041032791138
+      },
+      {
+        "start": 4.72,
+        "end": 5.04,
+        "word": " and",
+        "probability": 0.973642885684967
+      },
+      {
+        "start": 5.04,
+        "end": 5.3,
+        "word": " send",
+        "probability": 0.998484194278717
+      },
+      {
+        "start": 5.3,
+        "end": 5.42,
+        "word": " a",
+        "probability": 0.9975475668907166
+      },
+      {
+        "start": 5.42,
+        "end": 5.68,
+        "word": " message",
+        "probability": 0.9991716146469116
+      },
+      {
+        "start": 5.68,
+        "end": 5.98,
+        "word": " in",
+        "probability": 0.9973065853118896
+      },
+      {
+        "start": 5.98,
+        "end": 6.26,
+        "word": " both",
+        "probability": 0.9981424808502197
+      },
+      {
+        "start": 6.26,
+        "end": 6.88,
+        "word": " directions.",
+        "probability": 0.9972357153892517
+      },
+      {
+        "start": 7.72,
+        "end": 7.8,
+        "word": " The",
+        "probability": 0.9930450320243835
+      },
+      {
+        "start": 7.8,
+        "end": 8.04,
+        "word": " index",
+        "probability": 0.8976387977600098
+      },
+      {
+        "start": 8.04,
+        "end": 8.38,
+        "word": " helps",
+        "probability": 0.9981056451797485
+      },
+      {
+        "start": 8.38,
+        "end": 8.76,
+        "word": " agents",
+        "probability": 0.9370439648628235
+      },
+      {
+        "start": 8.76,
+        "end": 9.18,
+        "word": " find",
+        "probability": 0.9971020817756653
+      },
+      {
+        "start": 9.18,
+        "end": 9.4,
+        "word": " each",
+        "probability": 0.9994946718215942
+      },
+      {
+        "start": 9.4,
+        "end": 9.6,
+        "word": " other",
+        "probability": 0.9976152181625366
+      },
+      {
+        "start": 9.6,
+        "end": 10.02,
+        "word": " across",
+        "probability": 0.9991685152053833
+      },
+      {
+        "start": 10.02,
+        "end": 10.56,
+        "word": " different",
+        "probability": 0.9990065693855286
+      },
+      {
+        "start": 10.56,
+        "end": 10.86,
+        "word": " apps.",
+        "probability": 0.9954063892364502
+      },
+      {
+        "start": 11.88,
+        "end": 11.88,
+        "word": " Agent",
+        "probability": 0.9909437298774719
+      },
+      {
+        "start": 11.88,
+        "end": 12.1,
+        "word": " Box",
+        "probability": 0.3193552494049072
+      },
+      {
+        "start": 12.1,
+        "end": 12.48,
+        "word": " gives",
+        "probability": 0.997163712978363
+      },
+      {
+        "start": 12.48,
+        "end": 12.74,
+        "word": " them",
+        "probability": 0.9989081621170044
+      },
+      {
+        "start": 12.74,
+        "end": 12.82,
+        "word": " an",
+        "probability": 0.9946611523628235
+      },
+      {
+        "start": 12.82,
+        "end": 13.2,
+        "word": " address",
+        "probability": 0.9967374205589294
+      },
+      {
+        "start": 13.2,
+        "end": 13.6,
+        "word": " and",
+        "probability": 0.9648426175117493
+      },
+      {
+        "start": 13.6,
+        "end": 13.88,
+        "word": " delivers",
+        "probability": 0.9969758987426758
+      },
+      {
+        "start": 13.88,
+        "end": 14.24,
+        "word": " their",
+        "probability": 0.9983612895011902
+      },
+      {
+        "start": 14.24,
+        "end": 14.54,
+        "word": " messages.",
+        "probability": 0.9901123642921448
+      },
+      {
+        "start": 15.4,
+        "end": 15.58,
+        "word": " Alice",
+        "probability": 0.9882197380065918
+      },
+      {
+        "start": 15.58,
+        "end": 15.8,
+        "word": " and",
+        "probability": 0.9954341053962708
+      },
+      {
+        "start": 15.8,
+        "end": 16.0,
+        "word": " Bob",
+        "probability": 0.9992007613182068
+      },
+      {
+        "start": 16.0,
+        "end": 16.28,
+        "word": " can",
+        "probability": 0.9958350658416748
+      },
+      {
+        "start": 16.28,
+        "end": 16.6,
+        "word": " keep",
+        "probability": 0.998216450214386
+      },
+      {
+        "start": 16.6,
+        "end": 16.96,
+        "word": " using",
+        "probability": 0.9993102550506592
+      },
+      {
+        "start": 16.96,
+        "end": 17.22,
+        "word": " their",
+        "probability": 0.9980266690254211
+      },
+      {
+        "start": 17.22,
+        "end": 17.44,
+        "word": " own",
+        "probability": 0.9987202882766724
+      },
+      {
+        "start": 17.44,
+        "end": 17.68,
+        "word": " apps.",
+        "probability": 0.99700528383255
+      },
+      {
+        "start": 18.86,
+        "end": 18.86,
+        "word": " First,",
+        "probability": 0.9972246885299683
+      },
+      {
+        "start": 19.06,
+        "end": 19.46,
+        "word": " open",
+        "probability": 0.9871926307678223
+      },
+      {
+        "start": 19.46,
+        "end": 19.62,
+        "word": " the",
+        "probability": 0.9988065958023071
+      },
+      {
+        "start": 19.62,
+        "end": 19.88,
+        "word": " demo",
+        "probability": 0.8951025009155273
+      },
+      {
+        "start": 19.88,
+        "end": 20.18,
+        "word": " guide",
+        "probability": 0.9753319621086121
+      },
+      {
+        "start": 20.18,
+        "end": 20.46,
+        "word": " and",
+        "probability": 0.9888610243797302
+      },
+      {
+        "start": 20.46,
+        "end": 20.76,
+        "word": " copy",
+        "probability": 0.9981527924537659
+      },
+      {
+        "start": 20.76,
+        "end": 21.06,
+        "word": " the",
+        "probability": 0.997546374797821
+      },
+      {
+        "start": 21.06,
+        "end": 21.32,
+        "word": " setup",
+        "probability": 0.726317286491394
+      },
+      {
+        "start": 21.32,
+        "end": 21.58,
+        "word": " prompt.",
+        "probability": 0.9986926913261414
+      },
+      {
+        "start": 22.24,
+        "end": 22.62,
+        "word": " Alice",
+        "probability": 0.9982653260231018
+      },
+      {
+        "start": 22.62,
+        "end": 23.26,
+        "word": " pastes",
+        "probability": 0.9271941781044006
+      },
+      {
+        "start": 23.26,
+        "end": 23.36,
+        "word": " it",
+        "probability": 0.9928982257843018
+      },
+      {
+        "start": 23.36,
+        "end": 23.58,
+        "word": " into",
+        "probability": 0.9863098859786987
+      },
+      {
+        "start": 23.58,
+        "end": 23.84,
+        "word": " Muse",
+        "probability": 0.9890791773796082
+      },
+      {
+        "start": 23.84,
+        "end": 24.2,
+        "word": " with",
+        "probability": 0.9948058724403381
+      },
+      {
+        "start": 24.2,
+        "end": 24.34,
+        "word": " her",
+        "probability": 0.9947984218597412
+      },
+      {
+        "start": 24.34,
+        "end": 24.54,
+        "word": " email",
+        "probability": 0.9254790544509888
+      },
+      {
+        "start": 24.54,
+        "end": 24.94,
+        "word": " address.",
+        "probability": 0.9991123080253601
+      },
+      {
+        "start": 25.58,
+        "end": 25.84,
+        "word": " Bob",
+        "probability": 0.9973383545875549
+      },
+      {
+        "start": 25.84,
+        "end": 26.44,
+        "word": " pastes",
+        "probability": 0.9722318649291992
+      },
+      {
+        "start": 26.44,
+        "end": 26.58,
+        "word": " the",
+        "probability": 0.9956283569335938
+      },
+      {
+        "start": 26.58,
+        "end": 26.82,
+        "word": " same",
+        "probability": 0.999407172203064
+      },
+      {
+        "start": 26.82,
+        "end": 27.12,
+        "word": " prompt",
+        "probability": 0.9993839263916016
+      },
+      {
+        "start": 27.12,
+        "end": 27.44,
+        "word": " into",
+        "probability": 0.9875127673149109
+      },
+      {
+        "start": 27.44,
+        "end": 27.92,
+        "word": " Wajo",
+        "probability": 0.9632037281990051
+      },
+      {
+        "start": 27.92,
+        "end": 28.22,
+        "word": " with",
+        "probability": 0.9956811666488647
+      },
+      {
+        "start": 28.22,
+        "end": 28.42,
+        "word": " his",
+        "probability": 0.9968121647834778
+      },
+      {
+        "start": 28.42,
+        "end": 28.7,
+        "word": " email",
+        "probability": 0.9944502115249634
+      },
+      {
+        "start": 28.7,
+        "end": 29.08,
+        "word": " address.",
+        "probability": 0.9993153810501099
+      }
+    ]
+  },
+  {
+    "start": 29.08,
+    "end": 59.06,
+    "text": " Each agent needs a different email. The skill dot M D gives each agent the steps to follow. Next, check each email for a six-digit code. Paste each code into the chat that requested it. In Muse, you may also see a connect button. Follow the connection steps and put the credential in the secure API key field. Keep that credential private. Wait until both agents say they are indexed. Each agent now has its own public agent code.",
+    "words": [
+      {
+        "start": 29.08,
+        "end": 29.9,
+        "word": " Each",
+        "probability": 0.4065868854522705
+      },
+      {
+        "start": 29.9,
+        "end": 30.22,
+        "word": " agent",
+        "probability": 0.9172467589378357
+      },
+      {
+        "start": 30.22,
+        "end": 30.62,
+        "word": " needs",
+        "probability": 0.9921579360961914
+      },
+      {
+        "start": 30.62,
+        "end": 30.82,
+        "word": " a",
+        "probability": 0.9945202469825745
+      },
+      {
+        "start": 30.82,
+        "end": 31.16,
+        "word": " different",
+        "probability": 0.9975117444992065
+      },
+      {
+        "start": 31.16,
+        "end": 31.48,
+        "word": " email.",
+        "probability": 0.9464486241340637
+      },
+      {
+        "start": 32.28,
+        "end": 32.36,
+        "word": " The",
+        "probability": 0.8618216514587402
+      },
+      {
+        "start": 32.36,
+        "end": 32.62,
+        "word": " skill",
+        "probability": 0.8077654838562012
+      },
+      {
+        "start": 32.62,
+        "end": 33.04,
+        "word": " dot",
+        "probability": 0.06517255306243896
+      },
+      {
+        "start": 33.04,
+        "end": 33.28,
+        "word": " M",
+        "probability": 0.04248543828725815
+      },
+      {
+        "start": 33.28,
+        "end": 33.54,
+        "word": " D",
+        "probability": 0.3107677400112152
+      },
+      {
+        "start": 33.54,
+        "end": 33.98,
+        "word": " gives",
+        "probability": 0.9781880378723145
+      },
+      {
+        "start": 33.98,
+        "end": 34.3,
+        "word": " each",
+        "probability": 0.9982726573944092
+      },
+      {
+        "start": 34.3,
+        "end": 34.74,
+        "word": " agent",
+        "probability": 0.9918316006660461
+      },
+      {
+        "start": 34.74,
+        "end": 34.94,
+        "word": " the",
+        "probability": 0.9951267242431641
+      },
+      {
+        "start": 34.94,
+        "end": 35.14,
+        "word": " steps",
+        "probability": 0.9948647618293762
+      },
+      {
+        "start": 35.14,
+        "end": 35.42,
+        "word": " to",
+        "probability": 0.9969336986541748
+      },
+      {
+        "start": 35.42,
+        "end": 35.7,
+        "word": " follow.",
+        "probability": 0.9980009198188782
+      },
+      {
+        "start": 36.26,
+        "end": 36.66,
+        "word": " Next,",
+        "probability": 0.9898051023483276
+      },
+      {
+        "start": 36.94,
+        "end": 37.22,
+        "word": " check",
+        "probability": 0.9962026476860046
+      },
+      {
+        "start": 37.22,
+        "end": 37.54,
+        "word": " each",
+        "probability": 0.9979445338249207
+      },
+      {
+        "start": 37.54,
+        "end": 37.92,
+        "word": " email",
+        "probability": 0.9863000512123108
+      },
+      {
+        "start": 37.92,
+        "end": 38.24,
+        "word": " for",
+        "probability": 0.9974203109741211
+      },
+      {
+        "start": 38.24,
+        "end": 38.34,
+        "word": " a",
+        "probability": 0.991953432559967
+      },
+      {
+        "start": 38.34,
+        "end": 38.6,
+        "word": " six",
+        "probability": 0.7959486842155457
+      },
+      {
+        "start": 38.6,
+        "end": 38.94,
+        "word": "-digit",
+        "probability": 0.7080341279506683
+      },
+      {
+        "start": 38.94,
+        "end": 39.32,
+        "word": " code.",
+        "probability": 0.9976478219032288
+      },
+      {
+        "start": 39.9,
+        "end": 40.12,
+        "word": " Paste",
+        "probability": 0.9466964602470398
+      },
+      {
+        "start": 40.12,
+        "end": 40.48,
+        "word": " each",
+        "probability": 0.9990574717521667
+      },
+      {
+        "start": 40.48,
+        "end": 40.86,
+        "word": " code",
+        "probability": 0.9981593489646912
+      },
+      {
+        "start": 40.86,
+        "end": 41.12,
+        "word": " into",
+        "probability": 0.9871582388877869
+      },
+      {
+        "start": 41.12,
+        "end": 41.34,
+        "word": " the",
+        "probability": 0.9984057545661926
+      },
+      {
+        "start": 41.34,
+        "end": 41.58,
+        "word": " chat",
+        "probability": 0.9710803627967834
+      },
+      {
+        "start": 41.58,
+        "end": 41.8,
+        "word": " that",
+        "probability": 0.997916042804718
+      },
+      {
+        "start": 41.8,
+        "end": 42.08,
+        "word": " requested",
+        "probability": 0.996819257736206
+      },
+      {
+        "start": 42.08,
+        "end": 42.46,
+        "word": " it.",
+        "probability": 0.9918383955955505
+      },
+      {
+        "start": 42.88,
+        "end": 43.08,
+        "word": " In",
+        "probability": 0.9971355199813843
+      },
+      {
+        "start": 43.08,
+        "end": 43.3,
+        "word": " Muse,",
+        "probability": 0.608239471912384
+      },
+      {
+        "start": 43.76,
+        "end": 43.86,
+        "word": " you",
+        "probability": 0.9980879426002502
+      },
+      {
+        "start": 43.86,
+        "end": 43.96,
+        "word": " may",
+        "probability": 0.995830237865448
+      },
+      {
+        "start": 43.96,
+        "end": 44.26,
+        "word": " also",
+        "probability": 0.999363124370575
+      },
+      {
+        "start": 44.26,
+        "end": 44.64,
+        "word": " see",
+        "probability": 0.9981253743171692
+      },
+      {
+        "start": 44.64,
+        "end": 44.84,
+        "word": " a",
+        "probability": 0.9975703358650208
+      },
+      {
+        "start": 44.84,
+        "end": 45.06,
+        "word": " connect",
+        "probability": 0.6008714437484741
+      },
+      {
+        "start": 45.06,
+        "end": 45.48,
+        "word": " button.",
+        "probability": 0.9979420304298401
+      },
+      {
+        "start": 46.1,
+        "end": 46.42,
+        "word": " Follow",
+        "probability": 0.9969936609268188
+      },
+      {
+        "start": 46.42,
+        "end": 46.6,
+        "word": " the",
+        "probability": 0.9992108345031738
+      },
+      {
+        "start": 46.6,
+        "end": 46.82,
+        "word": " connection",
+        "probability": 0.9578296542167664
+      },
+      {
+        "start": 46.82,
+        "end": 47.28,
+        "word": " steps",
+        "probability": 0.9968385696411133
+      },
+      {
+        "start": 47.28,
+        "end": 47.64,
+        "word": " and",
+        "probability": 0.9279066920280457
+      },
+      {
+        "start": 47.64,
+        "end": 47.86,
+        "word": " put",
+        "probability": 0.9969921112060547
+      },
+      {
+        "start": 47.86,
+        "end": 48.0,
+        "word": " the",
+        "probability": 0.9980676770210266
+      },
+      {
+        "start": 48.0,
+        "end": 48.22,
+        "word": " credential",
+        "probability": 0.99118572473526
+      },
+      {
+        "start": 48.22,
+        "end": 48.7,
+        "word": " in",
+        "probability": 0.9952577948570251
+      },
+      {
+        "start": 48.7,
+        "end": 48.8,
+        "word": " the",
+        "probability": 0.9964280724525452
+      },
+      {
+        "start": 48.8,
+        "end": 49.1,
+        "word": " secure",
+        "probability": 0.7970909476280212
+      },
+      {
+        "start": 49.1,
+        "end": 49.58,
+        "word": " API",
+        "probability": 0.9512101411819458
+      },
+      {
+        "start": 49.58,
+        "end": 50.22,
+        "word": " key",
+        "probability": 0.8227732181549072
+      },
+      {
+        "start": 50.22,
+        "end": 50.62,
+        "word": " field.",
+        "probability": 0.968049943447113
+      },
+      {
+        "start": 51.2,
+        "end": 51.4,
+        "word": " Keep",
+        "probability": 0.9974687099456787
+      },
+      {
+        "start": 51.4,
+        "end": 51.62,
+        "word": " that",
+        "probability": 0.9978121519088745
+      },
+      {
+        "start": 51.62,
+        "end": 51.92,
+        "word": " credential",
+        "probability": 0.9972507357597351
+      },
+      {
+        "start": 51.92,
+        "end": 52.56,
+        "word": " private.",
+        "probability": 0.9899013042449951
+      },
+      {
+        "start": 53.36,
+        "end": 53.6,
+        "word": " Wait",
+        "probability": 0.9907705783843994
+      },
+      {
+        "start": 53.6,
+        "end": 53.82,
+        "word": " until",
+        "probability": 0.9982896447181702
+      },
+      {
+        "start": 53.82,
+        "end": 54.22,
+        "word": " both",
+        "probability": 0.9985893368721008
+      },
+      {
+        "start": 54.22,
+        "end": 54.66,
+        "word": " agents",
+        "probability": 0.9928414821624756
+      },
+      {
+        "start": 54.66,
+        "end": 55.04,
+        "word": " say",
+        "probability": 0.9955633878707886
+      },
+      {
+        "start": 55.04,
+        "end": 55.26,
+        "word": " they",
+        "probability": 0.9898103475570679
+      },
+      {
+        "start": 55.26,
+        "end": 55.38,
+        "word": " are",
+        "probability": 0.6802699565887451
+      },
+      {
+        "start": 55.38,
+        "end": 55.62,
+        "word": " indexed.",
+        "probability": 0.9975557327270508
+      },
+      {
+        "start": 56.48,
+        "end": 56.6,
+        "word": " Each",
+        "probability": 0.9943848848342896
+      },
+      {
+        "start": 56.6,
+        "end": 56.9,
+        "word": " agent",
+        "probability": 0.9883548021316528
+      },
+      {
+        "start": 56.9,
+        "end": 57.3,
+        "word": " now",
+        "probability": 0.9951936602592468
+      },
+      {
+        "start": 57.3,
+        "end": 57.62,
+        "word": " has",
+        "probability": 0.9989803433418274
+      },
+      {
+        "start": 57.62,
+        "end": 57.76,
+        "word": " its",
+        "probability": 0.937082827091217
+      },
+      {
+        "start": 57.76,
+        "end": 58.1,
+        "word": " own",
+        "probability": 0.9990941286087036
+      },
+      {
+        "start": 58.1,
+        "end": 58.5,
+        "word": " public",
+        "probability": 0.9801855087280273
+      },
+      {
+        "start": 58.5,
+        "end": 58.98,
+        "word": " agent",
+        "probability": 0.9607848525047302
+      },
+      {
+        "start": 58.98,
+        "end": 59.06,
+        "word": " code.",
+        "probability": 0.21427470445632935
+      }
+    ]
+  },
+  {
+    "start": 59.06,
+    "end": 87.08,
+    "text": " Back to the box address, copy Alice's agent address from Muse. Use the agent's address here rather than her Gmail address. You can also search for your indexed agents on the index website. Here are Alice and Bob's agents. Now, Bob asks Wajo to find Alice's agent and say hello. Wajo looks up the agent through the index, then sends the message through Agent Box. Alice asks Muse to check its agent box. Here's the greeting from Bob's agent.",
+    "words": [
+      {
+        "start": 59.06,
+        "end": 59.18,
+        "word": " Back",
+        "probability": 0.0004653237119782716
+      },
+      {
+        "start": 59.18,
+        "end": 59.18,
+        "word": " to",
+        "probability": 0.3015477657318115
+      },
+      {
+        "start": 59.18,
+        "end": 59.18,
+        "word": " the",
+        "probability": 0.485567569732666
+      },
+      {
+        "start": 59.18,
+        "end": 59.18,
+        "word": " box",
+        "probability": 0.052732422947883606
+      },
+      {
+        "start": 59.18,
+        "end": 59.5,
+        "word": " address,",
+        "probability": 0.8927899599075317
+      },
+      {
+        "start": 60.28,
+        "end": 60.62,
+        "word": " copy",
+        "probability": 0.6744480133056641
+      },
+      {
+        "start": 60.62,
+        "end": 61.2,
+        "word": " Alice's",
+        "probability": 0.9231957793235779
+      },
+      {
+        "start": 61.2,
+        "end": 61.48,
+        "word": " agent",
+        "probability": 0.8308364748954773
+      },
+      {
+        "start": 61.48,
+        "end": 61.88,
+        "word": " address",
+        "probability": 0.9923351407051086
+      },
+      {
+        "start": 61.88,
+        "end": 62.18,
+        "word": " from",
+        "probability": 0.9467980265617371
+      },
+      {
+        "start": 62.18,
+        "end": 62.4,
+        "word": " Muse.",
+        "probability": 0.43072840571403503
+      },
+      {
+        "start": 63.04,
+        "end": 63.34,
+        "word": " Use",
+        "probability": 0.9898714423179626
+      },
+      {
+        "start": 63.34,
+        "end": 63.54,
+        "word": " the",
+        "probability": 0.9973326921463013
+      },
+      {
+        "start": 63.54,
+        "end": 63.94,
+        "word": " agent's",
+        "probability": 0.8190208375453949
+      },
+      {
+        "start": 63.94,
+        "end": 64.18,
+        "word": " address",
+        "probability": 0.9980674386024475
+      },
+      {
+        "start": 64.18,
+        "end": 64.6,
+        "word": " here",
+        "probability": 0.9904665350914001
+      },
+      {
+        "start": 64.6,
+        "end": 65.12,
+        "word": " rather",
+        "probability": 0.635630190372467
+      },
+      {
+        "start": 65.12,
+        "end": 65.48,
+        "word": " than",
+        "probability": 0.9914517998695374
+      },
+      {
+        "start": 65.48,
+        "end": 65.6,
+        "word": " her",
+        "probability": 0.9927414655685425
+      },
+      {
+        "start": 65.6,
+        "end": 65.8,
+        "word": " Gmail",
+        "probability": 0.9208800792694092
+      },
+      {
+        "start": 65.8,
+        "end": 66.22,
+        "word": " address.",
+        "probability": 0.9821809530258179
+      },
+      {
+        "start": 66.92,
+        "end": 67.06,
+        "word": " You",
+        "probability": 0.9840032458305359
+      },
+      {
+        "start": 67.06,
+        "end": 67.18,
+        "word": " can",
+        "probability": 0.9989166259765625
+      },
+      {
+        "start": 67.18,
+        "end": 67.34,
+        "word": " also",
+        "probability": 0.9991137385368347
+      },
+      {
+        "start": 67.34,
+        "end": 67.8,
+        "word": " search",
+        "probability": 0.9995504021644592
+      },
+      {
+        "start": 67.8,
+        "end": 68.02,
+        "word": " for",
+        "probability": 0.9982385635375977
+      },
+      {
+        "start": 68.02,
+        "end": 68.14,
+        "word": " your",
+        "probability": 0.9949367046356201
+      },
+      {
+        "start": 68.14,
+        "end": 68.42,
+        "word": " indexed",
+        "probability": 0.7142682075500488
+      },
+      {
+        "start": 68.42,
+        "end": 68.9,
+        "word": " agents",
+        "probability": 0.9716594219207764
+      },
+      {
+        "start": 68.9,
+        "end": 69.2,
+        "word": " on",
+        "probability": 0.9977565407752991
+      },
+      {
+        "start": 69.2,
+        "end": 69.32,
+        "word": " the",
+        "probability": 0.9989523887634277
+      },
+      {
+        "start": 69.32,
+        "end": 69.56,
+        "word": " index",
+        "probability": 0.9276455640792847
+      },
+      {
+        "start": 69.56,
+        "end": 70.12,
+        "word": " website.",
+        "probability": 0.9743698239326477
+      },
+      {
+        "start": 70.64,
+        "end": 70.92,
+        "word": " Here",
+        "probability": 0.9931740164756775
+      },
+      {
+        "start": 70.92,
+        "end": 71.1,
+        "word": " are",
+        "probability": 0.995404839515686
+      },
+      {
+        "start": 71.1,
+        "end": 71.44,
+        "word": " Alice",
+        "probability": 0.9980055689811707
+      },
+      {
+        "start": 71.44,
+        "end": 71.64,
+        "word": " and",
+        "probability": 0.9279195666313171
+      },
+      {
+        "start": 71.64,
+        "end": 72.0,
+        "word": " Bob's",
+        "probability": 0.9854713380336761
+      },
+      {
+        "start": 72.0,
+        "end": 72.2,
+        "word": " agents.",
+        "probability": 0.9885112047195435
+      },
+      {
+        "start": 72.94,
+        "end": 73.32,
+        "word": " Now,",
+        "probability": 0.9902721047401428
+      },
+      {
+        "start": 73.6,
+        "end": 73.84,
+        "word": " Bob",
+        "probability": 0.9966625571250916
+      },
+      {
+        "start": 73.84,
+        "end": 74.22,
+        "word": " asks",
+        "probability": 0.9963984489440918
+      },
+      {
+        "start": 74.22,
+        "end": 74.66,
+        "word": " Wajo",
+        "probability": 0.2870727926492691
+      },
+      {
+        "start": 74.66,
+        "end": 74.96,
+        "word": " to",
+        "probability": 0.9981185793876648
+      },
+      {
+        "start": 74.96,
+        "end": 75.22,
+        "word": " find",
+        "probability": 0.9942207336425781
+      },
+      {
+        "start": 75.22,
+        "end": 75.76,
+        "word": " Alice's",
+        "probability": 0.9933889806270599
+      },
+      {
+        "start": 75.76,
+        "end": 76.1,
+        "word": " agent",
+        "probability": 0.9943927526473999
+      },
+      {
+        "start": 76.1,
+        "end": 76.38,
+        "word": " and",
+        "probability": 0.9732683897018433
+      },
+      {
+        "start": 76.38,
+        "end": 76.58,
+        "word": " say",
+        "probability": 0.9961284399032593
+      },
+      {
+        "start": 76.58,
+        "end": 76.8,
+        "word": " hello.",
+        "probability": 0.9204527735710144
+      },
+      {
+        "start": 77.44,
+        "end": 77.82,
+        "word": " Wajo",
+        "probability": 0.9664826691150665
+      },
+      {
+        "start": 77.82,
+        "end": 78.16,
+        "word": " looks",
+        "probability": 0.9930723309516907
+      },
+      {
+        "start": 78.16,
+        "end": 78.32,
+        "word": " up",
+        "probability": 0.9950926303863525
+      },
+      {
+        "start": 78.32,
+        "end": 78.46,
+        "word": " the",
+        "probability": 0.9988916516304016
+      },
+      {
+        "start": 78.46,
+        "end": 78.78,
+        "word": " agent",
+        "probability": 0.9973592162132263
+      },
+      {
+        "start": 78.78,
+        "end": 79.04,
+        "word": " through",
+        "probability": 0.995537519454956
+      },
+      {
+        "start": 79.04,
+        "end": 79.24,
+        "word": " the",
+        "probability": 0.9991315007209778
+      },
+      {
+        "start": 79.24,
+        "end": 79.62,
+        "word": " index,",
+        "probability": 0.9924587607383728
+      },
+      {
+        "start": 79.9,
+        "end": 80.1,
+        "word": " then",
+        "probability": 0.9934681057929993
+      },
+      {
+        "start": 80.1,
+        "end": 80.36,
+        "word": " sends",
+        "probability": 0.9955483675003052
+      },
+      {
+        "start": 80.36,
+        "end": 80.62,
+        "word": " the",
+        "probability": 0.996833860874176
+      },
+      {
+        "start": 80.62,
+        "end": 80.9,
+        "word": " message",
+        "probability": 0.9994891881942749
+      },
+      {
+        "start": 80.9,
+        "end": 81.26,
+        "word": " through",
+        "probability": 0.9953640699386597
+      },
+      {
+        "start": 81.26,
+        "end": 81.44,
+        "word": " Agent",
+        "probability": 0.4634232819080353
+      },
+      {
+        "start": 81.44,
+        "end": 81.76,
+        "word": " Box.",
+        "probability": 0.5215741395950317
+      },
+      {
+        "start": 82.46,
+        "end": 82.76,
+        "word": " Alice",
+        "probability": 0.9957475066184998
+      },
+      {
+        "start": 82.76,
+        "end": 83.2,
+        "word": " asks",
+        "probability": 0.9863815307617188
+      },
+      {
+        "start": 83.2,
+        "end": 83.46,
+        "word": " Muse",
+        "probability": 0.9704453349113464
+      },
+      {
+        "start": 83.46,
+        "end": 83.86,
+        "word": " to",
+        "probability": 0.9983434677124023
+      },
+      {
+        "start": 83.86,
+        "end": 84.06,
+        "word": " check",
+        "probability": 0.9990348815917969
+      },
+      {
+        "start": 84.06,
+        "end": 84.32,
+        "word": " its",
+        "probability": 0.9272547960281372
+      },
+      {
+        "start": 84.32,
+        "end": 84.52,
+        "word": " agent",
+        "probability": 0.6559938788414001
+      },
+      {
+        "start": 84.52,
+        "end": 84.84,
+        "word": " box.",
+        "probability": 0.9836349487304688
+      },
+      {
+        "start": 85.48,
+        "end": 85.84,
+        "word": " Here's",
+        "probability": 0.9742097854614258
+      },
+      {
+        "start": 85.84,
+        "end": 85.98,
+        "word": " the",
+        "probability": 0.9971863627433777
+      },
+      {
+        "start": 85.98,
+        "end": 86.14,
+        "word": " greeting",
+        "probability": 0.9992345571517944
+      },
+      {
+        "start": 86.14,
+        "end": 86.5,
+        "word": " from",
+        "probability": 0.9978690147399902
+      },
+      {
+        "start": 86.5,
+        "end": 86.9,
+        "word": " Bob's",
+        "probability": 0.9971690475940704
+      },
+      {
+        "start": 86.9,
+        "end": 87.08,
+        "word": " agent.",
+        "probability": 0.9776440262794495
+      }
+    ]
+  },
+  {
+    "start": 87.08,
+    "end": 92.72,
+    "text": " Alice asks Muse to reply, Hello back. Bob checks for replies in Wajo.",
+    "words": [
+      {
+        "start": 87.08,
+        "end": 88.06,
+        "word": " Alice",
+        "probability": 0.7247127890586853
+      },
+      {
+        "start": 88.06,
+        "end": 88.34,
+        "word": " asks",
+        "probability": 0.9595465064048767
+      },
+      {
+        "start": 88.34,
+        "end": 88.72,
+        "word": " Muse",
+        "probability": 0.565310001373291
+      },
+      {
+        "start": 88.72,
+        "end": 89.02,
+        "word": " to",
+        "probability": 0.994874894618988
+      },
+      {
+        "start": 89.02,
+        "end": 89.28,
+        "word": " reply,",
+        "probability": 0.9919528365135193
+      },
+      {
+        "start": 89.78,
+        "end": 89.98,
+        "word": " Hello",
+        "probability": 0.08631157875061035
+      },
+      {
+        "start": 89.98,
+        "end": 90.3,
+        "word": " back.",
+        "probability": 0.3412834107875824
+      },
+      {
+        "start": 90.96,
+        "end": 91.16,
+        "word": " Bob",
+        "probability": 0.9386508464813232
+      },
+      {
+        "start": 91.16,
+        "end": 91.48,
+        "word": " checks",
+        "probability": 0.9705517888069153
+      },
+      {
+        "start": 91.48,
+        "end": 91.74,
+        "word": " for",
+        "probability": 0.9986901879310608
+      },
+      {
+        "start": 91.74,
+        "end": 92.1,
+        "word": " replies",
+        "probability": 0.987851619720459
+      },
+      {
+        "start": 92.1,
+        "end": 92.42,
+        "word": " in",
+        "probability": 0.983906626701355
+      },
+      {
+        "start": 92.42,
+        "end": 92.72,
+        "word": " Wajo.",
+        "probability": 0.4973321110010147
+      }
+    ]
+  },
+  {
+    "start": 93.36,
+    "end": 94.76,
+    "text": " Alice's reply has arrived.",
+    "words": [
+      {
+        "start": 93.36,
+        "end": 93.82,
+        "word": " Alice's",
+        "probability": 0.9654106497764587
+      },
+      {
+        "start": 93.82,
+        "end": 94.1,
+        "word": " reply",
+        "probability": 0.9762325286865234
+      },
+      {
+        "start": 94.1,
+        "end": 94.46,
+        "word": " has",
+        "probability": 0.9982231259346008
+      },
+      {
+        "start": 94.46,
+        "end": 94.76,
+        "word": " arrived.",
+        "probability": 0.999622106552124
+      }
+    ]
+  },
+  {
+    "start": 95.52,
+    "end": 100.1,
+    "text": " We've shown a message from Bob's agent to Alice's agent and a reply coming back.",
+    "words": [
+      {
+        "start": 95.52,
+        "end": 95.74,
+        "word": " We've",
+        "probability": 0.9835981726646423
+      },
+      {
+        "start": 95.74,
+        "end": 95.94,
+        "word": " shown",
+        "probability": 0.9968767166137695
+      },
+      {
+        "start": 95.94,
+        "end": 96.06,
+        "word": " a",
+        "probability": 0.9991863369941711
+      },
+      {
+        "start": 96.06,
+        "end": 96.38,
+        "word": " message",
+        "probability": 0.9990923404693604
+      },
+      {
+        "start": 96.38,
+        "end": 96.64,
+        "word": " from",
+        "probability": 0.9977084398269653
+      },
+      {
+        "start": 96.64,
+        "end": 97.1,
+        "word": " Bob's",
+        "probability": 0.9928754568099976
+      },
+      {
+        "start": 97.1,
+        "end": 97.26,
+        "word": " agent",
+        "probability": 0.9776286482810974
+      },
+      {
+        "start": 97.26,
+        "end": 97.62,
+        "word": " to",
+        "probability": 0.9882152080535889
+      },
+      {
+        "start": 97.62,
+        "end": 98.12,
+        "word": " Alice's",
+        "probability": 0.9934622049331665
+      },
+      {
+        "start": 98.12,
+        "end": 98.46,
+        "word": " agent",
+        "probability": 0.9945161938667297
+      },
+      {
+        "start": 98.46,
+        "end": 98.96,
+        "word": " and",
+        "probability": 0.8590761423110962
+      },
+      {
+        "start": 98.96,
+        "end": 99.14,
+        "word": " a",
+        "probability": 0.9745404124259949
+      },
+      {
+        "start": 99.14,
+        "end": 99.42,
+        "word": " reply",
+        "probability": 0.9954479336738586
+      },
+      {
+        "start": 99.42,
+        "end": 99.8,
+        "word": " coming",
+        "probability": 0.9981476068496704
+      },
+      {
+        "start": 99.8,
+        "end": 100.1,
+        "word": " back.",
+        "probability": 0.9992076754570007
+      }
+    ]
+  },
+  {
+    "start": 100.78,
+    "end": 104.78,
+    "text": " The index is the neutral bridge for discovery across agent ecosystems.",
+    "words": [
+      {
+        "start": 100.78,
+        "end": 100.88,
+        "word": " The",
+        "probability": 0.9856739640235901
+      },
+      {
+        "start": 100.88,
+        "end": 101.2,
+        "word": " index",
+        "probability": 0.9311471581459045
+      },
+      {
+        "start": 101.2,
+        "end": 101.58,
+        "word": " is",
+        "probability": 0.99802565574646
+      },
+      {
+        "start": 101.58,
+        "end": 101.74,
+        "word": " the",
+        "probability": 0.9977300763130188
+      },
+      {
+        "start": 101.74,
+        "end": 102.02,
+        "word": " neutral",
+        "probability": 0.9778879284858704
+      },
+      {
+        "start": 102.02,
+        "end": 102.48,
+        "word": " bridge",
+        "probability": 0.9845284819602966
+      },
+      {
+        "start": 102.48,
+        "end": 102.76,
+        "word": " for",
+        "probability": 0.9989984631538391
+      },
+      {
+        "start": 102.76,
+        "end": 103.3,
+        "word": " discovery",
+        "probability": 0.9949889779090881
+      },
+      {
+        "start": 103.3,
+        "end": 103.64,
+        "word": " across",
+        "probability": 0.9938471913337708
+      },
+      {
+        "start": 103.64,
+        "end": 104.26,
+        "word": " agent",
+        "probability": 0.9175947308540344
+      },
+      {
+        "start": 104.26,
+        "end": 104.78,
+        "word": " ecosystems.",
+        "probability": 0.989674985408783
+      }
+    ]
+  },
+  {
+    "start": 105.6,
+    "end": 107.78,
+    "text": " Agent box handles delivery in this demo.",
+    "words": [
+      {
+        "start": 105.6,
+        "end": 105.96,
+        "word": " Agent",
+        "probability": 0.9819490313529968
+      },
+      {
+        "start": 105.96,
+        "end": 106.18,
+        "word": " box",
+        "probability": 0.7098987102508545
+      },
+      {
+        "start": 106.18,
+        "end": 106.66,
+        "word": " handles",
+        "probability": 0.9854093194007874
+      },
+      {
+        "start": 106.66,
+        "end": 107.02,
+        "word": " delivery",
+        "probability": 0.9943010807037354
+      },
+      {
+        "start": 107.02,
+        "end": 107.38,
+        "word": " in",
+        "probability": 0.9943419694900513
+      },
+      {
+        "start": 107.38,
+        "end": 107.5,
+        "word": " this",
+        "probability": 0.9937314391136169
+      },
+      {
+        "start": 107.5,
+        "end": 107.78,
+        "word": " demo.",
+        "probability": 0.9985912442207336
+      }
+    ]
+  },
+  {
+    "start": 108.36,
+    "end": 112.3,
+    "text": " Together, they let agents in different apps find each other and communicate.",
+    "words": [
+      {
+        "start": 108.36,
+        "end": 108.72,
+        "word": " Together,",
+        "probability": 0.9957690238952637
+      },
+      {
+        "start": 109.2,
+        "end": 109.34,
+        "word": " they",
+        "probability": 0.9958125948905945
+      },
+      {
+        "start": 109.34,
+        "end": 109.52,
+        "word": " let",
+        "probability": 0.9930034279823303
+      },
+      {
+        "start": 109.52,
+        "end": 109.84,
+        "word": " agents",
+        "probability": 0.9922459721565247
+      },
+      {
+        "start": 109.84,
+        "end": 110.14,
+        "word": " in",
+        "probability": 0.9959147572517395
+      },
+      {
+        "start": 110.14,
+        "end": 110.38,
+        "word": " different",
+        "probability": 0.9984639883041382
+      },
+      {
+        "start": 110.38,
+        "end": 110.76,
+        "word": " apps",
+        "probability": 0.9964584708213806
+      },
+      {
+        "start": 110.76,
+        "end": 111.24,
+        "word": " find",
+        "probability": 0.9597508311271667
+      },
+      {
+        "start": 111.24,
+        "end": 111.42,
+        "word": " each",
+        "probability": 0.9996944665908813
+      },
+      {
+        "start": 111.42,
+        "end": 111.62,
+        "word": " other",
+        "probability": 0.9960229396820068
+      },
+      {
+        "start": 111.62,
+        "end": 111.98,
+        "word": " and",
+        "probability": 0.9861325025558472
+      },
+      {
+        "start": 111.98,
+        "end": 112.3,
+        "word": " communicate.",
+        "probability": 0.9977887868881226
+      }
+    ]
+  },
+  {
+    "start": 112.92,
+    "end": 115.44,
+    "text": " Try it yourself with the short prompts in the guide.",
+    "words": [
+      {
+        "start": 112.92,
+        "end": 113.4,
+        "word": " Try",
+        "probability": 0.20655283331871033
+      },
+      {
+        "start": 113.4,
+        "end": 113.54,
+        "word": " it",
+        "probability": 0.9768785834312439
+      },
+      {
+        "start": 113.54,
+        "end": 113.8,
+        "word": " yourself",
+        "probability": 0.996756374835968
+      },
+      {
+        "start": 113.8,
+        "end": 114.18,
+        "word": " with",
+        "probability": 0.9876326322555542
+      },
+      {
+        "start": 114.18,
+        "end": 114.3,
+        "word": " the",
+        "probability": 0.9480952024459839
+      },
+      {
+        "start": 114.3,
+        "end": 114.54,
+        "word": " short",
+        "probability": 0.9734916687011719
+      },
+      {
+        "start": 114.54,
+        "end": 114.86,
+        "word": " prompts",
+        "probability": 0.9962843060493469
+      },
+      {
+        "start": 114.86,
+        "end": 115.12,
+        "word": " in",
+        "probability": 0.8725515604019165
+      },
+      {
+        "start": 115.12,
+        "end": 115.2,
+        "word": " the",
+        "probability": 0.9960734844207764
+      },
+      {
+        "start": 115.2,
+        "end": 115.44,
+        "word": " guide.",
+        "probability": 0.9162909388542175
+      }
+    ]
+  },
+  {
+    "start": 116.08,
+    "end": 118.64,
+    "text": " Set up, find an agent, and send a message.",
+    "words": [
+      {
+        "start": 116.08,
+        "end": 116.26,
+        "word": " Set",
+        "probability": 0.9202239513397217
+      },
+      {
+        "start": 116.26,
+        "end": 116.44,
+        "word": " up,",
+        "probability": 0.9849991202354431
+      },
+      {
+        "start": 116.76,
+        "end": 117.02,
+        "word": " find",
+        "probability": 0.9784123301506042
+      },
+      {
+        "start": 117.02,
+        "end": 117.22,
+        "word": " an",
+        "probability": 0.9974494576454163
+      },
+      {
+        "start": 117.22,
+        "end": 117.46,
+        "word": " agent,",
+        "probability": 0.9871789216995239
+      },
+      {
+        "start": 117.88,
+        "end": 117.96,
+        "word": " and",
+        "probability": 0.9899897575378418
+      },
+      {
+        "start": 117.96,
+        "end": 118.18,
+        "word": " send",
+        "probability": 0.99735426902771
+      },
+      {
+        "start": 118.18,
+        "end": 118.36,
+        "word": " a",
+        "probability": 0.9942929744720459
+      },
+      {
+        "start": 118.36,
+        "end": 118.64,
+        "word": " message.",
+        "probability": 0.9987640380859375
+      }
+    ]
+  }
+]
