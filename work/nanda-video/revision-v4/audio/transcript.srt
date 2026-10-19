@@ -85,4 +85,3 @@
 22
 00:02:10,200 --> 00:02:16,080
  possible. Follow the guide for the exact prompts or scan the code to explore the index.
-

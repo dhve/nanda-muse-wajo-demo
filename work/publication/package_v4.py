@@ -27,11 +27,12 @@ for f in sorted(SOURCE.rglob('*')):
  rel=f.relative_to(SOURCE)
  reason=None
  if rel.parts[0] in {'private-input','research'}:reason='Private feedback attachments, source chat or reference inspection material'
- elif '__pycache__' in rel.parts or f.name=='.DS_Store':reason='Operating-system or Python cache'
+ elif any(part in {'__pycache__','.impeccable'} for part in rel.parts) or f.name=='.DS_Store':reason='Operating-system, development hook or Python cache'
  elif rel.parts[0]=='recording' and f.name not in recording:reason='Private desktop capture or superseded capture intermediate; final animation render included'
  if reason:
   name=f.relative_to(ROOT).as_posix()
   omissions[name]={'path':name,'bytes':f.stat().st_size,'reason':reason}
+  entries.pop(name,None)
   continue
  copy(f,DEST/f.relative_to(ROOT),'Animated bakery source, narration, final render or validation record')
 

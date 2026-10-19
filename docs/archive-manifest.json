@@ -116,7 +116,7 @@
       "source": "outputs/nanda-demo-v4.zip",
       "path": "outputs/nanda-demo-v4.zip",
       "bytes": 11946281,
-      "sha256": "18b3231f753c006ea082dbf6cf8909356f3502ff8568754f6277deb8f427e46b",
+      "sha256": "23a3ad8dd4c5c75863fa5de2b51d722df31c2986d54a1a769ffcb39db443e5fd",
       "purpose": "Delivered bakery video, captions or guide package"
     },
     {
@@ -136,8 +136,8 @@
     {
       "source": "outputs/nanda-demo-v4/index.html",
       "path": "outputs/nanda-demo-v4/index.html",
-      "bytes": 27885,
-      "sha256": "65f93bc9452ac9a7ebd92cc56a866d78f4517dcd7fd681658655a99639ada073",
+      "bytes": 27884,
+      "sha256": "93710a01c4c5a3e56ee0ad8eb174d30d562928398b9cbbf6eeb9dfafc0bfe92b",
       "purpose": "Delivered bakery guide, final video or extracted screenshot"
     },
     {
@@ -6847,13 +6847,6 @@
       "purpose": "Production source, prepared media, narration, captions, or editing record"
     },
     {
-      "source": "work/nanda-video/revision-v4/.impeccable/hook.cache.json",
-      "path": "work/nanda-video/revision-v4/.impeccable/hook.cache.json",
-      "bytes": 413,
-      "sha256": "6095dc7bd2842e39097ed27067a5e7462b35033e348934ad71c5933f3e2d5926",
-      "purpose": "Animated bakery source, narration, final render or validation record"
-    },
-    {
       "source": "work/nanda-video/revision-v4/README.md",
       "path": "work/nanda-video/revision-v4/README.md",
       "bytes": 3656,
@@ -6940,8 +6933,8 @@
     {
       "source": "work/nanda-video/revision-v4/audio/transcript.srt",
       "path": "work/nanda-video/revision-v4/audio/transcript.srt",
-      "bytes": 2770,
-      "sha256": "5823503ffb53ff3534c71918bd5d6d8181456b86e384cc5c2b496ba8920f67f2",
+      "bytes": 2769,
+      "sha256": "4d51550d5ed508a93d423e423c110ee16cf349b30c50444d2b2e50c05217ad32",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -6996,8 +6989,8 @@
     {
       "source": "work/nanda-video/revision-v4/build_guide.py",
       "path": "work/nanda-video/revision-v4/build_guide.py",
-      "bytes": 12076,
-      "sha256": "9bf1ca7ef8692041347016ad96013fa7bab81dfff1b35ddd80c03d1a46d8f9a5",
+      "bytes": 12131,
+      "sha256": "0c64a2c85f2b7a8961677facef9c7eb17e48f127ccda2e45c8c2acaac88b8f10",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -7290,8 +7283,8 @@
     {
       "source": "work/publication/package_v4.py",
       "path": "work/publication/package_v4.py",
-      "bytes": 3567,
-      "sha256": "be22cab10fa4b4e90e4c19890aff46645714290ef49e92c1708b41897ec8581f",
+      "bytes": 3648,
+      "sha256": "c53c7d96d2f71769d0717dfa071009d52a645ce7907fdacd565fa56f01b90174",
       "purpose": "Archive packaging source"
     }
   ]

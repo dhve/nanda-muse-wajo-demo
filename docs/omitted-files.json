@@ -1726,6 +1726,11 @@
       "reason": "Uncropped retake desktop inspection image"
     },
     {
+      "path": "work/nanda-video/revision-v4/.impeccable/hook.cache.json",
+      "bytes": 413,
+      "reason": "Operating-system, development hook or Python cache"
+    },
+    {
       "path": "work/nanda-video/revision-v4/private-input/00000013-VIDEO-2026-10-08-07-04-22.mp4",
       "bytes": 13321660,
       "reason": "Private feedback attachments, source chat or reference inspection material"

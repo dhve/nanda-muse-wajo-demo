@@ -39,6 +39,6 @@ const dialog=document.getElementById('image-dialog');for(const b of document.que
 for(const b of document.querySelectorAll('[data-time]'))b.addEventListener('click',()=>{{const v=document.getElementById('demo-video');v.currentTime=Number(b.dataset.time);v.scrollIntoView({{behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'center'}});v.play().catch(()=>{{}});}});
 const links=[...document.querySelectorAll('.step-nav a')];const obs=new IntersectionObserver(entries=>{{for(const e of entries)if(e.isIntersecting)for(const a of links)a.classList.toggle('active',a.hash==='#'+e.target.id)}},{{rootMargin:'-12% 0px -65% 0px'}});document.querySelectorAll('.step').forEach(e=>obs.observe(e));
 </script></body></html>'''
-(OUT/'index.html').write_text(page)
+(OUT/'index.html').write_text('\n'.join(line.rstrip() for line in page.splitlines())+'\n')
 shutil.copy2(BASE/'prompts.json',OUT/'prompts.json')
 print(OUT/'index.html')
