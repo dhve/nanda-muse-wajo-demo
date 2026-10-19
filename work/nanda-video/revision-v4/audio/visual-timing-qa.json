@@ -1,0 +1,134 @@
+{
+  "checks": 16,
+  "passed": 16,
+  "results": [
+    {
+      "time": 23.5,
+      "scene": "connect_alice",
+      "spoken": "Her agent completes the setup",
+      "expected": "visible",
+      "opacity": 0.981,
+      "pass": true
+    },
+    {
+      "time": 34,
+      "scene": "connect_bob",
+      "spoken": "Each agent gets its own Agent Box address",
+      "expected": "visible",
+      "opacity": 1,
+      "pass": true
+    },
+    {
+      "time": 43.8,
+      "scene": "verify",
+      "spoken": "copy the agent credential from that same email",
+      "expected": "visible",
+      "opacity": 1,
+      "pass": true
+    },
+    {
+      "time": 44.5,
+      "scene": "verify",
+      "spoken": "credential is still being copied from the email",
+      "expected": "hidden",
+      "opacity": 0,
+      "pass": true
+    },
+    {
+      "time": 46.4,
+      "scene": "verify",
+      "spoken": "into the secure field",
+      "expected": "visible",
+      "opacity": 1,
+      "pass": true
+    },
+    {
+      "time": 47.9,
+      "scene": "verify",
+      "spoken": "Keep it private",
+      "expected": "visible",
+      "opacity": 1,
+      "pass": true
+    },
+    {
+      "time": 71.2,
+      "scene": "discover",
+      "spoken": "searches by what the business can do",
+      "expected": "visible",
+      "opacity": 1,
+      "pass": true
+    },
+    {
+      "time": 71.2,
+      "scene": "discover",
+      "spoken": "the search is still in progress",
+      "expected": "hidden",
+      "opacity": 0,
+      "pass": true
+    },
+    {
+      "time": 73,
+      "scene": "discover",
+      "spoken": "then finds Alice’s Bakery",
+      "expected": "visible",
+      "opacity": 1,
+      "pass": true
+    },
+    {
+      "time": 114,
+      "scene": "ask",
+      "spoken": "Bob approves the message",
+      "expected": "visible",
+      "opacity": 1,
+      "pass": true
+    },
+    {
+      "time": 129.9,
+      "scene": "reply",
+      "spoken": "chocolate and vanilla cakes",
+      "expected": "hidden",
+      "opacity": 0,
+      "pass": true
+    },
+    {
+      "time": 131.1,
+      "scene": "reply",
+      "spoken": "Her agent sends the answer back",
+      "expected": "visible",
+      "opacity": 1,
+      "pass": true
+    },
+    {
+      "time": 150,
+      "scene": "another",
+      "spoken": "introducing the cake tasting example",
+      "expected": "hidden",
+      "opacity": 0,
+      "pass": true
+    },
+    {
+      "time": 151.7,
+      "scene": "another",
+      "spoken": "Bob asks about Tuesday",
+      "expected": "visible",
+      "opacity": 1,
+      "pass": true
+    },
+    {
+      "time": 152,
+      "scene": "another",
+      "spoken": "Bob’s question is still being delivered",
+      "expected": "hidden",
+      "opacity": 0,
+      "pass": true
+    },
+    {
+      "time": 153.8,
+      "scene": "another",
+      "spoken": "Alice replies with a time",
+      "expected": "visible",
+      "opacity": 1,
+      "pass": true
+    }
+  ]
+}

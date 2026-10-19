@@ -1,0 +1,15 @@
+{
+  "video": "outputs/nanda-demo-v4/video/muse-wajo-demo-v4.mp4",
+  "duration": 178.0,
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "audio_codec": "aac",
+  "full_decode": "passed",
+  "missing_guide_assets": [],
+  "captions": 45,
+  "screenshot_provenance_verified": 9,
+  "video_sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a"
+}

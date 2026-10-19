@@ -1,0 +1,82 @@
+{
+  "service": "ElevenLabs",
+  "voice": "Vedh",
+  "model": "Eleven v4",
+  "sources": [
+    {
+      "file": "vedh-original.mp3",
+      "duration": 136.202438,
+      "sha256": "c9318306dd15a968514fc3030f18ff73d1f9376d4a9c7f4ce904ae6102873abc"
+    },
+    {
+      "file": "verify-original.mp3",
+      "duration": 9.482438,
+      "sha256": "e695c102b099554a8258c8a0b81dc11d1a94b4721427133290e623a8720b4c08"
+    }
+  ],
+  "final_duration": 178,
+  "tempo": 0.94,
+  "scene_word_matches": [
+    {
+      "scene": "goal",
+      "ratio": 1.0
+    },
+    {
+      "scene": "connect_alice",
+      "ratio": 1.0
+    },
+    {
+      "scene": "connect_bob",
+      "ratio": 1.0
+    },
+    {
+      "scene": "verify",
+      "ratio": 1.0
+    },
+    {
+      "scene": "ready",
+      "ratio": 1.0
+    },
+    {
+      "scene": "discover",
+      "ratio": 1.0
+    },
+    {
+      "scene": "handshake",
+      "ratio": 1.0
+    },
+    {
+      "scene": "card",
+      "ratio": 1.0
+    },
+    {
+      "scene": "manual_search",
+      "ratio": 1.0
+    },
+    {
+      "scene": "ask",
+      "ratio": 1.0
+    },
+    {
+      "scene": "reply",
+      "ratio": 1.0
+    },
+    {
+      "scene": "received",
+      "ratio": 1.0
+    },
+    {
+      "scene": "another",
+      "ratio": 1.0
+    },
+    {
+      "scene": "roles",
+      "ratio": 1.0
+    },
+    {
+      "scene": "end",
+      "ratio": 1.0
+    }
+  ],
+  "forbidden_spoken_word_found": false
+}

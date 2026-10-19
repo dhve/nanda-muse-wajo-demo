@@ -1,0 +1,204 @@
+1
+00:00:00,532 --> 00:00:04,713
+Bob needs a birthday cake,
+but he doesn't know a bakery.
+
+2
+00:00:04,723 --> 00:00:07,756
+Alice runs a bakery and uses Muse.
+
+3
+00:00:07,766 --> 00:00:09,920
+Bob uses Wajo.
+
+4
+00:00:10,053 --> 00:00:13,479
+This animated example shows how
+their agents find each other and
+
+5
+00:00:13,489 --> 00:00:15,154
+exchange messages.
+
+6
+00:00:16,564 --> 00:00:20,756
+First, Alice opens Muse and
+enters the setup prompt with her
+
+7
+00:00:20,766 --> 00:00:22,916
+email and what her bakery offers.
+
+8
+00:00:22,926 --> 00:00:26,926
+Her agent completes the setup
+using the instructions on the
+
+9
+00:00:26,936 --> 00:00:27,899
+website.
+
+10
+00:00:29,500 --> 00:00:33,086
+Bob does the same in
+Wajo with his own email.
+
+11
+00:00:33,096 --> 00:00:36,601
+Each agent gets its own Agent Box address.
+
+12
+00:00:38,564 --> 00:00:41,139
+Enter the code from your setup email.
+
+13
+00:00:41,149 --> 00:00:45,554
+If Muse asks, copy the agent
+credential from that same email
+
+14
+00:00:45,564 --> 00:00:47,447
+into the secure field.
+
+15
+00:00:47,457 --> 00:00:48,665
+Keep it private.
+
+16
+00:00:52,500 --> 00:00:56,362
+The agent's listing and card
+describe what it offers and how
+
+17
+00:00:56,372 --> 00:00:57,426
+to reach it.
+
+18
+00:00:57,436 --> 00:01:00,091
+Alice's bakery is now ready to be found.
+
+19
+00:01:01,569 --> 00:01:04,102
+Bob asks for a birthday cake bakery.
+
+20
+00:01:04,112 --> 00:01:08,538
+He doesn't need Alice's
+email or agent address.
+
+21
+00:01:08,548 --> 00:01:12,931
+Wajo searches by what the business
+can do, then finds Alice's
+
+22
+00:01:12,941 --> 00:01:13,809
+Bakery.
+
+23
+00:01:16,516 --> 00:01:19,745
+The index is used when
+the agents first connect.
+
+24
+00:01:19,803 --> 00:01:23,559
+It points Wajo to the bakery's
+published agent card, through a
+
+25
+00:01:23,569 --> 00:01:27,819
+host such as host thirty-nine
+or list thirty-nine.
+
+26
+00:01:29,500 --> 00:01:33,405
+Wajo checks the card's
+capabilities, contact route and
+
+27
+00:01:33,415 --> 00:01:36,288
+authentication requirements before sending.
+
+28
+00:01:36,298 --> 00:01:41,218
+Even when an address is already
+known, these details still matter.
+
+29
+00:01:41,245 --> 00:01:44,431
+A listing alone doesn't guarantee safety.
+
+30
+00:01:45,500 --> 00:01:49,064
+You can also search for indexed
+agents yourself on the Index
+
+31
+00:01:49,074 --> 00:01:49,984
+website.
+
+32
+00:01:52,505 --> 00:01:56,655
+Bob approves the message:
+What cakes do you have?
+
+33
+00:01:56,665 --> 00:02:00,511
+Agent Box carries that message
+to Alice's agent in Muse.
+
+34
+00:02:02,500 --> 00:02:06,299
+Alice checks her Agent Box
+and sees Bob's question.
+
+35
+00:02:06,309 --> 00:02:10,788
+She approves a reply: We have
+chocolate and vanilla cakes.
+
+36
+00:02:10,798 --> 00:02:13,069
+Her agent sends the answer back.
+
+37
+00:02:17,606 --> 00:02:21,341
+Bob checks for replies in
+Wajo and gets Alice's answer.
+
+38
+00:02:21,351 --> 00:02:24,899
+Both people have stayed in their own apps.
+
+39
+00:02:27,500 --> 00:02:30,979
+The same flow works for
+arranging a cake tasting.
+
+40
+00:02:30,989 --> 00:02:34,974
+Bob asks about Tuesday, and
+Alice replies with a time.
+
+41
+00:02:37,500 --> 00:02:41,735
+The index provides neutral
+discovery across agent ecosystems.
+
+42
+00:02:41,745 --> 00:02:43,947
+Agent Box handles the messages.
+
+43
+00:02:43,957 --> 00:02:48,516
+Finding the right agent makes
+working together possible.
+
+44
+00:02:49,500 --> 00:02:52,852
+Follow the guide for the exact
+prompts, or scan the code
+
+45
+00:02:52,862 --> 00:02:54,527
+to explore the Index.

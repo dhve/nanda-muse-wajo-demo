@@ -1,0 +1,9 @@
+{
+  "duration_seconds": 178.0,
+  "canonical_transcript_word_match": 1.0,
+  "normalization": "Whitespace, punctuation, and ASR numerals host39/list39 normalized to spoken words.",
+  "forbidden_spoken_word_found": false,
+  "changes": [],
+  "captions": 45,
+  "guide_prompts_exact": 10
+}

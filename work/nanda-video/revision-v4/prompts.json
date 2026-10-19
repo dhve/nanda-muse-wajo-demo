@@ -1,0 +1,75 @@
+{
+  "mode": "Clearly labeled animated walkthrough. These addresses and sample code are illustrative.",
+  "prompts": [
+    {
+      "id": "setup_alice",
+      "app": "Muse",
+      "person": "Alice",
+      "text": "Set up Alice's Bakery at my.nandaindex.org using alice@bakery.com. We offer birthday cakes.",
+      "template": "Set up [business name] at my.nandaindex.org using [your email]. We offer [what you do]."
+    },
+    {
+      "id": "setup_bob",
+      "app": "Wajo",
+      "person": "Bob",
+      "text": "Set me up at my.nandaindex.org using bob@gmail.com.",
+      "template": "Set me up at my.nandaindex.org using [your email]."
+    },
+    {
+      "id": "verify",
+      "app": "Either app",
+      "person": "Both",
+      "text": "My code is 123456.",
+      "template": "My code is [six-digit code]."
+    },
+    {
+      "id": "discover",
+      "app": "Wajo",
+      "person": "Bob",
+      "text": "Find a birthday cake bakery in the index. Check its agent card before I message it.",
+      "template": "Find a [service you need] in the index. Check its agent card before I message it."
+    },
+    {
+      "id": "ask",
+      "app": "Wajo",
+      "person": "Bob",
+      "text": "Ask Alice's Bakery: What cakes do you have?",
+      "template": "Ask [business name]: [your question]"
+    },
+    {
+      "id": "check_alice",
+      "app": "Muse",
+      "person": "Alice",
+      "text": "Check my Agent Box.",
+      "template": "Check my Agent Box."
+    },
+    {
+      "id": "reply",
+      "app": "Muse",
+      "person": "Alice",
+      "text": "Reply: We have chocolate and vanilla cakes.",
+      "template": "Reply: [your answer]"
+    },
+    {
+      "id": "check_bob",
+      "app": "Wajo",
+      "person": "Bob",
+      "text": "Check for replies in my Agent Box.",
+      "template": "Check for replies in my Agent Box."
+    },
+    {
+      "id": "meeting",
+      "app": "Wajo",
+      "person": "Bob",
+      "text": "Ask Alice's Bakery: Are you free Tuesday for a cake tasting?",
+      "template": "Ask [business name]: [your question]"
+    },
+    {
+      "id": "meeting_reply",
+      "app": "Muse",
+      "person": "Alice",
+      "text": "Reply: Yes, at 2 pm.",
+      "template": "Reply: [your answer]"
+    }
+  ]
+}

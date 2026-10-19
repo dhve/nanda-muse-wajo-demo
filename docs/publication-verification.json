@@ -28,5 +28,148 @@
     "alt.m4a_correlation": 0.999980256111335,
     "t.m4a_correlation": 0.999885004762968
   },
-  "review": "Independent archive review completed. Added the two narration tests and documented the original Homebrew Python dependency."
+  "review": "Independent archive review completed. Added the two narration tests and documented the original Homebrew Python dependency.",
+  "v4": {
+    "date": "2026-10-19",
+    "export": {
+      "video": "outputs/nanda-demo-v4/video/muse-wajo-demo-v4.mp4",
+      "duration": 178.0,
+      "resolution": [
+        1920,
+        1080
+      ],
+      "fps": "30/1",
+      "audio_codec": "aac",
+      "full_decode": "passed",
+      "missing_guide_assets": [],
+      "captions": 45,
+      "screenshot_provenance_verified": 9,
+      "video_sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a"
+    },
+    "timing": {
+      "visual_cues": [
+        {
+          "time": 0.8,
+          "cue": "opening title",
+          "mean_pixel_error": 0.77,
+          "pass": true
+        },
+        {
+          "time": 23.5,
+          "cue": "Alice setup runs",
+          "mean_pixel_error": 0.862,
+          "pass": true
+        },
+        {
+          "time": 34.0,
+          "cue": "Bob has an address",
+          "mean_pixel_error": 0.553,
+          "pass": true
+        },
+        {
+          "time": 40.2,
+          "cue": "verification prompt",
+          "mean_pixel_error": 0.561,
+          "pass": true
+        },
+        {
+          "time": 43.8,
+          "cue": "credential source in email",
+          "mean_pixel_error": 0.279,
+          "pass": true
+        },
+        {
+          "time": 46.4,
+          "cue": "credential in secure field",
+          "mean_pixel_error": 1.039,
+          "pass": true
+        },
+        {
+          "time": 71.2,
+          "cue": "search before result",
+          "mean_pixel_error": 0.291,
+          "pass": true
+        },
+        {
+          "time": 73.0,
+          "cue": "bakery found",
+          "mean_pixel_error": 0.383,
+          "pass": true
+        },
+        {
+          "time": 114.0,
+          "cue": "Bob approves",
+          "mean_pixel_error": 2.184,
+          "pass": true
+        },
+        {
+          "time": 129.9,
+          "cue": "reply before sending",
+          "mean_pixel_error": 0.333,
+          "pass": true
+        },
+        {
+          "time": 131.1,
+          "cue": "reply sent",
+          "mean_pixel_error": 0.855,
+          "pass": true
+        },
+        {
+          "time": 150.0,
+          "cue": "tasting introduction",
+          "mean_pixel_error": 0.902,
+          "pass": true
+        },
+        {
+          "time": 151.7,
+          "cue": "Bob asks Tuesday",
+          "mean_pixel_error": 1.128,
+          "pass": true
+        },
+        {
+          "time": 153.8,
+          "cue": "Alice replies with a time",
+          "mean_pixel_error": 0.906,
+          "pass": true
+        }
+      ],
+      "audio_alignment": [
+        {
+          "time": 2,
+          "lag_ms": 0.0,
+          "pass": true
+        },
+        {
+          "time": 80,
+          "lag_ms": 0.0,
+          "pass": true
+        },
+        {
+          "time": 160,
+          "lag_ms": 0.0,
+          "pass": true
+        }
+      ],
+      "passed": true
+    },
+    "visible_action_cues": 16,
+    "live_deployment": {
+      "verified_at": "2026-10-19T19:28:50.472941+00:00",
+      "url": "https://my.nandaindex.org/demo/",
+      "commit": "3e9ce99efe6c7c0a13876a14eb3ada175bebe60d",
+      "status": "built",
+      "video_count": 2,
+      "existing_html_preserved": true,
+      "existing_assets_unchanged": true,
+      "new_video_url": "https://my.nandaindex.org/demo/video/muse-wajo-demo-v4.mp4?v=sync-2",
+      "video_sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a",
+      "live_video_hash_matches_export": true
+    },
+    "private_sources_excluded": [
+      "private-input",
+      "research",
+      "native desktop captures"
+    ],
+    "scope": "New bakery video above the unchanged existing guide and earlier video."
+  }
 }

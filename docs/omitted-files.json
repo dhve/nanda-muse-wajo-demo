@@ -711,6 +711,11 @@
       "reason": "OCR inspection output from uncropped source frames"
     },
     {
+      "path": "work/nanda-video/retake/r2_muse_check-contact.jpg",
+      "bytes": 161757,
+      "reason": "Uncropped retake inspection frames; prepared clips included"
+    },
+    {
       "path": "work/nanda-video/retake/r2_muse_check/001.png",
       "bytes": 37392,
       "reason": "Uncropped retake inspection frames; prepared clips included"
@@ -766,8 +771,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_muse_check-contact.jpg",
-      "bytes": 161757,
+      "path": "work/nanda-video/retake/r2_muse_check_paste-contact.jpg",
+      "bytes": 152174,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -816,8 +821,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_muse_check_paste-contact.jpg",
-      "bytes": 152174,
+      "path": "work/nanda-video/retake/r2_muse_code_send-contact.jpg",
+      "bytes": 119421,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -861,8 +866,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_muse_code_send-contact.jpg",
-      "bytes": 119421,
+      "path": "work/nanda-video/retake/r2_muse_connect-contact.jpg",
+      "bytes": 278579,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -966,8 +971,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_muse_connect-contact.jpg",
-      "bytes": 278579,
+      "path": "work/nanda-video/retake/r2_muse_reply_prompt-contact.jpg",
+      "bytes": 194620,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -1031,8 +1036,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_muse_reply_prompt-contact.jpg",
-      "bytes": 194620,
+      "path": "work/nanda-video/retake/r2_muse_setup-contact.jpg",
+      "bytes": 173042,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -1126,8 +1131,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_muse_setup-contact.jpg",
-      "bytes": 173042,
+      "path": "work/nanda-video/retake/r2_wajo_code-contact.jpg",
+      "bytes": 120528,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -1191,8 +1196,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_wajo_code-contact.jpg",
-      "bytes": 120528,
+      "path": "work/nanda-video/retake/r2_wajo_find-contact.jpg",
+      "bytes": 209567,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -1261,8 +1266,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_wajo_find-contact.jpg",
-      "bytes": 209567,
+      "path": "work/nanda-video/retake/r2_wajo_find_paste-contact.jpg",
+      "bytes": 165286,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -1311,8 +1316,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_wajo_find_paste-contact.jpg",
-      "bytes": 165286,
+      "path": "work/nanda-video/retake/r2_wajo_reply_check-contact.jpg",
+      "bytes": 297856,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -1416,8 +1421,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_wajo_reply_check-contact.jpg",
-      "bytes": 297856,
+      "path": "work/nanda-video/retake/r2_wajo_setup-contact.jpg",
+      "bytes": 161537,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -1496,8 +1501,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r2_wajo_setup-contact.jpg",
-      "bytes": 161537,
+      "path": "work/nanda-video/retake/r3_muse_check_paste-contact.jpg",
+      "bytes": 161782,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -1551,8 +1556,8 @@
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
-      "path": "work/nanda-video/retake/r3_muse_check_paste-contact.jpg",
-      "bytes": 161782,
+      "path": "work/nanda-video/retake/r3_wajo_find_paste-contact.jpg",
+      "bytes": 219817,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -1613,11 +1618,6 @@
     {
       "path": "work/nanda-video/retake/r3_wajo_find_paste/012.png",
       "bytes": 45697,
-      "reason": "Uncropped retake inspection frames; prepared clips included"
-    },
-    {
-      "path": "work/nanda-video/retake/r3_wajo_find_paste-contact.jpg",
-      "bytes": 219817,
       "reason": "Uncropped retake inspection frames; prepared clips included"
     },
     {
@@ -1724,6 +1724,366 @@
       "path": "work/nanda-video/retake/wajo-setup-contact.png",
       "bytes": 126843,
       "reason": "Uncropped retake desktop inspection image"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000013-VIDEO-2026-10-08-07-04-22.mp4",
+      "bytes": 13321660,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000014-VIDEO-2026-10-08-07-04-22.mp4",
+      "bytes": 3771659,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000015-VIDEO-2026-10-08-07-04-23.mp4",
+      "bytes": 2872899,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000028-VIDEO-2026-10-08-10-02-07.mp4",
+      "bytes": 6937142,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000037-PHOTO-2026-10-08-15-46-32.jpg",
+      "bytes": 93152,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000045-VIDEO-2026-10-08-18-13-07.mp4",
+      "bytes": 9321891,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000047-VIDEO-2026-10-08-18-23-37.mp4",
+      "bytes": 792169,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000050-VIDEO-2026-10-08-18-39-05.mp4",
+      "bytes": 3652241,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000055-VIDEO-2026-10-08-18-44-04.mp4",
+      "bytes": 12989440,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000089-VIDEO-2026-10-09-19-52-18.mp4",
+      "bytes": 10915115,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000090-VIDEO-2026-10-09-19-52-19.mp4",
+      "bytes": 12054886,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000105-PHOTO-2026-10-09-20-06-37.jpg",
+      "bytes": 84458,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000119-VIDEO-2026-10-10-08-49-47.mp4",
+      "bytes": 10217914,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000120-VIDEO-2026-10-10-08-49-51.mp4",
+      "bytes": 20773475,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000121-VIDEO-2026-10-10-08-49-56.mp4",
+      "bytes": 12932691,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000122-VIDEO-2026-10-10-08-50-01.mp4",
+      "bytes": 24868670,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000182-Screenshot 2026-10-13 at 11.05.41\u0393\u00c7\u00bbPM.png",
+      "bytes": 19308,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000185-VIDEO-2026-10-14-20-11-50.mp4",
+      "bytes": 12612340,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000186-VIDEO-2026-10-14-20-11-51.mp4",
+      "bytes": 17590942,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/00000197-muse-wajo-demo-v3.mp4",
+      "bytes": 10333318,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/private-input/_chat.txt",
+      "bytes": 57644,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/recording/cursor-events.json",
+      "bytes": 8947,
+      "reason": "Private desktop capture or superseded capture intermediate; final animation render included"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/recording/direct-render.webm",
+      "bytes": 18490970,
+      "reason": "Private desktop capture or superseded capture intermediate; final animation render included"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/recording/frame-bounds.png",
+      "bytes": 357165,
+      "reason": "Private desktop capture or superseded capture intermediate; final animation render included"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/recording/native-frame.png",
+      "bytes": 1101853,
+      "reason": "Private desktop capture or superseded capture intermediate; final animation render included"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/recording/native-raw.mov",
+      "bytes": 162452779,
+      "reason": "Private desktop capture or superseded capture intermediate; final animation render included"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/recording/page@845b8baa677d7022a830de1109eb2245.webm",
+      "bytes": 18490970,
+      "reason": "Private desktop capture or superseded capture intermediate; final animation render included"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/recording/raw-contact.jpg",
+      "bytes": 234921,
+      "reason": "Private desktop capture or superseded capture intermediate; final animation render included"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/recording/trim-contact.jpg",
+      "bytes": 117882,
+      "reason": "Private desktop capture or superseded capture intermediate; final animation render included"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/alice-card.json",
+      "bytes": 1427,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/alice-resolve.json",
+      "bytes": 954,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/bakery-reference.jpg",
+      "bytes": 100292,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/bakery-search.json",
+      "bytes": 2082,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/bob-resolve.json",
+      "bytes": 942,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/current-SKILL.md",
+      "bytes": 12789,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh-slides-text.json",
+      "bytes": 5060,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/contact-1.jpg",
+      "bytes": 1081769,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/contact-11.jpg",
+      "bytes": 421618,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image10.jpg",
+      "bytes": 354840,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image11.png",
+      "bytes": 1224083,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image12.jpg",
+      "bytes": 327313,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image13.png",
+      "bytes": 465690,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image14.jpg",
+      "bytes": 361409,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image15.jpg",
+      "bytes": 279010,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image16.png",
+      "bytes": 535221,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image17.png",
+      "bytes": 193102,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image18.png",
+      "bytes": 4105,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image19.png",
+      "bytes": 5679,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image20.png",
+      "bytes": 4795,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image21.png",
+      "bytes": 4668,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image22.png",
+      "bytes": 5817,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image23.png",
+      "bytes": 45391,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image24.png",
+      "bytes": 16149,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image25.png",
+      "bytes": 24555,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image26.png",
+      "bytes": 32024,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image27.png",
+      "bytes": 90552,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image28.png",
+      "bytes": 17358,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image29.png",
+      "bytes": 24488,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image30.png",
+      "bytes": 109711,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image31.png",
+      "bytes": 11283,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image32.png",
+      "bytes": 7772,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image33.png",
+      "bytes": 10145,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image34.png",
+      "bytes": 1557615,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image35.jpg",
+      "bytes": 433835,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image6.png",
+      "bytes": 1471558,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image7.jpg",
+      "bytes": 391012,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image8.jpg",
+      "bytes": 299210,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/image9.jpg",
+      "bytes": 486382,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/mapping.json",
+      "bytes": 3018,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/ramesh/remaining-images.jpg",
+      "bytes": 259584,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/skill-current.txt",
+      "bytes": 100,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
+    },
+    {
+      "path": "work/nanda-video/revision-v4/research/skill-root.txt",
+      "bytes": 293,
+      "reason": "Private feedback attachments, source chat or reference inspection material"
     }
   ],
   "dependency_cache_file_count": 4554

@@ -1,0 +1,129 @@
+{
+  "fps": 30,
+  "width": 1920,
+  "height": 1080,
+  "duration": 178,
+  "disclosure": "Animated walkthrough \u00b7 Illustrative screens and addresses",
+  "scenes": [
+    {
+      "id": "goal",
+      "duration": 16,
+      "start": 0,
+      "title": "A cake for Bob",
+      "narration": "Bob needs a birthday cake, but he doesn't know a bakery. Alice runs a bakery and uses Muse. Bob uses Wajo. This animated example shows how their agents find each other and exchange messages.",
+      "promptId": null
+    },
+    {
+      "id": "connect_alice",
+      "duration": 13,
+      "start": 16,
+      "title": "1. Connect Alice in Muse",
+      "narration": "First, Alice opens Muse and enters the setup prompt with her email and what her bakery offers. Her agent completes the setup using the instructions on the website.",
+      "promptId": "setup_alice"
+    },
+    {
+      "id": "connect_bob",
+      "duration": 9,
+      "start": 29,
+      "title": "Connect Bob in Wajo",
+      "narration": "Bob does the same in Wajo with his own email. Each agent gets its own Agent Box address.",
+      "promptId": "setup_bob"
+    },
+    {
+      "id": "verify",
+      "duration": 14,
+      "start": 38,
+      "title": "2. Confirm your email",
+      "narration": "Enter the code from your setup email. If Muse asks, copy the agent credential from that same email into the secure field. Keep it private.",
+      "promptId": "verify"
+    },
+    {
+      "id": "ready",
+      "duration": 9,
+      "start": 52,
+      "title": "Your agent is discoverable",
+      "narration": "The agent's listing and card describe what it offers and how to reach it. Alice's bakery is now ready to be found.",
+      "promptId": null
+    },
+    {
+      "id": "discover",
+      "duration": 15,
+      "start": 61,
+      "title": "3. Find a bakery",
+      "narration": "Bob asks for a birthday cake bakery. He doesn't need Alice's email or agent address. Wajo searches by what the business can do, then finds Alice's Bakery.",
+      "promptId": "discover"
+    },
+    {
+      "id": "handshake",
+      "duration": 13,
+      "start": 76,
+      "title": "The Index connects discovery",
+      "narration": "The index is used when the agents first connect. It points Wajo to the bakery's published agent card, through a host such as host thirty-nine or list thirty-nine.",
+      "promptId": null
+    },
+    {
+      "id": "card",
+      "duration": 16,
+      "start": 89,
+      "title": "Check the agent card",
+      "narration": "Wajo checks the card's capabilities, contact route and authentication requirements before sending. Even when an address is already known, these details still matter. A listing alone doesn't guarantee safety.",
+      "promptId": null
+    },
+    {
+      "id": "manual_search",
+      "duration": 7,
+      "start": 105,
+      "title": "You can search too",
+      "narration": "You can also search for indexed agents yourself on the Index website.",
+      "promptId": null
+    },
+    {
+      "id": "ask",
+      "duration": 10,
+      "start": 112,
+      "title": "4. Ask about cakes",
+      "narration": "Bob approves the message: What cakes do you have? Agent Box carries that message to Alice's agent in Muse.",
+      "promptId": "ask"
+    },
+    {
+      "id": "reply",
+      "duration": 15,
+      "start": 122,
+      "title": "Alice replies in Muse",
+      "narration": "Alice checks her Agent Box and sees Bob's question. She approves a reply: We have chocolate and vanilla cakes. Her agent sends the answer back.",
+      "promptId": "reply"
+    },
+    {
+      "id": "received",
+      "duration": 10,
+      "start": 137,
+      "title": "Bob receives the answer",
+      "narration": "Bob checks for replies in Wajo and gets Alice's answer. Both people have stayed in their own apps.",
+      "promptId": "check_bob"
+    },
+    {
+      "id": "another",
+      "duration": 10,
+      "start": 147,
+      "title": "Another example: a cake tasting",
+      "narration": "The same flow works for arranging a cake tasting. Bob asks about Tuesday, and Alice replies with a time.",
+      "promptId": "meeting"
+    },
+    {
+      "id": "roles",
+      "duration": 12,
+      "start": 157,
+      "title": "Discovery and delivery",
+      "narration": "The index provides neutral discovery across agent ecosystems. Agent Box handles the messages. Finding the right agent makes working together possible.",
+      "promptId": null
+    },
+    {
+      "id": "end",
+      "duration": 9,
+      "start": 169,
+      "title": "Try it yourself",
+      "narration": "Follow the guide for the exact prompts, or scan the code to explore the Index.",
+      "promptId": null
+    }
+  ]
+}

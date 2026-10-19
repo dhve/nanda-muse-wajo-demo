@@ -1,0 +1,412 @@
+{
+  "duration": 178,
+  "scenes": [
+    {
+      "id": "goal",
+      "start": 0,
+      "duration": 16,
+      "source_file": "vedh-original.mp3",
+      "source_start": 0,
+      "source_end": 13.76,
+      "narration_start": 0.5,
+      "narration_end": 15.131125,
+      "tempo": 0.94,
+      "text": "Bob needs a birthday cake, but he doesn't know a bakery. Alice runs a bakery and uses Muse. Bob uses Wajo. This animated example shows how their agents find each other and exchange messages."
+    },
+    {
+      "id": "connect_alice",
+      "start": 16,
+      "duration": 13,
+      "source_file": "vedh-original.mp3",
+      "source_start": 13.76,
+      "source_end": 24.4,
+      "narration_start": 16.5,
+      "narration_end": 27.8158125,
+      "tempo": 0.94,
+      "text": "First, Alice opens Muse and enters the setup prompt with her email and what her bakery offers. Her agent completes the setup using the instructions on the website."
+    },
+    {
+      "id": "connect_bob",
+      "start": 29,
+      "duration": 9,
+      "source_file": "vedh-original.mp3",
+      "source_start": 24.4,
+      "source_end": 31.134999999999998,
+      "narration_start": 29.5,
+      "narration_end": 36.6575,
+      "tempo": 0.94,
+      "text": "Bob does the same in Wajo with his own email. Each agent gets its own Agent Box address."
+    },
+    {
+      "id": "verify",
+      "start": 38,
+      "duration": 14,
+      "source_file": "verify-original.mp3",
+      "source_start": 0,
+      "source_end": 9.482438,
+      "narration_start": 38.5,
+      "narration_end": 48.5835625,
+      "tempo": 0.94,
+      "text": "Enter the code from your setup email. If Muse asks, copy the agent credential from that same email into the secure field. Keep it private."
+    },
+    {
+      "id": "ready",
+      "start": 52,
+      "duration": 9,
+      "source_file": "vedh-original.mp3",
+      "source_start": 42.6,
+      "source_end": 49.724999999999994,
+      "narration_start": 52.5,
+      "narration_end": 60.07358333333333,
+      "tempo": 0.94,
+      "text": "The agent's listing and card describe what it offers and how to reach it. Alice's bakery is now ready to be found."
+    },
+    {
+      "id": "discover",
+      "start": 61,
+      "duration": 15,
+      "source_file": "vedh-original.mp3",
+      "source_start": 49.724999999999994,
+      "source_end": 61.235,
+      "narration_start": 61.5,
+      "narration_end": 73.7398125,
+      "tempo": 0.94,
+      "text": "Bob asks for a birthday cake bakery. He doesn't need Alice's email or agent address. Wajo searches by what the business can do, then finds Alice's Bakery."
+    },
+    {
+      "id": "handshake",
+      "start": 76,
+      "duration": 13,
+      "source_file": "vedh-original.mp3",
+      "source_start": 61.235,
+      "source_end": 71.8,
+      "narration_start": 76.5,
+      "narration_end": 87.7355,
+      "tempo": 0.94,
+      "text": "The index is used when the agents first connect. It points Wajo to the bakery's published agent card, through a host such as host thirty-nine or list thirty-nine."
+    },
+    {
+      "id": "card",
+      "start": 89,
+      "duration": 16,
+      "source_file": "vedh-original.mp3",
+      "source_start": 71.8,
+      "source_end": 85.76,
+      "narration_start": 89.5,
+      "narration_end": 104.3454375,
+      "tempo": 0.94,
+      "text": "Wajo checks the card's capabilities, contact route and authentication requirements before sending. Even when an address is already known, these details still matter. A listing alone doesn't guarantee safety."
+    },
+    {
+      "id": "manual_search",
+      "start": 105,
+      "duration": 7,
+      "source_file": "vedh-original.mp3",
+      "source_start": 85.76,
+      "source_end": 89.905,
+      "narration_start": 105.5,
+      "narration_end": 109.90402083333333,
+      "tempo": 0.94,
+      "text": "You can also search for indexed agents yourself on the Index website."
+    },
+    {
+      "id": "ask",
+      "start": 112,
+      "duration": 10,
+      "source_file": "vedh-original.mp3",
+      "source_start": 89.905,
+      "source_end": 97.36,
+      "narration_start": 112.5,
+      "narration_end": 120.42447916666667,
+      "tempo": 0.94,
+      "text": "Bob approves the message: What cakes do you have? Agent Box carries that message to Alice's agent in Muse."
+    },
+    {
+      "id": "reply",
+      "start": 122,
+      "duration": 15,
+      "source_file": "vedh-original.mp3",
+      "source_start": 97.36,
+      "source_end": 107.32,
+      "narration_start": 122.5,
+      "narration_end": 133.08714583333332,
+      "tempo": 0.94,
+      "text": "Alice checks her Agent Box and sees Bob's question. She approves a reply: We have chocolate and vanilla cakes. Her agent sends the answer back."
+    },
+    {
+      "id": "received",
+      "start": 137,
+      "duration": 10,
+      "source_file": "vedh-original.mp3",
+      "source_start": 107.32,
+      "source_end": 114.2,
+      "narration_start": 137.5,
+      "narration_end": 144.81252083333334,
+      "tempo": 0.94,
+      "text": "Bob checks for replies in Wajo and gets Alice's answer. Both people have stayed in their own apps."
+    },
+    {
+      "id": "another",
+      "start": 147,
+      "duration": 10,
+      "source_file": "vedh-original.mp3",
+      "source_start": 114.2,
+      "source_end": 121.15,
+      "narration_start": 147.5,
+      "narration_end": 154.88733333333334,
+      "tempo": 0.94,
+      "text": "The same flow works for arranging a cake tasting. Bob asks about Tuesday, and Alice replies with a time."
+    },
+    {
+      "id": "roles",
+      "start": 157,
+      "duration": 12,
+      "source_file": "vedh-original.mp3",
+      "source_start": 121.15,
+      "source_end": 131.43,
+      "narration_start": 157.5,
+      "narration_end": 168.429625,
+      "tempo": 0.94,
+      "text": "The index provides neutral discovery across agent ecosystems. Agent Box handles the messages. Finding the right agent makes working together possible."
+    },
+    {
+      "id": "end",
+      "start": 169,
+      "duration": 9,
+      "source_file": "vedh-original.mp3",
+      "source_start": 131.43,
+      "source_end": 136.202438,
+      "narration_start": 169.5,
+      "narration_end": 174.57129166666667,
+      "tempo": 0.94,
+      "text": "Follow the guide for the exact prompts, or scan the code to explore the Index."
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.5319148936170213,
+      "end": 4.7134042553191495,
+      "text": "Bob needs a birthday cake,\nbut he doesn't know a bakery."
+    },
+    {
+      "start": 4.723404255319149,
+      "end": 7.7559574468085115,
+      "text": "Alice runs a bakery and uses Muse."
+    },
+    {
+      "start": 7.765957446808511,
+      "end": 9.920425531914894,
+      "text": "Bob uses Wajo."
+    },
+    {
+      "start": 10.053191489361703,
+      "end": 13.479361702127662,
+      "text": "This animated example shows how\ntheir agents find each other and"
+    },
+    {
+      "start": 13.489361702127662,
+      "end": 15.154468085106384,
+      "text": "exchange messages."
+    },
+    {
+      "start": 16.56382978723404,
+      "end": 20.75595744680851,
+      "text": "First, Alice opens Muse and\nenters the setup prompt with her"
+    },
+    {
+      "start": 20.76595744680851,
+      "end": 22.915531914893617,
+      "text": "email and what her bakery offers."
+    },
+    {
+      "start": 22.925531914893618,
+      "end": 26.926170212765957,
+      "text": "Her agent completes the setup\nusing the instructions on the"
+    },
+    {
+      "start": 26.93617021276596,
+      "end": 27.89914893617021,
+      "text": "website."
+    },
+    {
+      "start": 29.5,
+      "end": 33.08574468085107,
+      "text": "Bob does the same in\nWajo with his own email."
+    },
+    {
+      "start": 33.09574468085107,
+      "end": 36.60127659574468,
+      "text": "Each agent gets its own Agent Box address."
+    },
+    {
+      "start": 38.56382978723404,
+      "end": 41.138936170212766,
+      "text": "Enter the code from your setup email."
+    },
+    {
+      "start": 41.148936170212764,
+      "end": 45.553829787234044,
+      "text": "If Muse asks, copy the agent\ncredential from that same email"
+    },
+    {
+      "start": 45.56382978723404,
+      "end": 47.44744680851064,
+      "text": "into the secure field."
+    },
+    {
+      "start": 47.45744680851064,
+      "end": 48.66510638297872,
+      "text": "Keep it private."
+    },
+    {
+      "start": 52.5,
+      "end": 56.36234042553192,
+      "text": "The agent's listing and card\ndescribe what it offers and how"
+    },
+    {
+      "start": 56.37234042553192,
+      "end": 57.42617021276596,
+      "text": "to reach it."
+    },
+    {
+      "start": 57.43617021276596,
+      "end": 60.09063829787233,
+      "text": "Alice's bakery is now ready to be found."
+    },
+    {
+      "start": 61.569148936170215,
+      "end": 64.10170212765958,
+      "text": "Bob asks for a birthday cake bakery."
+    },
+    {
+      "start": 64.11170212765958,
+      "end": 68.53787234042554,
+      "text": "He doesn't need Alice's\nemail or agent address."
+    },
+    {
+      "start": 68.54787234042554,
+      "end": 72.93148936170212,
+      "text": "Wajo searches by what the business\ncan do, then finds Alice's"
+    },
+    {
+      "start": 72.94148936170212,
+      "end": 73.80872340425532,
+      "text": "Bakery."
+    },
+    {
+      "start": 76.51595744680851,
+      "end": 79.74489361702128,
+      "text": "The index is used when\nthe agents first connect."
+    },
+    {
+      "start": 79.80319148936171,
+      "end": 83.5591489361702,
+      "text": "It points Wajo to the bakery's\npublished agent card, through a"
+    },
+    {
+      "start": 83.56914893617021,
+      "end": 87.81936170212765,
+      "text": "host such as host thirty-nine\nor list thirty-nine."
+    },
+    {
+      "start": 89.5,
+      "end": 93.40489361702127,
+      "text": "Wajo checks the card's\ncapabilities, contact route and"
+    },
+    {
+      "start": 93.41489361702128,
+      "end": 96.28787234042552,
+      "text": "authentication requirements before sending."
+    },
+    {
+      "start": 96.29787234042553,
+      "end": 101.21829787234041,
+      "text": "Even when an address is already\nknown, these details still matter."
+    },
+    {
+      "start": 101.24468085106383,
+      "end": 104.43106382978725,
+      "text": "A listing alone doesn't guarantee safety."
+    },
+    {
+      "start": 105.5,
+      "end": 109.06446808510638,
+      "text": "You can also search for indexed\nagents yourself on the Index"
+    },
+    {
+      "start": 109.07446808510639,
+      "end": 109.98425531914893,
+      "text": "website."
+    },
+    {
+      "start": 112.50531914893617,
+      "end": 116.65489361702126,
+      "text": "Bob approves the message:\nWhat cakes do you have?"
+    },
+    {
+      "start": 116.66489361702126,
+      "end": 120.51085106382979,
+      "text": "Agent Box carries that message\nto Alice's agent in Muse."
+    },
+    {
+      "start": 122.5,
+      "end": 126.29851063829787,
+      "text": "Alice checks her Agent Box\nand sees Bob's question."
+    },
+    {
+      "start": 126.30851063829788,
+      "end": 130.78787234042554,
+      "text": "She approves a reply: We have\nchocolate and vanilla cakes."
+    },
+    {
+      "start": 130.79787234042553,
+      "end": 133.06936170212768,
+      "text": "Her agent sends the answer back."
+    },
+    {
+      "start": 137.60638297872342,
+      "end": 141.34106382978726,
+      "text": "Bob checks for replies in\nWajo and gets Alice's answer."
+    },
+    {
+      "start": 141.35106382978725,
+      "end": 144.89914893617023,
+      "text": "Both people have stayed in their own apps."
+    },
+    {
+      "start": 147.5,
+      "end": 150.97936170212768,
+      "text": "The same flow works for\narranging a cake tasting."
+    },
+    {
+      "start": 150.98936170212767,
+      "end": 154.97361702127662,
+      "text": "Bob asks about Tuesday, and\nAlice replies with a time."
+    },
+    {
+      "start": 157.5,
+      "end": 161.73468085106384,
+      "text": "The index provides neutral\ndiscovery across agent ecosystems."
+    },
+    {
+      "start": 161.74468085106383,
+      "end": 163.94744680851065,
+      "text": "Agent Box handles the messages."
+    },
+    {
+      "start": 163.95744680851064,
+      "end": 168.51617021276599,
+      "text": "Finding the right agent makes\nworking together possible."
+    },
+    {
+      "start": 169.5,
+      "end": 172.8517021276596,
+      "text": "Follow the guide for the exact\nprompts, or scan the code"
+    },
+    {
+      "start": 172.86170212765958,
+      "end": 174.52680851063832,
+      "text": "to explore the Index."
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+Bob needs a birthday cake, but he doesn't know a bakery. Alice runs a bakery and uses Muse. Bob uses Wajo. This animated example shows how their agents find each other and exchange messages.
+
+First, Alice opens Muse and enters the setup prompt with her email and what her bakery offers. Her agent completes the setup using the instructions on the website.
+
+Bob does the same in Wajo with his own email. Each agent gets its own Agent Box address.
+
+Enter the code from your setup email. If Muse asks, copy the agent credential from that same email into the secure field. Keep it private.
+
+The agent's listing and card describe what it offers and how to reach it. Alice's bakery is now ready to be found.
+
+Bob asks for a birthday cake bakery. He doesn't need Alice's email or agent address. Wajo searches by what the business can do, then finds Alice's Bakery.
+
+The index is used when the agents first connect. It points Wajo to the bakery's published agent card, through a host such as host thirty-nine or list thirty-nine.
+
+Wajo checks the card's capabilities, contact route and authentication requirements before sending. Even when an address is already known, these details still matter. A listing alone doesn't guarantee safety.
+
+You can also search for indexed agents yourself on the Index website.
+
+Bob approves the message: What cakes do you have? Agent Box carries that message to Alice's agent in Muse.
+
+Alice checks her Agent Box and sees Bob's question. She approves a reply: We have chocolate and vanilla cakes. Her agent sends the answer back.
+
+Bob checks for replies in Wajo and gets Alice's answer. Both people have stayed in their own apps.
+
+The same flow works for arranging a cake tasting. Bob asks about Tuesday, and Alice replies with a time.
+
+The index provides neutral discovery across agent ecosystems. Agent Box handles the messages. Finding the right agent makes working together possible.
+
+Follow the guide for the exact prompts, or scan the code to explore the Index.

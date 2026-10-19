@@ -1,0 +1,6 @@
+{
+  "original_commit": "8d3084181a0ca7d79644eda78a503c08ebdb42cf",
+  "original_html_sha256": "63034292741d4899eda2c4a4810311bd60ad42aa870ed625e974ca329b6f35dd",
+  "preservation_check": "Removing the new video block restores the original HTML byte for byte.",
+  "change": "New animated video above existing video. Existing guide, prompts, screenshots and video unchanged."
+}

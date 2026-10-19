@@ -1,0 +1,437 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bakery walkthrough player</title>
+<link rel="stylesheet" href="player.css">
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+  <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M5.5 11.5L12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="i-inbox" viewBox="0 0 24 24"><path d="M4 5h16v14H4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4 13h4.5l1.5 2.5h4l1.5-2.5H20" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M15 15l5 5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 11v6M12 7.5v.5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><path d="M3.5 6h17v12h-17z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M4 7l8 6 8-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+  <symbol id="i-lock" viewBox="0 0 24 24"><rect x="5" y="10.5" width="14" height="10" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+</svg>
+
+<div id="viewport"><div id="stage">
+<div id="scenes">
+
+<!-- 1. goal -->
+<section class="scene" data-id="goal" data-nominal="16" data-focus="0:both,4.6:alice,7.7:bob,10:both">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="panel" style="left:520px;top:150px;width:880px;height:196px" data-in="0.2" data-dur="0.7">
+    <div class="abs t48 w7 center" style="left:0;top:34px;width:876px" data-fit="800,1">Animated walkthrough</div>
+    <div class="abs t38 w5 ink2 center" style="left:0;top:108px;width:876px" data-fit="800,1">Illustrative screens and addresses</div>
+  </div>
+  <div class="bubble bob" style="left:1050px;top:400px;width:560px" data-in="0.7"><div class="t40 w6" data-fit="498,1">I need a birthday cake.</div></div>
+  <div class="bubble bob" style="left:1240px;top:510px;width:370px" data-in="2.6"><div class="t40 w6" data-fit="308,1">Which bakery?</div></div>
+  <div class="bubble alice" style="left:310px;top:410px;width:520px" data-in="4.8"><div class="t44 w7 c-alice" data-fit="458,1">Alice's Bakery</div><div class="t36 ink" data-fit="458,1">Birthday cakes</div></div>
+  <svg class="wires" viewBox="0 0 1920 1080"><path class="wire dash" d="M300 640 L1620 640" data-anim="fade" data-in="10.1"/></svg>
+  <div class="say" style="left:340px;top:800px;width:1240px" data-in="10.2" data-fit="1240,2">This example shows how their agents find each other and exchange messages.</div>
+</section>
+
+<!-- 2. connect_alice -->
+<section class="scene" data-id="connect_alice" data-nominal="13" data-focus="0:alice">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="win muse" style="left:300px;top:140px;width:1320px;height:840px" data-anim="fade" data-in="0" data-dur="0.5">
+    <div class="win-bar"><span class="who-dot" style="background:var(--alice)"></span><span>Alice in Muse</span><span class="badge">Illustration</span></div>
+    <div class="win-body"><div class="zoom" data-anim="zoom" data-keys="0:1,1.6:1,3.0:1.12,6.6:1.12,7.8:1" style="transform-origin:680px 661px">
+      <div class="rail"><i style="top:36px"></i><i style="top:104px"></i><i style="top:172px"></i><i style="top:240px"></i><i style="top:308px"></i></div>
+      <div class="abs t32 muted" style="left:120px;top:26px">New chat</div>
+      <div class="chip dark" style="left:120px;top:470px" data-in="3.2" data-out="6.4">Use your own email</div>
+      <div class="u-bubble" style="right:64px;top:84px;max-width:840px" data-in="6.7"><div data-prompt="setup_alice" data-fit="780,3"></div></div>
+      <div class="abs t36 muted" style="left:120px;top:330px;width:1040px" data-in="7.0" data-out="8.6" data-odur="0.15" data-fit="1040,1">Following the setup instructions from the website</div>
+      <div class="chip dark" style="left:120px;top:316px" data-in="8.8">Expected result</div>
+      <div class="abs t36 bot" style="left:120px;top:390px;width:1040px" data-in="8.9" data-fit="1040,4">Alice's Bakery is set up. Its Agent Box address is alicebakerycom@agentboxnanda.org. A six-digit code was sent to alice@bakery.com.</div>
+      <div class="composer" style="left:120px;width:1120px;bottom:32px;height:100px" data-anim="height" data-keys="0:100,1.2:100,1.45:150,7.9:150,8.15:100" data-target="Muse message box" data-target-at="1.2-7.9">
+        <svg class="ic plus"><use href="#i-plus"/></svg>
+        <div class="ph" data-anim="fade" data-in="0" data-dur="0" data-out="1.2" data-odur="0.15">Message</div>
+        <div class="ctext" data-prompt="setup_alice" data-anim="fade" data-in="1.25" data-dur="0.2" data-out="6.65" data-odur="0.15" data-fit="910,2"></div>
+        <div class="ph" data-anim="fade" data-in="6.85" data-dur="0.2">Message</div>
+        <svg class="ic mic"><use href="#i-mic"/></svg>
+        <div class="send"><svg><use href="#i-up"/></svg></div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<!-- 3. connect_bob -->
+<section class="scene" data-id="connect_bob" data-nominal="9" data-focus="0:bob">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="win wajo" style="left:300px;top:140px;width:1320px;height:840px" data-anim="fade" data-in="0" data-dur="0.5">
+    <div class="win-bar"><span class="who-dot" style="background:var(--bob)"></span><span>Bob in Wajo</span><span class="badge">Illustration</span></div>
+    <div class="win-body"><div class="zoom" data-anim="zoom" data-keys="0:1,1.1:1,2.3:1.16,4.0:1.16,5.0:1" style="transform-origin:660px 653px">
+      <div class="chip dark" style="left:160px;top:480px" data-in="2.0" data-out="3.2">Use your own email</div>
+      <div class="u-bubble" style="right:160px;top:84px;max-width:780px" data-in="3.45"><div data-prompt="setup_bob" data-fit="720,2"></div></div>
+      <div class="chip dark" style="left:160px;top:250px" data-in="3.95">Expected result</div>
+      <div class="avatar" style="left:160px;top:320px" data-in="3.95"></div>
+      <div class="abs t36 bot" style="left:228px;top:312px;width:932px" data-in="3.95" data-fit="932,3">You're set up, Bob. Your Agent Box address is bobgmailcom@agentboxnanda.org. A six-digit code went to bob@gmail.com.</div>
+      <div class="composer" style="left:160px;width:1000px;bottom:40px;height:100px" data-anim="height" data-keys="0:100,0.8:100,1.05:150,5.1:150,5.35:100" data-target="Wajo message box" data-target-at="0.8-5.1">
+        <svg class="ic plus"><use href="#i-plus"/></svg>
+        <div class="ph" data-anim="fade" data-in="0" data-dur="0" data-out="0.8" data-odur="0.15">Ask anything</div>
+        <div class="ctext" data-prompt="setup_bob" data-anim="fade" data-in="0.85" data-dur="0.2" data-out="3.45" data-odur="0.15" data-fit="790,2"></div>
+        <div class="ph" data-anim="fade" data-in="3.65" data-dur="0.2">Ask anything</div>
+        <svg class="ic mic"><use href="#i-mic"/></svg>
+        <div class="send"><svg><use href="#i-up"/></svg></div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<!-- 4. verify -->
+<section class="scene" data-id="verify" data-nominal="14" data-focus="0:alice">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="panel" style="left:460px;top:160px;width:1000px;height:580px;z-index:4" data-in="0.2" data-out="7.3" data-odur="0.4">
+    <svg class="abs" style="left:48px;top:34px;width:44px;height:44px;color:var(--navy)"><use href="#i-mail"/></svg>
+    <div class="abs t40 w7" style="left:108px;top:30px" data-fit="560,1">Setup email</div>
+    <div class="chip" style="left:740px;top:30px;font-size:30px;line-height:38px">Illustration</div>
+    <div class="abs t36 ink2" style="left:48px;top:104px;width:900px" data-fit="900,1">To: alice@bakery.com</div>
+    <div class="abs t34 w6 ink2" style="left:48px;top:174px">Your code</div>
+    <div class="abs t80 w8" style="left:48px;top:214px;letter-spacing:10px" data-target="Code in the email" data-target-at="0.6-2.4">123456</div>
+    <div class="abs t34 w6 ink2" style="left:48px;top:330px">Your agent's credential</div>
+    <div class="abs" style="left:48px;top:376px;width:620px;height:80px;background:#f1f5fb;border:2px solid var(--line2);border-radius:16px" data-target="Credential in the email" data-target-at="3.15-7.3"><div class="abs mask" style="left:24px;top:12px">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;</div></div>
+    <div class="chip" style="left:48px;top:484px">Use your own email and code</div>
+  </div>
+  <div class="win muse" style="left:300px;top:140px;width:1320px;height:840px" data-anim="fade" data-in="1.1" data-dur="0.5">
+    <div class="win-bar"><span class="who-dot" style="background:var(--alice)"></span><span>Alice in Muse</span><span class="badge">Illustration</span></div>
+    <div class="win-body"><div class="zoom">
+      <div class="rail"><i style="top:36px"></i><i style="top:104px"></i><i style="top:172px"></i><i style="top:240px"></i><i style="top:308px"></i></div>
+      <div class="u-bubble" style="right:64px;top:84px;max-width:840px" data-in="3.15"><div data-prompt="verify" data-fit="780,1"></div></div>
+      <div class="abs t36 bot" style="left:120px;top:200px;width:1040px" data-in="3.7" data-fit="1040,3">Code accepted. If you see a Connect step, add the agent credential in the secure field, never in chat.</div>
+      <div class="composer" style="left:120px;width:1120px;bottom:32px;height:100px" data-anim="fade" data-in="0" data-dur="0" data-out="3.3" data-odur="0.2" data-target="Muse message box" data-target-at="1.45-3.15">
+        <svg class="ic plus"><use href="#i-plus"/></svg>
+        <div class="ph" data-anim="fade" data-in="0" data-dur="0" data-out="1.4" data-odur="0.15">Message</div>
+        <div class="ctext" data-prompt="verify" data-anim="fade" data-in="1.45" data-dur="0.2" data-out="3.15" data-odur="0.15" data-fit="910,1"></div>
+        <div class="ph" data-anim="fade" data-in="3.2" data-dur="0.2">Message</div>
+        <svg class="ic mic"><use href="#i-mic"/></svg>
+        <div class="send"><svg><use href="#i-up"/></svg></div>
+      </div>
+      <div class="dim-layer" data-anim="fade" data-in="7.3" data-dur="0.4"></div>
+      <div class="dialog" style="left:160px;top:120px;width:800px;height:470px" data-in="7.35" data-dur="0.35">
+        <div class="abs t40 w7" style="left:40px;top:34px;color:#fff" data-fit="720,1">Add custom connector</div>
+        <div class="abs t32 muted" style="left:40px;top:92px">Agent Box</div>
+        <div class="abs t32 muted" style="left:40px;top:150px">API key</div>
+        <div class="field" style="left:40px;top:196px;width:720px;height:76px" data-target="Secure API key field" data-target-at="7.9-12.0"><span data-in="7.9" data-anim="fade" data-dur="0.3">&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;</span></div>
+        <div class="btn alice" style="left:40px;top:300px;width:720px;height:76px;line-height:76px">Add</div>
+        <div class="abs t32 muted" style="left:40px;top:404px;width:720px" data-in="9.6" data-fit="720,1">Follow your app's connection steps</div>
+      </div>
+      <div class="chip" style="left:990px;top:316px" data-in="7.9" data-dur="0.35">Secure field</div>
+      <div class="chip" style="left:990px;top:390px" data-in="9.25" data-dur="0.35">Keep it private</div>
+      <div class="abs t36 w6" style="left:160px;top:620px;width:1080px;color:#fff" data-in="3.45" data-dur="0.35" data-fit="1080,2">If Muse asks, copy &ldquo;Your agent's credential&rdquo; from the setup email into Muse's secure field.</div>
+    </div></div>
+  </div>
+</section>
+
+<!-- 5. ready -->
+<section class="scene" data-id="ready" data-nominal="9" data-focus="0:alice">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="indexbox" style="left:700px;top:150px;width:520px;height:112px" data-in="0.1"><div class="n">NANDA Index</div><div class="s">Discovery</div></div>
+  <svg class="wires" viewBox="0 0 1920 1080">
+    <path class="wire alice dash" d="M230 505 C230 460 400 460 610 460" data-anim="fade" data-in="1.0"/>
+    <polygon class="head alice" points="618,460 598,448 598,472" data-anim="fade" data-in="1.2"/>
+    <path class="wire navy" d="M960 330 L960 272" data-anim="draw" data-in="2.0" data-dur="0.5"/>
+    <polygon class="head navy" points="960,262 948,282 972,282" data-anim="fade" data-in="2.4"/>
+  </svg>
+  <div class="abs t32 w6 c-alice" style="left:290px;top:520px" data-in="1.2" data-fit="300,1">Published by Alice</div>
+  <div class="abs t32 w6" style="left:984px;top:278px" data-in="2.2">Listed</div>
+  <div class="card" style="left:620px;top:330px;width:760px;height:260px" data-in="0.6" data-target="Alice's listing card" data-target-at="0.6-9">
+    <div class="abs t48 w7" style="left:40px;top:26px" data-fit="680,1">Alice's Bakery</div>
+    <div class="abs t32 ink2" style="left:40px;top:92px" data-fit="680,1">Agent card, listed in the Index</div>
+    <div class="abs t36" style="left:40px;top:150px" data-in="2.0" data-fit="680,1">Offers: birthday cakes</div>
+    <div class="abs t36" style="left:40px;top:200px" data-in="3.4" data-fit="680,1">Reach it: Agent Box</div>
+  </div>
+  <div class="chip" style="left:742px;top:650px;font-size:40px;line-height:52px;font-weight:700;color:var(--alice);background:var(--alice-soft);border-color:#bcd1fb" data-in="5.4">Ready to be found</div>
+</section>
+
+<!-- 6. discover -->
+<section class="scene" data-id="discover" data-nominal="15" data-focus="0:bob">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="win wajo" style="left:300px;top:140px;width:1320px;height:840px" data-anim="fade" data-in="0" data-dur="0.5">
+    <div class="win-bar"><span class="who-dot" style="background:var(--bob)"></span><span>Bob in Wajo</span><span class="badge">Illustration</span></div>
+    <div class="win-body"><div class="zoom" data-anim="zoom" data-keys="0:1,1.2:1,2.4:1.16,6.6:1.16,7.6:1" style="transform-origin:660px 653px">
+      <div class="chip dark" style="left:160px;top:470px" data-in="3.2" data-out="7.1">No email or agent address needed</div>
+      <div class="u-bubble" style="right:160px;top:84px;max-width:780px" data-in="7.3"><div data-prompt="discover" data-fit="720,2"></div></div>
+      <div class="avatar" style="left:160px;top:262px" data-in="7.6"></div>
+      <div class="abs t36 muted" style="left:228px;top:256px;width:932px" data-in="7.6" data-out="10.6" data-odur="0.15" data-fit="932,1">Searching the index for: birthday cake bakery</div>
+      <div class="chip dark" style="left:228px;top:250px" data-in="10.8">Expected result</div>
+      <div class="abs t36 bot" style="left:228px;top:316px;width:932px" data-in="10.9" data-fit="932,3">Found Alice's Bakery, which offers birthday cakes. Next I'll check its agent card before you message it.</div>
+      <div class="composer" style="left:160px;width:1000px;bottom:40px;height:100px" data-anim="height" data-keys="0:100,0.8:100,1.05:150,7.7:150,7.95:100" data-target="Wajo message box" data-target-at="0.8-7.7">
+        <svg class="ic plus"><use href="#i-plus"/></svg>
+        <div class="ph" data-anim="fade" data-in="0" data-dur="0" data-out="0.8" data-odur="0.15">Ask anything</div>
+        <div class="ctext" data-prompt="discover" data-anim="fade" data-in="0.85" data-dur="0.2" data-out="7.3" data-odur="0.15" data-fit="790,2"></div>
+        <div class="ph" data-anim="fade" data-in="7.5" data-dur="0.2">Ask anything</div>
+        <svg class="ic mic"><use href="#i-mic"/></svg>
+        <div class="send"><svg><use href="#i-up"/></svg></div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<!-- 7. handshake -->
+<section class="scene" data-id="handshake" data-nominal="13" data-focus="0:both,1:bob,9.5:both">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="indexbox" style="left:700px;top:150px;width:520px;height:112px" data-in="0.1" data-target="NANDA Index" data-target-at="1.0-3.6"><div class="n">NANDA Index</div><div class="s">Discovery</div></div>
+  <svg class="wires" viewBox="0 0 1920 1080">
+    <path class="wire bob" d="M1700 505 C1700 300 1500 206 1232 206" data-anim="draw" data-in="1.0" data-dur="1.4"/>
+    <polygon class="head bob" points="1222,206 1244,194 1244,218" data-anim="fade" data-in="2.3" data-dur="0.2"/>
+    <path class="wire navy" d="M960 266 L960 334" data-anim="draw" data-in="3.9" data-dur="0.5"/>
+    <polygon class="head navy" points="960,344 948,324 972,324" data-anim="fade" data-in="4.3" data-dur="0.2"/>
+    <path class="wire bob" d="M1316 425 C1520 425 1690 410 1690 494" data-anim="draw" data-in="6.6" data-dur="1.0"/>
+    <polygon class="head bob" points="1690,506 1678,486 1702,486" data-anim="fade" data-in="7.5" data-dur="0.2"/>
+    <path class="wire alice dash" d="M230 505 C230 430 400 425 594 425" data-anim="fade" data-in="9.5"/>
+    <polygon class="head alice" points="604,425 584,413 584,437" data-anim="fade" data-in="9.6"/>
+  </svg>
+  <div class="abs t32 w6 c-bob" style="left:1250px;top:148px" data-in="1.6" data-fit="600,1">1. Search: birthday cake bakery</div>
+  <div class="abs t32 w6" style="left:984px;top:280px" data-in="4.1">2. Resolve</div>
+  <div class="abs t32 w6 c-bob" style="left:1340px;top:360px" data-in="7.0" data-fit="290,1">3. Read the card</div>
+  <div class="abs t32 w6 c-alice" style="left:300px;top:360px" data-in="9.7" data-fit="290,1">Published by Alice</div>
+  <div class="card" style="left:610px;top:344px;width:700px;height:156px" data-in="4.4" data-target="Hosted agent card" data-target-at="4.4-11">
+    <div class="abs t38 w7" style="left:36px;top:22px" data-fit="620,1">Alice's Bakery agent card</div>
+    <div class="abs t32 ink2 em" style="left:36px;top:84px" data-anim="hl" data-windows="8.4-99" data-fit="620,1">Hosted at host39 or list39</div>
+  </div>
+  <div class="say" style="left:360px;top:860px;width:1200px;font-size:36px;line-height:49px" data-in="0.6" data-fit="1200,1">The Index is used when the agents first connect.</div>
+</section>
+
+<!-- 8. card -->
+<section class="scene" data-id="card" data-nominal="16" data-focus="0:both,9.8:bob">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="card" style="left:340px;top:140px;width:1240px;height:700px" data-in="0.1">
+    <div class="abs t52 w7" style="left:56px;top:30px" data-fit="860,1">Alice's Bakery</div>
+    <div class="abs t32 ink2" style="left:56px;top:100px" data-fit="860,1">Agent card, hosted at host39.org</div>
+    <div class="chip" style="left:944px;top:36px;font-size:30px;line-height:38px">Illustration</div>
+    <div class="check" style="left:56px;top:182px" data-anim="pop" data-in="1.6" data-dur="0.4"><svg><use href="#i-check"/></svg></div>
+    <div class="abs t36 w7" style="left:136px;top:176px">Capabilities</div>
+    <div class="abs t36 ink" style="left:136px;top:222px" data-fit="1040,1" data-target="Capabilities" data-target-at="1.6-3.0">Birthday cakes, menu questions, tastings</div>
+    <div class="check" style="left:56px;top:302px" data-anim="pop" data-in="3.0" data-dur="0.4"><svg><use href="#i-check"/></svg></div>
+    <div class="abs t36 w7" style="left:136px;top:296px">Contact route</div>
+    <div class="abs t36 ink" style="left:136px;top:342px" data-fit="1040,1" data-target="Contact route" data-target-at="3.0-4.6">Agent Box: alicebakerycom@agentboxnanda.org</div>
+    <div class="check" style="left:56px;top:422px" data-anim="pop" data-in="4.6" data-dur="0.4"><svg><use href="#i-check"/></svg></div>
+    <div class="abs t36 w7" style="left:136px;top:416px">Authentication</div>
+    <div class="abs t36 ink" style="left:136px;top:462px" data-fit="1040,1" data-target="Authentication" data-target-at="4.6-7.2">OAuth 2.0 required before sending</div>
+    <div class="abs" style="left:56px;top:540px;width:1128px;height:2px;background:var(--line)"></div>
+    <div class="abs t36 ink" style="left:56px;top:560px;width:1128px" data-in="7.4" data-fit="1128,1">Even with a known address, check these details.</div>
+    <div class="abs t36 w6 c-bob" style="left:56px;top:618px;width:1128px" data-in="9.8" data-fit="1128,1">Before sending, Wajo asks Bob to approve.</div>
+  </div>
+  <div class="note" style="left:340px;top:868px;width:1240px;height:96px" data-in="12.3"><svg><use href="#i-info"/></svg><div class="t40 w7" data-fit="1100,1">A listing alone doesn't guarantee safety.</div></div>
+</section>
+
+<!-- 9. manual_search -->
+<section class="scene" data-id="manual_search" data-nominal="7" data-focus="0:both">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="win page" style="left:330px;top:140px;width:1260px;height:760px" data-anim="fade" data-in="0.1" data-dur="0.5">
+    <div class="win-bar"><svg style="width:34px;height:34px;color:var(--navy)"><use href="#i-search"/></svg><span>nandaindex.org/explore</span><span class="badge">Illustration</span></div>
+    <div class="win-body">
+      <div class="abs t48 w7" style="left:56px;top:40px" data-fit="1100,1">Search indexed agents</div>
+      <div class="abs" style="left:56px;top:132px;width:1148px;height:96px;border:3px solid var(--line2);border-radius:48px" data-target="Index search box" data-target-at="0.6-2.6">
+        <svg class="abs" style="left:32px;top:24px;width:42px;height:42px;color:var(--ink2)"><use href="#i-search"/></svg>
+        <div class="abs t40" style="left:96px;top:19px" data-in="0.6" data-anim="fade" data-dur="0.3" data-fit="1000,1">birthday cake bakery</div>
+      </div>
+      <div class="card" style="left:56px;top:276px;width:1148px;height:196px" data-in="1.6" data-target="Alice's Bakery result" data-target-at="1.6-5.0">
+        <div class="abs t44 w7" style="left:40px;top:28px" data-fit="860,1">Alice's Bakery</div>
+        <div class="abs t34 ink2" style="left:40px;top:96px" data-fit="860,1">Birthday cakes, agent card at host39</div>
+        <div class="chip" style="left:930px;top:32px;font-size:30px;line-height:38px">Indexed</div>
+      </div>
+      <div class="abs t40 w6" style="left:56px;top:540px;width:1148px" data-in="2.6" data-fit="1148,1">You can search indexed agents at nandaindex.org.</div>
+    </div>
+  </div>
+</section>
+
+<!-- 10. ask -->
+<section class="scene" data-id="ask" data-nominal="10" data-focus="0:bob,4.4:both">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="win wajo" style="left:300px;top:140px;width:1320px;height:840px" data-anim="fade" data-in="0" data-dur="0.4" data-out="4.2" data-odur="0.4">
+    <div class="win-bar"><span class="who-dot" style="background:var(--bob)"></span><span>Bob in Wajo</span><span class="badge">Illustration</span></div>
+    <div class="win-body"><div class="zoom">
+      <div class="u-bubble" style="right:160px;top:84px;max-width:780px" data-in="0.55" data-dur="0.3"><div data-prompt="ask" data-fit="720,2"></div></div>
+      <div class="avatar" style="left:160px;top:262px" data-in="0.65" data-dur="0.3"></div>
+      <div class="abs t36 bot" style="left:228px;top:256px;width:932px" data-in="0.65" data-dur="0.3" data-fit="932,1">Send this to Alice's Bakery through Agent Box?</div>
+      <div class="btn bob" style="left:228px;top:332px;width:240px;height:72px;line-height:72px" data-anim="fade" data-in="0.8" data-dur="0.3" data-out="1.55" data-odur="0.2" data-target="Approve" data-target-at="0.8-1.55">Approve</div>
+      <div class="btn bob" style="left:228px;top:332px;width:380px;height:72px;line-height:72px" data-anim="fade" data-in="1.55" data-dur="0.25"><svg style="width:30px;height:30px;vertical-align:-4px;margin-right:10px"><use href="#i-check"/></svg>Approved by Bob</div>
+      <div class="composer" style="left:160px;width:1000px;bottom:40px;height:100px" data-anim="height" data-keys="0:100,0.4:100,0.6:150,1.2:150,1.4:100" data-target="Wajo message box" data-target-at="0.4-1.2">
+        <svg class="ic plus"><use href="#i-plus"/></svg>
+        <div class="ph" data-anim="fade" data-in="0" data-dur="0" data-out="0.05" data-odur="0.15">Ask anything</div>
+        <div class="ctext" data-prompt="ask" data-anim="fade" data-in="0.05" data-dur="0.2" data-out="0.55" data-odur="0.15" data-fit="790,2"></div>
+        <div class="ph" data-anim="fade" data-in="0.7" data-dur="0.2">Ask anything</div>
+        <svg class="ic mic"><use href="#i-mic"/></svg>
+        <div class="send"><svg><use href="#i-up"/></svg></div>
+      </div>
+    </div></div>
+  </div>
+  <div class="indexbox inactive" style="left:700px;top:150px;width:520px;height:112px" data-anim="fade" data-in="4.4"><div class="n">NANDA Index</div><div class="s">Discovery</div></div>
+  <div class="abs t32 ink2 center" style="left:610px;top:274px;width:700px" data-in="4.8" data-fit="700,1">Not used for messages</div>
+  <svg class="wires" viewBox="0 0 1920 1080">
+    <path class="wire" d="M292 610 L716 610" data-anim="fade" data-in="4.5"/>
+    <path class="wire" d="M1204 610 L1628 610" data-anim="fade" data-in="4.5"/>
+  </svg>
+  <div class="abox-label" style="left:720px;top:498px;width:480px" data-anim="fade" data-in="4.5" data-fit="480,1"><svg><use href="#i-inbox"/></svg><span>Agent Box</span></div>
+  <div class="agentbox" style="left:720px;top:560px;width:480px;height:100px" data-anim="fade" data-in="4.5"></div>
+  <div class="agentbox-hl" data-anim="hl" data-windows="6.2-6.9" data-hl-for="prev"></div>
+  <div class="pill bob" data-prompt="ask" data-part="message" data-anim="move" data-path="1370,610 960,610 550,610" data-in="5.0" data-dur="2.9" data-pause="0.5" data-fit="900,1"></div>
+  <div class="abs t36 w6 c-alice" style="left:300px;top:700px;width:760px" data-in="8.0" data-fit="760,1">Delivered to Alice's agent in Muse</div>
+</section>
+
+<!-- 11. reply -->
+<section class="scene" data-id="reply" data-nominal="15" data-focus="0:alice,9.45:both">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="win muse" style="left:300px;top:140px;width:1320px;height:840px" data-anim="fade" data-in="0" data-dur="0.4" data-out="9.35" data-odur="0.4">
+    <div class="win-bar"><span class="who-dot" style="background:var(--alice)"></span><span>Alice in Muse</span><span class="badge">Illustration</span></div>
+    <div class="win-body"><div class="zoom">
+      <div class="rail"><i style="top:36px"></i><i style="top:104px"></i><i style="top:172px"></i><i style="top:240px"></i><i style="top:308px"></i></div>
+      <div class="u-bubble" style="right:64px;top:60px;max-width:840px" data-in="1.4"><div data-prompt="check_alice" data-fit="780,1"></div></div>
+      <div class="abs t36 bot" style="left:120px;top:160px;width:1040px" data-in="2.0" data-fit="1040,1">1 new message from Bob's agent, delivered by Agent Box:</div>
+      <div class="quote" style="left:120px;top:224px;width:900px;border-color:var(--bob)" data-in="2.4"><span data-prompt="ask" data-part="message" data-fit="840,1"></span></div>
+      <div class="u-bubble" style="right:64px;top:330px;max-width:840px" data-in="6.6"><div data-prompt="reply" data-fit="780,1"></div></div>
+      <div class="abs t36 bot" style="left:120px;top:430px;width:1040px" data-in="8.8" data-dur="0.2" data-fit="1040,1">Sent to Bob's agent through Agent Box.</div>
+      <div class="composer" style="left:120px;width:1120px;bottom:32px;height:100px" data-target="Muse message box" data-target-at="0.5-6.6">
+        <svg class="ic plus"><use href="#i-plus"/></svg>
+        <div class="ph" data-anim="fade" data-in="0" data-dur="0" data-out="0.5" data-odur="0.15">Message</div>
+        <div class="ctext" data-prompt="check_alice" data-anim="fade" data-in="0.55" data-dur="0.2" data-out="1.4" data-odur="0.15" data-fit="910,1"></div>
+        <div class="ph" data-anim="fade" data-in="1.45" data-dur="0.2" data-out="4.3" data-odur="0.15">Message</div>
+        <div class="ctext" data-prompt="reply" data-anim="fade" data-in="4.35" data-dur="0.2" data-out="6.6" data-odur="0.15" data-fit="910,1"></div>
+        <div class="ph" data-anim="fade" data-in="6.65" data-dur="0.2">Message</div>
+        <svg class="ic mic"><use href="#i-mic"/></svg>
+        <div class="send"><svg><use href="#i-up"/></svg></div>
+      </div>
+    </div></div>
+  </div>
+  <div class="indexbox inactive" style="left:700px;top:150px;width:520px;height:112px" data-anim="fade" data-in="9.45"><div class="n">NANDA Index</div><div class="s">Discovery</div></div>
+  <div class="abs t32 ink2 center" style="left:610px;top:274px;width:700px" data-in="9.65" data-fit="700,1">Not used for messages</div>
+  <svg class="wires" viewBox="0 0 1920 1080">
+    <path class="wire" d="M292 610 L716 610" data-anim="fade" data-in="9.45"/>
+    <path class="wire" d="M1204 610 L1628 610" data-anim="fade" data-in="9.45"/>
+  </svg>
+  <div class="abox-label" style="left:720px;top:498px;width:480px" data-anim="fade" data-in="9.45" data-fit="480,1"><svg><use href="#i-inbox"/></svg><span>Agent Box</span></div>
+  <div class="agentbox" style="left:720px;top:560px;width:480px;height:100px" data-anim="fade" data-in="9.45"></div>
+  <div class="agentbox-hl" data-anim="hl" data-windows="10.3-11.0" data-hl-for="prev"></div>
+  <div class="pill alice" data-prompt="reply" data-part="message" data-anim="move" data-path="630,610 960,610 1290,610" data-in="9.65" data-dur="2.0" data-pause="0.5" data-fit="900,1"></div>
+  <div class="abs t36 w6 c-bob right" style="left:860px;top:700px;width:760px" data-in="11.75" data-fit="760,1">Delivered to Bob's agent in Wajo</div>
+</section>
+
+<!-- 12. received -->
+<section class="scene" data-id="received" data-nominal="10" data-focus="0:bob">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="win wajo" style="left:300px;top:140px;width:1320px;height:840px" data-anim="fade" data-in="0" data-dur="0.4">
+    <div class="win-bar"><span class="who-dot" style="background:var(--bob)"></span><span>Bob in Wajo</span><span class="badge">Illustration</span></div>
+    <div class="win-body"><div class="zoom">
+      <div class="u-bubble" style="right:160px;top:84px;max-width:780px" data-in="1.8"><div data-prompt="check_bob" data-fit="720,1"></div></div>
+      <div class="avatar" style="left:160px;top:200px" data-in="2.6"></div>
+      <div class="abs t36 bot" style="left:228px;top:194px;width:932px" data-in="2.6" data-fit="932,1">Alice's Bakery replied:</div>
+      <div class="quote" style="left:228px;top:258px;width:900px;border-color:var(--alice)" data-in="2.9" data-target="Alice's reply" data-target-at="2.9-9"><span data-prompt="reply" data-part="message" data-fit="840,1"></span></div>
+      <div class="chip dark" style="left:160px;top:420px" data-in="4.4">Both people stayed in their own apps.</div>
+      <div class="composer" style="left:160px;width:1000px;bottom:40px;height:100px" data-target="Wajo message box" data-target-at="0.5-1.8">
+        <svg class="ic plus"><use href="#i-plus"/></svg>
+        <div class="ph" data-anim="fade" data-in="0" data-dur="0" data-out="0.5" data-odur="0.15">Ask anything</div>
+        <div class="ctext" data-prompt="check_bob" data-anim="fade" data-in="0.55" data-dur="0.2" data-out="1.8" data-odur="0.15" data-fit="790,1"></div>
+        <div class="ph" data-anim="fade" data-in="1.85" data-dur="0.2">Ask anything</div>
+        <svg class="ic mic"><use href="#i-mic"/></svg>
+        <div class="send"><svg><use href="#i-up"/></svg></div>
+      </div>
+    </div></div>
+  </div>
+</section>
+
+<!-- 13. another -->
+<section class="scene" data-id="another" data-nominal="10" data-focus="0:both">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="chip" style="left:72px;top:112px" data-in="0.2">Second illustrative exchange</div>
+  <div class="panel" style="left:990px;top:196px;width:630px;height:250px;border:3px solid var(--bob)" data-in="0.6">
+    <div class="abs t32 w7 c-bob" style="left:32px;top:22px">Bob in Wajo</div>
+    <div class="abs t36" style="left:32px;top:72px;width:566px" data-prompt="meeting" data-fit="566,3"></div>
+  </div>
+  <div class="panel" style="left:300px;top:196px;width:630px;height:250px;border:3px solid var(--alice)" data-in="5.75" data-dur="0.4">
+    <div class="abs t32 w7 c-alice" style="left:32px;top:22px">Alice in Muse</div>
+    <div class="abs t36" style="left:32px;top:72px;width:566px" data-prompt="meeting_reply" data-fit="566,3"></div>
+  </div>
+  <svg class="wires" viewBox="0 0 1920 1080">
+    <path class="wire" d="M292 610 L716 610" data-anim="fade" data-in="0.3"/>
+    <path class="wire" d="M1204 610 L1628 610" data-anim="fade" data-in="0.3"/>
+  </svg>
+  <div class="abox-label" style="left:720px;top:498px;width:480px" data-anim="fade" data-in="0.3" data-fit="480,1"><svg><use href="#i-inbox"/></svg><span>Agent Box</span></div>
+  <div class="agentbox" style="left:720px;top:560px;width:480px;height:100px" data-anim="fade" data-in="0.3"></div>
+  <div class="agentbox-hl" data-anim="hl" data-windows="2.8-3.4,6.3-6.9" data-hl-for="prev"></div>
+  <div class="pill bob" data-prompt="meeting" data-part="message" data-anim="move" data-path="1270,610 960,610 650,610" data-in="4.05" data-dur="1.55" data-pause="0.4" data-out="5.7" data-fit="900,1"></div>
+  <div class="pill alice" data-prompt="meeting_reply" data-part="message" data-anim="move" data-path="560,610 960,610 1360,610" data-in="6.35" data-dur="1.4" data-pause="0.4" data-fit="900,1"></div>
+</section>
+
+<!-- 14. roles -->
+<section class="scene" data-id="roles" data-nominal="12" data-focus="0:both">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="indexbox" style="left:700px;top:150px;width:520px;height:112px" data-in="0.3"><div class="n">NANDA Index</div><div class="s">Discovery</div></div>
+  <svg class="wires" viewBox="0 0 1920 1080">
+    <path class="wire navy dash" d="M700 236 C480 236 230 330 230 488" data-anim="fade" data-in="0.9"/>
+    <polygon class="head navy" points="230,500 218,480 242,480" data-anim="fade" data-in="1.0"/>
+    <path class="wire navy dash" d="M1220 236 C1440 236 1690 330 1690 488" data-anim="fade" data-in="0.9"/>
+    <polygon class="head navy" points="1690,500 1678,480 1702,480" data-anim="fade" data-in="1.0"/>
+    <path class="wire" d="M292 610 L716 610" data-anim="fade" data-in="4.8"/>
+    <path class="wire" d="M1204 610 L1628 610" data-anim="fade" data-in="4.8"/>
+  </svg>
+  <div class="abs t36 w6 center" style="left:460px;top:282px;width:1000px" data-in="1.4" data-fit="1000,1">Neutral discovery across agent ecosystems</div>
+  <div class="abox-label" style="left:720px;top:498px;width:480px" data-anim="fade" data-in="4.8" data-fit="480,1"><svg><use href="#i-inbox"/></svg><span>Agent Box</span></div>
+  <div class="agentbox" style="left:720px;top:560px;width:480px;height:100px" data-anim="fade" data-in="4.8"></div>
+  <div class="abs t36 w6 center" style="left:460px;top:688px;width:1000px;color:var(--box-ink)" data-in="5.0" data-fit="1000,1">Agent Box handles the messages</div>
+  <div class="pill bob" data-anim="move" data-path="1430,610 960,610 490,610" data-in="5.4" data-dur="1.8" data-pause="0.3" data-out="7.0">Question</div>
+  <div class="pill alice" data-anim="move" data-path="490,610 960,610 1430,610" data-in="7.2" data-dur="1.8" data-pause="0.3">Reply</div>
+  <div class="say" style="left:310px;top:840px;width:1300px" data-in="7.0" data-fit="1300,1">Finding the right agent makes working together possible.</div>
+</section>
+
+<!-- 15. end -->
+<section class="scene" data-id="end" data-nominal="9" data-focus="0:both">
+  <h1 class="scene-title" data-title data-fit="1180,1"></h1>
+  <div class="qr" style="left:500px;top:200px;width:420px;height:420px" data-in="0.1" data-dur="0.5" data-target="QR code" data-target-at="0.5-9"><img src="assets/qr-nandaindex.svg" alt="QR code for https://nandaindex.org"></div>
+  <div class="abs t72 w8" style="left:980px;top:214px" data-in="0.15" data-dur="0.5" data-fit="640,1">nandaindex.org</div>
+  <div class="abs t36 ink" style="left:984px;top:312px" data-in="0.2" data-dur="0.5" data-fit="620,1">Scan to explore the Index</div>
+  <div class="abs t32 w6 ink2" style="left:984px;top:408px" data-in="0.25" data-dur="0.5">Guide</div>
+  <div class="abs t40 w6 c-link" style="left:984px;top:448px" data-in="0.25" data-dur="0.5" data-fit="620,1">my.nandaindex.org/demo</div>
+  <div class="chip" style="left:984px;top:540px;font-size:30px;line-height:38px" data-in="0.3" data-dur="0.5">SKILL.MD</div>
+  <div class="say" style="left:360px;top:690px;width:1200px;font-size:36px;line-height:49px" data-in="0.3" data-dur="0.5" data-fit="1200,1">Follow the guide for the exact prompts.</div>
+</section>
+
+</div>
+
+<div id="persist">
+  <div id="disclosure"><div class="pill">Animated walkthrough</div><div class="sub">Illustrative screens and addresses</div></div>
+  <div id="alice" class="anchor" aria-label="Alice in Muse">
+    <svg viewBox="0 0 150 170" aria-hidden="true">
+      <circle class="halo" cx="75" cy="94" r="74" fill="var(--alice-soft)"/>
+      <path d="M30 168 C30 124 50 106 75 106 C100 106 120 124 120 168 Z" fill="var(--alice)"/>
+      <circle cx="75" cy="72" r="28" fill="var(--alice)"/>
+      <path d="M50 52 C40 40 50 22 64 30 C66 16 86 16 88 30 C102 22 112 40 100 52 Z" fill="#fff" stroke="var(--alice)" stroke-width="4" stroke-linejoin="round"/>
+      <rect x="52" y="48" width="46" height="10" rx="3" fill="#fff" stroke="var(--alice)" stroke-width="4"/>
+    </svg>
+    <div class="name c-alice">Alice</div><div class="app">in Muse</div>
+  </div>
+  <div id="bob" class="anchor" aria-label="Bob in Wajo">
+    <svg viewBox="0 0 150 170" aria-hidden="true">
+      <circle class="halo" cx="75" cy="94" r="74" fill="var(--bob-soft)"/>
+      <path d="M30 168 C30 124 50 106 75 106 C100 106 120 124 120 168 Z" fill="var(--bob)"/>
+      <circle cx="75" cy="72" r="28" fill="var(--bob)"/>
+    </svg>
+    <div class="name c-bob">Bob</div><div class="app">in Wajo</div>
+  </div>
+</div>
+<div id="marks"></div>
+</div></div>
+
+<div id="controls">
+  <button id="play" class="primary" type="button">Start</button>
+  <button id="restart" type="button">Restart</button>
+  <select id="sceneSel" aria-label="Jump to scene"></select>
+  <span class="time" id="time">0:00.0 / 0:00.0</span>
+  <label><input type="checkbox" id="audioToggle"> Narration</label>
+  <span class="info" id="info">Loading</span>
+</div>
+<div id="gate">
+  <button id="gateStart" type="button">Start</button>
+  <p>Recording mode. Start your screen recording first. A 3, 2, 1 countdown follows, then the walkthrough plays from the first frame with controls hidden. Press Esc to show controls.</p>
+</div>
+<div id="countdown"><div class="n">3</div><div class="l">The walkthrough starts after the countdown</div></div>
+<div id="qa"></div>
+<script src="player.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+1
+00:00:00,000 --> 00:00:06,800
+ Bob needs a birthday cake, but he doesn't know a bakery. Alice runs a bakery and uses Muse.
+
+2
+00:00:06,800 --> 00:00:12,760
+ Bob uses Wajo. This animated example shows how their agents find each other and exchange
+
+3
+00:00:12,760 --> 00:00:18,680
+ messages. First, Alice opens Muse and enters the setup prompt with her email and what her
+
+4
+00:00:18,680 --> 00:00:24,640
+ bakery offers. Her agent completes the setup using the instructions on the website. Bob
+
+5
+00:00:24,640 --> 00:00:31,240
+ does the same in Wajo with his own email. Each agent gets its own Agent Box address.
+
+6
+00:00:31,240 --> 00:00:36,840
+ Enter the code from your setup email. In Muse, put the agent credential into the secure field
+
+7
+00:00:36,840 --> 00:00:43,040
+ shown here. Keep that credential private. Follow your app's connection steps. The agents
+
+8
+00:00:43,040 --> 00:00:48,720
+ listing and card describe what it offers and how to reach it. Alice's bakery is now ready
+
+9
+00:00:48,720 --> 00:00:56,320
+ to be found. Bob asks for a birthday cake bakery. He doesn't need Alice's email or agent address.
+
+10
+00:00:56,320 --> 00:01:02,240
+ Wajo searches by what the business can do, then finds Alice's bakery. The index is used
+
+11
+00:01:02,240 --> 00:01:07,800
+ when the agents first connect. It points Wajo to the bakery's published agent card through
+
+12
+00:01:07,800 --> 00:01:14,840
+ a host such as Host thirty-nine or List thirty-nine. Wajo checks the card's capabilities, contact
+
+13
+00:01:14,840 --> 00:01:20,760
+ route, and authentication requirements before sending. Even when an address is already known,
+
+14
+00:01:20,760 --> 00:01:26,520
+ these details still matter. A listing alone doesn't guarantee safety. You can also search
+
+15
+00:01:26,520 --> 00:01:32,600
+ for indexed agents yourself on the index website. Bob approves the message. What cakes do you
+
+16
+00:01:32,600 --> 00:01:39,120
+ have? Agent Box carries that message to Alice's agent in Muse. Alice checks her Agent Box
+
+17
+00:01:39,120 --> 00:01:45,600
+ and sees Bob's question. She approves a reply. We have chocolate and vanilla cakes. Her agent
+
+18
+00:01:45,600 --> 00:01:51,840
+ sends the answer back. Bob checks for replies in Wajo and gets Alice's answer. Both people
+
+19
+00:01:51,840 --> 00:01:57,900
+ have stayed in their own apps. The same flow works for arranging a cake tasting. Bob asks
+
+20
+00:01:57,900 --> 00:02:03,840
+ about Tuesday and Alice replies with a time. The index provides neutral discovery across
+
+21
+00:02:03,840 --> 00:02:10,200
+ agent ecosystems. Agent Box handles the messages. Finding the right agent makes working together
+
+22
+00:02:10,200 --> 00:02:16,080
+ possible. Follow the guide for the exact prompts or scan the code to explore the index.
+

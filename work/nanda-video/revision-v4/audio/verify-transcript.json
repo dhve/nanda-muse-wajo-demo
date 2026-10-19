@@ -1,0 +1,560 @@
+{
+	"systeminfo": "WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | FP16_VA = 1 | MATMUL_INT8 = 1 | DOTPROD = 1 | SME = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 | ",
+	"model": {
+		"type": "small",
+		"multilingual": false,
+		"vocab": 51864,
+		"audio": {
+			"ctx": 1500,
+			"state": 768,
+			"head": 12,
+			"layer": 12
+		},
+		"text": {
+			"ctx": 448,
+			"state": 768,
+			"head": 12,
+			"layer": 12
+		},
+		"mels": 80,
+		"ftype": 1
+	},
+	"params": {
+		"model": "/Users/admin/.whisper-models/ggml-small.en.bin",
+		"language": "en",
+		"translate": false
+	},
+	"result": {
+		"language": "en"
+	},
+	"transcription": [
+		{
+			"timestamps": {
+				"from": "00:00:00,000",
+				"to": "00:00:02,420"
+			},
+			"offsets": {
+				"from": 0,
+				"to": 2420
+			},
+			"text": " Enter the code from your setup email.",
+			"tokens": [
+				{
+					"text": "[_BEG_]",
+					"timestamps": {
+						"from": "00:00:00,000",
+						"to": "00:00:00,000"
+					},
+					"offsets": {
+						"from": 0,
+						"to": 0
+					},
+					"id": 50363,
+					"p": 0.994029,
+					"t_dtw": -1
+				},
+				{
+					"text": " Enter",
+					"timestamps": {
+						"from": "00:00:00,060",
+						"to": "00:00:00,350"
+					},
+					"offsets": {
+						"from": 60,
+						"to": 350
+					},
+					"id": 6062,
+					"p": 0.949392,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"timestamps": {
+						"from": "00:00:00,390",
+						"to": "00:00:00,540"
+					},
+					"offsets": {
+						"from": 390,
+						"to": 540
+					},
+					"id": 262,
+					"p": 0.995946,
+					"t_dtw": -1
+				},
+				{
+					"text": " code",
+					"timestamps": {
+						"from": "00:00:00,600",
+						"to": "00:00:00,820"
+					},
+					"offsets": {
+						"from": 600,
+						"to": 820
+					},
+					"id": 2438,
+					"p": 0.997567,
+					"t_dtw": -1
+				},
+				{
+					"text": " from",
+					"timestamps": {
+						"from": "00:00:00,940",
+						"to": "00:00:01,160"
+					},
+					"offsets": {
+						"from": 940,
+						"to": 1160
+					},
+					"id": 422,
+					"p": 0.995824,
+					"t_dtw": -1
+				},
+				{
+					"text": " your",
+					"timestamps": {
+						"from": "00:00:01,160",
+						"to": "00:00:01,450"
+					},
+					"offsets": {
+						"from": 1160,
+						"to": 1450
+					},
+					"id": 534,
+					"p": 0.997569,
+					"t_dtw": -1
+				},
+				{
+					"text": " setup",
+					"timestamps": {
+						"from": "00:00:01,450",
+						"to": "00:00:01,800"
+					},
+					"offsets": {
+						"from": 1450,
+						"to": 1800
+					},
+					"id": 9058,
+					"p": 0.86062,
+					"t_dtw": -1
+				},
+				{
+					"text": " email",
+					"timestamps": {
+						"from": "00:00:01,800",
+						"to": "00:00:02,040"
+					},
+					"offsets": {
+						"from": 1800,
+						"to": 2040
+					},
+					"id": 3053,
+					"p": 0.938421,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"timestamps": {
+						"from": "00:00:02,420",
+						"to": "00:00:02,420"
+					},
+					"offsets": {
+						"from": 2420,
+						"to": 2420
+					},
+					"id": 13,
+					"p": 0.951038,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_121]",
+					"timestamps": {
+						"from": "00:00:02,420",
+						"to": "00:00:02,420"
+					},
+					"offsets": {
+						"from": 2420,
+						"to": 2420
+					},
+					"id": 50484,
+					"p": 0.113125,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:02,420",
+				"to": "00:00:05,280"
+			},
+			"offsets": {
+				"from": 2420,
+				"to": 5280
+			},
+			"text": " If Muse asks, copy the agent credential",
+			"tokens": [
+				{
+					"text": " If",
+					"timestamps": {
+						"from": "00:00:02,490",
+						"to": "00:00:02,640"
+					},
+					"offsets": {
+						"from": 2490,
+						"to": 2640
+					},
+					"id": 1002,
+					"p": 0.996383,
+					"t_dtw": -1
+				},
+				{
+					"text": " Muse",
+					"timestamps": {
+						"from": "00:00:02,650",
+						"to": "00:00:03,110"
+					},
+					"offsets": {
+						"from": 2650,
+						"to": 3110
+					},
+					"id": 32887,
+					"p": 0.754254,
+					"t_dtw": -1
+				},
+				{
+					"text": " asks",
+					"timestamps": {
+						"from": "00:00:03,110",
+						"to": "00:00:03,570"
+					},
+					"offsets": {
+						"from": 3110,
+						"to": 3570
+					},
+					"id": 7893,
+					"p": 0.997301,
+					"t_dtw": -1
+				},
+				{
+					"text": ",",
+					"timestamps": {
+						"from": "00:00:03,570",
+						"to": "00:00:03,800"
+					},
+					"offsets": {
+						"from": 3570,
+						"to": 3800
+					},
+					"id": 11,
+					"p": 0.981334,
+					"t_dtw": -1
+				},
+				{
+					"text": " copy",
+					"timestamps": {
+						"from": "00:00:03,800",
+						"to": "00:00:04,120"
+					},
+					"offsets": {
+						"from": 3800,
+						"to": 4120
+					},
+					"id": 4866,
+					"p": 0.838232,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"timestamps": {
+						"from": "00:00:04,120",
+						"to": "00:00:04,340"
+					},
+					"offsets": {
+						"from": 4120,
+						"to": 4340
+					},
+					"id": 262,
+					"p": 0.996922,
+					"t_dtw": -1
+				},
+				{
+					"text": " agent",
+					"timestamps": {
+						"from": "00:00:04,340",
+						"to": "00:00:04,480"
+					},
+					"offsets": {
+						"from": 4340,
+						"to": 4480
+					},
+					"id": 5797,
+					"p": 0.890964,
+					"t_dtw": -1
+				},
+				{
+					"text": " credential",
+					"timestamps": {
+						"from": "00:00:04,900",
+						"to": "00:00:05,280"
+					},
+					"offsets": {
+						"from": 4900,
+						"to": 5280
+					},
+					"id": 49920,
+					"p": 0.938626,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_264]",
+					"timestamps": {
+						"from": "00:00:05,280",
+						"to": "00:00:05,280"
+					},
+					"offsets": {
+						"from": 5280,
+						"to": 5280
+					},
+					"id": 50627,
+					"p": 0.346262,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:05,280",
+				"to": "00:00:08,360"
+			},
+			"offsets": {
+				"from": 5280,
+				"to": 8360
+			},
+			"text": " from that same email into the secure field.",
+			"tokens": [
+				{
+					"text": " from",
+					"timestamps": {
+						"from": "00:00:05,350",
+						"to": "00:00:05,600"
+					},
+					"offsets": {
+						"from": 5350,
+						"to": 5600
+					},
+					"id": 422,
+					"p": 0.99963,
+					"t_dtw": -1
+				},
+				{
+					"text": " that",
+					"timestamps": {
+						"from": "00:00:05,600",
+						"to": "00:00:05,920"
+					},
+					"offsets": {
+						"from": 5600,
+						"to": 5920
+					},
+					"id": 326,
+					"p": 0.997109,
+					"t_dtw": -1
+				},
+				{
+					"text": " same",
+					"timestamps": {
+						"from": "00:00:05,920",
+						"to": "00:00:06,240"
+					},
+					"offsets": {
+						"from": 5920,
+						"to": 6240
+					},
+					"id": 976,
+					"p": 0.877772,
+					"t_dtw": -1
+				},
+				{
+					"text": " email",
+					"timestamps": {
+						"from": "00:00:06,240",
+						"to": "00:00:06,640"
+					},
+					"offsets": {
+						"from": 6240,
+						"to": 6640
+					},
+					"id": 3053,
+					"p": 0.998262,
+					"t_dtw": -1
+				},
+				{
+					"text": " into",
+					"timestamps": {
+						"from": "00:00:06,640",
+						"to": "00:00:06,960"
+					},
+					"offsets": {
+						"from": 6640,
+						"to": 6960
+					},
+					"id": 656,
+					"p": 0.989774,
+					"t_dtw": -1
+				},
+				{
+					"text": " the",
+					"timestamps": {
+						"from": "00:00:06,960",
+						"to": "00:00:07,200"
+					},
+					"offsets": {
+						"from": 6960,
+						"to": 7200
+					},
+					"id": 262,
+					"p": 0.998304,
+					"t_dtw": -1
+				},
+				{
+					"text": " secure",
+					"timestamps": {
+						"from": "00:00:07,200",
+						"to": "00:00:07,320"
+					},
+					"offsets": {
+						"from": 7200,
+						"to": 7320
+					},
+					"id": 5713,
+					"p": 0.866273,
+					"t_dtw": -1
+				},
+				{
+					"text": " field",
+					"timestamps": {
+						"from": "00:00:07,760",
+						"to": "00:00:08,080"
+					},
+					"offsets": {
+						"from": 7760,
+						"to": 8080
+					},
+					"id": 2214,
+					"p": 0.997803,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"timestamps": {
+						"from": "00:00:08,080",
+						"to": "00:00:08,360"
+					},
+					"offsets": {
+						"from": 8080,
+						"to": 8360
+					},
+					"id": 13,
+					"p": 0.918229,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_418]",
+					"timestamps": {
+						"from": "00:00:08,360",
+						"to": "00:00:08,360"
+					},
+					"offsets": {
+						"from": 8360,
+						"to": 8360
+					},
+					"id": 50781,
+					"p": 0.652452,
+					"t_dtw": -1
+				}
+			]
+		},
+		{
+			"timestamps": {
+				"from": "00:00:08,360",
+				"to": "00:00:09,480"
+			},
+			"offsets": {
+				"from": 8360,
+				"to": 9480
+			},
+			"text": " Keep it private.",
+			"tokens": [
+				{
+					"text": " Keep",
+					"timestamps": {
+						"from": "00:00:08,420",
+						"to": "00:00:08,640"
+					},
+					"offsets": {
+						"from": 8420,
+						"to": 8640
+					},
+					"id": 9175,
+					"p": 0.999077,
+					"t_dtw": -1
+				},
+				{
+					"text": " it",
+					"timestamps": {
+						"from": "00:00:08,640",
+						"to": "00:00:08,780"
+					},
+					"offsets": {
+						"from": 8640,
+						"to": 8780
+					},
+					"id": 340,
+					"p": 0.998567,
+					"t_dtw": -1
+				},
+				{
+					"text": " private",
+					"timestamps": {
+						"from": "00:00:08,780",
+						"to": "00:00:09,180"
+					},
+					"offsets": {
+						"from": 8780,
+						"to": 9180
+					},
+					"id": 2839,
+					"p": 0.994209,
+					"t_dtw": -1
+				},
+				{
+					"text": ".",
+					"timestamps": {
+						"from": "00:00:09,300",
+						"to": "00:00:09,480"
+					},
+					"offsets": {
+						"from": 9300,
+						"to": 9480
+					},
+					"id": 13,
+					"p": 0.992424,
+					"t_dtw": -1
+				},
+				{
+					"text": "[_TT_474]",
+					"timestamps": {
+						"from": "00:00:09,480",
+						"to": "00:00:09,480"
+					},
+					"offsets": {
+						"from": 9480,
+						"to": 9480
+					},
+					"id": 50837,
+					"p": 0.296215,
+					"t_dtw": -1
+				}
+			]
+		}
+	]
+}

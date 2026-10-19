@@ -1,0 +1,65 @@
+{
+  "source": "Frame-accurate render of the animated HTML walkthrough without desktop or cursor",
+  "raw_file": "direct-render.mp4",
+  "raw_sha256": "6d9de4385a97c4cab79112003c8c0c3ed53a7692830e95e76c8326b8a1c1c981",
+  "trim_start": 0.0,
+  "crop_pixels": "1920:1080:0:0",
+  "final_duration": 178,
+  "final_video_sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a",
+  "frames": [
+    {
+      "file": "screenshots/connect-alice.jpg",
+      "video_time": 21.5,
+      "raw_time": 21.5,
+      "sha256": "268b57420a4669e82b363f21d93312957d89300821404b099ccd81337a5f6357"
+    },
+    {
+      "file": "screenshots/connect-bob.jpg",
+      "video_time": 33,
+      "raw_time": 33.0,
+      "sha256": "f4ed300f2c2cf31e3231d43a4229f55af7d60e716649635ac454badf4db60be5"
+    },
+    {
+      "file": "screenshots/verify.jpg",
+      "video_time": 47.5,
+      "raw_time": 47.5,
+      "sha256": "afdae0bcf4d1537f619350a74e530254b30efc73e4769467d167651521de1f84"
+    },
+    {
+      "file": "screenshots/ready.jpg",
+      "video_time": 58,
+      "raw_time": 58.0,
+      "sha256": "7abf9f0cf991fd4e97fb37ce3ba9e0bee9285a078f5912a559464e6b78f0ff1d"
+    },
+    {
+      "file": "screenshots/discover.jpg",
+      "video_time": 72.5,
+      "raw_time": 72.5,
+      "sha256": "35a3cd0f86961ff053e2d30e58b7d149e598d6d946f7933818b4e44efdad38db"
+    },
+    {
+      "file": "screenshots/card.jpg",
+      "video_time": 102.8,
+      "raw_time": 102.8,
+      "sha256": "df59fb33c8c6721c05ece1937953160b2da461d1cab0bc90e8fda2c6107b346d"
+    },
+    {
+      "file": "screenshots/ask.jpg",
+      "video_time": 120.5,
+      "raw_time": 120.5,
+      "sha256": "a310db858cda352bd3585eca60422b658b2b0b61b288083539ff890353cf7a79"
+    },
+    {
+      "file": "screenshots/reply.jpg",
+      "video_time": 130,
+      "raw_time": 130.0,
+      "sha256": "fb3a4d31ea2693f7cc05dc503763c38b1aa14a14e2be530a72112c665953b022"
+    },
+    {
+      "file": "video/muse-wajo-demo-v4-poster.jpg",
+      "video_time": 13,
+      "raw_time": 13.0,
+      "sha256": "95d35771d93e9f48347c8cdff931f3e7e169634126d5cc8534975d17c0bc27ac"
+    }
+  ]
+}

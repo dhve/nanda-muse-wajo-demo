@@ -1,0 +1,122 @@
+[
+  {
+    "id": "goal",
+    "start": 0.03,
+    "end": 13.7,
+    "text": "Bob needs a birthday cake, but he doesn't know a bakery. Alice runs a bakery and uses Muse. Bob uses Wajo. This animated example shows how their agents find each other and exchange messages.",
+    "canonical_offset": 0,
+    "canonical_count": 34
+  },
+  {
+    "id": "connect_alice",
+    "start": 13.82,
+    "end": 24.4,
+    "text": "First, Alice opens Muse and enters the setup prompt with her email and what her bakery offers. Her agent completes the setup using the instructions on the website.",
+    "canonical_offset": 34,
+    "canonical_count": 28
+  },
+  {
+    "id": "connect_bob",
+    "start": 24.4,
+    "end": 31.0,
+    "text": "Bob does the same in Wajo with his own email. Each agent gets its own Agent Box address.",
+    "canonical_offset": 62,
+    "canonical_count": 18
+  },
+  {
+    "id": "verify",
+    "start": 31.27,
+    "end": 42.6,
+    "text": "Enter the code from your setup email. In Muse, put the agent credential into the secure field shown here. Keep that credential private. Follow your app's connection steps.",
+    "canonical_offset": 80,
+    "canonical_count": 28
+  },
+  {
+    "id": "ready",
+    "start": 42.6,
+    "end": 49.66,
+    "text": "The agent's listing and card describe what it offers and how to reach it. Alice's bakery is now ready to be found.",
+    "canonical_offset": 108,
+    "canonical_count": 22
+  },
+  {
+    "id": "discover",
+    "start": 49.79,
+    "end": 61.22,
+    "text": "Bob asks for a birthday cake bakery. He doesn't need Alice's email or agent address. Wajo searches by what the business can do, then finds Alice's Bakery.",
+    "canonical_offset": 130,
+    "canonical_count": 27
+  },
+  {
+    "id": "handshake",
+    "start": 61.25,
+    "end": 71.8,
+    "text": "The index is used when the agents first connect. It points Wajo to the bakery's published agent card, through a host such as host thirty-nine or list thirty-nine.",
+    "canonical_offset": 157,
+    "canonical_count": 28
+  },
+  {
+    "id": "card",
+    "start": 71.8,
+    "end": 85.76,
+    "text": "Wajo checks the card's capabilities, contact route and authentication requirements before sending. Even when an address is already known, these details still matter. A listing alone doesn't guarantee safety.",
+    "canonical_offset": 185,
+    "canonical_count": 29
+  },
+  {
+    "id": "manual_search",
+    "start": 85.76,
+    "end": 89.9,
+    "text": "You can also search for indexed agents yourself on the Index website.",
+    "canonical_offset": 214,
+    "canonical_count": 12
+  },
+  {
+    "id": "ask",
+    "start": 89.91,
+    "end": 97.36,
+    "text": "Bob approves the message: What cakes do you have? Agent Box carries that message to Alice's agent in Muse.",
+    "canonical_offset": 226,
+    "canonical_count": 19
+  },
+  {
+    "id": "reply",
+    "start": 97.36,
+    "end": 107.22,
+    "text": "Alice checks her Agent Box and sees Bob's question. She approves a reply: We have chocolate and vanilla cakes. Her agent sends the answer back.",
+    "canonical_offset": 245,
+    "canonical_count": 25
+  },
+  {
+    "id": "received",
+    "start": 107.42,
+    "end": 114.2,
+    "text": "Bob checks for replies in Wajo and gets Alice's answer. Both people have stayed in their own apps.",
+    "canonical_offset": 270,
+    "canonical_count": 18
+  },
+  {
+    "id": "another",
+    "start": 114.2,
+    "end": 121.15,
+    "text": "The same flow works for arranging a cake tasting. Bob asks about Tuesday, and Alice replies with a time.",
+    "canonical_offset": 288,
+    "canonical_count": 19
+  },
+  {
+    "id": "roles",
+    "start": 121.15,
+    "end": 131.43,
+    "text": "The index provides neutral discovery across agent ecosystems. Agent Box handles the messages. Finding the right agent makes working together possible.",
+    "canonical_offset": 307,
+    "canonical_count": 21
+  },
+  {
+    "id": "end",
+    "start": 131.43,
+    "end": 136.08,
+    "text": "Follow the guide for the exact prompts, or scan the code to explore the Index.",
+    "canonical_offset": 328,
+    "canonical_count": 15
+  }
+]

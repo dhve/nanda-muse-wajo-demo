@@ -1,0 +1,1717 @@
+[
+  {
+    "word": "Bob",
+    "start": 0.03,
+    "end": 0.24
+  },
+  {
+    "word": "needs",
+    "start": 0.24,
+    "end": 0.62
+  },
+  {
+    "word": "a",
+    "start": 0.62,
+    "end": 0.7
+  },
+  {
+    "word": "birthday",
+    "start": 0.7,
+    "end": 1.34
+  },
+  {
+    "word": "cake,",
+    "start": 1.34,
+    "end": 1.81
+  },
+  {
+    "word": "but",
+    "start": 1.82,
+    "end": 1.98
+  },
+  {
+    "word": "he",
+    "start": 2.05,
+    "end": 2.21
+  },
+  {
+    "word": "doesn't",
+    "start": 2.21,
+    "end": 2.75
+  },
+  {
+    "word": "know",
+    "start": 2.75,
+    "end": 3.07
+  },
+  {
+    "word": "a",
+    "start": 3.07,
+    "end": 3.08
+  },
+  {
+    "word": "bakery.",
+    "start": 3.13,
+    "end": 3.92
+  },
+  {
+    "word": "Alice",
+    "start": 3.97,
+    "end": 4.32
+  },
+  {
+    "word": "runs",
+    "start": 4.39,
+    "end": 4.66
+  },
+  {
+    "word": "a",
+    "start": 4.66,
+    "end": 4.74
+  },
+  {
+    "word": "bakery",
+    "start": 4.74,
+    "end": 5.2
+  },
+  {
+    "word": "and",
+    "start": 5.27,
+    "end": 5.49
+  },
+  {
+    "word": "uses",
+    "start": 5.49,
+    "end": 5.84
+  },
+  {
+    "word": "Muse.",
+    "start": 5.84,
+    "end": 6.8
+  },
+  {
+    "word": "Bob",
+    "start": 6.83,
+    "end": 7.23
+  },
+  {
+    "word": "uses",
+    "start": 7.23,
+    "end": 7.74
+  },
+  {
+    "word": "Wajo.",
+    "start": 7.86,
+    "end": 8.78
+  },
+  {
+    "word": "This",
+    "start": 8.98,
+    "end": 9.06
+  },
+  {
+    "word": "animated",
+    "start": 9.06,
+    "end": 9.55
+  },
+  {
+    "word": "example",
+    "start": 9.55,
+    "end": 9.88
+  },
+  {
+    "word": "shows",
+    "start": 9.98,
+    "end": 10.21
+  },
+  {
+    "word": "how",
+    "start": 10.27,
+    "end": 10.28
+  },
+  {
+    "word": "their",
+    "start": 10.76,
+    "end": 10.76
+  },
+  {
+    "word": "agents",
+    "start": 10.77,
+    "end": 11.12
+  },
+  {
+    "word": "find",
+    "start": 11.19,
+    "end": 11.42
+  },
+  {
+    "word": "each",
+    "start": 11.42,
+    "end": 11.65
+  },
+  {
+    "word": "other",
+    "start": 11.69,
+    "end": 12.0
+  },
+  {
+    "word": "and",
+    "start": 12.07,
+    "end": 12.21
+  },
+  {
+    "word": "exchange",
+    "start": 12.21,
+    "end": 12.76
+  },
+  {
+    "word": "messages.",
+    "start": 12.79,
+    "end": 13.7
+  },
+  {
+    "word": "First,",
+    "start": 13.82,
+    "end": 14.34
+  },
+  {
+    "word": "Alice",
+    "start": 14.58,
+    "end": 14.74
+  },
+  {
+    "word": "opens",
+    "start": 14.94,
+    "end": 15.18
+  },
+  {
+    "word": "Muse",
+    "start": 15.18,
+    "end": 15.51
+  },
+  {
+    "word": "and",
+    "start": 15.51,
+    "end": 15.76
+  },
+  {
+    "word": "enters",
+    "start": 15.76,
+    "end": 16.14
+  },
+  {
+    "word": "the",
+    "start": 16.51,
+    "end": 16.51
+  },
+  {
+    "word": "setup",
+    "start": 16.73,
+    "end": 16.96
+  },
+  {
+    "word": "prompt",
+    "start": 16.96,
+    "end": 17.35
+  },
+  {
+    "word": "with",
+    "start": 17.35,
+    "end": 17.59
+  },
+  {
+    "word": "her",
+    "start": 17.59,
+    "end": 17.77
+  },
+  {
+    "word": "email",
+    "start": 17.77,
+    "end": 18.06
+  },
+  {
+    "word": "and",
+    "start": 18.06,
+    "end": 18.24
+  },
+  {
+    "word": "what",
+    "start": 18.24,
+    "end": 18.47
+  },
+  {
+    "word": "her",
+    "start": 18.47,
+    "end": 18.68
+  },
+  {
+    "word": "bakery",
+    "start": 18.71,
+    "end": 19.13
+  },
+  {
+    "word": "offers.",
+    "start": 19.13,
+    "end": 19.8
+  },
+  {
+    "word": "Her",
+    "start": 19.8,
+    "end": 20.02
+  },
+  {
+    "word": "agent",
+    "start": 20.02,
+    "end": 20.3
+  },
+  {
+    "word": "completes",
+    "start": 20.5,
+    "end": 21.08
+  },
+  {
+    "word": "the",
+    "start": 21.08,
+    "end": 21.3
+  },
+  {
+    "word": "setup",
+    "start": 21.3,
+    "end": 21.68
+  },
+  {
+    "word": "using",
+    "start": 21.68,
+    "end": 22.05
+  },
+  {
+    "word": "the",
+    "start": 22.05,
+    "end": 22.13
+  },
+  {
+    "word": "instructions",
+    "start": 22.65,
+    "end": 23.19
+  },
+  {
+    "word": "on",
+    "start": 23.19,
+    "end": 23.34
+  },
+  {
+    "word": "the",
+    "start": 23.34,
+    "end": 23.53
+  },
+  {
+    "word": "website.",
+    "start": 23.57,
+    "end": 24.4
+  },
+  {
+    "word": "Bob",
+    "start": 24.4,
+    "end": 24.64
+  },
+  {
+    "word": "does",
+    "start": 24.67,
+    "end": 24.95
+  },
+  {
+    "word": "the",
+    "start": 25.01,
+    "end": 25.27
+  },
+  {
+    "word": "same",
+    "start": 25.27,
+    "end": 25.58
+  },
+  {
+    "word": "in",
+    "start": 25.71,
+    "end": 25.81
+  },
+  {
+    "word": "Wajo",
+    "start": 25.81,
+    "end": 26.17
+  },
+  {
+    "word": "with",
+    "start": 26.46,
+    "end": 26.53
+  },
+  {
+    "word": "his",
+    "start": 26.53,
+    "end": 26.61
+  },
+  {
+    "word": "own",
+    "start": 26.82,
+    "end": 27.07
+  },
+  {
+    "word": "email.",
+    "start": 27.07,
+    "end": 27.72
+  },
+  {
+    "word": "Each",
+    "start": 27.78,
+    "end": 28.05
+  },
+  {
+    "word": "agent",
+    "start": 28.6,
+    "end": 28.6
+  },
+  {
+    "word": "gets",
+    "start": 28.61,
+    "end": 28.96
+  },
+  {
+    "word": "its",
+    "start": 28.96,
+    "end": 29.23
+  },
+  {
+    "word": "own",
+    "start": 29.23,
+    "end": 29.49
+  },
+  {
+    "word": "Agent",
+    "start": 29.53,
+    "end": 29.95
+  },
+  {
+    "word": "Box",
+    "start": 29.95,
+    "end": 30.22
+  },
+  {
+    "word": "address.",
+    "start": 30.22,
+    "end": 31.0
+  },
+  {
+    "word": "Enter",
+    "start": 31.27,
+    "end": 31.55
+  },
+  {
+    "word": "the",
+    "start": 31.61,
+    "end": 31.78
+  },
+  {
+    "word": "code",
+    "start": 31.78,
+    "end": 31.96
+  },
+  {
+    "word": "from",
+    "start": 32.04,
+    "end": 32.32
+  },
+  {
+    "word": "your",
+    "start": 32.32,
+    "end": 32.59
+  },
+  {
+    "word": "setup",
+    "start": 32.59,
+    "end": 32.86
+  },
+  {
+    "word": "email.",
+    "start": 33.06,
+    "end": 33.47
+  },
+  {
+    "word": "In",
+    "start": 33.47,
+    "end": 33.6
+  },
+  {
+    "word": "Muse,",
+    "start": 33.6,
+    "end": 34.0
+  },
+  {
+    "word": "put",
+    "start": 34.0,
+    "end": 34.2
+  },
+  {
+    "word": "the",
+    "start": 34.2,
+    "end": 34.32
+  },
+  {
+    "word": "agent",
+    "start": 34.38,
+    "end": 34.65
+  },
+  {
+    "word": "credential",
+    "start": 35.21,
+    "end": 35.42
+  },
+  {
+    "word": "into",
+    "start": 35.42,
+    "end": 35.69
+  },
+  {
+    "word": "the",
+    "start": 35.69,
+    "end": 35.89
+  },
+  {
+    "word": "secure",
+    "start": 35.89,
+    "end": 36.4
+  },
+  {
+    "word": "field",
+    "start": 36.4,
+    "end": 36.84
+  },
+  {
+    "word": "shown",
+    "start": 36.87,
+    "end": 37.23
+  },
+  {
+    "word": "here.",
+    "start": 37.23,
+    "end": 37.77
+  },
+  {
+    "word": "Keep",
+    "start": 37.77,
+    "end": 38.07
+  },
+  {
+    "word": "that",
+    "start": 38.07,
+    "end": 38.38
+  },
+  {
+    "word": "credential",
+    "start": 38.66,
+    "end": 39.17
+  },
+  {
+    "word": "private.",
+    "start": 39.17,
+    "end": 39.92
+  },
+  {
+    "word": "Follow",
+    "start": 39.97,
+    "end": 40.24
+  },
+  {
+    "word": "your",
+    "start": 40.73,
+    "end": 40.73
+  },
+  {
+    "word": "app's",
+    "start": 40.81,
+    "end": 41.11
+  },
+  {
+    "word": "connection",
+    "start": 41.11,
+    "end": 41.89
+  },
+  {
+    "word": "steps.",
+    "start": 41.89,
+    "end": 42.6
+  },
+  {
+    "word": "The",
+    "start": 42.6,
+    "end": 42.63
+  },
+  {
+    "word": "agents",
+    "start": 42.67,
+    "end": 43.0
+  },
+  {
+    "word": "listing",
+    "start": 43.07,
+    "end": 43.6
+  },
+  {
+    "word": "and",
+    "start": 43.6,
+    "end": 43.76
+  },
+  {
+    "word": "card",
+    "start": 43.84,
+    "end": 44.16
+  },
+  {
+    "word": "describe",
+    "start": 44.16,
+    "end": 44.57
+  },
+  {
+    "word": "what",
+    "start": 44.86,
+    "end": 45.02
+  },
+  {
+    "word": "it",
+    "start": 45.11,
+    "end": 45.28
+  },
+  {
+    "word": "offers",
+    "start": 45.28,
+    "end": 45.76
+  },
+  {
+    "word": "and",
+    "start": 45.76,
+    "end": 46.0
+  },
+  {
+    "word": "how",
+    "start": 46.0,
+    "end": 46.24
+  },
+  {
+    "word": "to",
+    "start": 46.24,
+    "end": 46.39
+  },
+  {
+    "word": "reach",
+    "start": 46.39,
+    "end": 46.49
+  },
+  {
+    "word": "it.",
+    "start": 46.96,
+    "end": 47.24
+  },
+  {
+    "word": "Alice's",
+    "start": 47.24,
+    "end": 47.63
+  },
+  {
+    "word": "bakery",
+    "start": 47.63,
+    "end": 47.94
+  },
+  {
+    "word": "is",
+    "start": 47.97,
+    "end": 48.08
+  },
+  {
+    "word": "now",
+    "start": 48.08,
+    "end": 48.24
+  },
+  {
+    "word": "ready",
+    "start": 48.31,
+    "end": 48.72
+  },
+  {
+    "word": "to",
+    "start": 48.75,
+    "end": 48.88
+  },
+  {
+    "word": "be",
+    "start": 48.88,
+    "end": 49.03
+  },
+  {
+    "word": "found.",
+    "start": 49.09,
+    "end": 49.66
+  },
+  {
+    "word": "Bob",
+    "start": 49.79,
+    "end": 49.95
+  },
+  {
+    "word": "asks",
+    "start": 49.95,
+    "end": 50.28
+  },
+  {
+    "word": "for",
+    "start": 50.54,
+    "end": 50.54
+  },
+  {
+    "word": "a",
+    "start": 50.55,
+    "end": 50.62
+  },
+  {
+    "word": "birthday",
+    "start": 50.62,
+    "end": 51.29
+  },
+  {
+    "word": "cake",
+    "start": 51.29,
+    "end": 51.59
+  },
+  {
+    "word": "bakery.",
+    "start": 51.65,
+    "end": 52.18
+  },
+  {
+    "word": "He",
+    "start": 52.18,
+    "end": 52.53
+  },
+  {
+    "word": "doesn't",
+    "start": 52.69,
+    "end": 53.04
+  },
+  {
+    "word": "need",
+    "start": 53.11,
+    "end": 53.44
+  },
+  {
+    "word": "Alice's",
+    "start": 53.44,
+    "end": 54.02
+  },
+  {
+    "word": "email",
+    "start": 54.02,
+    "end": 54.44
+  },
+  {
+    "word": "or",
+    "start": 54.44,
+    "end": 54.72
+  },
+  {
+    "word": "agent",
+    "start": 54.72,
+    "end": 55.05
+  },
+  {
+    "word": "address.",
+    "start": 55.5,
+    "end": 56.32
+  },
+  {
+    "word": "Wajo",
+    "start": 56.35,
+    "end": 56.63
+  },
+  {
+    "word": "searches",
+    "start": 56.69,
+    "end": 57.26
+  },
+  {
+    "word": "by",
+    "start": 57.39,
+    "end": 57.44
+  },
+  {
+    "word": "what",
+    "start": 57.44,
+    "end": 57.75
+  },
+  {
+    "word": "the",
+    "start": 57.75,
+    "end": 57.94
+  },
+  {
+    "word": "business",
+    "start": 58.14,
+    "end": 58.64
+  },
+  {
+    "word": "can",
+    "start": 58.64,
+    "end": 58.88
+  },
+  {
+    "word": "do,",
+    "start": 58.88,
+    "end": 59.19
+  },
+  {
+    "word": "then",
+    "start": 59.19,
+    "end": 59.52
+  },
+  {
+    "word": "finds",
+    "start": 59.52,
+    "end": 59.77
+  },
+  {
+    "word": "Alice's",
+    "start": 60.29,
+    "end": 60.48
+  },
+  {
+    "word": "bakery.",
+    "start": 60.48,
+    "end": 61.22
+  },
+  {
+    "word": "The",
+    "start": 61.25,
+    "end": 61.43
+  },
+  {
+    "word": "index",
+    "start": 61.43,
+    "end": 61.74
+  },
+  {
+    "word": "is",
+    "start": 61.74,
+    "end": 61.88
+  },
+  {
+    "word": "used",
+    "start": 61.88,
+    "end": 62.24
+  },
+  {
+    "word": "when",
+    "start": 62.27,
+    "end": 62.53
+  },
+  {
+    "word": "the",
+    "start": 62.54,
+    "end": 62.76
+  },
+  {
+    "word": "agents",
+    "start": 62.76,
+    "end": 63.18
+  },
+  {
+    "word": "first",
+    "start": 63.31,
+    "end": 63.58
+  },
+  {
+    "word": "connect.",
+    "start": 63.59,
+    "end": 64.21
+  },
+  {
+    "word": "It",
+    "start": 64.34,
+    "end": 64.49
+  },
+  {
+    "word": "points",
+    "start": 64.49,
+    "end": 64.94
+  },
+  {
+    "word": "Wajo",
+    "start": 64.94,
+    "end": 65.24
+  },
+  {
+    "word": "to",
+    "start": 65.24,
+    "end": 65.32
+  },
+  {
+    "word": "the",
+    "start": 65.38,
+    "end": 65.58
+  },
+  {
+    "word": "bakery's",
+    "start": 65.58,
+    "end": 66.21
+  },
+  {
+    "word": "published",
+    "start": 66.21,
+    "end": 66.88
+  },
+  {
+    "word": "agent",
+    "start": 66.88,
+    "end": 67.27
+  },
+  {
+    "word": "card",
+    "start": 67.27,
+    "end": 67.64
+  },
+  {
+    "word": "through",
+    "start": 67.64,
+    "end": 67.8
+  },
+  {
+    "word": "a",
+    "start": 67.83,
+    "end": 67.87
+  },
+  {
+    "word": "host",
+    "start": 67.88,
+    "end": 68.23
+  },
+  {
+    "word": "such",
+    "start": 68.23,
+    "end": 68.53
+  },
+  {
+    "word": "as",
+    "start": 68.6,
+    "end": 68.74
+  },
+  {
+    "word": "Host",
+    "start": 68.74,
+    "end": 69.1
+  },
+  {
+    "word": "thirty-nine",
+    "start": 69.1,
+    "end": 70.06
+  },
+  {
+    "word": "or",
+    "start": 70.06,
+    "end": 70.23
+  },
+  {
+    "word": "List",
+    "start": 70.23,
+    "end": 70.58
+  },
+  {
+    "word": "thirty-nine.",
+    "start": 70.58,
+    "end": 71.8
+  },
+  {
+    "word": "Wajo",
+    "start": 71.8,
+    "end": 72.11
+  },
+  {
+    "word": "checks",
+    "start": 72.19,
+    "end": 72.65
+  },
+  {
+    "word": "the",
+    "start": 72.69,
+    "end": 72.93
+  },
+  {
+    "word": "card's",
+    "start": 72.93,
+    "end": 73.45
+  },
+  {
+    "word": "capabilities,",
+    "start": 73.45,
+    "end": 74.8
+  },
+  {
+    "word": "contact",
+    "start": 74.8,
+    "end": 74.84
+  },
+  {
+    "word": "route,",
+    "start": 74.87,
+    "end": 75.29
+  },
+  {
+    "word": "and",
+    "start": 75.29,
+    "end": 75.48
+  },
+  {
+    "word": "authentication",
+    "start": 75.48,
+    "end": 76.36
+  },
+  {
+    "word": "requirements",
+    "start": 76.66,
+    "end": 77.17
+  },
+  {
+    "word": "before",
+    "start": 77.17,
+    "end": 77.56
+  },
+  {
+    "word": "sending.",
+    "start": 77.56,
+    "end": 78.19
+  },
+  {
+    "word": "Even",
+    "start": 78.19,
+    "end": 78.29
+  },
+  {
+    "word": "when",
+    "start": 78.72,
+    "end": 78.72
+  },
+  {
+    "word": "an",
+    "start": 78.81,
+    "end": 78.85
+  },
+  {
+    "word": "address",
+    "start": 78.85,
+    "end": 79.3
+  },
+  {
+    "word": "is",
+    "start": 79.3,
+    "end": 79.43
+  },
+  {
+    "word": "already",
+    "start": 79.43,
+    "end": 79.96
+  },
+  {
+    "word": "known,",
+    "start": 79.96,
+    "end": 80.76
+  },
+  {
+    "word": "these",
+    "start": 80.79,
+    "end": 81.15
+  },
+  {
+    "word": "details",
+    "start": 81.15,
+    "end": 81.69
+  },
+  {
+    "word": "still",
+    "start": 81.69,
+    "end": 82.08
+  },
+  {
+    "word": "matter.",
+    "start": 82.08,
+    "end": 82.74
+  },
+  {
+    "word": "A",
+    "start": 82.84,
+    "end": 82.84
+  },
+  {
+    "word": "listing",
+    "start": 82.94,
+    "end": 83.38
+  },
+  {
+    "word": "alone",
+    "start": 83.38,
+    "end": 83.77
+  },
+  {
+    "word": "doesn't",
+    "start": 83.77,
+    "end": 84.21
+  },
+  {
+    "word": "guarantee",
+    "start": 84.73,
+    "end": 85.01
+  },
+  {
+    "word": "safety.",
+    "start": 85.01,
+    "end": 85.76
+  },
+  {
+    "word": "You",
+    "start": 85.76,
+    "end": 85.89
+  },
+  {
+    "word": "can",
+    "start": 85.89,
+    "end": 85.96
+  },
+  {
+    "word": "also",
+    "start": 86.03,
+    "end": 86.19
+  },
+  {
+    "word": "search",
+    "start": 86.2,
+    "end": 86.52
+  },
+  {
+    "word": "for",
+    "start": 86.55,
+    "end": 86.75
+  },
+  {
+    "word": "indexed",
+    "start": 86.75,
+    "end": 87.24
+  },
+  {
+    "word": "agents",
+    "start": 87.32,
+    "end": 87.75
+  },
+  {
+    "word": "yourself",
+    "start": 87.75,
+    "end": 88.36
+  },
+  {
+    "word": "on",
+    "start": 88.36,
+    "end": 88.49
+  },
+  {
+    "word": "the",
+    "start": 88.7,
+    "end": 88.74
+  },
+  {
+    "word": "index",
+    "start": 88.74,
+    "end": 89.12
+  },
+  {
+    "word": "website.",
+    "start": 89.12,
+    "end": 89.9
+  },
+  {
+    "word": "Bob",
+    "start": 89.91,
+    "end": 89.98
+  },
+  {
+    "word": "approves",
+    "start": 90.49,
+    "end": 90.85
+  },
+  {
+    "word": "the",
+    "start": 90.91,
+    "end": 91.13
+  },
+  {
+    "word": "message.",
+    "start": 91.13,
+    "end": 92.0
+  },
+  {
+    "word": "What",
+    "start": 92.0,
+    "end": 92.17
+  },
+  {
+    "word": "cakes",
+    "start": 92.17,
+    "end": 92.38
+  },
+  {
+    "word": "do",
+    "start": 92.38,
+    "end": 92.46
+  },
+  {
+    "word": "you",
+    "start": 92.46,
+    "end": 92.6
+  },
+  {
+    "word": "have?",
+    "start": 92.63,
+    "end": 93.77
+  },
+  {
+    "word": "Agent",
+    "start": 93.82,
+    "end": 94.13
+  },
+  {
+    "word": "Box",
+    "start": 94.16,
+    "end": 94.16
+  },
+  {
+    "word": "carries",
+    "start": 94.42,
+    "end": 94.85
+  },
+  {
+    "word": "that",
+    "start": 94.85,
+    "end": 95.13
+  },
+  {
+    "word": "message",
+    "start": 95.13,
+    "end": 95.62
+  },
+  {
+    "word": "to",
+    "start": 95.62,
+    "end": 95.68
+  },
+  {
+    "word": "Alice's",
+    "start": 95.74,
+    "end": 96.28
+  },
+  {
+    "word": "agent",
+    "start": 96.57,
+    "end": 96.67
+  },
+  {
+    "word": "in",
+    "start": 96.67,
+    "end": 96.82
+  },
+  {
+    "word": "Muse.",
+    "start": 96.82,
+    "end": 97.36
+  },
+  {
+    "word": "Alice",
+    "start": 97.36,
+    "end": 97.75
+  },
+  {
+    "word": "checks",
+    "start": 97.75,
+    "end": 98.22
+  },
+  {
+    "word": "her",
+    "start": 98.22,
+    "end": 98.45
+  },
+  {
+    "word": "Agent",
+    "start": 98.45,
+    "end": 98.84
+  },
+  {
+    "word": "Box",
+    "start": 98.84,
+    "end": 98.96
+  },
+  {
+    "word": "and",
+    "start": 99.15,
+    "end": 99.35
+  },
+  {
+    "word": "sees",
+    "start": 99.35,
+    "end": 99.66
+  },
+  {
+    "word": "Bob's",
+    "start": 99.66,
+    "end": 100.04
+  },
+  {
+    "word": "question.",
+    "start": 100.04,
+    "end": 100.9
+  },
+  {
+    "word": "She",
+    "start": 100.94,
+    "end": 101.1
+  },
+  {
+    "word": "approves",
+    "start": 101.3,
+    "end": 101.76
+  },
+  {
+    "word": "a",
+    "start": 101.76,
+    "end": 101.84
+  },
+  {
+    "word": "reply.",
+    "start": 101.84,
+    "end": 102.44
+  },
+  {
+    "word": "We",
+    "start": 102.44,
+    "end": 102.57
+  },
+  {
+    "word": "have",
+    "start": 102.92,
+    "end": 102.92
+  },
+  {
+    "word": "chocolate",
+    "start": 103.09,
+    "end": 103.63
+  },
+  {
+    "word": "and",
+    "start": 103.63,
+    "end": 103.86
+  },
+  {
+    "word": "vanilla",
+    "start": 103.86,
+    "end": 104.41
+  },
+  {
+    "word": "cakes.",
+    "start": 104.41,
+    "end": 105.16
+  },
+  {
+    "word": "Her",
+    "start": 105.16,
+    "end": 105.28
+  },
+  {
+    "word": "agent",
+    "start": 105.31,
+    "end": 105.48
+  },
+  {
+    "word": "sends",
+    "start": 105.63,
+    "end": 105.99
+  },
+  {
+    "word": "the",
+    "start": 105.99,
+    "end": 106.22
+  },
+  {
+    "word": "answer",
+    "start": 106.22,
+    "end": 106.69
+  },
+  {
+    "word": "back.",
+    "start": 106.69,
+    "end": 107.22
+  },
+  {
+    "word": "Bob",
+    "start": 107.42,
+    "end": 107.46
+  },
+  {
+    "word": "checks",
+    "start": 107.46,
+    "end": 107.93
+  },
+  {
+    "word": "for",
+    "start": 107.93,
+    "end": 108.16
+  },
+  {
+    "word": "replies",
+    "start": 108.16,
+    "end": 108.68
+  },
+  {
+    "word": "in",
+    "start": 108.73,
+    "end": 108.85
+  },
+  {
+    "word": "Wajo",
+    "start": 108.85,
+    "end": 109.06
+  },
+  {
+    "word": "and",
+    "start": 109.39,
+    "end": 109.39
+  },
+  {
+    "word": "gets",
+    "start": 109.57,
+    "end": 109.7
+  },
+  {
+    "word": "Alice's",
+    "start": 109.7,
+    "end": 110.24
+  },
+  {
+    "word": "answer.",
+    "start": 110.24,
+    "end": 110.94
+  },
+  {
+    "word": "Both",
+    "start": 110.94,
+    "end": 111.25
+  },
+  {
+    "word": "people",
+    "start": 111.25,
+    "end": 111.84
+  },
+  {
+    "word": "have",
+    "start": 111.87,
+    "end": 112.15
+  },
+  {
+    "word": "stayed",
+    "start": 112.21,
+    "end": 112.7
+  },
+  {
+    "word": "in",
+    "start": 112.7,
+    "end": 112.78
+  },
+  {
+    "word": "their",
+    "start": 112.88,
+    "end": 113.27
+  },
+  {
+    "word": "own",
+    "start": 113.34,
+    "end": 113.46
+  },
+  {
+    "word": "apps.",
+    "start": 113.66,
+    "end": 114.2
+  },
+  {
+    "word": "The",
+    "start": 114.2,
+    "end": 114.41
+  },
+  {
+    "word": "same",
+    "start": 114.42,
+    "end": 114.71
+  },
+  {
+    "word": "flow",
+    "start": 114.71,
+    "end": 114.92
+  },
+  {
+    "word": "works",
+    "start": 115.02,
+    "end": 115.25
+  },
+  {
+    "word": "for",
+    "start": 115.62,
+    "end": 115.62
+  },
+  {
+    "word": "arranging",
+    "start": 115.81,
+    "end": 116.3
+  },
+  {
+    "word": "a",
+    "start": 116.3,
+    "end": 116.37
+  },
+  {
+    "word": "cake",
+    "start": 116.37,
+    "end": 116.67
+  },
+  {
+    "word": "tasting.",
+    "start": 116.67,
+    "end": 117.48
+  },
+  {
+    "word": "Bob",
+    "start": 117.48,
+    "end": 117.63
+  },
+  {
+    "word": "asks",
+    "start": 117.67,
+    "end": 117.9
+  },
+  {
+    "word": "about",
+    "start": 117.93,
+    "end": 118.31
+  },
+  {
+    "word": "Tuesday",
+    "start": 118.31,
+    "end": 118.84
+  },
+  {
+    "word": "and",
+    "start": 118.97,
+    "end": 119.13
+  },
+  {
+    "word": "Alice",
+    "start": 119.13,
+    "end": 119.48
+  },
+  {
+    "word": "replies",
+    "start": 119.72,
+    "end": 120.13
+  },
+  {
+    "word": "with",
+    "start": 120.13,
+    "end": 120.46
+  },
+  {
+    "word": "a",
+    "start": 120.46,
+    "end": 120.54
+  },
+  {
+    "word": "time.",
+    "start": 120.54,
+    "end": 121.15
+  },
+  {
+    "word": "The",
+    "start": 121.15,
+    "end": 121.31
+  },
+  {
+    "word": "index",
+    "start": 121.31,
+    "end": 121.38
+  },
+  {
+    "word": "provides",
+    "start": 121.87,
+    "end": 122.22
+  },
+  {
+    "word": "neutral",
+    "start": 122.29,
+    "end": 122.75
+  },
+  {
+    "word": "discovery",
+    "start": 122.79,
+    "end": 123.4
+  },
+  {
+    "word": "across",
+    "start": 123.4,
+    "end": 123.84
+  },
+  {
+    "word": "agent",
+    "start": 123.87,
+    "end": 124.15
+  },
+  {
+    "word": "ecosystems.",
+    "start": 124.21,
+    "end": 125.14
+  },
+  {
+    "word": "Agent",
+    "start": 125.14,
+    "end": 125.46
+  },
+  {
+    "word": "Box",
+    "start": 125.66,
+    "end": 125.71
+  },
+  {
+    "word": "handles",
+    "start": 125.71,
+    "end": 126.22
+  },
+  {
+    "word": "the",
+    "start": 126.22,
+    "end": 126.43
+  },
+  {
+    "word": "messages.",
+    "start": 126.43,
+    "end": 127.22
+  },
+  {
+    "word": "Finding",
+    "start": 127.22,
+    "end": 127.28
+  },
+  {
+    "word": "the",
+    "start": 127.81,
+    "end": 127.94
+  },
+  {
+    "word": "right",
+    "start": 127.94,
+    "end": 128.3
+  },
+  {
+    "word": "agent",
+    "start": 128.3,
+    "end": 128.66
+  },
+  {
+    "word": "makes",
+    "start": 128.66,
+    "end": 129.01
+  },
+  {
+    "word": "working",
+    "start": 129.02,
+    "end": 129.53
+  },
+  {
+    "word": "together",
+    "start": 129.53,
+    "end": 130.17
+  },
+  {
+    "word": "possible.",
+    "start": 130.23,
+    "end": 131.43
+  },
+  {
+    "word": "Follow",
+    "start": 131.43,
+    "end": 131.78
+  },
+  {
+    "word": "the",
+    "start": 132.02,
+    "end": 132.07
+  },
+  {
+    "word": "guide",
+    "start": 132.07,
+    "end": 132.42
+  },
+  {
+    "word": "for",
+    "start": 132.42,
+    "end": 132.63
+  },
+  {
+    "word": "the",
+    "start": 132.63,
+    "end": 132.84
+  },
+  {
+    "word": "exact",
+    "start": 132.84,
+    "end": 133.19
+  },
+  {
+    "word": "prompts",
+    "start": 133.19,
+    "end": 133.58
+  },
+  {
+    "word": "or",
+    "start": 133.68,
+    "end": 133.68
+  },
+  {
+    "word": "scan",
+    "start": 134.1,
+    "end": 134.1
+  },
+  {
+    "word": "the",
+    "start": 134.17,
+    "end": 134.31
+  },
+  {
+    "word": "code",
+    "start": 134.31,
+    "end": 134.51
+  },
+  {
+    "word": "to",
+    "start": 134.59,
+    "end": 134.73
+  },
+  {
+    "word": "explore",
+    "start": 134.73,
+    "end": 135.22
+  },
+  {
+    "word": "the",
+    "start": 135.22,
+    "end": 135.4
+  },
+  {
+    "word": "index.",
+    "start": 135.47,
+    "end": 136.08
+  }
+]

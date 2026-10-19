@@ -4,21 +4,26 @@ This repository contains the videos, prompts, guides, screenshots, narration, an
 
 Alice uses Muse. Bob uses Wajo. Their agents discover each other through NANDA Index and exchange messages through Agent Box.
 
+Version 4 is a clearly labeled animated bakery walkthrough. It uses illustrative addresses and replies, a direct HTML animation render, and Vedh narration. Version 3 preserves the earlier live account demo.
+
 [Watch the current demo and follow the guide](https://my.nandaindex.org/demo/).
 
 ## Start here
 
 | Item | File |
 | --- | --- |
-| Current Alice and Bob video, 2:58 | [muse-wajo-demo-v3.mp4](outputs/nanda-demo-video/muse-wajo-demo-v3.mp4) |
+| Current animated bakery walkthrough, 2:58 | [muse-wajo-demo-v4.mp4](outputs/nanda-demo-video/muse-wajo-demo-v4.mp4) |
+| Earlier Alice and Bob account demo | [muse-wajo-demo-v3.mp4](outputs/nanda-demo-video/muse-wajo-demo-v3.mp4) |
 | Earlier exact-prompt version | [muse-wajo-demo-v2.mp4](outputs/nanda-demo-video/muse-wajo-demo-v2.mp4) |
 | Original version | [muse-wajo-demo.mp4](outputs/nanda-demo-video/muse-wajo-demo.mp4) |
-| Exact demo prompts | [prompts/demo-prompts.txt](prompts/demo-prompts.txt) |
-| Current guide, video, and screenshots | [outputs/nanda-demo-v3](outputs/nanda-demo-v3) |
-| Downloadable guide package | [nanda-demo-v3.zip](outputs/nanda-demo-v3.zip) |
-| Final narration script | [narration.txt](work/nanda-video/alice-bob/narration.txt) |
-| Captions | [SRT](outputs/nanda-demo-video/muse-wajo-demo-v3.srt), [VTT](outputs/nanda-demo-video/muse-wajo-demo-v3.vtt) |
-| Production brief and changes | [docs/production-brief.md](docs/production-brief.md) |
+| Bakery walkthrough prompts | [prompts.json](work/nanda-video/revision-v4/prompts.json) |
+| Earlier live demo prompts | [prompts/demo-prompts.txt](prompts/demo-prompts.txt) |
+| Separate bakery reading guide, video, and screenshots | [outputs/nanda-demo-v4](outputs/nanda-demo-v4) |
+| Downloadable guide package | [nanda-demo-v4.zip](outputs/nanda-demo-v4.zip) |
+| Final narration script | [narration.txt](work/nanda-video/revision-v4/narration.txt) |
+| Captions | [SRT](outputs/nanda-demo-video/muse-wajo-demo-v4.srt), [VTT](outputs/nanda-demo-video/muse-wajo-demo-v4.vtt) |
+| Bakery animation, source and feedback checklist | [revision-v4](work/nanda-video/revision-v4) |
+| Production brief and earlier changes | [docs/production-brief.md](docs/production-brief.md) |
 | Edit sources and recording details | [docs/production.md](docs/production.md) |
 
 GitHub may show a download link for larger videos. The live guide has a video player.
@@ -26,15 +31,16 @@ GitHub may show a download link for larger videos. The live guide has a video pl
 ## Contents
 
 - `outputs/` contains the delivered videos, guides, screenshots, captions, and guide ZIPs.
-- `work/nanda-video/alice-bob/` contains the final edit, prepared capture clips, narration audio, animation source, screenshot sources, and validation records.
+- `work/nanda-video/revision-v4/` contains the bakery player, canonical prompts, scene timing, voice sources, capture instructions, rendered footage, and validation records.
+- `work/nanda-video/alice-bob/` contains the earlier live demo edit, prepared capture clips, narration audio, animation source, screenshot sources, and validation records.
 - `work/nanda-video/retake/` contains the previous exact-prompt edit and its prepared clips.
 - `work/nanda-video/production/` and `work/nanda-video/claude/` contain the earlier renderer, motion assets, draft exports, and editing records.
 - `work/nanda-video/captures/` contains the prepared capture clips for the original version.
 - `work/nanda-demo/` contains the original guide source and theme work.
 - `website/demo/` contains the deployed guide source, assets, and page checker.
-- `docs/archive-manifest.json` lists the 957 copied files with sizes and SHA-256 hashes.
+- `docs/archive-manifest.json` lists archived project files with sizes and SHA-256 hashes.
 
-The archive includes 184 MP4 files and 25 audio files. Those counts include draft exports, individual clips, rendered segments, and copies kept with each deliverable. Historical notes describe the state when they were written; some refer to assets that were still pending at that time.
+The archive includes draft exports, individual clips, rendered segments, and copies kept with each deliverable. Historical notes describe the state when they were written; some refer to assets that were still pending at that time.
 
 ## Run the guide locally
 
@@ -46,7 +52,11 @@ python3 -m http.server 8765 --directory website
 
 Open <http://localhost:8765/demo/>. Serving over HTTP lets the browser load the caption track.
 
-## Rebuild the final video
+## Rebuild the videos
+
+For version 4, follow the [bakery recording and assembly instructions](work/nanda-video/revision-v4/README.md). The HTML player loads the same prompt file used to build the reading guide. The delivered screenshots come from the delivered recording.
+
+The commands below rebuild the earlier version 3.
 
 Install FFmpeg and Python with NumPy and Pillow. The original environment used FFmpeg 8.1.2, Python 3.14.6, NumPy 2.4.6, and Pillow 12.3.0.
 
@@ -67,11 +77,11 @@ Uncropped desktop recordings, signup and inbox screenshots, private source inspe
 
 [The omission list](docs/omitted-files.json) records each omitted project file and its reason. No original local file was deleted or changed.
 
-Two close-ups in the final video repeat prompt insertion without sending again. The sent messages and receipts are from the completed exchange. [The recording notes](outputs/nanda-demo-video/recording-notes-v3.txt) and [clip selections](work/nanda-video/alice-bob/clip-selections.json) document the sources, times, crops, and masks.
+Two close-ups in version 3 repeat prompt insertion without sending again. The sent messages and receipts are from the completed exchange. [The recording notes](outputs/nanda-demo-video/recording-notes-v3.txt) and [clip selections](work/nanda-video/alice-bob/clip-selections.json) document the sources, times, crops, and masks.
 
 ## Related repositories
 
-- [nanda-messagebox-skill](https://github.com/dhve/nanda-messagebox-skill) hosts the live guide. This archive contains the deployed demo at commit `8d3084181a0ca7d79644eda78a503c08ebdb42cf`.
+- [nanda-messagebox-skill](https://github.com/dhve/nanda-messagebox-skill) hosts the live guide. The archive retains earlier guide versions alongside the current bakery walkthrough.
 - [projnanda/nanda-index-v2](https://github.com/projnanda/nanda-index-v2) supplied the site theme reference, checked out at `fa65834d3dc074afbe3fddb8cd30a9eff25ab926` during production. The unmodified reference checkout is linked rather than duplicated.
 
 Existing font and theme license notices are retained with their assets. Publishing this archive does not add a new license for the personal voice or third-party app branding.
