@@ -23,8 +23,9 @@ body.record #viewport{bottom:0}
 .c-alice{color:var(--alice)}.c-bob{color:var(--bob)}.c-link{color:var(--link)}
 
 /* Scenes */
-.scene{position:absolute;inset:0;visibility:hidden;opacity:0}
-.scene-title{position:absolute;left:72px;top:36px;width:1180px;margin:0;font-size:52px;line-height:64px;font-weight:650;color:var(--navy);white-space:nowrap}
+.scene{position:absolute;inset:0;visibility:hidden;opacity:0;background:var(--bg)}
+.scene-layer{position:absolute;inset:0;background:var(--bg)}
+.scene-title{position:absolute;left:72px;top:36px;width:1180px;margin:0;font-size:52px;line-height:64px;font-weight:650;color:var(--navy);white-space:nowrap;z-index:5}
 [data-in]{opacity:0}
 
 /* Persistent layer: disclosure and people */

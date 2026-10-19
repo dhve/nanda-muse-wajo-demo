@@ -6,6 +6,6 @@ The corrected version keeps the same narration, captions, prompts and 178-second
 
 The renderer captures each frame at frame number divided by 30. It excludes browser startup and advances CSS transitions on the same clock.
 
-Validation passed for 16 action cues and 14 exported cue frames. Audio correlation at 2, 80 and 160 seconds measured zero offset. The final MP4 fully decodes, and its QR code resolves to nandaindex.org.
+Validation covers spoken action cues and exported cue frames. Audio correlation at 2, 80 and 160 seconds measured zero offset. The final MP4 fully decodes, and its QR code resolves to nandaindex.org.
 
 The live site keeps the existing guide and older video. Only the new video and its poster are replaced, with a versioned URL to avoid the earlier cached export.

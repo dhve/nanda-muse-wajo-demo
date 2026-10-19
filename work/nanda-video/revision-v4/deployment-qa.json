@@ -1,12 +1,12 @@
 {
-  "verified_at": "2026-10-19T19:28:50.472941+00:00",
+  "verified_at": "2026-10-19T20:05:06.509303+00:00",
   "url": "https://my.nandaindex.org/demo/",
-  "commit": "3e9ce99efe6c7c0a13876a14eb3ada175bebe60d",
+  "commit": "d208135adec28363bf5fc9cf00c6451e3ff673b3",
   "status": "built",
   "video_count": 2,
   "existing_html_preserved": true,
   "existing_assets_unchanged": true,
-  "new_video_url": "https://my.nandaindex.org/demo/video/muse-wajo-demo-v4.mp4?v=sync-2",
-  "video_sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a",
+  "new_video_url": "https://my.nandaindex.org/demo/video/muse-wajo-demo-v4.mp4?v=soft-cuts-3",
+  "video_sha256": "e0fa98db24c7c5fa3a6bb7817032c686eb2d9df35f743281fb6f806a7e46db6d",
   "live_video_hash_matches_export": true
 }

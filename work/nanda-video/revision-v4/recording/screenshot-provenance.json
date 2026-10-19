@@ -1,41 +1,41 @@
 {
   "source": "Frame-accurate render of the animated HTML walkthrough without desktop or cursor",
   "raw_file": "direct-render.mp4",
-  "raw_sha256": "6d9de4385a97c4cab79112003c8c0c3ed53a7692830e95e76c8326b8a1c1c981",
+  "raw_sha256": "5995ecb6b365c2a5de484c1e9235b1c143c6bb0d4a598e7185e2e2874d8984b6",
   "trim_start": 0.0,
   "crop_pixels": "1920:1080:0:0",
   "final_duration": 178,
-  "final_video_sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a",
+  "final_video_sha256": "e0fa98db24c7c5fa3a6bb7817032c686eb2d9df35f743281fb6f806a7e46db6d",
   "frames": [
     {
       "file": "screenshots/connect-alice.jpg",
       "video_time": 21.5,
       "raw_time": 21.5,
-      "sha256": "268b57420a4669e82b363f21d93312957d89300821404b099ccd81337a5f6357"
+      "sha256": "55eabf2c3597c532c6f5c64bf6afa8940e7b8a99ced6155abb8b9e68af8429dc"
     },
     {
       "file": "screenshots/connect-bob.jpg",
       "video_time": 33,
       "raw_time": 33.0,
-      "sha256": "f4ed300f2c2cf31e3231d43a4229f55af7d60e716649635ac454badf4db60be5"
+      "sha256": "8973440ace3daf705d541ddd6ff445ff8fcc617cc5aab77e84a8deb51bd85dbb"
     },
     {
       "file": "screenshots/verify.jpg",
       "video_time": 47.5,
       "raw_time": 47.5,
-      "sha256": "afdae0bcf4d1537f619350a74e530254b30efc73e4769467d167651521de1f84"
+      "sha256": "4716d433b9bc1264e274f770073c02b262464fb6ec7d7b3c2efdae7c570bcda1"
     },
     {
       "file": "screenshots/ready.jpg",
       "video_time": 58,
       "raw_time": 58.0,
-      "sha256": "7abf9f0cf991fd4e97fb37ce3ba9e0bee9285a078f5912a559464e6b78f0ff1d"
+      "sha256": "48c9ed77ec8d14700ad1d4af709f018eceea0bcc85af13cd8cfbcaee4b4751f4"
     },
     {
       "file": "screenshots/discover.jpg",
       "video_time": 72.5,
       "raw_time": 72.5,
-      "sha256": "35a3cd0f86961ff053e2d30e58b7d149e598d6d946f7933818b4e44efdad38db"
+      "sha256": "26f9efa47d3487117a52951b09516b724d625e4bcb8ef37957d87e4df98bcd8e"
     },
     {
       "file": "screenshots/card.jpg",
@@ -47,7 +47,7 @@
       "file": "screenshots/ask.jpg",
       "video_time": 120.5,
       "raw_time": 120.5,
-      "sha256": "a310db858cda352bd3585eca60422b658b2b0b61b288083539ff890353cf7a79"
+      "sha256": "9c7eea5db13b457bf00338c518e3d6cd87ecef116b966b138ba0f177140b0feb"
     },
     {
       "file": "screenshots/reply.jpg",

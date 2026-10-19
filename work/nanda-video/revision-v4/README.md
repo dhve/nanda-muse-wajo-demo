@@ -43,7 +43,7 @@ python3 assemble_v4.py --raw recording/direct-render.mp4 --start 0 --crop 1920:1
 
 The renderer uses an isolated headless Chrome process and writes `recording/direct-render.mp4`. Set `RENDER_CHROME` if Chrome is installed elsewhere. It captures 5,340 frames at 30 fps, using frame number divided by frame rate as the animation clock. CSS focus transitions use that same clock. Browser loading time is excluded, and narration starts at zero.
 
-`verify_content.py`, `production/qa/check_player.py`, and `verify_export.py` check the prompts, narration, scene layout, final video and screenshots. `production/qa/check_timing.cjs` checks visible actions against spoken cues. `production/qa/check_export_sync.py` compares exported cue frames with the player and measures the audio offset at the beginning, middle and end.
+`verify_content.py`, `production/qa/check_player.py`, and `verify_export.py` check the prompts, narration, scene layout, final video and screenshots. `production/qa/check_timing.cjs` checks visible actions against spoken cues. `production/qa/check_export_sync.py` compares exported cue frames with the player and measures the audio offset at the beginning, middle and end. `production/qa/check_transitions.cjs` checks overlapping scenes and app-to-diagram dissolves.
 
 The guide images are extracted from the delivered video, with their timestamps and hashes saved in the provenance file. The timing correction keeps the 178-second narration and all prompts unchanged.
 

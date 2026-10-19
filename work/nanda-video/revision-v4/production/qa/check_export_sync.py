@@ -22,6 +22,10 @@ CUES=[
  (150.0,'tasting introduction',(260,550,1660,670)),
  (151.7,'Bob asks Tuesday',(260,550,1660,670)),
  (153.8,'Alice replies with a time',(260,550,1660,670)),
+ (29.0,'Muse to Wajo dissolve',(300,140,1620,980)),
+ (76.0,'discovery to diagram dissolve',(300,140,1620,980)),
+ (116.6,'question app to diagram dissolve',(300,140,1620,980)),
+ (131.6,'reply app to diagram dissolve',(300,140,1620,980)),
 ]
 
 with tempfile.TemporaryDirectory(prefix='nanda-sync-') as tmp:

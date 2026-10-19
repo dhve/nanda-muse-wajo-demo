@@ -115,8 +115,8 @@
     {
       "source": "outputs/nanda-demo-v4.zip",
       "path": "outputs/nanda-demo-v4.zip",
-      "bytes": 11946281,
-      "sha256": "23a3ad8dd4c5c75863fa5de2b51d722df31c2986d54a1a769ffcb39db443e5fd",
+      "bytes": 13026142,
+      "sha256": "37839ee6c8c6dec02738833c85d9ea73cfa74a587b6e0bd5abdbd2fdc9b19e51",
       "purpose": "Delivered bakery video, captions or guide package"
     },
     {
@@ -150,8 +150,8 @@
     {
       "source": "outputs/nanda-demo-v4/screenshots/ask.jpg",
       "path": "outputs/nanda-demo-v4/screenshots/ask.jpg",
-      "bytes": 103267,
-      "sha256": "a310db858cda352bd3585eca60422b658b2b0b61b288083539ff890353cf7a79",
+      "bytes": 103258,
+      "sha256": "9c7eea5db13b457bf00338c518e3d6cd87ecef116b966b138ba0f177140b0feb",
       "purpose": "Delivered bakery guide, final video or extracted screenshot"
     },
     {
@@ -164,29 +164,29 @@
     {
       "source": "outputs/nanda-demo-v4/screenshots/connect-alice.jpg",
       "path": "outputs/nanda-demo-v4/screenshots/connect-alice.jpg",
-      "bytes": 121887,
-      "sha256": "268b57420a4669e82b363f21d93312957d89300821404b099ccd81337a5f6357",
+      "bytes": 121936,
+      "sha256": "55eabf2c3597c532c6f5c64bf6afa8940e7b8a99ced6155abb8b9e68af8429dc",
       "purpose": "Delivered bakery guide, final video or extracted screenshot"
     },
     {
       "source": "outputs/nanda-demo-v4/screenshots/connect-bob.jpg",
       "path": "outputs/nanda-demo-v4/screenshots/connect-bob.jpg",
-      "bytes": 105481,
-      "sha256": "f4ed300f2c2cf31e3231d43a4229f55af7d60e716649635ac454badf4db60be5",
+      "bytes": 105579,
+      "sha256": "8973440ace3daf705d541ddd6ff445ff8fcc617cc5aab77e84a8deb51bd85dbb",
       "purpose": "Delivered bakery guide, final video or extracted screenshot"
     },
     {
       "source": "outputs/nanda-demo-v4/screenshots/discover.jpg",
       "path": "outputs/nanda-demo-v4/screenshots/discover.jpg",
-      "bytes": 133346,
-      "sha256": "35a3cd0f86961ff053e2d30e58b7d149e598d6d946f7933818b4e44efdad38db",
+      "bytes": 133293,
+      "sha256": "26f9efa47d3487117a52951b09516b724d625e4bcb8ef37957d87e4df98bcd8e",
       "purpose": "Delivered bakery guide, final video or extracted screenshot"
     },
     {
       "source": "outputs/nanda-demo-v4/screenshots/ready.jpg",
       "path": "outputs/nanda-demo-v4/screenshots/ready.jpg",
-      "bytes": 128635,
-      "sha256": "7abf9f0cf991fd4e97fb37ce3ba9e0bee9285a078f5912a559464e6b78f0ff1d",
+      "bytes": 128686,
+      "sha256": "48c9ed77ec8d14700ad1d4af709f018eceea0bcc85af13cd8cfbcaee4b4751f4",
       "purpose": "Delivered bakery guide, final video or extracted screenshot"
     },
     {
@@ -199,8 +199,8 @@
     {
       "source": "outputs/nanda-demo-v4/screenshots/verify.jpg",
       "path": "outputs/nanda-demo-v4/screenshots/verify.jpg",
-      "bytes": 149086,
-      "sha256": "afdae0bcf4d1537f619350a74e530254b30efc73e4769467d167651521de1f84",
+      "bytes": 149252,
+      "sha256": "4716d433b9bc1264e274f770073c02b262464fb6ec7d7b3c2efdae7c570bcda1",
       "purpose": "Delivered bakery guide, final video or extracted screenshot"
     },
     {
@@ -213,8 +213,8 @@
     {
       "source": "outputs/nanda-demo-v4/video/muse-wajo-demo-v4.mp4",
       "path": "outputs/nanda-demo-v4/video/muse-wajo-demo-v4.mp4",
-      "bytes": 11323949,
-      "sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a",
+      "bytes": 12410109,
+      "sha256": "e0fa98db24c7c5fa3a6bb7817032c686eb2d9df35f743281fb6f806a7e46db6d",
       "purpose": "Delivered bakery guide, final video or extracted screenshot"
     },
     {
@@ -288,10 +288,17 @@
       "purpose": "Delivered artifact"
     },
     {
+      "source": "outputs/nanda-demo-video/muse-wajo-demo-v4-soft-cuts.mp4",
+      "path": "outputs/nanda-demo-video/muse-wajo-demo-v4-soft-cuts.mp4",
+      "bytes": 12410109,
+      "sha256": "e0fa98db24c7c5fa3a6bb7817032c686eb2d9df35f743281fb6f806a7e46db6d",
+      "purpose": "Delivered bakery video, captions or guide package"
+    },
+    {
       "source": "outputs/nanda-demo-video/muse-wajo-demo-v4.mp4",
       "path": "outputs/nanda-demo-video/muse-wajo-demo-v4.mp4",
-      "bytes": 11323949,
-      "sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a",
+      "bytes": 12410109,
+      "sha256": "e0fa98db24c7c5fa3a6bb7817032c686eb2d9df35f743281fb6f806a7e46db6d",
       "purpose": "Delivered bakery video, captions or guide package"
     },
     {
@@ -451,8 +458,8 @@
     {
       "source": "work/nanda-messagebox-skill/demo/index.html",
       "path": "website/demo/index.html",
-      "bytes": 42244,
-      "sha256": "8151ebf07005e3f59f01e3b41cc4828df66108b262532308c8c668591163ce4f",
+      "bytes": 42254,
+      "sha256": "9d20e60e04cd276887b4e624f5a18ecc64894fe48c2a2f0f6d7b860df7d1e7a6",
       "purpose": "Published website source and assets"
     },
     {
@@ -577,8 +584,8 @@
     {
       "source": "work/nanda-messagebox-skill/demo/video/muse-wajo-demo-v4.mp4",
       "path": "website/demo/video/muse-wajo-demo-v4.mp4",
-      "bytes": 11323949,
-      "sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a",
+      "bytes": 12410109,
+      "sha256": "e0fa98db24c7c5fa3a6bb7817032c686eb2d9df35f743281fb6f806a7e46db6d",
       "purpose": "Published website source and assets"
     },
     {
@@ -6849,8 +6856,8 @@
     {
       "source": "work/nanda-video/revision-v4/README.md",
       "path": "work/nanda-video/revision-v4/README.md",
-      "bytes": 3656,
-      "sha256": "575a7f0cfcbd08a91bf03cb7e383bf4347f9df29e5ab68af8f79f032a9eb5b9d",
+      "bytes": 3750,
+      "sha256": "ce15cc3f1fa873371662793dc4c4e12f624c32dabacdfc618a3a55686e6de26c",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -7024,8 +7031,8 @@
     {
       "source": "work/nanda-video/revision-v4/deployment-qa.json",
       "path": "work/nanda-video/revision-v4/deployment-qa.json",
-      "bytes": 487,
-      "sha256": "b59c4a4099ed3b408f694764b46d64d900db68b901a22647a990ac5a6f0683f7",
+      "bytes": 492,
+      "sha256": "ddfb92095e3c8fcc190b2b4505be0f332806748b3aac0b261c3fe0bcff4306fe",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -7039,14 +7046,14 @@
       "source": "work/nanda-video/revision-v4/export-qa.json",
       "path": "work/nanda-video/revision-v4/export-qa.json",
       "bytes": 370,
-      "sha256": "d4b317649f1188dcdabd73d3297a57c9529cd899ddf84b4d77343caa251ab754",
+      "sha256": "d34bcff96fd88311320510f8f6319e62ba14f333248a4df18bcb5ee2af4b7291",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
       "source": "work/nanda-video/revision-v4/export-sync-qa.json",
       "path": "work/nanda-video/revision-v4/export-sync-qa.json",
-      "bytes": 1969,
-      "sha256": "b01f8505ab1f62f9e75c6e3a0e8d036461f8032f9a5a7ab86ccd9e18d90223f7",
+      "bytes": 2491,
+      "sha256": "f21337b6f8c241b8669191ae20af7f31d6caec2849c918aa00e3a0657126df2b",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -7108,29 +7115,29 @@
     {
       "source": "work/nanda-video/revision-v4/production/player/index.html",
       "path": "work/nanda-video/revision-v4/production/player/index.html",
-      "bytes": 39861,
-      "sha256": "c42383c6fb7864d2daf4946bd371f4c3df00c0fb9a8cb1acf358f27f62d37a9e",
+      "bytes": 40195,
+      "sha256": "fc707d76a0c85787b60d7f9a44617232ed2927d77521be988bac0ff60e816386",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
       "source": "work/nanda-video/revision-v4/production/player/player.css",
       "path": "work/nanda-video/revision-v4/production/player/player.css",
-      "bytes": 12086,
-      "sha256": "4e1a3a8664cd8a3d27bbe76f16111a7e91319802a9c09f4b0a735188e95d9a42",
+      "bytes": 12178,
+      "sha256": "eb10ee095758a6e3bbaa1c00add1a7f9bc260812ef56411064c350a3c6dbb578",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
       "source": "work/nanda-video/revision-v4/production/player/player.js",
       "path": "work/nanda-video/revision-v4/production/player/player.js",
-      "bytes": 17108,
-      "sha256": "14baac81529eeecfbe8df40e38475d630bcc62731b505851fa1384b0432f34cc",
+      "bytes": 18184,
+      "sha256": "cc4be0877ed42b519ddcd07727cb69c4e56cb27db64f448a5fdb74f4b50b8c32",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
       "source": "work/nanda-video/revision-v4/production/qa/check_export_sync.py",
       "path": "work/nanda-video/revision-v4/production/qa/check_export_sync.py",
-      "bytes": 3241,
-      "sha256": "db5958c382c707e1e4c55b316568652c81bcbe5044c0ea7f4a722d62e5d67a98",
+      "bytes": 3478,
+      "sha256": "edee6af7d2eaad3faf650c13db005c94f16924c94d806793b1d0d82a46df007e",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -7148,6 +7155,13 @@
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
+      "source": "work/nanda-video/revision-v4/production/qa/check_transitions.cjs",
+      "path": "work/nanda-video/revision-v4/production/qa/check_transitions.cjs",
+      "bytes": 2503,
+      "sha256": "e0e00400d277f7e5b1a62318d7dc2e66b9ec895cdd558196bda40243c9e6059e",
+      "purpose": "Animated bakery source, narration, final render or validation record"
+    },
+    {
       "source": "work/nanda-video/revision-v4/production/tools/qr.swift",
       "path": "work/nanda-video/revision-v4/production/tools/qr.swift",
       "bytes": 3120,
@@ -7157,8 +7171,8 @@
     {
       "source": "work/nanda-video/revision-v4/progress.md",
       "path": "work/nanda-video/revision-v4/progress.md",
-      "bytes": 1019,
-      "sha256": "c23c15a2a352934ac305dbba513192c4e207a0b4aa9eda6979e11d501ff52298",
+      "bytes": 1110,
+      "sha256": "b20638761801c21cec10820922fb0eef6f43887cca30172a3cbd50c37d24e693",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -7178,8 +7192,8 @@
     {
       "source": "work/nanda-video/revision-v4/recording/direct-contact.jpg",
       "path": "work/nanda-video/revision-v4/recording/direct-contact.jpg",
-      "bytes": 493711,
-      "sha256": "edeb8a22a96c737793c1dd77a2afac32811ae978b794fc8df607a6d6fabf9a30",
+      "bytes": 366191,
+      "sha256": "95753241d924a2ea8a011512351db8ffa8ad6d7ebc9d088d1736a10691a1c33f",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -7192,15 +7206,15 @@
     {
       "source": "work/nanda-video/revision-v4/recording/direct-render.mp4",
       "path": "work/nanda-video/revision-v4/recording/direct-render.mp4",
-      "bytes": 30880252,
-      "sha256": "6d9de4385a97c4cab79112003c8c0c3ed53a7692830e95e76c8326b8a1c1c981",
+      "bytes": 45906847,
+      "sha256": "5995ecb6b365c2a5de484c1e9235b1c143c6bb0d4a598e7185e2e2874d8984b6",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
       "source": "work/nanda-video/revision-v4/recording/guide-contact.jpg",
       "path": "work/nanda-video/revision-v4/recording/guide-contact.jpg",
-      "bytes": 349488,
-      "sha256": "cafa404d2cd40a0bff8c95f226976ad151b750ecd5f704b7223143ac7f37244f",
+      "bytes": 199386,
+      "sha256": "d44fa2f6aab8d1cbbd185dae1a3f49938d701dfa9c784f1a79d4e09866e2e3a9",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -7213,15 +7227,22 @@
     {
       "source": "work/nanda-video/revision-v4/recording/recorded-visuals.mp4",
       "path": "work/nanda-video/revision-v4/recording/recorded-visuals.mp4",
-      "bytes": 8085485,
-      "sha256": "cfa280938a77515ed6565328b967845071876eac08fa6b3d4bca885387f41477",
+      "bytes": 9171661,
+      "sha256": "06e49e5ce8179804d24d3388fb6913dcd259d5eb357fb966d3100f264a43a826",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
       "source": "work/nanda-video/revision-v4/recording/screenshot-provenance.json",
       "path": "work/nanda-video/revision-v4/recording/screenshot-provenance.json",
       "bytes": 2098,
-      "sha256": "877590eae864b5d6c4cece117fabea79ee974fe1817df4e9209b7d1795447441",
+      "sha256": "6407878176bae6f684494fd1935e20463390fd5c14ecf342033cbf1e7f502ab9",
+      "purpose": "Animated bakery source, narration, final render or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v4/recording/transition-contact.jpg",
+      "path": "work/nanda-video/revision-v4/recording/transition-contact.jpg",
+      "bytes": 174347,
+      "sha256": "88f2679d92250476c674af347f3e72d617ad1961476b98424b7447c039a496c0",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -7248,8 +7269,22 @@
     {
       "source": "work/nanda-video/revision-v4/timing-review.md",
       "path": "work/nanda-video/revision-v4/timing-review.md",
-      "bytes": 947,
-      "sha256": "04e81526fcc2402ab2b165847774ffb2145183da8fd5edcc0e8b0042564c6439",
+      "bytes": 944,
+      "sha256": "8dda6c9d73b442183825751b7b66937b1c8cde6d57a784a2558aefaaa36ea8e2",
+      "purpose": "Animated bakery source, narration, final render or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v4/transition-qa.json",
+      "path": "work/nanda-video/revision-v4/transition-qa.json",
+      "bytes": 3858,
+      "sha256": "8b2d755ef016496a58741084e3662ec2131685f5b5d7334c32e71ffa42fe86d1",
+      "purpose": "Animated bakery source, narration, final render or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v4/transition-review.md",
+      "path": "work/nanda-video/revision-v4/transition-review.md",
+      "bytes": 739,
+      "sha256": "4cd8eeeafcedc8e88fdee37d79cde26eb6522453554371063dd1d414430c352b",
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
@@ -7283,8 +7318,8 @@
     {
       "source": "work/publication/package_v4.py",
       "path": "work/publication/package_v4.py",
-      "bytes": 3648,
-      "sha256": "c53c7d96d2f71769d0717dfa071009d52a645ce7907fdacd565fa56f01b90174",
+      "bytes": 3811,
+      "sha256": "6f505e18ea18e48a0b39e615f800d23bfff087349bfc460790c555f5a7dca322",
       "purpose": "Archive packaging source"
     }
   ]

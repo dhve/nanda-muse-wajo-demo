@@ -17,7 +17,7 @@
  */
 (() => {
   'use strict';
-  const W = 1920, H = 1080, XF_IN = 0.45, XF_OUT = 0.4;
+  const W = 1920, H = 1080, DISSOLVE = 0.9, ENTRY_FRAME = 0.65;
   const qs = new URLSearchParams(location.search);
   const RECORD = qs.has('record');
   const FRAME = qs.has('frame') ? Number(qs.get('frame')) : null;
@@ -125,6 +125,11 @@
         return;
       }
       case 'fade': s.opacity = String(pin * (1 - pout) * a.op); return;
+      case 'dissolve': {
+        const p = prog(t, a.tin, a.dur);
+        s.opacity = String(p * p * (3 - 2 * p) * (1 - pout) * a.op);
+        return;
+      }
       case 'pop': s.opacity = String(pin * (1 - pout) * a.op); s.transform = `scale(${0.8 + 0.2 * pin})`; return;
       default:
         s.opacity = String(pin * (1 - pout) * a.op);
@@ -146,22 +151,31 @@
     t = clamp(t, 0, total);
     let i = scenes.findIndex(s => t < s.start + s.dur);
     if (i < 0) i = scenes.length - 1;
+    const incoming = scenes.findIndex((s, k) => k > 0 && t >= s.start - DISSOLVE / 2 && t < s.start + DISSOLVE / 2);
+    const outgoing = incoming - 1;
+    const p = incoming > 0 ? prog(t, scenes[incoming].start - DISSOLVE / 2, DISSOLVE) : 0;
+    const mix = p * p * (3 - 2 * p);
     persist.style.opacity = String(ease(prog(t, 0, 0.6)));
     scenes.forEach((s, k) => {
-      const show = k === i;
+      const show = incoming > 0 ? k === outgoing || k === incoming : k === i;
       s.el.style.visibility = show ? 'visible' : 'hidden';
       if (!show) return;
-      const lt = t - s.start;
-      const fin = ease(prog(lt, 0, k === 0 ? 0.6 : XF_IN));
-      const fout = k === scenes.length - 1 ? 0 : ease(prog(lt, s.dur - XF_OUT, XF_OUT));
-      s.el.style.opacity = String(fin * (1 - fout));
+      // Keep the previous scene solid beneath the incoming scene. Each scene has
+      // its own canvas background, so the dissolve cannot flash to empty space.
+      s.el.style.opacity = String(incoming > 0 ? k === incoming ? mix : 1 : k === 0 ? ease(prog(t, 0, 0.6)) : 1);
+      const lt = Math.max(k > 0 ? ENTRY_FRAME : 0, clamp(t - s.start, 0, s.dur));
       const nt = (lt * s.nominal) / s.dur; // authored time inside the scene
       s.anims.forEach(a => apply(a, nt));
-      let mode = 'both';
-      for (const [ft, m] of s.focus) if (nt >= ft) mode = m;
-      setFocus(mode);
-      if (TARGETS) placeMarks(s, nt);
+      // Change headings in sequence instead of superimposing two lines of text.
+      const title = $('[data-title]', s.el);
+      if (title) title.style.opacity = String(incoming > 0 ? k === outgoing ? 1 - ease(prog(p, 0, 0.45)) : ease(prog(p, 0.55, 0.45)) : 1);
     });
+    // Focus follows the logical scene once, even while two scenes are visible.
+    const active = scenes[i], nt = clamp(t - active.start, 0, active.dur) * active.nominal / active.dur;
+    let mode = 'both';
+    for (const [ft, m] of active.focus) if (nt >= ft) mode = m;
+    setFocus(mode);
+    if (TARGETS) placeMarks(active, nt);
     if (i !== current) { current = i; ui.sel.value = String(i); }
     ui.time.textContent = `${fmt(t)} / ${fmt(total)}`;
   }

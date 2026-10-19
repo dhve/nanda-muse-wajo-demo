@@ -44,14 +44,14 @@
       "missing_guide_assets": [],
       "captions": 45,
       "screenshot_provenance_verified": 9,
-      "video_sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a"
+      "video_sha256": "e0fa98db24c7c5fa3a6bb7817032c686eb2d9df35f743281fb6f806a7e46db6d"
     },
     "timing": {
       "visual_cues": [
         {
           "time": 0.8,
           "cue": "opening title",
-          "mean_pixel_error": 0.77,
+          "mean_pixel_error": 0.753,
           "pass": true
         },
         {
@@ -63,13 +63,13 @@
         {
           "time": 34.0,
           "cue": "Bob has an address",
-          "mean_pixel_error": 0.553,
+          "mean_pixel_error": 0.543,
           "pass": true
         },
         {
           "time": 40.2,
           "cue": "verification prompt",
-          "mean_pixel_error": 0.561,
+          "mean_pixel_error": 0.568,
           "pass": true
         },
         {
@@ -81,7 +81,7 @@
         {
           "time": 46.4,
           "cue": "credential in secure field",
-          "mean_pixel_error": 1.039,
+          "mean_pixel_error": 1.021,
           "pass": true
         },
         {
@@ -99,7 +99,7 @@
         {
           "time": 114.0,
           "cue": "Bob approves",
-          "mean_pixel_error": 2.184,
+          "mean_pixel_error": 2.129,
           "pass": true
         },
         {
@@ -111,7 +111,7 @@
         {
           "time": 131.1,
           "cue": "reply sent",
-          "mean_pixel_error": 0.855,
+          "mean_pixel_error": 0.818,
           "pass": true
         },
         {
@@ -130,6 +130,30 @@
           "time": 153.8,
           "cue": "Alice replies with a time",
           "mean_pixel_error": 0.906,
+          "pass": true
+        },
+        {
+          "time": 29.0,
+          "cue": "Muse to Wajo dissolve",
+          "mean_pixel_error": 0.839,
+          "pass": true
+        },
+        {
+          "time": 76.0,
+          "cue": "discovery to diagram dissolve",
+          "mean_pixel_error": 1.147,
+          "pass": true
+        },
+        {
+          "time": 116.6,
+          "cue": "question app to diagram dissolve",
+          "mean_pixel_error": 0.814,
+          "pass": true
+        },
+        {
+          "time": 131.6,
+          "cue": "reply app to diagram dissolve",
+          "mean_pixel_error": 1.025,
           "pass": true
         }
       ],
@@ -154,15 +178,15 @@
     },
     "visible_action_cues": 16,
     "live_deployment": {
-      "verified_at": "2026-10-19T19:28:50.472941+00:00",
+      "verified_at": "2026-10-19T20:05:06.509303+00:00",
       "url": "https://my.nandaindex.org/demo/",
-      "commit": "3e9ce99efe6c7c0a13876a14eb3ada175bebe60d",
+      "commit": "d208135adec28363bf5fc9cf00c6451e3ff673b3",
       "status": "built",
       "video_count": 2,
       "existing_html_preserved": true,
       "existing_assets_unchanged": true,
-      "new_video_url": "https://my.nandaindex.org/demo/video/muse-wajo-demo-v4.mp4?v=sync-2",
-      "video_sha256": "ee7574a69d1a8cbd56703da432fae3b596e42efdbaa4ad25f8910cb5925f6d3a",
+      "new_video_url": "https://my.nandaindex.org/demo/video/muse-wajo-demo-v4.mp4?v=soft-cuts-3",
+      "video_sha256": "e0fa98db24c7c5fa3a6bb7817032c686eb2d9df35f743281fb6f806a7e46db6d",
       "live_video_hash_matches_export": true
     },
     "private_sources_excluded": [
@@ -170,6 +194,232 @@
       "research",
       "native desktop captures"
     ],
-    "scope": "New bakery video above the unchanged existing guide and earlier video."
+    "scope": "New bakery video above the unchanged existing guide and earlier video.",
+    "transitions": {
+      "checks": 44,
+      "passed": 44,
+      "results": [
+        {
+          "time": 16,
+          "cut": "connect_alice",
+          "pass": true
+        },
+        {
+          "time": 16.7,
+          "cut": "connect_alice settled",
+          "pass": true
+        },
+        {
+          "time": 16.5,
+          "cut": "connect_alice entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 29,
+          "cut": "connect_bob",
+          "pass": true
+        },
+        {
+          "time": 29.7,
+          "cut": "connect_bob settled",
+          "pass": true
+        },
+        {
+          "time": 29.5,
+          "cut": "connect_bob entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 38,
+          "cut": "verify",
+          "pass": true
+        },
+        {
+          "time": 38.7,
+          "cut": "verify settled",
+          "pass": true
+        },
+        {
+          "time": 38.5,
+          "cut": "verify entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 52,
+          "cut": "ready",
+          "pass": true
+        },
+        {
+          "time": 52.7,
+          "cut": "ready settled",
+          "pass": true
+        },
+        {
+          "time": 52.5,
+          "cut": "ready entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 61,
+          "cut": "discover",
+          "pass": true
+        },
+        {
+          "time": 61.7,
+          "cut": "discover settled",
+          "pass": true
+        },
+        {
+          "time": 61.5,
+          "cut": "discover entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 76,
+          "cut": "handshake",
+          "pass": true
+        },
+        {
+          "time": 76.7,
+          "cut": "handshake settled",
+          "pass": true
+        },
+        {
+          "time": 76.5,
+          "cut": "handshake entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 89,
+          "cut": "card",
+          "pass": true
+        },
+        {
+          "time": 89.7,
+          "cut": "card settled",
+          "pass": true
+        },
+        {
+          "time": 89.5,
+          "cut": "card entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 105,
+          "cut": "manual_search",
+          "pass": true
+        },
+        {
+          "time": 105.7,
+          "cut": "manual_search settled",
+          "pass": true
+        },
+        {
+          "time": 105.5,
+          "cut": "manual_search entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 112,
+          "cut": "ask",
+          "pass": true
+        },
+        {
+          "time": 112.7,
+          "cut": "ask settled",
+          "pass": true
+        },
+        {
+          "time": 112.5,
+          "cut": "ask entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 122,
+          "cut": "reply",
+          "pass": true
+        },
+        {
+          "time": 122.7,
+          "cut": "reply settled",
+          "pass": true
+        },
+        {
+          "time": 122.5,
+          "cut": "reply entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 137,
+          "cut": "received",
+          "pass": true
+        },
+        {
+          "time": 137.7,
+          "cut": "received settled",
+          "pass": true
+        },
+        {
+          "time": 137.5,
+          "cut": "received entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 147,
+          "cut": "another",
+          "pass": true
+        },
+        {
+          "time": 147.7,
+          "cut": "another settled",
+          "pass": true
+        },
+        {
+          "time": 147.5,
+          "cut": "another entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 157,
+          "cut": "roles",
+          "pass": true
+        },
+        {
+          "time": 157.7,
+          "cut": "roles settled",
+          "pass": true
+        },
+        {
+          "time": 157.5,
+          "cut": "roles entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 169,
+          "cut": "end",
+          "pass": true
+        },
+        {
+          "time": 169.7,
+          "cut": "end settled",
+          "pass": true
+        },
+        {
+          "time": 169.5,
+          "cut": "end entry does not reverse",
+          "pass": true
+        },
+        {
+          "time": 116.55,
+          "cut": "ask app to diagram",
+          "pass": true
+        },
+        {
+          "time": 131.6,
+          "cut": "reply app to diagram",
+          "pass": true
+        }
+      ]
+    }
   }
 }

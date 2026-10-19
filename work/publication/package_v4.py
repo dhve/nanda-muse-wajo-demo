@@ -9,7 +9,7 @@ manifest=json.loads((DEST/'docs/archive-manifest.json').read_text())
 entries={r['path']:r for r in manifest['files']}
 omitted=json.loads((DEST/'docs/omitted-files.json').read_text())
 omissions={r['path']:r for r in omitted['files']}
-recording={'direct-render.mp4','direct-render.json','recorded-visuals.mp4','screenshot-provenance.json','qr-final-frame.jpg','direct-contact.jpg','guide-contact.jpg'}
+recording={'direct-render.mp4','direct-render.json','recorded-visuals.mp4','screenshot-provenance.json','qr-final-frame.jpg','direct-contact.jpg','guide-contact.jpg','transition-contact.jpg'}
 copied=[]
 
 def copy(source,target,purpose):
@@ -47,7 +47,10 @@ if stale.exists():
 out=ROOT/'outputs/nanda-demo-v4'
 for f in sorted(out.rglob('*')):
  if f.is_file():copy(f,DEST/f.relative_to(ROOT),'Delivered bakery guide, final video or extracted screenshot')
-for f in [ROOT/'outputs/nanda-demo-v4.zip',*sorted((ROOT/'outputs/nanda-demo-video').glob('muse-wajo-demo-v4.*'))]:
+deliveries=[ROOT/'outputs/nanda-demo-v4.zip',*sorted((ROOT/'outputs/nanda-demo-video').glob('muse-wajo-demo-v4.*'))]
+latest=ROOT/'outputs/nanda-demo-video/muse-wajo-demo-v4-soft-cuts.mp4'
+if latest.exists():deliveries.append(latest)
+for f in deliveries:
  copy(f,DEST/f.relative_to(ROOT),'Delivered bakery video, captions or guide package')
 site=ROOT/'work/nanda-messagebox-skill/demo'
 for f in sorted(site.rglob('*')):
