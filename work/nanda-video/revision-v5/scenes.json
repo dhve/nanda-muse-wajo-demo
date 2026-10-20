@@ -1,0 +1,151 @@
+{
+  "version": 5,
+  "timing": "Aligned to generated narration, .94 playback speed; minimal scene-boundary padding",
+  "scenes": [
+    {
+      "id": "goal",
+      "title": "Alice and Bob use different apps",
+      "narration": "Alice runs a bakery using Muse. Bob is her customer and uses Wajo. They already know who they want to contact. Let's see how their agents connect, including when the bakery contacts Bob.",
+      "screen": "Alice stays on the left in blue. Bob stays on the right in green. Label every screen as an illustration.",
+      "duration": 13.733333,
+      "start": 0,
+      "prompts": []
+    },
+    {
+      "id": "connect_alice",
+      "title": "1. Alice sets up her agent",
+      "narration": "Alice pastes the setup prompt into Muse, using her bakery email. Her agent follows the website instructions and prepares its AgentBox.",
+      "screen": "Show Alice's complete setup prompt, then the expected email verification request.",
+      "duration": 9.766667,
+      "start": 13.733333,
+      "prompts": [
+        "setup_alice"
+      ]
+    },
+    {
+      "id": "connect_bob",
+      "title": "2. Bob sets up his agent",
+      "narration": "Bob does the same in Wajo with his own email. His agent can run in a different app from Alice's.",
+      "screen": "Show Bob's complete setup prompt, then the expected email verification request.",
+      "duration": 7.233333,
+      "start": 23.5,
+      "prompts": [
+        "setup_bob"
+      ]
+    },
+    {
+      "id": "verify",
+      "title": "3. Each person verifies their email",
+      "narration": "Each person enters the code sent to their own inbox. The code proves control of that email account. The example code on screen is fictional.",
+      "screen": "Show the setup email and a masked credential. Paste the illustrative code. Use your own code in a real setup.",
+      "duration": 9.966667,
+      "start": 30.733333,
+      "prompts": [
+        "verify"
+      ]
+    },
+    {
+      "id": "known",
+      "title": "4. Bob contacts a bakery he knows",
+      "narration": "Bob already knows bakery dot com. He asks his agent, 'Ask at bakery dot com: What cakes are available?'",
+      "screen": "Show Bob's exact known-domain prompt in Wajo. No query for unknown businesses.",
+      "duration": 8.2,
+      "start": 40.7,
+      "prompts": [
+        "ask"
+      ]
+    },
+    {
+      "id": "domain",
+      "title": "The bakery publishes its contact details",
+      "narration": "In this example, the bakery has published its agent's contact details on its website. Bob's agent uses that direct path. An index lookup isn't needed here.",
+      "screen": "Show bakery.com leading directly to the published contact endpoint. This is an assumed, domain-authorized publication, separate from Alice's email verification.",
+      "duration": 10.933333,
+      "start": 48.9,
+      "prompts": []
+    },
+    {
+      "id": "menu",
+      "title": "5. Alice replies with the menu",
+      "narration": "AgentBox carries Bob's question to Alice. She checks her inbox and replies, 'We have chocolate and vanilla cakes.' Bob's agent receives the menu.",
+      "screen": "Show question moving right to left through AgentBox, Alice's check and reply prompts, then the menu moving left to right.",
+      "duration": 10.433333,
+      "start": 59.833333,
+      "prompts": [
+        "check_alice",
+        "menu_reply",
+        "check_bob"
+      ]
+    },
+    {
+      "id": "later",
+      "title": "Later, the bakery starts a new message",
+      "narration": "Later, after Bob has placed an order and agreed to updates, Alice starts a new message. She asks her agent to tell Bob that his cake is ready.",
+      "screen": "Show the later-time label and Bob's consent. Alice enters the exact update prompt in Muse. The order itself is outside the walkthrough.",
+      "duration": 9.7,
+      "start": 70.266667,
+      "prompts": [
+        "update"
+      ]
+    },
+    {
+      "id": "resolve",
+      "title": "6. Resolve Bob\u2019s known agent ID",
+      "narration": "Alice knows Bob's registered ID, bob at gmail dot com. Bob doesn't own gmail dot com or need a website. Her agent asks the index to resolve his ID to his hosted agent card.",
+      "screen": "Index sits above the agents. The request is bob@gmail.com. Index returns a pointer to Bob's hosted card, not a list of agents.",
+      "duration": 13.733333,
+      "start": 79.966667,
+      "prompts": []
+    },
+    {
+      "id": "card",
+      "title": "Read the card and check permissions",
+      "narration": "Alice's agent verifies the link between Bob's ID and his card. The card provides the current endpoint, where his agent can be contacted. The sending agent checks the required permissions before proceeding.",
+      "screen": "Show known ID, hosted card, contact endpoint and permission check in order. Card hosts can be separate from Index and the agent runtime.",
+      "duration": 13.466667,
+      "start": 93.7,
+      "prompts": []
+    },
+    {
+      "id": "deliver",
+      "title": "7. AgentBox delivers the update",
+      "narration": "AgentBox delivers the update to Bob. The index handles identity resolution, while AgentBox carries the message between their agents.",
+      "screen": "Show the update moving left to right through AgentBox. Keep Index above and outside the message path.",
+      "duration": 9.666667,
+      "start": 107.166667,
+      "prompts": [
+        "check_bob"
+      ]
+    },
+    {
+      "id": "reply",
+      "title": "8. Bob replies to Alice",
+      "narration": "Bob checks his inbox and replies, 'Thanks. I'll collect it at two p.m.' Alice receives his reply in Muse, completing the exchange.",
+      "screen": "Show Bob's inbox and exact reply prompt, then the reply moving right to left. Alice checks her inbox and receives it.",
+      "duration": 9.6,
+      "start": 116.833333,
+      "prompts": [
+        "reply",
+        "check_alice"
+      ]
+    },
+    {
+      "id": "roles",
+      "title": "Known ID \u2192 card \u2192 contact endpoint",
+      "narration": "Both people keep their own apps. The index connects a known identity to the agent's current contact details, including for people who don't control a domain. Permission still governs every connection.",
+      "screen": "Show Index resolving the ID above a horizontal AgentBox message path. Do not imply that resolving an ID authorizes delivery.",
+      "duration": 13.966667,
+      "start": 126.433333,
+      "prompts": []
+    },
+    {
+      "id": "end",
+      "title": "Try it with your own agent",
+      "narration": "You can read the matching prompts in the guide. Open the setup page to connect your own agent, and try a message.",
+      "screen": "Hold the readable QR and links to the setup page, Index and AgentBox. QR points to nandaindex.org.",
+      "duration": 8,
+      "start": 140.4,
+      "prompts": []
+    }
+  ]
+}

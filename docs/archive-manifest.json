@@ -225,6 +225,181 @@
       "purpose": "Delivered bakery guide, final video or extracted screenshot"
     },
     {
+      "source": "outputs/nanda-demo-v5/bakery-demo-script-v5-google.docx",
+      "path": "outputs/nanda-demo-v5/bakery-demo-script-v5-google.docx",
+      "bytes": 40374,
+      "sha256": "6115d9fc57353d0197912d2cc1e12f8f9eab5a6fbd08b3113727f05aaafd79b3",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/bakery-demo-script-v5.docx",
+      "path": "outputs/nanda-demo-v5/bakery-demo-script-v5.docx",
+      "bytes": 40382,
+      "sha256": "09936ca6439a91896670bb4efb70bb9c9a23f7781a209630dd9229790ecbedf3",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/fonts/OFL.txt",
+      "path": "outputs/nanda-demo-v5/fonts/OFL.txt",
+      "bytes": 4376,
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/fonts/inter-latin.woff2",
+      "path": "outputs/nanda-demo-v5/fonts/inter-latin.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/index.html",
+      "path": "outputs/nanda-demo-v5/index.html",
+      "bytes": 20640,
+      "sha256": "cb72414f8d4a1bdb15f9cb67475aca6abb74ad866e3e6b64c21a5ac2f9c7f442",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/prompts.json",
+      "path": "outputs/nanda-demo-v5/prompts.json",
+      "bytes": 1185,
+      "sha256": "5d8382e9f133f1af3f1ab6180685f431added0eaea980bb0f720b7d420d44995",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshot-provenance.json",
+      "path": "outputs/nanda-demo-v5/screenshot-provenance.json",
+      "bytes": 3100,
+      "sha256": "868fdde4e4b26103c10089dd713936bffa04b228ed97b65cded0e125d5827760",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/card.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/card.jpg",
+      "bytes": 156096,
+      "sha256": "7468812a435dcab14f2ddce6ab3fd7fcf3a8679801a9c3502c2c0c636586a97e",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/connect_alice.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/connect_alice.jpg",
+      "bytes": 165472,
+      "sha256": "9fa7a649d2bf811374f2de9f820f0d3a01beccab3e2a9050bee0a400391687eb",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/connect_bob.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/connect_bob.jpg",
+      "bytes": 143831,
+      "sha256": "e94297555d920c7d8a7b87844cc43f67ec710a814d5b90f81e247cb80ffad5e6",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/deliver.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/deliver.jpg",
+      "bytes": 117862,
+      "sha256": "af21de9005697e86e6633cea516a2c4e231885b75d92a93db99f7c2fab172e69",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/domain.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/domain.jpg",
+      "bytes": 126857,
+      "sha256": "66dfcea26a8961933047b1c58ace0e17d0b04573349951d619147c72aee63bf2",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/end.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/end.jpg",
+      "bytes": 136536,
+      "sha256": "0c304a762665905cc3e0f639401a4027907a53dd6bda9d1ec1d721cfd334456a",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/goal.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/goal.jpg",
+      "bytes": 122117,
+      "sha256": "ee076d13a79e8883f124e845953bdee48c26c5b3ed7535bb99b9cad798bc1a45",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/known.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/known.jpg",
+      "bytes": 135273,
+      "sha256": "4e60237a4d633d37a3fe2a65c996cd0d71c75137c8af1d98b4bf09c4a20c3254",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/later.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/later.jpg",
+      "bytes": 142499,
+      "sha256": "f5f8faf7d77f14c98ba61022f25748fb32305e44de1ca894324c91e5b0f50873",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/menu.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/menu.jpg",
+      "bytes": 157406,
+      "sha256": "c2a2312e5dabb83af84842d78d869fc1010eeb4449dfd5eb2bf383cf49ae7396",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/reply.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/reply.jpg",
+      "bytes": 122880,
+      "sha256": "cb4a134e658243ae9af71e387e7e878d1f17e11174b8d165d1ef537b001b2dbc",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/resolve.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/resolve.jpg",
+      "bytes": 143823,
+      "sha256": "a94ee358d7b6a1bfabdf3d4ec082e1609cd9612bd98458571b10e7128570e49d",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/roles.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/roles.jpg",
+      "bytes": 137719,
+      "sha256": "173d9133a590290c795ef9dd0dc4f91bb9e8bb381fe04155c8f94acd4048e031",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/screenshots/verify.jpg",
+      "path": "outputs/nanda-demo-v5/screenshots/verify.jpg",
+      "bytes": 143642,
+      "sha256": "804c8d42dd323e9a99d92883f51228a9cd2f64f9cfc8a0c687706108dd11d1c2",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/video/muse-wajo-demo-v5-poster.jpg",
+      "path": "outputs/nanda-demo-v5/video/muse-wajo-demo-v5-poster.jpg",
+      "bytes": 143823,
+      "sha256": "a94ee358d7b6a1bfabdf3d4ec082e1609cd9612bd98458571b10e7128570e49d",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/video/muse-wajo-demo-v5.mp4",
+      "path": "outputs/nanda-demo-v5/video/muse-wajo-demo-v5.mp4",
+      "bytes": 12148634,
+      "sha256": "11328edd341f79361ea9d9e90a2224afb6d287bbf1fa2763f67918123d9fefc2",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/video/muse-wajo-demo-v5.srt",
+      "path": "outputs/nanda-demo-v5/video/muse-wajo-demo-v5.srt",
+      "bytes": 3800,
+      "sha256": "4b56de3c0d68de728f4020fd6e65e29d6567b0cc8a25ae6a93126c83c19b41cf",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
+      "source": "outputs/nanda-demo-v5/video/muse-wajo-demo-v5.vtt",
+      "path": "outputs/nanda-demo-v5/video/muse-wajo-demo-v5.vtt",
+      "bytes": 3661,
+      "sha256": "4d7d41d7df35076aec5764abb7e7380c126a7c9c76d371b7848edadaa1a994e8",
+      "purpose": "Delivered version 5 video, guide, script, caption or extracted screenshot"
+    },
+    {
       "source": "outputs/nanda-demo-video/alice-bob-preview.png",
       "path": "outputs/nanda-demo-video/alice-bob-preview.png",
       "bytes": 93505,
@@ -458,9 +633,9 @@
     {
       "source": "work/nanda-messagebox-skill/demo/index.html",
       "path": "website/demo/index.html",
-      "bytes": 42254,
-      "sha256": "9d20e60e04cd276887b4e624f5a18ecc64894fe48c2a2f0f6d7b860df7d1e7a6",
-      "purpose": "Published website source and assets"
+      "bytes": 43302,
+      "sha256": "62decaf6673dd307181c4610dc81220bf1bc99fa785fb8f43c533cc4c2e75118",
+      "purpose": "Published page with revised video above historical videos"
     },
     {
       "source": "work/nanda-messagebox-skill/demo/screenshots/01-wajo-setup.jpg",
@@ -552,6 +727,181 @@
       "bytes": 11005,
       "sha256": "cab4a4cd85bc623e34b16b7ace749c616247ff982dfccaf0b44efbbe2e896f85",
       "purpose": "Published website source and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/bakery-demo-script-v5-google.docx",
+      "path": "website/demo/v5/bakery-demo-script-v5-google.docx",
+      "bytes": 40374,
+      "sha256": "6115d9fc57353d0197912d2cc1e12f8f9eab5a6fbd08b3113727f05aaafd79b3",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/bakery-demo-script-v5.docx",
+      "path": "website/demo/v5/bakery-demo-script-v5.docx",
+      "bytes": 40382,
+      "sha256": "09936ca6439a91896670bb4efb70bb9c9a23f7781a209630dd9229790ecbedf3",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/fonts/OFL.txt",
+      "path": "website/demo/v5/fonts/OFL.txt",
+      "bytes": 4376,
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/fonts/inter-latin.woff2",
+      "path": "website/demo/v5/fonts/inter-latin.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/index.html",
+      "path": "website/demo/v5/index.html",
+      "bytes": 20640,
+      "sha256": "cb72414f8d4a1bdb15f9cb67475aca6abb74ad866e3e6b64c21a5ac2f9c7f442",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/prompts.json",
+      "path": "website/demo/v5/prompts.json",
+      "bytes": 1185,
+      "sha256": "5d8382e9f133f1af3f1ab6180685f431added0eaea980bb0f720b7d420d44995",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshot-provenance.json",
+      "path": "website/demo/v5/screenshot-provenance.json",
+      "bytes": 3100,
+      "sha256": "868fdde4e4b26103c10089dd713936bffa04b228ed97b65cded0e125d5827760",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/card.jpg",
+      "path": "website/demo/v5/screenshots/card.jpg",
+      "bytes": 156096,
+      "sha256": "7468812a435dcab14f2ddce6ab3fd7fcf3a8679801a9c3502c2c0c636586a97e",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/connect_alice.jpg",
+      "path": "website/demo/v5/screenshots/connect_alice.jpg",
+      "bytes": 165472,
+      "sha256": "9fa7a649d2bf811374f2de9f820f0d3a01beccab3e2a9050bee0a400391687eb",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/connect_bob.jpg",
+      "path": "website/demo/v5/screenshots/connect_bob.jpg",
+      "bytes": 143831,
+      "sha256": "e94297555d920c7d8a7b87844cc43f67ec710a814d5b90f81e247cb80ffad5e6",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/deliver.jpg",
+      "path": "website/demo/v5/screenshots/deliver.jpg",
+      "bytes": 117862,
+      "sha256": "af21de9005697e86e6633cea516a2c4e231885b75d92a93db99f7c2fab172e69",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/domain.jpg",
+      "path": "website/demo/v5/screenshots/domain.jpg",
+      "bytes": 126857,
+      "sha256": "66dfcea26a8961933047b1c58ace0e17d0b04573349951d619147c72aee63bf2",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/end.jpg",
+      "path": "website/demo/v5/screenshots/end.jpg",
+      "bytes": 136536,
+      "sha256": "0c304a762665905cc3e0f639401a4027907a53dd6bda9d1ec1d721cfd334456a",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/goal.jpg",
+      "path": "website/demo/v5/screenshots/goal.jpg",
+      "bytes": 122117,
+      "sha256": "ee076d13a79e8883f124e845953bdee48c26c5b3ed7535bb99b9cad798bc1a45",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/known.jpg",
+      "path": "website/demo/v5/screenshots/known.jpg",
+      "bytes": 135273,
+      "sha256": "4e60237a4d633d37a3fe2a65c996cd0d71c75137c8af1d98b4bf09c4a20c3254",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/later.jpg",
+      "path": "website/demo/v5/screenshots/later.jpg",
+      "bytes": 142499,
+      "sha256": "f5f8faf7d77f14c98ba61022f25748fb32305e44de1ca894324c91e5b0f50873",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/menu.jpg",
+      "path": "website/demo/v5/screenshots/menu.jpg",
+      "bytes": 157406,
+      "sha256": "c2a2312e5dabb83af84842d78d869fc1010eeb4449dfd5eb2bf383cf49ae7396",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/reply.jpg",
+      "path": "website/demo/v5/screenshots/reply.jpg",
+      "bytes": 122880,
+      "sha256": "cb4a134e658243ae9af71e387e7e878d1f17e11174b8d165d1ef537b001b2dbc",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/resolve.jpg",
+      "path": "website/demo/v5/screenshots/resolve.jpg",
+      "bytes": 143823,
+      "sha256": "a94ee358d7b6a1bfabdf3d4ec082e1609cd9612bd98458571b10e7128570e49d",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/roles.jpg",
+      "path": "website/demo/v5/screenshots/roles.jpg",
+      "bytes": 137719,
+      "sha256": "173d9133a590290c795ef9dd0dc4f91bb9e8bb381fe04155c8f94acd4048e031",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/screenshots/verify.jpg",
+      "path": "website/demo/v5/screenshots/verify.jpg",
+      "bytes": 143642,
+      "sha256": "804c8d42dd323e9a99d92883f51228a9cd2f64f9cfc8a0c687706108dd11d1c2",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/video/muse-wajo-demo-v5-poster.jpg",
+      "path": "website/demo/v5/video/muse-wajo-demo-v5-poster.jpg",
+      "bytes": 143823,
+      "sha256": "a94ee358d7b6a1bfabdf3d4ec082e1609cd9612bd98458571b10e7128570e49d",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/video/muse-wajo-demo-v5.mp4",
+      "path": "website/demo/v5/video/muse-wajo-demo-v5.mp4",
+      "bytes": 12148634,
+      "sha256": "11328edd341f79361ea9d9e90a2224afb6d287bbf1fa2763f67918123d9fefc2",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/video/muse-wajo-demo-v5.srt",
+      "path": "website/demo/v5/video/muse-wajo-demo-v5.srt",
+      "bytes": 3800,
+      "sha256": "4b56de3c0d68de728f4020fd6e65e29d6567b0cc8a25ae6a93126c83c19b41cf",
+      "purpose": "Published version 5 guide and assets"
+    },
+    {
+      "source": "work/nanda-messagebox-skill/demo/v5/video/muse-wajo-demo-v5.vtt",
+      "path": "website/demo/v5/video/muse-wajo-demo-v5.vtt",
+      "bytes": 3661,
+      "sha256": "4d7d41d7df35076aec5764abb7e7380c126a7c9c76d371b7848edadaa1a994e8",
+      "purpose": "Published version 5 guide and assets"
     },
     {
       "source": "work/nanda-messagebox-skill/demo/video/muse-wajo-demo-v3-poster.jpg",
@@ -7309,6 +7659,748 @@
       "purpose": "Animated bakery source, narration, final render or validation record"
     },
     {
+      "source": "work/nanda-video/revision-v5/README.md",
+      "path": "work/nanda-video/revision-v5/README.md",
+      "bytes": 3585,
+      "sha256": "68c308a7d18d3b4da8136a7c0b949582363def581b632c8afe1c65411002741b",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/audio/narration-raw.wav",
+      "path": "work/nanda-video/revision-v5/audio/narration-raw.wav",
+      "bytes": 14246444,
+      "sha256": "391b469a83a7236eb61baf6a7b85cdbbe70366590b53cc3da8a21997587c201a",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/audio/silence-qa.log",
+      "path": "work/nanda-video/revision-v5/audio/silence-qa.log",
+      "bytes": 2477,
+      "sha256": "ebe2e58d1a15f7c8d11eb63e5b75bf8290569ae878e379b08b51b1e8d84f6888",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/audio/timeline.json",
+      "path": "work/nanda-video/revision-v5/audio/timeline.json",
+      "bytes": 12249,
+      "sha256": "e486e888db2bd5cf662ebdf2e5d58e27e8f0befe5a07c0b1edebcb822fa679f0",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/audio/transcribe.log",
+      "path": "work/nanda-video/revision-v5/audio/transcribe.log",
+      "bytes": 8448,
+      "sha256": "472b35063dd1695762ca1e7048e00975764dada8adb185e39793a43dc35c06f4",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/audio/transcript.json",
+      "path": "work/nanda-video/revision-v5/audio/transcript.json",
+      "bytes": 129628,
+      "sha256": "80b0b512829469a93701766b7cd9b9151f899267cbe52a5e5093985e6f9570a5",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/audio/transcript.srt",
+      "path": "work/nanda-video/revision-v5/audio/transcript.srt",
+      "bytes": 3855,
+      "sha256": "04b48c714dc0058b13300478e98263feb142e558a006d5aa8a1133c3a8f38277",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/audio/vedh-original.mp3",
+      "path": "work/nanda-video/revision-v5/audio/vedh-original.mp3",
+      "bytes": 2174442,
+      "sha256": "3d6d840912a00087aa568167b50914aa74aa8f6aee9877dcdcc61a1eb96fa1cc",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/audio/voice-16k.wav",
+      "path": "work/nanda-video/revision-v5/audio/voice-16k.wav",
+      "bytes": 4315088,
+      "sha256": "74680746cce58863a1aedbd542860c9fdb5f478252d9b7856898f21dedf18359",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/audio/words.json",
+      "path": "work/nanda-video/revision-v5/audio/words.json",
+      "bytes": 23418,
+      "sha256": "61662e22c92f09d4a56a2e60acedc6f74d91868c369e075edd9fc0cecf1c3294",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/build_content.py",
+      "path": "work/nanda-video/revision-v5/build_content.py",
+      "bytes": 6089,
+      "sha256": "c54c62b12cc72f5251fcb792d4badf691629b6faff529f72a21931f673c7a30a",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/build_guide.py",
+      "path": "work/nanda-video/revision-v5/build_guide.py",
+      "bytes": 6893,
+      "sha256": "98ef0b25f8754e0b135ec2b0b84ea39d2d17b443db80925819d41a1798290394",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/build_player.py",
+      "path": "work/nanda-video/revision-v5/build_player.py",
+      "bytes": 8896,
+      "sha256": "2be8c5d29ec3b30db228ed97ee6c220b2e5fb1d33cf004a9fad9fa1aa96a14a5",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/build_review_doc.py",
+      "path": "work/nanda-video/revision-v5/build_review_doc.py",
+      "bytes": 4559,
+      "sha256": "541a29f4e71b88a8b2f7d3fc6257c413efaeb435f4cc5437350290ef92527792",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/captions.srt",
+      "path": "work/nanda-video/revision-v5/captions.srt",
+      "bytes": 3800,
+      "sha256": "4b56de3c0d68de728f4020fd6e65e29d6567b0cc8a25ae6a93126c83c19b41cf",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/captions.vtt",
+      "path": "work/nanda-video/revision-v5/captions.vtt",
+      "bytes": 3661,
+      "sha256": "4d7d41d7df35076aec5764abb7e7380c126a7c9c76d371b7848edadaa1a994e8",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/doc-qa/page-1.png",
+      "path": "work/nanda-video/revision-v5/doc-qa/page-1.png",
+      "bytes": 317378,
+      "sha256": "1b375db949d71ddbe573ea8cb6b157b72195687c57c3cccfae1a6889b7a79f3e",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/doc-qa/page-2.png",
+      "path": "work/nanda-video/revision-v5/doc-qa/page-2.png",
+      "bytes": 351474,
+      "sha256": "cbe0f092bd16044d7f7cf1483dcebca43b4e5ead0886b849a12c6ed4ee8338b3",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/doc-qa/page-3.png",
+      "path": "work/nanda-video/revision-v5/doc-qa/page-3.png",
+      "bytes": 318793,
+      "sha256": "605318e9c5b17791aa2305feb644d7064dd4cbd2b02c2028406359d631ec250c",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/doc-qa/page-4.png",
+      "path": "work/nanda-video/revision-v5/doc-qa/page-4.png",
+      "bytes": 264826,
+      "sha256": "08c82703cf28f330d358e6a079af7c53ad52452e5f84d3217d75155b2a442f79",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/docs/plan.md",
+      "path": "work/nanda-video/revision-v5/docs/plan.md",
+      "bytes": 2203,
+      "sha256": "52852cafc4156e6540620b57bbf78621133487cc3854e1aab8471f9cef8606e4",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/docs/progress.md",
+      "path": "work/nanda-video/revision-v5/docs/progress.md",
+      "bytes": 2144,
+      "sha256": "91e97edd0eb79533faa2486d9ce16babbb25671e8f2dafea1b3b3c0f2b926dce",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/export-qa.json",
+      "path": "work/nanda-video/revision-v5/export-qa.json",
+      "bytes": 3100,
+      "sha256": "868fdde4e4b26103c10089dd713936bffa04b228ed97b65cded0e125d5827760",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/export_video.py",
+      "path": "work/nanda-video/revision-v5/export_video.py",
+      "bytes": 2083,
+      "sha256": "dc13682e30444f2ca5b0aaf50d83b4ac3874719acfae0b4c131f26760660b257",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/narration.txt",
+      "path": "work/nanda-video/revision-v5/narration.txt",
+      "bytes": 2080,
+      "sha256": "ac88fb7b9c8c8fda56b8a2ccb4f825f88c006a57bb41055120170b771b3232cf",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/narration.wav",
+      "path": "work/nanda-video/revision-v5/narration.wav",
+      "bytes": 14246478,
+      "sha256": "faaec2343289ae418ac829dd6c84617c59395605eec6225cdf9479e050a634c2",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/prepare_audio.py",
+      "path": "work/nanda-video/revision-v5/prepare_audio.py",
+      "bytes": 4941,
+      "sha256": "2196286f4a960b8dc6266bb1d4d6cfa4b0f89e2b8bd3c48ab2f5007bbc22f427",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/production/player/assets/OFL.txt",
+      "path": "work/nanda-video/revision-v5/production/player/assets/OFL.txt",
+      "bytes": 4376,
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/production/player/assets/inter-latin.woff2",
+      "path": "work/nanda-video/revision-v5/production/player/assets/inter-latin.woff2",
+      "bytes": 48432,
+      "sha256": "c940764593d0fe5d596be327ca7558855e018039fb78509aa21921fd3644c3e4",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/production/player/assets/qr-nandaindex.svg",
+      "path": "work/nanda-video/revision-v5/production/player/assets/qr-nandaindex.svg",
+      "bytes": 4884,
+      "sha256": "e6b558cae38f37081f89d8f587482c8db8ef94890d5dc90976714f530c2eca65",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/production/player/index.html",
+      "path": "work/nanda-video/revision-v5/production/player/index.html",
+      "bytes": 27006,
+      "sha256": "66480f424a51f59ab90163f633184a16e124c9c8935af83e628a5147e4049073",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/production/player/player.css",
+      "path": "work/nanda-video/revision-v5/production/player/player.css",
+      "bytes": 12178,
+      "sha256": "eb10ee095758a6e3bbaa1c00add1a7f9bc260812ef56411064c350a3c6dbb578",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/production/player/player.js",
+      "path": "work/nanda-video/revision-v5/production/player/player.js",
+      "bytes": 18184,
+      "sha256": "b56c198530fa5a1627d939d72187d4f5b6fc999d852600aeae4c8d2f7ac9fb65",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/prompts.json",
+      "path": "work/nanda-video/revision-v5/prompts.json",
+      "bytes": 1185,
+      "sha256": "5d8382e9f133f1af3f1ab6180685f431added0eaea980bb0f720b7d420d44995",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/card.png",
+      "path": "work/nanda-video/revision-v5/qa/card.png",
+      "bytes": 145388,
+      "sha256": "55a69d128ebfd0a36d687c5d0b5e17cc344271bab06ad7583eaab35d855a33de",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/connect_alice.png",
+      "path": "work/nanda-video/revision-v5/qa/connect_alice.png",
+      "bytes": 167082,
+      "sha256": "b74483d0c8f0aa24536520257786cf875d402801e9a1f963eca4a59b26ec055b",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/connect_bob.png",
+      "path": "work/nanda-video/revision-v5/qa/connect_bob.png",
+      "bytes": 147253,
+      "sha256": "6254e7f7ebd2177a84f5881c8f3f4d53871164e721a0aced3e4a5120206e10bd",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/deliver.png",
+      "path": "work/nanda-video/revision-v5/qa/deliver.png",
+      "bytes": 119120,
+      "sha256": "e0cd6d30d8fa8c84cd8b918b30c8d8e9d9a43f8f146975c53d1dc79d258bf12a",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/domain.png",
+      "path": "work/nanda-video/revision-v5/qa/domain.png",
+      "bytes": 122308,
+      "sha256": "1583236ee082dcee930ca4c0a8defbaf50a186eeec4885ffec193bd1bd267002",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/end.png",
+      "path": "work/nanda-video/revision-v5/qa/end.png",
+      "bytes": 110762,
+      "sha256": "e7bdcff5baa0b03b315cd2acad10706d95ec5c6dc1add1510c23418dba5c6909",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/goal.png",
+      "path": "work/nanda-video/revision-v5/qa/goal.png",
+      "bytes": 117528,
+      "sha256": "d0c4cfd48731f8d4feffb9e9cacd392a7f4ea0c9b84e956ceb6f290a98fce437",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/guide-1440-bottom.png",
+      "path": "work/nanda-video/revision-v5/qa/guide-1440-bottom.png",
+      "bytes": 206784,
+      "sha256": "4ab5dc15ab681bc0fa216b89f49c25f349e8a3934a41e428d37cb50fbc235f30",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/guide-1440-middle.png",
+      "path": "work/nanda-video/revision-v5/qa/guide-1440-middle.png",
+      "bytes": 223845,
+      "sha256": "17c1f4febec8c20fede7a31c5cff87173cc7e7f15c5ea4e628ff576783da6bda",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/guide-1440-top.png",
+      "path": "work/nanda-video/revision-v5/qa/guide-1440-top.png",
+      "bytes": 252939,
+      "sha256": "f75a7593787ce377b824d81074c2d76e666c445e3d81abc3088aa50acb7ed1ef",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/guide-1440.png",
+      "path": "work/nanda-video/revision-v5/qa/guide-1440.png",
+      "bytes": 1963634,
+      "sha256": "305eec86b37de6dd37b1e5f4d7c7d1eea4173d068b362b06232ed9d61f1965df",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/guide-390-bottom.png",
+      "path": "work/nanda-video/revision-v5/qa/guide-390-bottom.png",
+      "bytes": 100767,
+      "sha256": "20eb3bf2ba45f182f8fc3c0e28e8533d7547583fea871059afe5bf4fa3379065",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/guide-390-middle.png",
+      "path": "work/nanda-video/revision-v5/qa/guide-390-middle.png",
+      "bytes": 104092,
+      "sha256": "878bd2f4562df9e004266ccb9c763b66090802f0609245094177541a3fef87d8",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/guide-390-top.png",
+      "path": "work/nanda-video/revision-v5/qa/guide-390-top.png",
+      "bytes": 120067,
+      "sha256": "e06a6da3955e440ae8470d12e6cb910b74324fe012fac1752effcdb2efa94b43",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/guide-390.png",
+      "path": "work/nanda-video/revision-v5/qa/guide-390.png",
+      "bytes": 602931,
+      "sha256": "d915333ca639bca4ed7fb77b50f2c5880ea913b9000828b9484dd02dd25c6532",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/guide-qa.json",
+      "path": "work/nanda-video/revision-v5/qa/guide-qa.json",
+      "bytes": 2107,
+      "sha256": "cb3a17439a1a06cfb60941174cb5ebb6f97fc62025c54c398665ec251cdfd9d8",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/known.png",
+      "path": "work/nanda-video/revision-v5/qa/known.png",
+      "bytes": 129896,
+      "sha256": "9764fbd049e6e09469daa676aad43dba9506ae500e1c42c04a23a80f7afb0b44",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/later.png",
+      "path": "work/nanda-video/revision-v5/qa/later.png",
+      "bytes": 130019,
+      "sha256": "0a1cde44df55929d6db583f32e4112afbd3b84b36d1d08d98f2f3c76091c2aee",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/menu.png",
+      "path": "work/nanda-video/revision-v5/qa/menu.png",
+      "bytes": 143063,
+      "sha256": "7fedeabc5bc8fc8f7d333b6e38514ccfa02a23f7221caa82b019ffe4a1e1cb9a",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/player-qa.json",
+      "path": "work/nanda-video/revision-v5/qa/player-qa.json",
+      "bytes": 1248,
+      "sha256": "7b109c1899ab3938a3cf2efa158029a1e2a43ab85352a7be9dd98e9e3e613f15",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/reply.png",
+      "path": "work/nanda-video/revision-v5/qa/reply.png",
+      "bytes": 114736,
+      "sha256": "7f9f191c5824a9659d9aa7e0a29e4771951a59debe363c56ff5992740d38f074",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/resolve.png",
+      "path": "work/nanda-video/revision-v5/qa/resolve.png",
+      "bytes": 141025,
+      "sha256": "7c4576ab7b7d876466ccc913b384013ff665a042188bf00937654711dc803d05",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/roles.png",
+      "path": "work/nanda-video/revision-v5/qa/roles.png",
+      "bytes": 129724,
+      "sha256": "afc8645c6820ffbcbaadc610eb3ba33df2ce1f6bba4d26546f7fb8d6e5c9ec11",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transition-contact.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transition-contact.jpg",
+      "bytes": 782373,
+      "sha256": "488104c027f80599fd7031f95f3c4081d9ae0c0e70650974db4122d64aba5393",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/card-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/card-0.jpg",
+      "bytes": 25774,
+      "sha256": "c2ef02007b0c5eb6b971b380dfa8537da44761f16cedc84c284b3405483af305",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/card-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/card-1.jpg",
+      "bytes": 22255,
+      "sha256": "b00c2c3d0499f0caf39404ba20c08b573c11b8b63741fc7bb529426735acf97c",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/card-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/card-2.jpg",
+      "bytes": 17581,
+      "sha256": "d9d1253bfdc9a2d1c9fa95cedee8015855778e9818d83c7b7f308df977f3de22",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/connect_alice-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/connect_alice-0.jpg",
+      "bytes": 21772,
+      "sha256": "e42c143210560dca7c2262f7167f127d072f5dece2fa4e6e08961c751c466c58",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/connect_alice-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/connect_alice-1.jpg",
+      "bytes": 19075,
+      "sha256": "9507717fd4fa91a27a76e036c67423755232d041820f2179a8ba21a52c4bc5e9",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/connect_alice-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/connect_alice-2.jpg",
+      "bytes": 16151,
+      "sha256": "49b4a9d4ede12683c3c9b0f8ef92abbffe3416f55f3b69f17d05bdb0d9a5cd16",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/connect_bob-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/connect_bob-0.jpg",
+      "bytes": 30665,
+      "sha256": "96cf236bc3afddda0e804a279685ccd40c81a6aa1fb8be975c859665eb3d1406",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/connect_bob-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/connect_bob-1.jpg",
+      "bytes": 24417,
+      "sha256": "b6f811d7f85c37b83057f5b67e8c0a4a5eb9d3d4b82b5a1a269c7917dcaedc40",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/connect_bob-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/connect_bob-2.jpg",
+      "bytes": 15825,
+      "sha256": "c9d9e1066e7031e05418adb00df91d2c7afb0401ad4154dc5d31ae0b65d22f46",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/deliver-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/deliver-0.jpg",
+      "bytes": 27923,
+      "sha256": "0224ab6ceb14af0531bb69b507dad1c8f06da9ccff39d0e010062eecb5dd5b2a",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/deliver-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/deliver-1.jpg",
+      "bytes": 22223,
+      "sha256": "06404b6c6e3c7b8e2034f778417300b6ad6f0db1d689151c6ba1fc54762a0091",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/deliver-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/deliver-2.jpg",
+      "bytes": 15820,
+      "sha256": "fac936863a50b6326c2d29ce20eeb416fd46b1ce54e33700cc11922a1957d571",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/domain-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/domain-0.jpg",
+      "bytes": 25305,
+      "sha256": "e289b1d169df55332010170523c577c6f5727b2f661cf32b63414d763bdda159",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/domain-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/domain-1.jpg",
+      "bytes": 20420,
+      "sha256": "1206f4553bd9c28eaafa0a96b155850d6d20b1d6308a6bf1bcf20ba6bacb024e",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/domain-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/domain-2.jpg",
+      "bytes": 14936,
+      "sha256": "f1c5cd3c7b6aaafa27221ae6a05a651bec55338bee6bed97a4c3e1506687f705",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/end-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/end-0.jpg",
+      "bytes": 26836,
+      "sha256": "1032d0c20d2fcb901b18f404c43be040d8bb13a4ebc021540734157512e63a5f",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/end-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/end-1.jpg",
+      "bytes": 27938,
+      "sha256": "23741435955e3a81c292b2c372ecf5050b4541036e68d6bd874a55635cf1245b",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/end-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/end-2.jpg",
+      "bytes": 26625,
+      "sha256": "a689c296602908949caba2e65bad1ea3a322b4f81ed4fc9dfe361223de3c5b74",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/known-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/known-0.jpg",
+      "bytes": 31018,
+      "sha256": "b8ccf7591873f08bf4f3fc58cb930e552e6b74d65dd0c8af112bd4363823d2b6",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/known-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/known-1.jpg",
+      "bytes": 25726,
+      "sha256": "494cbf01bb34f5fb54542e73f5e7a35a93e02448db8c84aa8aa0f342a8ffc2bd",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/known-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/known-2.jpg",
+      "bytes": 18979,
+      "sha256": "09c5412adb2f2fc98c7812031b209872e7e5b627c1df971f3841bba9cfcf495f",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/later-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/later-0.jpg",
+      "bytes": 28393,
+      "sha256": "f59432e355ae915e00b9e364807c5ddef908156c55e97a512a063b725fe50407",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/later-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/later-1.jpg",
+      "bytes": 26250,
+      "sha256": "ec355f25eec4ae71b17476a51aaef68a8834c748fe29df08711405078e21162f",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/later-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/later-2.jpg",
+      "bytes": 22456,
+      "sha256": "5ce6d3dc25d2c7a1e8652c8d458638d1f98ef5f0c232254693524cf25f3d3c4c",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/menu-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/menu-0.jpg",
+      "bytes": 23197,
+      "sha256": "b2ec4ec236b5f4e6bbafb548822cb1575602855af224eb374a73531da63f6e79",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/menu-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/menu-1.jpg",
+      "bytes": 19620,
+      "sha256": "b0519f0177275ada746612794ff119d9673a7c19df1d7e10d6e3e613de1cf446",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/menu-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/menu-2.jpg",
+      "bytes": 17123,
+      "sha256": "d88fca56c2b22e6ff4d6367f318f0b8f954015eccf96979ecb4ce630cfb1db41",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/reply-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/reply-0.jpg",
+      "bytes": 21674,
+      "sha256": "dacf0acf9b613517c90fc7c94051c5ffc9e7225b8b077caa5f24eabef5418764",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/reply-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/reply-1.jpg",
+      "bytes": 19335,
+      "sha256": "7e94b7f88217ee2dc37b2d7844fd951e0f8d6e4aabda539e2840b6616b60febc",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/reply-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/reply-2.jpg",
+      "bytes": 18011,
+      "sha256": "f0b9d673c7ff977875678f98eb8dce54534f7d2d0d1adb4c3bf43a46b7f40c59",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/resolve-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/resolve-0.jpg",
+      "bytes": 25855,
+      "sha256": "bade6be9e4a43839cdc61636b58b89171d5d1c62de33046afa32e48ab799f58d",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/resolve-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/resolve-1.jpg",
+      "bytes": 20307,
+      "sha256": "296c04f5c3504e73e6d1400cccab3688ea8407145df947992755b1dbbcf831c9",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/resolve-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/resolve-2.jpg",
+      "bytes": 14464,
+      "sha256": "ce90a8f8ff0367ca7becf9603ccd9742928bda25325956db72bceda1b1f0d977",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/roles-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/roles-0.jpg",
+      "bytes": 21923,
+      "sha256": "503d94c35e0bf5aa826dc8bce54a80b2d3c6b4676cfe747f273de19a7d08c86a",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/roles-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/roles-1.jpg",
+      "bytes": 18916,
+      "sha256": "e27ada06240d7212a6d21accee0a9f2ef67571451235641878e4f231a7cdcbbd",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/roles-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/roles-2.jpg",
+      "bytes": 17556,
+      "sha256": "e0c83ecca2aacea3301ca20c6eb2507c574062b61353e3e85aba97a3f4b027ea",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/verify-0.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/verify-0.jpg",
+      "bytes": 27236,
+      "sha256": "6d3cc07483f1ed03479cc3640f999101b546389a89dffd86ab5d1f82abe844cf",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/verify-1.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/verify-1.jpg",
+      "bytes": 26054,
+      "sha256": "58cd0326dd55ebe5966c7244302f3b64c4b345ccc9a87021904ae24ccb5715af",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/transitions/verify-2.jpg",
+      "path": "work/nanda-video/revision-v5/qa/transitions/verify-2.jpg",
+      "bytes": 22236,
+      "sha256": "9754f56c916cd031b5cd90feedb18218aecdd1010f373e4f31d598c67524fb97",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa/verify.png",
+      "path": "work/nanda-video/revision-v5/qa/verify.png",
+      "bytes": 163740,
+      "sha256": "886d3c486a28e6dca6744ecda76b5d00f35b97c77af11beb0855aeef869d3ff8",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa_guide.cjs",
+      "path": "work/nanda-video/revision-v5/qa_guide.cjs",
+      "bytes": 1418,
+      "sha256": "ab3073ba4cdab2c9c38b9dc046de15842e96dd0f9a97e859a51cb32cb5085f9f",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/qa_player.cjs",
+      "path": "work/nanda-video/revision-v5/qa_player.cjs",
+      "bytes": 1954,
+      "sha256": "05af3e18f37c464a6b09af843da964e2462ed381928e33e2571896bfddc459ec",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/recording/direct-render.json",
+      "path": "work/nanda-video/revision-v5/recording/direct-render.json",
+      "bytes": 312,
+      "sha256": "218716e9b179facaac9528e9cccf95082f1ecb9c2413481977849da6e22ab914",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/recording/direct-render.mp4",
+      "path": "work/nanda-video/revision-v5/recording/direct-render.mp4",
+      "bytes": 8488451,
+      "sha256": "1e2f686bbdb6cd0cb4f23b0c8214512c92361ee9bb224e5a9947d2f8ff98b5d0",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/render.log",
+      "path": "work/nanda-video/revision-v5/render.log",
+      "bytes": 672,
+      "sha256": "da7fffcd558f4dbb935daf9b9b563fa6f8d563cc87a9617266a734a49498fe0a",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/render_direct.cjs",
+      "path": "work/nanda-video/revision-v5/render_direct.cjs",
+      "bytes": 2797,
+      "sha256": "34ce146b6f826bbe0f43896e48d6652488997f8bf572eb9e1fe43bc4269cda56",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/scenes.json",
+      "path": "work/nanda-video/revision-v5/scenes.json",
+      "bytes": 6830,
+      "sha256": "06aa1d1f313d847e3fe89a952ada93a79c406b907d0274b98a6999db12ac446e",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
+      "source": "work/nanda-video/revision-v5/voice-provenance.json",
+      "path": "work/nanda-video/revision-v5/voice-provenance.json",
+      "bytes": 362,
+      "sha256": "acd046e1a4d74d896f68bcd290dd39d67dd31bb349577adac4978f4cd9bcff53",
+      "purpose": "Version 5 animation, prompt, narration, editing source or validation record"
+    },
+    {
       "source": "work/nanda-video/transcribe.py",
       "path": "work/nanda-video/transcribe.py",
       "bytes": 853,
@@ -7321,6 +8413,48 @@
       "bytes": 3811,
       "sha256": "6f505e18ea18e48a0b39e615f800d23bfff087349bfc460790c555f5a7dca322",
       "purpose": "Archive packaging source"
+    },
+    {
+      "source": "work/publication/package_v5.py",
+      "path": "work/publication/package_v5.py",
+      "bytes": 3070,
+      "sha256": "1fbc5e7c19ad84a226f503bbe25f858095e94c8d7cd3719d8280ecd922bc7976",
+      "purpose": "Version 5 publication source or validation record"
+    },
+    {
+      "source": "work/publication/prepare_v5_site.py",
+      "path": "work/publication/prepare_v5_site.py",
+      "bytes": 2487,
+      "sha256": "a2d0009a7e0e9358b2e260f6a1680ade03996936368ab4c84ac7fdcc88dae56a",
+      "purpose": "Version 5 publication source or validation record"
+    },
+    {
+      "source": "work/publication/qa_v5_site.cjs",
+      "path": "work/publication/qa_v5_site.cjs",
+      "bytes": 2691,
+      "sha256": "652100b056e734a4a13c06e96c3439b32e732d578360cc2f8a172ac28a95a05e",
+      "purpose": "Version 5 publication source or validation record"
+    },
+    {
+      "source": "work/publication/v5-live-verification.json",
+      "path": "work/publication/v5-live-verification.json",
+      "bytes": 5672,
+      "sha256": "372f99e2a7925f064d6711b02c94bea6874f2128fefd36d87fbe6aaedbbbab9e",
+      "purpose": "Version 5 publication source or validation record"
+    },
+    {
+      "source": "work/publication/v5-site-preservation.json",
+      "path": "work/publication/v5-site-preservation.json",
+      "bytes": 352,
+      "sha256": "1c6355a11ff9cc1b195595a149ed2781d908b1ccc2aff56980160aafd11b97d8",
+      "purpose": "Version 5 publication source or validation record"
+    },
+    {
+      "source": "work/publication/v5-site-qa.json",
+      "path": "work/publication/v5-site-qa.json",
+      "bytes": 634,
+      "sha256": "f4622d87e62450df0e93281bc12bc631814e7b94069c4326aa4d4af8c5451671",
+      "purpose": "Version 5 publication source or validation record"
     }
   ]
 }

@@ -1,0 +1,13 @@
+{
+  "service": "ElevenLabs",
+  "voice": "Vedh",
+  "model": "Eleven v4",
+  "generation": 1,
+  "source_file": "vedh-original.mp3",
+  "source_sha256": "3d6d840912a00087aa568167b50914aa74aa8f6aee9877dcdcc61a1eb96fa1cc",
+  "source_duration": 134.844063,
+  "final_duration": 148.4,
+  "tempo": 0.94,
+  "normalized_transcript_match": 1.0,
+  "spoken_nanda_found": false
+}

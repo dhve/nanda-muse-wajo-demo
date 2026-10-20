@@ -1,0 +1,13 @@
+{
+  "source": "Frame-accurate isolated HTML animation render",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frameCount": 4452,
+  "duration": 148.4,
+  "firstFrameTime": 0,
+  "lastFrameTime": 148.36666666666667,
+  "clock": "frame number / fps; narration starts at 0",
+  "cursor": false,
+  "desktop": false
+}

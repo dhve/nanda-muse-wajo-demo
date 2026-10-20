@@ -1,0 +1,27 @@
+{
+  "main": {
+    "videoCount": 3,
+    "videos": [
+      {
+        "source": "http://127.0.0.1:8769/demo/v5/video/muse-wajo-demo-v5.mp4",
+        "duration": 148.4
+      },
+      {
+        "source": "http://127.0.0.1:8769/demo/video/muse-wajo-demo-v4.mp4?v=soft-cuts-3",
+        "duration": 178
+      },
+      {
+        "source": "http://127.0.0.1:8769/demo/video/muse-wajo-demo-v3.mp4",
+        "duration": 178.5
+      }
+    ],
+    "link": "http://127.0.0.1:8769/demo/v5/"
+  },
+  "canonicalPromptsMatch": true,
+  "clipboardExact": true,
+  "fullSizeScreenshot": {
+    "width": 1920,
+    "height": 1080
+  },
+  "javascriptErrors": []
+}

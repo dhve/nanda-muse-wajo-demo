@@ -1,0 +1,92 @@
+[
+  {
+    "width": 1440,
+    "overflow": false,
+    "brokenImages": [],
+    "prompts": [
+      {
+        "id": "setup_alice",
+        "text": "Set up Alice's Bakery at my.nandaindex.org using alice@bakery.com. We offer birthday cakes."
+      },
+      {
+        "id": "setup_bob",
+        "text": "Set me up at my.nandaindex.org using bob@gmail.com."
+      },
+      {
+        "id": "verify",
+        "text": "My code is 123456."
+      },
+      {
+        "id": "ask",
+        "text": "Ask @bakery.com: What cakes are available?"
+      },
+      {
+        "id": "check_alice",
+        "text": "Check my AgentBox."
+      },
+      {
+        "id": "menu_reply",
+        "text": "Reply: We have chocolate and vanilla cakes."
+      },
+      {
+        "id": "check_bob",
+        "text": "Check my AgentBox."
+      },
+      {
+        "id": "update",
+        "text": "Message bob@gmail.com: Your cake is ready."
+      },
+      {
+        "id": "reply",
+        "text": "Reply: Thanks. I'll collect it at 2 pm."
+      }
+    ],
+    "video": 148.4,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "overflow": false,
+    "brokenImages": [],
+    "prompts": [
+      {
+        "id": "setup_alice",
+        "text": "Set up Alice's Bakery at my.nandaindex.org using alice@bakery.com. We offer birthday cakes."
+      },
+      {
+        "id": "setup_bob",
+        "text": "Set me up at my.nandaindex.org using bob@gmail.com."
+      },
+      {
+        "id": "verify",
+        "text": "My code is 123456."
+      },
+      {
+        "id": "ask",
+        "text": "Ask @bakery.com: What cakes are available?"
+      },
+      {
+        "id": "check_alice",
+        "text": "Check my AgentBox."
+      },
+      {
+        "id": "menu_reply",
+        "text": "Reply: We have chocolate and vanilla cakes."
+      },
+      {
+        "id": "check_bob",
+        "text": "Check my AgentBox."
+      },
+      {
+        "id": "update",
+        "text": "Message bob@gmail.com: Your cake is ready."
+      },
+      {
+        "id": "reply",
+        "text": "Reply: Thanks. I'll collect it at 2 pm."
+      }
+    ],
+    "video": 148.4,
+    "errors": []
+  }
+]

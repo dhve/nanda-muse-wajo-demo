@@ -1,0 +1,78 @@
+{
+  "duration": 148.4,
+  "scenes": [
+    {
+      "id": "goal",
+      "start": 0,
+      "dur": 13.733333
+    },
+    {
+      "id": "connect_alice",
+      "start": 13.733333,
+      "dur": 9.766667
+    },
+    {
+      "id": "connect_bob",
+      "start": 23.5,
+      "dur": 7.233333
+    },
+    {
+      "id": "verify",
+      "start": 30.733333000000002,
+      "dur": 9.966667
+    },
+    {
+      "id": "known",
+      "start": 40.7,
+      "dur": 8.2
+    },
+    {
+      "id": "domain",
+      "start": 48.900000000000006,
+      "dur": 10.933333
+    },
+    {
+      "id": "menu",
+      "start": 59.833333,
+      "dur": 10.433333
+    },
+    {
+      "id": "later",
+      "start": 70.266666,
+      "dur": 9.7
+    },
+    {
+      "id": "resolve",
+      "start": 79.966666,
+      "dur": 13.733333
+    },
+    {
+      "id": "card",
+      "start": 93.699999,
+      "dur": 13.466667
+    },
+    {
+      "id": "deliver",
+      "start": 107.166666,
+      "dur": 9.666667
+    },
+    {
+      "id": "reply",
+      "start": 116.83333300000001,
+      "dur": 9.6
+    },
+    {
+      "id": "roles",
+      "start": 126.433333,
+      "dur": 13.966667
+    },
+    {
+      "id": "end",
+      "start": 140.4,
+      "dur": 8
+    }
+  ],
+  "fit": [],
+  "errors": [],
+  "promptBindings": 14
+}

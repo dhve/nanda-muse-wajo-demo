@@ -1,0 +1,135 @@
+load_backend: loaded BLAS backend from /opt/homebrew/Cellar/ggml/0.15.2/libexec/libggml-blas.so
+ggml_metal_device_init: tensor API disabled for pre-M5 and pre-A19 devices
+ggml_metal_library_init: using embedded metal library
+ggml_metal_library_init: loaded in 0.029 sec
+ggml_metal_rsets_init: creating a residency set collection (keep_alive = 180 s)
+ggml_metal_device_init: GPU name:   MTL0 (Apple M1 Pro)
+ggml_metal_device_init: GPU family: MTLGPUFamilyApple7  (1007)
+ggml_metal_device_init: GPU family: MTLGPUFamilyCommon3 (3003)
+ggml_metal_device_init: GPU family: MTLGPUFamilyMetal4  (5002)
+ggml_metal_device_init: simdgroup reduction   = true
+ggml_metal_device_init: simdgroup matrix mul. = true
+ggml_metal_device_init: has unified memory    = true
+ggml_metal_device_init: has bfloat            = true
+ggml_metal_device_init: has tensor            = false
+ggml_metal_device_init: use residency sets    = true
+ggml_metal_device_init: use shared buffers    = true
+ggml_metal_device_init: recommendedMaxWorkingSetSize  = 26800.60 MB
+load_backend: loaded MTL backend from /opt/homebrew/Cellar/ggml/0.15.2/libexec/libggml-metal.so
+load_backend: loaded CPU backend from /opt/homebrew/Cellar/ggml/0.15.2/libexec/libggml-cpu-apple_m1.so
+whisper_init_from_file_with_params_no_state: loading model from '/Users/admin/.whisper-models/ggml-small.en.bin'
+whisper_init_with_params_no_state: use gpu    = 1
+whisper_init_with_params_no_state: flash attn = 1
+whisper_init_with_params_no_state: gpu_device = 0
+whisper_init_with_params_no_state: dtw        = 0
+whisper_init_with_params_no_state: devices    = 3
+whisper_init_with_params_no_state: backends   = 3
+whisper_model_load: loading model
+whisper_model_load: n_vocab       = 51864
+whisper_model_load: n_audio_ctx   = 1500
+whisper_model_load: n_audio_state = 768
+whisper_model_load: n_audio_head  = 12
+whisper_model_load: n_audio_layer = 12
+whisper_model_load: n_text_ctx    = 448
+whisper_model_load: n_text_state  = 768
+whisper_model_load: n_text_head   = 12
+whisper_model_load: n_text_layer  = 12
+whisper_model_load: n_mels        = 80
+whisper_model_load: ftype         = 1
+whisper_model_load: qntvr         = 0
+whisper_model_load: type          = 3 (small)
+whisper_model_load: adding 1607 extra tokens
+whisper_model_load: n_langs       = 99
+whisper_model_load:         MTL0 total size =   487.00 MB
+whisper_model_load: model size    =  487.00 MB
+whisper_backend_init_gpu: device 0: BLAS (type: 3)
+whisper_backend_init_gpu: device 1: MTL0 (type: 1)
+whisper_backend_init_gpu: found GPU device 1: MTL0 (type: 1, cnt: 0)
+whisper_backend_init_gpu: using MTL0 backend
+ggml_metal_init: allocating
+ggml_metal_init: found device: Apple M1 Pro
+ggml_metal_init: picking default device: Apple M1 Pro
+ggml_metal_init: use fusion         = true
+ggml_metal_init: use concurrency    = true
+ggml_metal_init: use graph optimize = true
+whisper_backend_init: using BLAS backend
+whisper_init_state: kv self size  =   18.87 MB
+whisper_init_state: kv cross size =   56.62 MB
+whisper_init_state: kv pad  size  =    4.72 MB
+whisper_init_state: compute buffer (conv)   =   23.38 MB
+whisper_init_state: compute buffer (encode) =   39.45 MB
+whisper_init_state: compute buffer (cross)  =   79.93 MB
+whisper_init_state: compute buffer (decode) =   98.20 MB
+read_audio_data: reading audio data from 'work/nanda-video/revision-v5/audio/voice-16k.wav' ...
+read_audio_data: trying to decode with miniaudio
+
+system_info: n_threads = 4 / 10 | WHISPER : COREML = 0 | OPENVINO = 0 | MTL : EMBED_LIBRARY = 1 | CPU : NEON = 1 | ARM_FMA = 1 | DOTPROD = 1 | ACCELERATE = 1 | OPENMP = 1 | REPACK = 1 |
+
+main: processing 'work/nanda-video/revision-v5/audio/voice-16k.wav' (2157505 samples, 134.8 sec), 4 threads, 1 processors, 5 beams + best of 5, lang = en, task = transcribe, timestamps = 1 ...
+
+
+[00:00:00.000 --> 00:00:02.580]   Alice runs a bakery using Muse.
+[00:00:02.580 --> 00:00:05.580]   Bob is her customer and uses Wajo.
+[00:00:05.580 --> 00:00:08.040]   They already know who they want to contact.
+[00:00:08.040 --> 00:00:09.780]   Let's see how their agents connect,
+[00:00:09.780 --> 00:00:12.660]   including when the bakery contacts Bob.
+[00:00:12.660 --> 00:00:15.280]   Alice pastes the setup prompt into Muse
+[00:00:15.280 --> 00:00:17.180]   using her bakery email.
+[00:00:17.180 --> 00:00:19.420]   Her agent follows the website instructions
+[00:00:19.420 --> 00:00:21.580]   and prepares its agent box.
+[00:00:21.580 --> 00:00:24.820]   Bob does the same in Wajo with his own email.
+[00:00:24.820 --> 00:00:28.140]   His agent can run in a different app from Alice's.
+[00:00:28.140 --> 00:00:31.660]   Each person enters the code sent to their own inbox.
+[00:00:31.660 --> 00:00:34.700]   The code proves control of that email account.
+[00:00:34.700 --> 00:00:37.260]   The example code on screen is fictional.
+[00:00:37.260 --> 00:00:39.900]   Bob already knows bakery.com.
+[00:00:39.900 --> 00:00:43.020]   He asks his agent, "Ask at bakery.com.
+[00:00:43.020 --> 00:00:44.700]   What cakes are available?"
+[00:00:44.700 --> 00:00:46.940]   In this example, the bakery has published
+[00:00:46.940 --> 00:00:49.780]   its agents contact details on its website.
+[00:00:49.780 --> 00:00:52.460]   Bob's agent uses that direct path.
+[00:00:52.460 --> 00:00:54.900]   An index lookup isn't needed here.
+[00:00:54.900 --> 00:00:57.880]   Agent box carries Bob's question to Alice.
+[00:00:57.880 --> 00:00:59.920]   She checks her inbox and replies,
+[00:00:59.920 --> 00:01:02.220]   "We have chocolate and vanilla cakes."
+[00:01:02.220 --> 00:01:04.540]   Bob's agent receives the menu.
+[00:01:04.540 --> 00:01:08.100]   Later, after Bob has placed an order and agreed to updates,
+[00:01:08.100 --> 00:01:10.060]   Alice starts a new message.
+[00:01:10.060 --> 00:01:13.400]   She asks her agent to tell Bob that his cake is ready.
+[00:01:13.400 --> 00:01:17.840]   Alice knows Bob's registered ID, bob@gmail.com.
+[00:01:17.840 --> 00:01:21.180]   Bob doesn't own gmail.com or need a website.
+[00:01:21.180 --> 00:01:24.020]   Her agent asks the index to resolve his ID
+[00:01:24.020 --> 00:01:26.060]   to his hosted agent card.
+[00:01:26.060 --> 00:01:28.020]   Alice's agent verifies the link
+[00:01:28.020 --> 00:01:30.420]   between Bob's ID and his card.
+[00:01:30.420 --> 00:01:32.540]   The card provides the current endpoint
+[00:01:32.540 --> 00:01:34.580]   where his agent can be contacted.
+[00:01:34.580 --> 00:01:36.980]   The sending agent checks the required permissions
+[00:01:36.980 --> 00:01:38.440]   before proceeding.
+[00:01:38.440 --> 00:01:41.260]   Agent box delivers the update to Bob.
+[00:01:41.260 --> 00:01:43.740]   The index handles identity resolution
+[00:01:43.740 --> 00:01:47.260]   while agent box carries the message between their agents.
+[00:01:47.260 --> 00:01:49.420]   Bob checks his inbox and replies,
+[00:01:49.420 --> 00:01:51.920]   "Thanks, I'll collect it at 2 p.m."
+[00:01:51.920 --> 00:01:56.020]   Alice receives his reply in Muse, completing the exchange.
+[00:01:56.020 --> 00:01:58.500]   Both people keep their own apps.
+[00:01:58.500 --> 00:02:00.560]   The index connects a known identity
+[00:02:00.560 --> 00:02:02.940]   to the agent's current contact details,
+[00:02:02.940 --> 00:02:05.900]   including for people who don't control a domain.
+[00:02:05.900 --> 00:02:08.900]   Permission still governs every connection.
+[00:02:08.900 --> 00:02:11.300]   You can read the matching prompts in the guide.
+[00:02:11.300 --> 00:02:13.700]   Open the setup page to connect your own agent
+[00:02:13.700 --> 00:02:14.840]   and try a message.
+output_srt: saving output to 'work/nanda-video/revision-v5/audio/transcript.srt'
+output_json: saving output to 'work/nanda-video/revision-v5/audio/transcript.json'
+
+whisper_print_timings:     load time =   358.87 ms
+whisper_print_timings:     fallbacks =   0 p /   0 h
+whisper_print_timings:      mel time =    61.14 ms
+whisper_print_timings:   sample time =   907.11 ms /  2747 runs (     0.33 ms per run)
+whisper_print_timings:   encode time =  1070.47 ms /     5 runs (   214.09 ms per run)
+whisper_print_timings:   decode time =   153.48 ms /    14 runs (    10.96 ms per run)
+whisper_print_timings:   batchd time =  5129.83 ms /  2709 runs (     1.89 ms per run)
+whisper_print_timings:   prompt time =   148.67 ms /   791 runs (     0.19 ms per run)
+whisper_print_timings:    total time =  8105.40 ms
+ggml_metal_free: deallocating

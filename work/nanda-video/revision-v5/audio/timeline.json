@@ -1,0 +1,463 @@
+{
+  "duration": 148.4,
+  "scenes": [
+    {
+      "id": "goal",
+      "start": 0.11,
+      "end": 12.66,
+      "first_word": 0,
+      "last_word": 32,
+      "scene_start": 0,
+      "scene_duration": 13.733333333333333,
+      "source_start": 0.05,
+      "source_end": 12.719999999999999,
+      "narration_start": 0.12,
+      "narration_end": 13.590520833333333,
+      "tempo": 0.94
+    },
+    {
+      "id": "connect_alice",
+      "start": 12.77,
+      "end": 21.58,
+      "first_word": 33,
+      "last_word": 54,
+      "scene_start": 13.733333333333333,
+      "scene_duration": 9.766666666666667,
+      "source_start": 12.709999999999999,
+      "source_end": 21.64,
+      "narration_start": 13.853333333333332,
+      "narration_end": 23.34558333333333,
+      "tempo": 0.94
+    },
+    {
+      "id": "connect_bob",
+      "start": 21.69,
+      "end": 28.11,
+      "first_word": 55,
+      "last_word": 74,
+      "scene_start": 23.5,
+      "scene_duration": 7.233333333333333,
+      "source_start": 21.630000000000003,
+      "source_end": 28.189999999999998,
+      "narration_start": 23.62,
+      "narration_end": 30.5868125,
+      "tempo": 0.94
+    },
+    {
+      "id": "verify",
+      "start": 28.25,
+      "end": 37.26,
+      "first_word": 75,
+      "last_word": 99,
+      "scene_start": 30.733333333333334,
+      "scene_duration": 9.966666666666667,
+      "source_start": 28.19,
+      "source_end": 37.32,
+      "narration_start": 30.853333333333335,
+      "narration_end": 40.5588125,
+      "tempo": 0.94
+    },
+    {
+      "id": "known",
+      "start": 37.37,
+      "end": 44.7,
+      "first_word": 100,
+      "last_word": 114,
+      "scene_start": 40.7,
+      "scene_duration": 8.2,
+      "source_start": 37.309999999999995,
+      "source_end": 44.760000000000005,
+      "narration_start": 40.82,
+      "narration_end": 48.73408333333333,
+      "tempo": 0.94
+    },
+    {
+      "id": "domain",
+      "start": 44.81,
+      "end": 54.69,
+      "first_word": 115,
+      "last_word": 140,
+      "scene_start": 48.900000000000006,
+      "scene_duration": 10.933333333333334,
+      "source_start": 44.75,
+      "source_end": 54.769999999999996,
+      "narration_start": 49.02,
+      "narration_end": 59.674625000000006,
+      "tempo": 0.94
+    },
+    {
+      "id": "menu",
+      "start": 55.01,
+      "end": 64.44,
+      "first_word": 141,
+      "last_word": 164,
+      "scene_start": 59.83333333333334,
+      "scene_duration": 10.433333333333334,
+      "source_start": 54.949999999999996,
+      "source_end": 64.52,
+      "narration_start": 59.95333333333334,
+      "narration_end": 70.12566666666667,
+      "tempo": 0.94
+    },
+    {
+      "id": "later",
+      "start": 64.65,
+      "end": 73.36,
+      "first_word": 165,
+      "last_word": 192,
+      "scene_start": 70.26666666666668,
+      "scene_duration": 9.7,
+      "source_start": 64.59,
+      "source_end": 73.44,
+      "narration_start": 70.38666666666668,
+      "narration_end": 79.79429166666668,
+      "tempo": 0.94
+    },
+    {
+      "id": "resolve",
+      "start": 73.51,
+      "end": 86.03,
+      "first_word": 193,
+      "last_word": 220,
+      "scene_start": 79.96666666666668,
+      "scene_duration": 13.733333333333333,
+      "source_start": 73.45,
+      "source_end": 86.11,
+      "narration_start": 80.08666666666669,
+      "narration_end": 93.54706250000002,
+      "tempo": 0.94
+    },
+    {
+      "id": "card",
+      "start": 86.17,
+      "end": 98.43,
+      "first_word": 221,
+      "last_word": 252,
+      "scene_start": 93.70000000000002,
+      "scene_duration": 13.466666666666667,
+      "source_start": 86.11,
+      "source_end": 98.5,
+      "narration_start": 93.82000000000002,
+      "narration_end": 106.99366666666668,
+      "tempo": 0.94
+    },
+    {
+      "id": "deliver",
+      "start": 98.55,
+      "end": 107.26,
+      "first_word": 253,
+      "last_word": 273,
+      "scene_start": 107.16666666666669,
+      "scene_duration": 9.666666666666666,
+      "source_start": 98.49,
+      "source_end": 107.32000000000001,
+      "narration_start": 107.28666666666669,
+      "narration_end": 116.67268750000002,
+      "tempo": 0.94
+    },
+    {
+      "id": "reply",
+      "start": 107.37,
+      "end": 116.02,
+      "first_word": 274,
+      "last_word": 295,
+      "scene_start": 116.83333333333336,
+      "scene_duration": 9.6,
+      "source_start": 107.31,
+      "source_end": 116.08,
+      "narration_start": 116.95333333333336,
+      "narration_end": 126.27827083333337,
+      "tempo": 0.94
+    },
+    {
+      "id": "roles",
+      "start": 116.13,
+      "end": 128.89,
+      "first_word": 296,
+      "last_word": 326,
+      "scene_start": 126.43333333333335,
+      "scene_duration": 13.966666666666667,
+      "source_start": 116.07,
+      "source_end": 128.95999999999998,
+      "narration_start": 126.55333333333336,
+      "narration_end": 140.25108333333336,
+      "tempo": 0.94
+    },
+    {
+      "id": "end",
+      "start": 129.01,
+      "end": 134.84,
+      "first_word": 327,
+      "last_word": 348,
+      "scene_start": 140.4,
+      "scene_duration": 8,
+      "source_start": 128.95,
+      "source_end": 134.844063,
+      "narration_start": 140.52,
+      "narration_end": 146.78483333333335,
+      "tempo": 0.94
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.18382978723404253,
+      "end": 2.861489361702128,
+      "text": "Alice runs a bakery using Muse."
+    },
+    {
+      "start": 2.928510638297873,
+      "end": 6.042340425531916,
+      "text": "Bob is her customer and uses Wajo."
+    },
+    {
+      "start": 6.120000000000001,
+      "end": 8.42531914893617,
+      "text": "They already know who they want to contact."
+    },
+    {
+      "start": 8.737021276595744,
+      "end": 12.322765957446807,
+      "text": "Let's see how their agents connect, including when the bakery"
+    },
+    {
+      "start": 12.332765957446806,
+      "end": 13.584893617021276,
+      "text": "contacts Bob."
+    },
+    {
+      "start": 13.917163120567375,
+      "end": 17.84333333333333,
+      "text": "Alice pastes the setup prompt into Muse using her bakery"
+    },
+    {
+      "start": 17.85333333333333,
+      "end": 18.658652482269503,
+      "text": "email."
+    },
+    {
+      "start": 18.72567375886525,
+      "end": 22.705035460992907,
+      "text": "Her agent follows the website instructions and prepares its agent"
+    },
+    {
+      "start": 22.715035460992908,
+      "end": 23.33950354609929,
+      "text": "box."
+    },
+    {
+      "start": 23.683829787234043,
+      "end": 27.063617021276595,
+      "text": "Bob does the same in Wajo with his own email."
+    },
+    {
+      "start": 27.130638297872338,
+      "end": 30.563617021276595,
+      "text": "His agent can run in a different app from Alice's."
+    },
+    {
+      "start": 30.917163120567377,
+      "end": 34.59482269503546,
+      "text": "Each person enters the code sent to their own inbox."
+    },
+    {
+      "start": 34.66184397163121,
+      "end": 37.828865248226954,
+      "text": "The code proves control of that email account."
+    },
+    {
+      "start": 37.8958865248227,
+      "end": 40.5522695035461,
+      "text": "The example code on screen is fictional."
+    },
+    {
+      "start": 40.88382978723404,
+      "end": 43.62531914893617,
+      "text": "Bob already knows bakery.com."
+    },
+    {
+      "start": 43.69234042553192,
+      "end": 46.94446808510639,
+      "text": "He asks his agent, \"Ask at bakery.com."
+    },
+    {
+      "start": 47.01148936170213,
+      "end": 48.73170212765958,
+      "text": "What cakes are available?\""
+    },
+    {
+      "start": 49.083829787234045,
+      "end": 52.59510638297873,
+      "text": "In this example, the bakery has published its agents contact"
+    },
+    {
+      "start": 52.605106382978725,
+      "end": 54.421063829787236,
+      "text": "details on its website."
+    },
+    {
+      "start": 54.48808510638298,
+      "end": 57.272127659574465,
+      "text": "Bob's agent uses that direct path."
+    },
+    {
+      "start": 57.33914893617022,
+      "end": 59.64446808510638,
+      "text": "An index lookup isn't needed here."
+    },
+    {
+      "start": 60.01716312056738,
+      "end": 63.10971631205675,
+      "text": "AgentBox carries Bob's question to Alice."
+    },
+    {
+      "start": 63.18737588652483,
+      "end": 66.5390780141844,
+      "text": "She checks her inbox and replies, \"We have chocolate and"
+    },
+    {
+      "start": 66.5490780141844,
+      "end": 67.65226950354611,
+      "text": "vanilla cakes.\""
+    },
+    {
+      "start": 67.80439716312058,
+      "end": 70.0990780141844,
+      "text": "Bob's agent receives the menu."
+    },
+    {
+      "start": 70.45049645390073,
+      "end": 73.51496453900711,
+      "text": "Later, after Bob has placed an order and agreed to"
+    },
+    {
+      "start": 73.52496453900712,
+      "end": 76.24517730496454,
+      "text": "updates, Alice starts a new message."
+    },
+    {
+      "start": 76.32283687943264,
+      "end": 79.00049645390072,
+      "text": "She asks her agent to tell Bob that his cake"
+    },
+    {
+      "start": 79.07815602836881,
+      "end": 79.76645390070924,
+      "text": "is ready."
+    },
+    {
+      "start": 80.15049645390073,
+      "end": 84.80687943262413,
+      "text": "Alice knows Bob's registered ID, bob@gmail.com."
+    },
+    {
+      "start": 84.87390070921988,
+      "end": 88.30687943262413,
+      "text": "Bob doesn't own gmail.com or need a website."
+    },
+    {
+      "start": 88.42709219858159,
+      "end": 91.5021985815603,
+      "text": "Her agent asks the index to resolve his ID to"
+    },
+    {
+      "start": 91.5121985815603,
+      "end": 93.51964539007093,
+      "text": "his hosted agent card."
+    },
+    {
+      "start": 93.88382978723406,
+      "end": 97.69297872340428,
+      "text": "Alice's agent verifies the link between Bob's ID and his"
+    },
+    {
+      "start": 97.70297872340429,
+      "end": 98.27425531914895,
+      "text": "card."
+    },
+    {
+      "start": 98.5221276595745,
+      "end": 101.80617021276596,
+      "text": "The card provides the current endpoint where his agent can"
+    },
+    {
+      "start": 101.85191489361704,
+      "end": 102.84872340425534,
+      "text": "be contacted."
+    },
+    {
+      "start": 102.9476595744681,
+      "end": 105.8912765957447,
+      "text": "The sending agent checks the required permissions before"
+    },
+    {
+      "start": 105.92638297872342,
+      "end": 106.97638297872344,
+      "text": "proceeding."
+    },
+    {
+      "start": 107.35049645390073,
+      "end": 110.283475177305,
+      "text": "AgentBox delivers the update to Bob."
+    },
+    {
+      "start": 110.35049645390075,
+      "end": 114.41496453900712,
+      "text": "The index handles identity resolution while AgentBox carries the"
+    },
+    {
+      "start": 114.42496453900712,
+      "end": 116.66645390070926,
+      "text": "message between their agents."
+    },
+    {
+      "start": 117.0171631205674,
+      "end": 120.7731205673759,
+      "text": "Bob checks his inbox and replies, \"Thanks, I'll collect it"
+    },
+    {
+      "start": 120.7831205673759,
+      "end": 121.62035460992911,
+      "text": "at 2 p.m.\""
+    },
+    {
+      "start": 121.97460992907804,
+      "end": 126.26929078014186,
+      "text": "Alice receives his reply in Muse, completing the exchange."
+    },
+    {
+      "start": 126.6171631205674,
+      "end": 128.92248226950358,
+      "text": "Both people keep their own apps."
+    },
+    {
+      "start": 129.25546099290784,
+      "end": 132.75609929078018,
+      "text": "The index connects a known identity to the agent's current"
+    },
+    {
+      "start": 132.76609929078018,
+      "end": 137.06078014184402,
+      "text": "contact details, including for people who don't control a domain."
+    },
+    {
+      "start": 137.12780141843976,
+      "end": 140.2416312056738,
+      "text": "Permission still governs every connection."
+    },
+    {
+      "start": 140.58382978723407,
+      "end": 142.88914893617024,
+      "text": "You can read the matching prompts in the guide."
+    },
+    {
+      "start": 143.13702127659576,
+      "end": 145.77595744680855,
+      "text": "Open the setup page to connect your own agent and"
+    },
+    {
+      "start": 145.78595744680854,
+      "end": 146.83595744680855,
+      "text": "try a message."
+    }
+  ]
+}

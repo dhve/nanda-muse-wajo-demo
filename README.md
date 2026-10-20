@@ -2,17 +2,23 @@
 
 This repository contains the videos, prompts, guides, screenshots, narration, animation code, editing files, and production notes from the Muse and Wajo demo.
 
-Alice uses Muse. Bob uses Wajo. Their agents discover each other through NANDA Index and exchange messages through Agent Box.
+Alice uses Muse. Bob uses Wajo. The current walkthrough resolves a known agent ID to its hosted Agent Card and contact details, then uses AgentBox to exchange messages.
 
-Version 4 is a clearly labeled animated bakery walkthrough. It uses illustrative addresses and replies, a direct HTML animation render, and Vedh narration. Version 3 preserves the earlier live account demo.
+Version 5 is a clearly labeled animated bakery walkthrough. Bob contacts a bakery he knows. Later, with his permission, the bakery starts a new message to Bob's registered ID. It uses illustrative addresses and replies, a direct HTML animation render, and Vedh narration. Version 4 is the earlier bakery animation. Version 3 preserves the live account demo.
 
-[Watch the current demo and follow the guide](https://my.nandaindex.org/demo/).
+[Watch the current demo and follow its matching guide](https://my.nandaindex.org/demo/v5/). The [original page](https://my.nandaindex.org/demo/) keeps its historical guide and older videos, with the revised video added above them.
 
 ## Start here
 
 | Item | File |
 | --- | --- |
-| Current animated bakery walkthrough, 2:58 | [muse-wajo-demo-v4.mp4](outputs/nanda-demo-video/muse-wajo-demo-v4.mp4) |
+| Current known agent ID walkthrough, 2:28 | [muse-wajo-demo-v5.mp4](outputs/nanda-demo-v5/video/muse-wajo-demo-v5.mp4) |
+| Current guide, exact prompts, and video screenshots | [outputs/nanda-demo-v5](outputs/nanda-demo-v5) |
+| Numbered script for review | [bakery-demo-script-v5.docx](outputs/nanda-demo-v5/bakery-demo-script-v5.docx) |
+| Current canonical prompts | [prompts.json](work/nanda-video/revision-v5/prompts.json) |
+| Current narration and captions | [narration.txt](work/nanda-video/revision-v5/narration.txt), [SRT](outputs/nanda-demo-v5/video/muse-wajo-demo-v5.srt), [VTT](outputs/nanda-demo-v5/video/muse-wajo-demo-v5.vtt) |
+| Current animation, audio, timing, and checks | [revision-v5](work/nanda-video/revision-v5) |
+| Earlier animated bakery walkthrough, 2:58 | [muse-wajo-demo-v4.mp4](outputs/nanda-demo-video/muse-wajo-demo-v4.mp4) |
 | Earlier Alice and Bob account demo | [muse-wajo-demo-v3.mp4](outputs/nanda-demo-video/muse-wajo-demo-v3.mp4) |
 | Earlier exact-prompt version | [muse-wajo-demo-v2.mp4](outputs/nanda-demo-video/muse-wajo-demo-v2.mp4) |
 | Original version | [muse-wajo-demo.mp4](outputs/nanda-demo-video/muse-wajo-demo.mp4) |
@@ -20,8 +26,8 @@ Version 4 is a clearly labeled animated bakery walkthrough. It uses illustrative
 | Earlier live demo prompts | [prompts/demo-prompts.txt](prompts/demo-prompts.txt) |
 | Separate bakery reading guide, video, and screenshots | [outputs/nanda-demo-v4](outputs/nanda-demo-v4) |
 | Downloadable guide package | [nanda-demo-v4.zip](outputs/nanda-demo-v4.zip) |
-| Final narration script | [narration.txt](work/nanda-video/revision-v4/narration.txt) |
-| Captions | [SRT](outputs/nanda-demo-video/muse-wajo-demo-v4.srt), [VTT](outputs/nanda-demo-video/muse-wajo-demo-v4.vtt) |
+| Version 4 narration script | [narration.txt](work/nanda-video/revision-v4/narration.txt) |
+| Version 4 captions | [SRT](outputs/nanda-demo-video/muse-wajo-demo-v4.srt), [VTT](outputs/nanda-demo-video/muse-wajo-demo-v4.vtt) |
 | Bakery animation, source and feedback checklist | [revision-v4](work/nanda-video/revision-v4) |
 | Production brief and earlier changes | [docs/production-brief.md](docs/production-brief.md) |
 | Edit sources and recording details | [docs/production.md](docs/production.md) |
@@ -31,6 +37,7 @@ GitHub may show a download link for larger videos. The live guide has a video pl
 ## Contents
 
 - `outputs/` contains the delivered videos, guides, screenshots, captions, and guide ZIPs.
+- `work/nanda-video/revision-v5/` contains the known-ID bakery player, canonical prompts, final audio timing, voice sources, rendering scripts, and validation records.
 - `work/nanda-video/revision-v4/` contains the bakery player, canonical prompts, scene timing, voice sources, capture instructions, rendered footage, and validation records.
 - `work/nanda-video/alice-bob/` contains the earlier live demo edit, prepared capture clips, narration audio, animation source, screenshot sources, and validation records.
 - `work/nanda-video/retake/` contains the previous exact-prompt edit and its prepared clips.
@@ -54,7 +61,9 @@ Open <http://localhost:8765/demo/>. Serving over HTTP lets the browser load the 
 
 ## Rebuild the videos
 
-For version 4, follow the [bakery recording and assembly instructions](work/nanda-video/revision-v4/README.md). The HTML player loads the same prompt file used to build the reading guide. The delivered screenshots come from the delivered recording.
+For version 5, follow the [current rebuild instructions](work/nanda-video/revision-v5/README.md). The HTML player loads the same prompt file used to build the reading guide. The screenshots are extracted directly from the final MP4, with timestamps and hashes recorded in the output folder.
+
+For version 4, follow the [earlier bakery recording and assembly instructions](work/nanda-video/revision-v4/README.md).
 
 The commands below rebuild the earlier version 3.
 

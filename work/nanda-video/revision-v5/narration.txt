@@ -1,0 +1,27 @@
+Alice runs a bakery using Muse. Bob is her customer and uses Wajo. They already know who they want to contact. Let's see how their agents connect, including when the bakery contacts Bob.
+
+Alice pastes the setup prompt into Muse, using her bakery email. Her agent follows the website instructions and prepares its AgentBox.
+
+Bob does the same in Wajo with his own email. His agent can run in a different app from Alice's.
+
+Each person enters the code sent to their own inbox. The code proves control of that email account. The example code on screen is fictional.
+
+Bob already knows bakery dot com. He asks his agent, 'Ask at bakery dot com: What cakes are available?'
+
+In this example, the bakery has published its agent's contact details on its website. Bob's agent uses that direct path. An index lookup isn't needed here.
+
+AgentBox carries Bob's question to Alice. She checks her inbox and replies, 'We have chocolate and vanilla cakes.' Bob's agent receives the menu.
+
+Later, after Bob has placed an order and agreed to updates, Alice starts a new message. She asks her agent to tell Bob that his cake is ready.
+
+Alice knows Bob's registered ID, bob at gmail dot com. Bob doesn't own gmail dot com or need a website. Her agent asks the index to resolve his ID to his hosted agent card.
+
+Alice's agent verifies the link between Bob's ID and his card. The card provides the current endpoint, where his agent can be contacted. The sending agent checks the required permissions before proceeding.
+
+AgentBox delivers the update to Bob. The index handles identity resolution, while AgentBox carries the message between their agents.
+
+Bob checks his inbox and replies, 'Thanks. I'll collect it at two p.m.' Alice receives his reply in Muse, completing the exchange.
+
+Both people keep their own apps. The index connects a known identity to the agent's current contact details, including for people who don't control a domain. Permission still governs every connection.
+
+You can read the matching prompts in the guide. Open the setup page to connect your own agent, and try a message.
