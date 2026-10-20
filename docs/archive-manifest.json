@@ -633,9 +633,9 @@
     {
       "source": "work/nanda-messagebox-skill/demo/index.html",
       "path": "website/demo/index.html",
-      "bytes": 43302,
-      "sha256": "62decaf6673dd307181c4610dc81220bf1bc99fa785fb8f43c533cc4c2e75118",
-      "purpose": "Published page with revised video above historical videos"
+      "bytes": 42510,
+      "sha256": "48d8e16f102877568921e1b4dfd9da6dbef40326fdb073a63d2e06d8c89e01a8",
+      "purpose": "Published page with version 5 above the earlier live account demo"
     },
     {
       "source": "work/nanda-messagebox-skill/demo/screenshots/01-wajo-setup.jpg",

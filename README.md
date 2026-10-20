@@ -6,7 +6,7 @@ Alice uses Muse. Bob uses Wajo. The current walkthrough resolves a known agent I
 
 Version 5 is a clearly labeled animated bakery walkthrough. Bob contacts a bakery he knows. Later, with his permission, the bakery starts a new message to Bob's registered ID. It uses illustrative addresses and replies, a direct HTML animation render, and Vedh narration. Version 4 is the earlier bakery animation. Version 3 preserves the live account demo.
 
-[Watch the current demo and follow its matching guide](https://my.nandaindex.org/demo/v5/). The [original page](https://my.nandaindex.org/demo/) keeps its historical guide and older videos, with the revised video added above them.
+[Watch the current demo and follow its matching guide](https://my.nandaindex.org/demo/v5/). The [original page](https://my.nandaindex.org/demo/) shows the revised video above the earlier live account demo and guide. Version 4 remains in this archive.
 
 ## Start here
 
